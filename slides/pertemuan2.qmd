@@ -53,13 +53,11 @@ Sesi ini padat (150 menit) dan banyak *hands-on*. Alokasikan waktu: ±30 menit d
 
 ::: {.callout-tip}
 ### Baris itu granular
-Baris idealnya mewakili informasi paling rendah levelnya dan paling detail — bukan ringkasan atau subtotal. Kita akan lihat kenapa ini penting sebentar lagi.
+Baris idealnya mewakili informasi paling rendah levelnya dan paling detail. Jadi, bukan ringkasan atau subtotal. 
 :::
 
 ## Fungsi dan formula dasar
 
-::: columns
-::: {.column width="55%"}
 Formula selalu diawali tanda `=`:
 
 * `=B3+B8` — menjumlahkan dua sel
@@ -68,37 +66,10 @@ Formula selalu diawali tanda `=`:
 * `=COUNT(B3:B8)` — menghitung berapa sel berisi angka
 
 **Fungsi** adalah kalkulasi siap pakai bawaan spreadsheet — lebih ringkas daripada menulis `=B3+B4+B5+B6+B7+B8` manual.
-:::
-::: {.column width="45%"}
+
 ::: {.callout-note}
 ### Kenapa ini relevan?
 Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor *Extraversion*) pada dasarnya adalah `=AVERAGE()` dari 10 item — satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.
-:::
-:::
-:::
-
-## 🧩 Latihan mandiri: membaca referensi sel
-
-::: {.callout-warning}
-### Kerjakan sendiri (5 menit, tidak dinilai)
-Perhatikan potongan tabel berikut:
-
-| | A | B | C |
-|---|---|---|---|
-| **1** | ID | Usia | Skor |
-| **2** | 001 | 24 | 4.2 |
-| **3** | 002 | 29 | 3.8 |
-| **4** | 003 | 22 | 4.6 |
-
-Tanpa membuka spreadsheet, jawab di kertas/catatan Anda:
-
-1. Formula apa yang menghasilkan **rata-rata usia** ketiga partisipan?
-2. Sel apa yang berisi **skor tertinggi**?
-3. Tuliskan formula `=AVERAGE()` untuk skor menggunakan referensi rentang (bukan menyebut satu-satu sel B2, B3, B4).
-:::
-
-::: notes
-Beri waktu 2-3 menit, lalu minta 1-2 mahasiswa membacakan jawabannya. Jawaban: 1) =AVERAGE(B2:B4), 2) C4, 3) =AVERAGE(C2:C4).
 :::
 
 # Unit Analisis dan Prinsip *Tidy Data* 🧹 {background-color="#14497F"}
@@ -141,6 +112,7 @@ Setiap baris harus mewakili **satu unit analisis yang benar-benar unik**. Dua ti
 :::
 
 ::: {.callout-note}
+### Penting diingat
 Dalam riset psikologi, *unique identifier* ini biasanya adalah **ID partisipan** — bukan nama, demi menjaga anonimitas sekaligus memudahkan pelacakan data longitudinal.
 :::
 
@@ -193,11 +165,11 @@ Dengan *tidy data*:
 Ini prinsip paling penting di keseluruhan pertemuan ini — sering diulang di pertemuan berikutnya (cleaning, analysis). Pastikan mahasiswa benar-benar paham tiga aturannya sebelum lanjut ke long vs wide.
 :::
 
-##
+## *Tidy data*
 
 ![](libs/tidy1.jpg)
 
-## 
+## *Tidy data*
 
 ![](libs/tidy2.jpg)
 
@@ -301,6 +273,8 @@ Bandingkan dua cara menyajikan ringkasan skor kepribadian yang sama:
 :::
 
 ::: {.callout-note}
+### Penting diingat
+
 Tabel kiri cocok untuk **satu** slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor **per partisipan**, per *trait* — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.
 :::
 

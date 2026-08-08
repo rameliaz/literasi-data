@@ -61,7 +61,9 @@ Setelah data dianalisis (Pertemuan 5), temuan pentingnya harus dikomunikasikan. 
 :::
 
 ::: {.callout-important}
-Ingat: statistik pada dasarnya bicara soal **probabilitas** — hindari diksi yang menyiratkan realitas yang serba pasti/rigid.
+### Penting diingat
+
+Ingat: statistik pada dasarnya bicara soal **probabilitas**, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.
 :::
 
 # Menarasikan Ketidakpastian: *Hedging Language* 🎈 {background-color="#14497F"}
@@ -70,7 +72,7 @@ Ingat: statistik pada dasarnya bicara soal **probabilitas** — hindari diksi ya
 
 ::: {.callout-note}
 ### Definisi
-***Hedging language*** adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data — interpretasi digambarkan dengan *tone* yang berhati-hati, bukan tegas mutlak.
+***Hedging language*** adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data. Interpretasi digambarkan dengan *tone* yang berhati-hati, bukan sesuatu yang mutlak.
 :::
 
 Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," "pada sampel ini," "perlu diuji lebih lanjut."*
@@ -84,7 +86,8 @@ Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," 
 :::
 
 ::: {.callout-tip}
-Perhatikan: kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstrem (*outlier*)** dalam sampel — bukan sekadar berkata "hasilnya tidak pasti" tanpa alasan.
+### Penting diingat
+Perhatikan: kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstrem (*outlier*)** dalam sampel, bukan sekadar berkata "hasilnya tidak pasti" tanpa alasan yang jelas.
 :::
 
 ## Contoh 2: Panjang lengan vs. tungkai
@@ -95,15 +98,35 @@ Perhatikan: kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu
 Di sini hubungannya memang **kuat dan jelas** — *hedging* yang berlebihan justru tidak tepat. Kuncinya bukan "selalu ragu-ragu," tapi **menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya**.
 :::
 
+## Contoh 3: Gaji Dosen UGM
+
+![[Sumber](https://www.tribunnews.com/nasional/7857223/sidang-mk-beber-gaji-dosen-ptn-indonesia-take-home-pay-di-ugm-rp21-juta)](libs/ugm.png){fig-align="center"}
+
+. . .
+
+![](libs/ugm2.png){fig-align="center"}
+
 # Studi Kasus: Generalisasi Tergesa-Gesa dari Subkelompok ⚠️ {background-color="#14497F"}
+
+## Survei Indikator Politik
+
+![[Sumber](https://koran.tempo.co/read/nasional/462509/survei-anak-muda-enggan-divaksin-covid-19?)](libs/indikator1.png){fig-align="center"}
+
+## Survei Indikator Politik
+
+![[Sumber](https://www.bbc.com/indonesia/indonesia-56150289)](libs/indikator2.png){fig-align="center"}
 
 ## Mari kita lihat datanya
 
 Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui telepon tentang kesediaan vaksinasi. Dari 1.200 partisipan, sekitar **120 orang (10%)** berusia 22–25 tahun.
 
 ::: {.fragment}
-**Klaim yang dipublikasikan media**: hanya **45,1%** partisipan usia 22–25 tahun bersedia divaksinasi — proporsi **terendah** di antara semua kelompok usia. Kesimpulan yang beredar: generasi muda (Gen Z) banyak menolak vaksinasi.
+**Klaim yang dipublikasikan media**: hanya **45.1%** partisipan usia 22–25 tahun bersedia divaksinasi — proporsi **terendah** di antara semua kelompok usia. Kesimpulan yang beredar: generasi muda (Gen Z) banyak menolak vaksinasi.
 :::
+
+## Survei Indikator
+
+![](libs/indikator3.png){fig-align="center"}
 
 ## Persoalannya...
 
@@ -112,6 +135,10 @@ Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui tele
 * Kesimpulan "Gen Z banyak menolak vaksin" hanya didasarkan pada kelompok usia 22–25 tahun, **tanpa melibatkan** partisipan usia 21 tahun ke bawah.
 * Ketika dilakukan **analisis korelasi** antara usia dan kesediaan vaksinasi — dengan **seluruh** kelompok usia dilibatkan — hubungannya ternyata **sangat lemah**.
 :::
+
+## Korelasinya lemah
+
+![](libs/indikator4.png){fig-align="center"}
 
 ## Kesimpulannya: Generalisasi Tergesa-Gesa
 
@@ -136,38 +163,26 @@ Menyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, 
 
 ## Bagaimana melaporkan CI dengan benar
 
-Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (45,1%) dengan *margin of error* 2,9%.
+Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (45.1%) dengan *margin of error* 2.9%.
 
 ::: columns
 ::: {.column width="50%"}
 **Sebelum**
 
-> "Hanya 45,1% partisipan berusia 22–25 tahun bersedia divaksinasi."
+> "Hanya 45.1% partisipan berusia 22–25 tahun bersedia divaksinasi."
 :::
 ::: {.column width="50%"}
 **Sesudah**
 
-> "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45,1% yang bersedia divaksinasi (rentang kepercayaan 95%: 42,2–48,0%). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya — bukan berarti ada peluang 95% bahwa nilai sebenarnya ada di rentang *ini*. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat — sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
+> "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45.1% yang bersedia divaksinasi (rentang kepercayaan 95%: 42.2–48.0%). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat, sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
 :::
 :::
+
+## Persoalannya
 
 ::: {.callout-tip}
-Catatan: margin of error ±2,9% ini sebenarnya angka *topline* untuk seluruh sampel (n=1.200) — untuk subkelompok usia 22–25 tahun (n≈120) margin of error-nya jauh lebih lebar (kira-kira ±9%). Inilah kesalahan pelaporan yang umum terjadi: memakai MoE survei keseluruhan untuk subkelompok yang jauh lebih kecil.
-:::
-
-## 🧩 Aktivitas kelompok: perbaiki narasi laporan
-
-::: {.callout-warning}
-### Kerjakan berkelompok (15 menit)
-Dosen akan membagikan sebuah paragraf hasil analisis yang ditulis **tanpa** *hedging language* dan **tanpa** CI (mis. klaim tegas tentang perbedaan skor kepribadian antar kelompok, berdasarkan sampel kecil).
-
-1. Identifikasi klaim mana yang terlalu tegas/berlebihan.
-2. Tuliskan ulang paragraf tersebut dengan *hedging language* yang sesuai.
-3. Tambahkan cara melaporkan rentang kepercayaan yang wajar (boleh hipotetis, fokus pada **cara menuliskannya**, bukan menghitungnya).
-:::
-
-::: notes
-Siapkan paragraf contoh sebelum kelas — bisa memakai skenario perbandingan skor Extraversion antar gender dari dataset Big Five (Pertemuan 5), sengaja ditulis dengan klaim berlebihan ("perempuan JAUH lebih ekstrovert daripada laki-laki") untuk diperbaiki.
+### Masalahnya
+*Margin of error* ±2.9% ini sebenarnya angka *topline* untuk seluruh sampel (n=1.200), untuk subkelompok usia 22–25 tahun (n≈120) margin of error-nya jauh lebih lebar (kira-kira ±9%). Inilah kesalahan pelaporan yang umum terjadi: memakai MoE survei keseluruhan untuk subkelompok yang jauh lebih kecil.
 :::
 
 # Etika Analisis Data: *Questionable Research Practices* ⚖️ {background-color="#14497F"}
@@ -206,7 +221,7 @@ Menyajikan temuan yang sebenarnya ditemukan **secara eksploratif** (setelah meli
 Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya justru untuk **mencegah** HARKing — dengan mencatat hipotesis dan rencana analisis **sebelum** melihat hasilnya, Anda punya jejak yang jelas antara mana yang *confirmatory* (diuji sesuai rencana) dan mana yang *exploratory* (ditemukan di tengah jalan).
 :::
 
-## Kenapa ini berbahaya
+## Kenapa ini berisiko
 
 ::: {.incremental}
 * *P-hacking* menyebabkan **inflasi temuan *false positive*** — hasil yang terlihat signifikan padahal sebenarnya kebetulan statistik.
@@ -215,6 +230,7 @@ Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya justru untuk **menc
 :::
 
 ::: {.callout-note}
+### Penting diingat
 Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing* memang **dibolehkan** — bahkan dianjurkan — dalam *narrative review* yang mensintesis puluhan studi ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)). Yang **tidak boleh** adalah menyamarkan eksplorasi sebagai konfirmasi dalam **satu** studi empiris tunggal — itulah inti masalah HARKing.
 :::
 

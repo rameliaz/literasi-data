@@ -78,7 +78,7 @@ Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat
 Naskah *narrative review* dan infografis dikerjakan **secara individu** oleh setiap mahasiswa. Untuk mendukung proses ini, mahasiswa dikelompokkan ke dalam kelompok pendampingan (3–4 orang) yang didampingi oleh satu mentor S3 secara tetap pada Pertemuan 13–15, sehingga mahasiswa juga dapat belajar dari umpan balik yang diterima teman sekelompok (*peer learning*) — meski penilaian tetap per mahasiswa.
 
 1. **Pertemuan 13 — Penulisan Draf.** Setiap mahasiswa merancang dan mulai menulis *outline* (kisi-kisi) naskah *narrative review* dan infografis secara individu, lalu mengirimkannya kepada mentor S3 yang ditugaskan paling lambat akhir Pertemuan 13. Mentor S3 hadir di kelas untuk mendampingi dan menjawab pertanyaan mahasiswa.
-2. **Pertemuan 14 — Umpan Balik.** Mentor S3 menyampaikan umpan balik individual kepada setiap mahasiswa dalam sesi kelompok pendampingan (±10–15 menit per mahasiswa), berjalan bersamaan dengan sesi peer review antar mahasiswa.
+2. **Pertemuan 14 — Umpan Balik.** Mentor S3 menyampaikan umpan balik individual kepada setiap mahasiswa dalam sesi kelompok pendampingan (±10–15 menit per mahasiswa), berjalan bersamaan dengan sesi *peer review* antar mahasiswa.
 3. **Pertemuan 15 — Verifikasi Revisi.** Setiap mahasiswa merevisi naskah dan infografis berdasarkan umpan balik Pertemuan 14. Mentor S3 melakukan pengecekan singkat (dapat asinkron) untuk memastikan revisi telah diakomodasi, sebelum naskah dan infografis final dikumpulkan sebagai UAS pada Pertemuan 16.
 
 Setiap mahasiswa akan diberi tahu kelompok pendampingan dan nama mentornya oleh dosen pengampu sebelum Pertemuan 13 dimulai. Umpan balik mentor S3 bersifat **formatif** — tidak menggantikan penilaian akhir, yang tetap menjadi kewenangan dosen pengampu berdasarkan rubrik pada Rancangan Tugas.
@@ -182,6 +182,8 @@ Beberapa modul yang kita pakai hanya tersedia di rilis terbaru, jadi **jangan** 
 2. Ambil versi pada kolom ***current*** (rilis terbaru), bukan kolom *solid*.
 3. Pasang seperti aplikasi biasa, lalu buka `jamovi` untuk memastikan berjalan normal.
 4. Modul tambahan dipasang lewat ikon **+ Modules** → **jamovi library** di pojok kanan atas. Modul spesifik yang dibutuhkan akan diumumkan pada pertemuan terkait.
+
+Untuk mengelola referensi (terutama menjelang Pertemuan 10–11), kami merekomendasikan **[Zotero](https://www.zotero.org/)** — *reference manager* gratis dan *open source* yang terintegrasi dengan *browser* (lewat *Zotero Connector*) dan Microsoft Word/Google Docs, sehingga memudahkan penyimpanan referensi dari *database* jurnal serta penyusunan sitasi dan daftar pustaka bergaya APA.
 
 ---
 

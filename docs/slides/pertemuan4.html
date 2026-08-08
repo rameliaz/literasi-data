@@ -157,7 +157,7 @@ Rizqy Amelia Zein
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment">Kenapa tahap <strong><em>Verify</em></strong> sering dilewati — dan kenapa itu berbahaya</li>
+<li class="fragment">Mengapa tahap <strong><em>Verify</em></strong> sering dilewati</li>
 <li class="fragment">Tiga kriteria data yang baik, dan empat cara memverifikasinya</li>
 <li class="fragment">Masalah data yang umum ditemui</li>
 <li class="fragment"><strong><em>Clean</em></strong>: tiga aktivitas pembersihan data</li>
@@ -188,7 +188,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah <strong>langsung lompat ke analisis</strong>.</li>
 <li class="fragment">Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang buruk — atau lebih parah, <strong>mempublikasikan kesimpulan yang salah</strong>.</li>
-<li class="fragment">Ingat kerangka <em>Data Pipeline</em>: <strong>Verify</strong>, <strong>Clean</strong>, dan <strong>Analyze</strong> sering berjalan bolak-balik, bukan satu arah lurus.</li>
+<li class="fragment">Ingat kerangka <em>Data Pipeline</em>: <strong>Verify</strong>, <strong>Clean</strong>, dan <strong>Analyze</strong> sering berjalan bolak-balik, bukan tahapan yang harus selalu berurutan.</li>
 </ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -207,9 +207,9 @@ Rizqy Amelia Zein
 <section id="tiga-kriteria-data-yang-baik" class="slide level2">
 <h2>Tiga kriteria data yang baik</h2>
 <ol type="1">
-<li class="fragment"><strong>Trustworthiness (dapat dipercaya)</strong> — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.</li>
-<li class="fragment"><strong>Completeness (kelengkapan)</strong> — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.</li>
-<li class="fragment"><strong>Quality (kualitas struktur &amp; dokumentasi)</strong> — apakah data mengikuti prinsip <em>tidy data</em> (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya?</li>
+<li class="fragment"><strong><em>Trustworthiness</em> (dapat dipercaya)</strong> — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.</li>
+<li class="fragment"><strong><em>Completeness</em> (kelengkapan)</strong> — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.</li>
+<li class="fragment"><strong><em>Quality</em> (kualitas struktur &amp; dokumentasi)</strong> — apakah data mengikuti prinsip <em>tidy data</em> (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya?</li>
 </ol>
 </section>
 <section id="metadata-codebook-dan-data-inventory" class="slide level2">
@@ -239,11 +239,11 @@ Rizqy Amelia Zein
 </div>
 </div>
 </section>
-<section id="empat-metode-verifikasi-data" class="slide level2">
-<h2>Empat metode verifikasi data</h2>
+<section id="metode-verifikasi-data" class="slide level2">
+<h2>4️⃣ metode verifikasi data</h2>
 <ol type="1">
 <li class="fragment"><strong>Bertanya ke sumbernya</strong> — pembuat/penyedia data biasanya adalah ahli terbaik soal datanya sendiri. Jangan berusaha memaknai data sendirian kalau sumbernya bisa dihubungi.</li>
-<li class="fragment"><strong>Bertanya ke ahli</strong> — pakar di topik yang relevan bisa membantu Anda memaknai data yang ambigu atau memilih di antara beberapa sumber data yang saling bersaing.</li>
+<li class="fragment"><strong>Bertanya ke ahli</strong> — pakar di topik yang relevan bisa membantu Anda memahami data yang ambigu atau memilih di antara beberapa sumber data yang berbeda.</li>
 <li class="fragment"><strong>Pemeriksaan statistik</strong> — hitung ringkasan statistik dasar untuk memahami bentuk data sebelum menganalisisnya lebih jauh (lihat slide berikutnya).</li>
 <li class="fragment"><strong><em>Common sense check</em></strong> — kemampuan mengenali pola yang aneh atau nilai yang “tidak masuk akal”, berdasarkan pengetahuan Anda tentang topiknya.</li>
 </ol>
@@ -354,7 +354,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong>Total berbeda dari agregat yang dipublikasikan</strong></li>
 </ul>
 </section>
-<section id="studi-kasus-dataset-big-five-yang-kotor" class="slide level2 smaller">
+<section id="studi-kasus-dataset-big-five-yang-kotor" class="slide level2">
 <h2>Studi kasus: dataset <em>Big Five</em> yang “kotor”</h2>
 <p>Dataset psikometrik yang dikumpulkan <strong>secara daring dan terbuka</strong> (siapa saja bisa mengisi) — seperti dataset kita — cenderung memiliki masalah berikut:</p>
 <ul>
@@ -368,10 +368,10 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Caution</strong></p>
+<p><strong>Perhatikan</strong></p>
 </div>
 <div class="callout-content">
-<p>Perhatikan: sebagian masalah ini (mis. item <em>reverse-scored</em>) tidak akan terlihat lewat pemeriksaan statistik dasar — ini butuh pengetahuan tentang <strong>metodologi instrumen</strong>, bukan cuma angka. Inilah kenapa metode verifikasi “bertanya ke sumber/ahli” tetap penting, bukan hanya “pemeriksaan statistik.”</p>
+<p>sebagian masalah ini (mis. item <em>reverse-scored</em>) tidak akan terlihat lewat pemeriksaan statistik dasar — ini butuh pengetahuan tentang <strong>metodologi instrumen</strong>, bukan cuma angka. Inilah kenapa metode verifikasi “bertanya ke sumber/ahli” tetap penting, bukan hanya “pemeriksaan statistik.”</p>
 </div>
 </div>
 </div>
@@ -394,10 +394,10 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Note</strong></p>
+<p><strong>Penting diketahui</strong></p>
 </div>
 <div class="callout-content">
-<p>Ada yang bilang 80% waktu bekerja dengan data dihabiskan untuk membersihkannya. Ini bukan lebih-lebihan — tahap ini memang panjang, tapi krusial.</p>
+<p>Norma umum di sains data adalah ilmuwan <a href="https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/">menghabiskan 80% waktunya</a> bekerja untuk membersihkannya.</p>
 </div>
 </div>
 </div>
@@ -410,7 +410,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong>Header berlapis/gabungan sel</strong> — spreadsheet menganalisis data dengan lebih baik kalau header hanya satu baris tunggal.</li>
 </ul>
 </section>
-<section id="data-editing-masalah-konten" class="slide level2 smaller">
+<section id="data-editing-masalah-konten" class="slide level2">
 <h2>Data <em>editing</em>: masalah konten</h2>
 <table class="caption-top">
 <colgroup>
@@ -452,7 +452,7 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip</strong></p>
+<p><strong>Tips</strong></p>
 </div>
 <div class="callout-content">
 <p>Setelah menerapkan formula pembersihan, <strong>salin nilainya</strong> (<em>paste values only</em>) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.</p>
@@ -471,10 +471,10 @@ Rizqy Amelia Zein
 <section id="praktik-terbaik-dalam-membersihkan-data" class="slide level2">
 <h2>Praktik terbaik dalam membersihkan data</h2>
 <ul>
-<li class="fragment"><strong>Selalu simpan cadangan</strong> data mentah — jangan pernah membersihkan di atas berkas asli.</li>
-<li class="fragment"><strong>Buat <em>tab</em> baru untuk tiap tahap pembersihan</strong> — supaya Anda bisa kembali ke langkah sebelumnya kalau ada kesalahan. Jangan mengandalkan <em>undo</em>.</li>
+<li class="fragment"><strong>Selalu simpan cadangan</strong> data mentah — jangan pernah membersihkan di atas <em>file</em> asli.</li>
+<li class="fragment"><strong>Buat <em>tab</em> baru untuk tiap tahap pembersihan</strong> — supaya Anda bisa kembali ke langkah sebelumnya kalau ada kesalahan.</li>
 <li class="fragment"><strong>Jangan menghapus data mentah</strong> — data “kotor” tetap punya nilai, mis. untuk mempelajari jenis dan frekuensi kesalahan itu sendiri.</li>
-<li class="fragment"><strong>Dokumentasikan</strong> setiap langkah pembersihan yang Anda lakukan — diri Anda di masa depan (dan pembaca naskah Anda) akan berterima kasih.</li>
+<li class="fragment"><strong>Dokumentasikan</strong> setiap langkah pembersihan yang Anda lakukan — ini sangat bermanfaat bagi diri Anda di masa depan (dan pembaca naskah Anda) untuk memahami apa yang terjadi dengan dataset Anda.</li>
 </ul>
 </section>
 <section id="praktik-langsung-membersihkan-potongan-dataset-big-five" class="slide level2">
@@ -485,10 +485,10 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kerjakan berkelompok, dipandu dosen (25–30 menit)</strong></p>
+<p><strong>Kerjakan berkelompok (25–30 menit)</strong></p>
 </div>
 <div class="callout-content">
-<p>Anda akan diberikan potongan kecil dataset <em>Big Five</em> yang sengaja dibuat “kotor” untuk latihan. Ikuti langkah berikut:</p>
+<p>Unduh potongan kecil dataset <em>Big Five</em> berikut — 18 baris respons <strong>N1–N10</strong> (item <em>Neuroticism</em>) yang sengaja dibuat “kotor” untuk latihan: <a href="../data/pertemuan4_dataset_kotor.csv"><code>pertemuan4_dataset_kotor.csv</code></a>. Ikuti langkah berikut:</p>
 <ol type="1">
 <li><strong>Identifikasi</strong> minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).</li>
 <li><strong>Golongkan</strong> tiap masalah: apakah itu masalah <em>tidying</em> (format) atau <em>editing</em> (konten)?</li>
@@ -498,8 +498,32 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Kunci skoring (untuk langkah 4)</strong></p>
+</div>
+<div class="callout-content">
+<p>Dua dari sepuluh item <em>Neuroticism</em> ini ditulis dengan arah terbalik: <strong>N2</strong> (“<em>I am relaxed most of the time</em>”) dan <strong>N4</strong> (“<em>I seldom feel blue</em>”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (<code>6 - nilai</code>) sebelum dihitung skor rata-ratanya dengan <code>AVERAGE()</code> — informasi ini <strong>tidak</strong> ada di dalam data itu sendiri, hanya di <em>codebook</em> instrumennya.</p>
+</div>
+</div>
+</div>
 <aside class="notes">
-<p>Siapkan potongan dataset kotor sebelum kelas (mis. 15-20 baris dengan beberapa masalah yang disengaja: whitespace, duplikasi, kode negara campur, satu baris dengan item <em>reverse-scored</em> yang belum dibalik). Ini adalah aktivitas inti pertemuan ini (“Tugas Praktis” / kriteria “Keakuratan dan Ketelitian”) — beri waktu paling banyak di sini dan dampingi tiap kelompok berkeliling.</p>
+<p>File <code>data/pertemuan4_dataset_kotor.csv</code> sudah disiapkan (18 baris, 15 responden sungguhan dari dataset <em>Big Five</em> kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:</p>
+<ul>
+<li><strong>Duplikasi</strong> — baris <code>P03</code> muncul dua kali persis sama.</li>
+<li><strong>Whitespace</strong> — <code>P03</code> (<code>"Laki-laki "</code>, <code>"SG "</code>, ada spasi di akhir) dan <code>P05</code> (<code>"  US"</code>, ada spasi di awal).</li>
+<li><strong>Kapitalisasi tidak konsisten pada <code>gender</code></strong> — <code>P04</code> (“perempuan”), <code>P10</code> (“PEREMPUAN”), <code>P13</code> (“Laki-Laki”), dibandingkan penulisan baku “Perempuan”/“Laki-laki” di baris lain.</li>
+<li><strong>Kode negara campur (<code>negara</code>)</strong> — kombinasi kode ISO (<code>PH</code>, <code>CA</code>, <code>US</code>, <code>DK</code>, <code>GB</code>, <code>IN</code>), nama lengkap (<code>Trinidad and Tobago</code>, <code>Pakistan</code>, <code>Greece</code>, <code>Bangladesh</code>, <code>United Kingdom</code>, <code>Jamaica</code>, <code>South Africa</code>), dan satu nilai kosong (<code>P09</code>).</li>
+<li><strong><em>Missing value</em> tidak konsisten</strong> — tiga representasi berbeda: sel kosong (<code>P14</code>, kolom N8–N10), teks <code>"NA"</code> (<code>P12</code>, kolom N4), dan angka <code>0</code> (<code>P15</code>, kolom N3).</li>
+<li><strong>Entri tidak lengkap</strong> — <code>P14</code> berhenti menjawab di item N7 (N8–N10 kosong), kemungkinan responden keluar di tengah jalan.</li>
+<li><strong>Nilai mencurigakan/di luar rentang</strong> — <code>P07</code> kolom N7 bernilai <code>6</code>, padahal skala Likert-nya 1–5.</li>
+<li><strong>Item <em>reverse-scored</em> belum dibalik</strong> — N2 dan N4 butuh <code>6 - nilai</code> sebelum di-<em>AVERAGE()</em>-kan; ini <strong>tidak</strong> terlihat dari data mentahnya saja, harus dicek ke <em>codebook</em> (lihat <em>callout</em> di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.</li>
+</ul>
+<p>Ini adalah aktivitas inti pertemuan ini (“Tugas Praktis” / kriteria “Keakuratan dan Ketelitian”) — beri waktu paling banyak di sini dan dampingi tiap kelompok berkeliling.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

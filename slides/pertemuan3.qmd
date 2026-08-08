@@ -38,8 +38,11 @@ Metode minggu ini "Diskusi Kelompok" — porsi diskusi/kasus etika di bagian akh
 
 Minggu lalu Anda belajar menyusun tabel. Mulai minggu ini, kita bergerak ke tahapan *Data Pipeline*: **Find** (menemukan) dan **Get** (memperoleh) data. Sebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.
 
+. . .
+
 ::: {.callout-note}
-Dua tahap ini sering terasa remeh. Tetapi, kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda menyadari betapa terbatasnya pilihan data terbuka di bidang kita kalau dibandingkan, misalnya, ekonomi atau kesehatan masyarakat.
+### Mengapa bagian ini penting
+Kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda akan menyadari betapa terbatasnya pilihan data terbuka di bidang kita kalau dibandingkan, misalnya, ekonomi atau kesehatan masyarakat.
 :::
 
 ## Tiga pertanyaan sebelum mencari data

@@ -49,13 +49,13 @@ execute:
 
 ::: {.callout-note}
 ### Diskusi singkat
-Pernahkah Anda mengalami salah satu skenario di atas? Ceritakan pada kelompok Anda.
+Pernahkah Anda mengalami salah satu skenario di atas?
 :::
 
 ## Mengapa ini relevan untuk penulisan ilmiah?
 
 - Naskah ilmiah yang baik dibangun di atas **argumen berbasis bukti**.
-- Bukti itu berasal dari data — kalau datanya tidak dipahami dengan benar, argumennya akan terlihat rapuh.
+- Bukti ini selalu berasal dari data. Kalau datanya tidak dipahami dan disajikan dengan benar, argumennya akan terlihat rapuh.
 - Mata kuliah ini menggabungkan dua keterampilan yang biasanya diajarkan terpisah:
   - **Literasi data** (Pertemuan 1–8)
   - **Penulisan ilmiah berbasis bukti**, lewat *narrative review* (Pertemuan 9–16)
@@ -66,8 +66,8 @@ Pernahkah Anda mengalami salah satu skenario di atas? Ceritakan pada kelompok An
 
 ::: {.incremental}
 - Data adalah representasi dunia yang terstruktur
-- **Representasi**, karena data selalu berusaha menangkap sebagian dari realitas — tidak pernah realitas itu sendiri.
-- **Terstruktur**, karena data mengikuti aturan/logika tertentu dalam penyajiannya — inilah yang membedakan data dari sekadar informasi.
+- **Representasi**, karena data selalu berusaha menangkap sebagian dari realitas, tetapi tidak pernah realitas itu sendiri.
+- **Terstruktur**, karena data mengikuti **aturan/logika** tertentu dalam penyajiannya. Inilah yang membedakan data dari sekadar informasi.
 :::
 
 
@@ -89,28 +89,34 @@ Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](
 
 | ID | Gender | Usia | Durasi (detik) | Skor Total |
 |----|--------|------|-----------------|------------|
-| 014 | P | 22 | 145 | 4.6 |
+| 014 | p | 22 | 145 | 4.6 |
 :::
 :::
 
-Bentuk kanan lebih mudah diverifikasi, dibersihkan, dianalisis, dan divisualisasikan — inilah alasan literasi data dimulai dari **cara menyusun data**, bukan dari rumus statistik.
+Bentuk kanan lebih mudah diverifikasi, dibersihkan, dianalisis, dan divisualisasikan. Oleh karena itu, literasi data dimulai dari **cara menyusun data**, bukan dari rumus/logika statistik.
 
-## Data point vs. dataset
+## *Data point* vs. dataset
 
-- **Data point**: satu keping informasi tunggal — misalnya "22" pada kolom usia partisipan 014.
-- **Dataset**: kumpulan data point yang terorganisir — misalnya seluruh tabel respons survei kepribadian.
+::: {.incremental}
+
+- ***Data point***: satu keping informasi tunggal. Misalnya "22" pada kolom usia partisipan 014.
+- **Dataset**: kumpulan data point yang terorganisir. Misalnya seluruh tabel respons survei kepribadian.
 - Satu dataset biasanya berisi banyak **variabel** (kolom) yang diukur pada banyak **unit analisis/observasi** (baris) — kita akan bahas ini lebih detail Pertemuan 2.
+
+:::
 
 # Jenis-Jenis Data {background-color="#14497F"}
 
-## Dua pembedaan penting
+## Dua jenis data
 
 ::: {.incremental}
 1. **Kategorikal vs. numerik** — apa jenis nilai yang mungkin muncul?
 2. **Kualitatif vs. kuantitatif** — apa jenis pertanyaan riset yang dijawab data ini?
 :::
 
-Kedua pembedaan ini sering tertukar — mari kita luruskan.
+. . . 
+
+Kedua jenis data ini sering tertukar.
 
 ## Data kategorikal
 
@@ -119,20 +125,22 @@ Kedua pembedaan ini sering tertukar — mari kita luruskan.
 - Bisa **berurutan/berjenjang** (ordinal): tingkat pendidikan, level keparahan gejala ("ringan", "sedang", "berat").
 
 ::: {.callout-note}
+### Penting diingat
+
 Skala Likert ("sangat tidak setuju" – "sangat setuju") pada dasarnya **ordinal**, meski sering diperlakukan sebagai data interval dalam praktik analisis psikometrik.
 :::
 
 ## Data diskrit
 
-- Data numerik yang **berjarak/bercelah** — hanya bilangan bulat tertentu yang mungkin muncul.
-- Contoh dalam psikologi: jumlah episode depresi yang pernah dialami, jumlah item yang dijawab benar, jumlah sesi terapi yang dihadiri.
-- Tidak ada "2,5 episode depresi" — nilainya melompat dari satu bilangan bulat ke bilangan bulat berikutnya.
+- Data numerik yang **berjarak** — hanya bilangan bulat tertentu yang mungkin muncul.
+- **Contoh dalam psikologi**: jumlah episode depresi yang pernah dialami, jumlah item yang dijawab benar, jumlah sesi terapi yang dihadiri.
+- Tidak ada "2.5 episode depresi" — nilainya selalu melompat dari satu bilangan bulat ke bilangan bulat berikutnya.
 
-## Data kontinu
+## Data *continuous*
 
 - Data numerik pada **rentang tanpa celah** — semua nilai di antara dua titik dimungkinkan.
 - Contoh: *reaction time* (ms), durasi pengisian kuesioner, skor total skala yang dihitung dari rata-rata (mis. 3,47).
-- Dalam praktiknya, alat ukur membatasi presisi (mis. hanya dua desimal), tapi secara konsep nilainya kontinu.
+- Dalam praktiknya, alat ukur membatasi presisi (mis. hanya dua desimal), tapi secara konsep nilainya *continuous*.
 
 ## Kualitatif vs. kuantitatif
 
@@ -162,22 +170,20 @@ Catatan: kualitatif ≠ tidak terstruktur, dan kuantitatif ≠ selalu berupa dat
 | Jenis kelamin partisipan | Kategorikal (nominal) | Kualitatif |
 | Tingkat pendidikan | Kategorikal (ordinal) | Kualitatif |
 | Jumlah sesi konseling yang dihadiri | Numerik (diskrit) | Kuantitatif |
-| Skor total skala kepribadian | Numerik (kontinu) | Kuantitatif |
+| Skor total skala kepribadian | Numerik (continuous) | Kuantitatif |
 | Kutipan hasil wawancara | — | Kualitatif |
 
-<small>Catatan: variabel kategorikal tetap kualitatif secara konsep meski sering **dikodekan** dengan angka untuk keperluan komputasi (mis. 1 = laki-laki, 2 = perempuan) — pengodean angka itu untuk kemudahan analisis, bukan tanda bahwa datanya berubah menjadi kuantitatif.</small>
+<small>Catatan: variabel kategorikal tetap kualitatif secara konsep meski sering **dikodekan** dengan angka untuk keperluan komputasi (mis. 1 = laki-laki, 2 = perempuan). Pengodean angka ini untuk kemudahan analisis, bukan berarti bahwa datanya berubah menjadi kuantitatif.</small>
 
-## Aktivitas kelompok {.smaller}
+## Aktivitas kelompok
 
-::: {.callout-warning}
+::: {.callout-note}
 ### Diskusi kelompok (10 menit)
 Bersama kelompok Anda, ambil satu topik penelitian psikologi yang pernah/ingin Anda kerjakan. Identifikasi:
 
 1. Minimal satu variabel **kategorikal** dan satu **numerik**.
-2. Apakah datanya lebih dekat ke **kualitatif** atau **kuantitatif** — atau keduanya?
+2. Apakah datanya lebih dekat ke **kualitatif** atau **kuantitatif**, atau keduanya?
 3. Satu potensi kesalahan dalam mengklasifikasikan jenis data tersebut.
-
-Siap-siap berbagi ke kelas.
 :::
 
 # Kerangka Kerja *Data Pipeline* {background-color="#14497F"}
@@ -190,43 +196,43 @@ Siap-siap berbagi ke kelas.
 - Kerangka ini akan menjadi **peta perjalanan** kita selama tujuh pertemuan ke depan.
 :::
 
-Sumber: Open Knowledge Foundation & International Republican Institute (2021)
+Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](libs/okf.pdf)
 
-## 1. Define — merumuskan masalah
+## 1. *Define* — merumuskan masalah
 
 - Bergerak dari tema umum (mis. "kesejahteraan psikologis mahasiswa") ke pertanyaan spesifik (mis. "apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?").
 - Pertanyaan yang spesifik membantu menentukan **data seperti apa** yang dibutuhkan.
 
-## 2. Find — menemukan data
+## 2. *Find* — menemukan data
 
 - Setelah tahu pertanyaannya, cari tahu di mana data yang relevan bisa ditemukan.
 - Bisa data yang sudah ada (dataset terbuka, arsip penelitian) atau data yang perlu dikumpulkan sendiri.
-- *(Kita bahas mendalam di Pertemuan 3.)*
+- *(Kita bahas mendalam di Pertemuan 3)*.
 
-## 3. Get — memperoleh data
+## 3. *Get* — memperoleh data
 
 - Memindahkan data dari sumbernya ke tangan Anda: unduh, ekstraksi dari PDF, survei daring, dsb.
 - Bisa sangat sederhana (unduh satu berkas CSV) atau cukup rumit (ekstraksi dari laporan PDF).
-- *(Kita bahas mendalam di Pertemuan 3.)*
+- *(Kita bahas mendalam di Pertemuan 3)*.
 
 ## 4. Verify — memverifikasi data
 
 - Memperoleh data ≠ data itu layak dipakai.
 - Periksa metadata, metodologi pengumpulan, kredibilitas sumber.
-- *"Semua data itu buruk — kita hanya perlu tahu seberapa buruk."*
-- *(Kita bahas mendalam di Pertemuan 4.)*
+- *"Semua data itu pada dasarnya kacau (messy) — kita hanya perlu tahu seberapa kacau data yang kita miliki."*
+- *(Kita bahas mendalam di Pertemuan 4)*.
 
 ## 5. Clean — membersihkan data
 
 - Data mentah biasanya berantakan: baris duplikat, nilai yang salah kode, *missing value*.
 - Tahap ini mengubah data mentah menjadi format yang siap dianalisis komputer.
-- *(Kita bahas mendalam di Pertemuan 4.)*
+- *(Kita bahas mendalam di Pertemuan 4)*.
 
 ## 6. Analyze — menganalisis data
 
-- Di sinilah kita "mewawancarai" dataset untuk menjawab pertanyaan yang dirumuskan di tahap *Define*.
+- Di sinilah kita menganalisis dataset untuk menjawab pertanyaan yang dirumuskan di tahap *Define*.
 - Dari statistik deskriptif sederhana sampai uji komparatif dan korelasional.
-- *(Kita bahas mendalam di Pertemuan 5–6.)*
+- *(Kita bahas mendalam di Pertemuan 5–6)*.
 
 ## 7. Present — menyajikan data
 
@@ -246,32 +252,31 @@ Sumber: Open Knowledge Foundation & International Republican Institute (2021)
 | 8 (UTS) | Praktik seluruh alur, dari *Define* sampai *Present* |
 
 ::: {.callout-note}
-Dalam praktiknya, alur ini jarang benar-benar linear — Anda akan sering bolak-balik antar tahap, misalnya kembali ke *Get* setelah menyadari saat *Verify* bahwa data yang Anda punya tidak cukup.
+### Penting diingat
+Dalam praktiknya, alur ini jarang benar-benar linear. Anda akan sering bolak-balik antar tahap, misalnya kembali ke *Get* setelah menyadari saat *Verify* bahwa data yang Anda punya tidak cukup.
 :::
 
 # Apa Itu Literasi Data? {background-color="#14497F"}
 
 ## Mendefinisikan literasi data
 
-::: {.callout-important}
-### Literasi data
-Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data secara kritis dan bertanggung jawab — mencakup keseluruhan *Data Pipeline*, bukan hanya kemampuan menjalankan uji statistik.
+::: {.r-fit-text}
+Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data secara kritis dan bertanggung jawab, dan mencakup keseluruhan *Data Pipeline*, bukan hanya kemampuan melakukan uji statistik.
 :::
 
 ## Literasi data ≠ hanya statistik
 
 ::: {.incremental}
 - Statistik hanyalah **satu tahap** (*Analyze*) dari tujuh tahap *Data Pipeline*.
-- Peneliti yang mahir statistik tapi tidak bisa menilai kredibilitas sumber data, atau tidak bisa membersihkan data secara sistematis, tetap **belum literat secara data**.
+- Peneliti yang mahir statistik tapi tidak bisa menilai kredibilitas sumber data, atau tidak bisa membersihkan data secara sistematis, tetap **belum bisa dikatakan *data literate***.
 - Literasi data juga mencakup kesadaran etis: privasi partisipan, keamanan data, dan penggunaan data secara bertanggung jawab.
 :::
 
 ## Etika dan tanggung jawab dalam bekerja dengan data
 
-- **Privasi**: partisipan punya hak atas data pribadinya — kita akan bahas UU Pelindungan Data Pribadi di Pertemuan 3.
+- **Privasi**: partisipan punya hak atas data pribadinya. Kita akan bahas UU Pelindungan Data Pribadi di Pertemuan 3.
 - **Keamanan data**: bagaimana data disimpan dan siapa yang punya akses.
-- **Questionable research practices**: *p-hacking*, *HARKing* — akan kita bahas saat membahas etika analisis data di Pertemuan 6.
-- Alat bantu otomatisasi (termasuk akal imitasi/AI) bisa mempercepat pekerjaan di setiap tahap *Data Pipeline* — tapi penggunaannya tetap perlu transparan dan bertanggung jawab.
+- **Questionable research practices**: *p-hacking*, *HARKing*. Akan kita bahas saat membahas etika analisis data di Pertemuan 6.
 
 # Dataset yang Digunakan Sepanjang Semester {background-color="#14497F"}
 
@@ -296,8 +301,8 @@ Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data
 - Terdiri dari **skor skala** yang perlu dihitung, dibandingkan antar kelompok, dan diinterpretasi (Pertemuan 5–6) serta divisualisasikan (Pertemuan 7).
 
 ::: {.callout-note}
-### Untuk pertemuan depan
-Unduh dataset ini sendiri lewat tautan resmi (akan dibahas lengkap di Pertemuan 3, termasuk cara membaca berkas dan etika penggunaannya). Untuk Pertemuan 2, contoh data akan disediakan dalam bentuk potongan sederhana.
+### Untuk pertemuan minggu depan
+Unduh dataset IPIP di *website* Mata Kuliah. Untuk Pertemuan 2, contoh data akan disediakan dalam bentuk potongan sederhana.
 :::
 
 ## Rekap Pertemuan 1

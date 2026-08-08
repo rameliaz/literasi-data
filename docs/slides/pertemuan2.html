@@ -208,15 +208,13 @@ Rizqy Amelia Zein
 <p><strong>Baris itu granular</strong></p>
 </div>
 <div class="callout-content">
-<p>Baris idealnya mewakili informasi paling rendah levelnya dan paling detail — bukan ringkasan atau subtotal. Kita akan lihat kenapa ini penting sebentar lagi.</p>
+<p>Baris idealnya mewakili informasi paling rendah levelnya dan paling detail. Jadi, bukan ringkasan atau subtotal.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="fungsi-dan-formula-dasar" class="slide level2">
 <h2>Fungsi dan formula dasar</h2>
-<div class="columns">
-<div class="column" style="width:55%;">
 <p>Formula selalu diawali tanda <code>=</code>:</p>
 <ul>
 <li><code>=B3+B8</code> — menjumlahkan dua sel</li>
@@ -225,7 +223,6 @@ Rizqy Amelia Zein
 <li><code>=COUNT(B3:B8)</code> — menghitung berapa sel berisi angka</li>
 </ul>
 <p><strong>Fungsi</strong> adalah kalkulasi siap pakai bawaan spreadsheet — lebih ringkas daripada menulis <code>=B3+B4+B5+B6+B7+B8</code> manual.</p>
-</div><div class="column" style="width:45%;">
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -239,78 +236,6 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
-</div></div>
-</section>
-<section id="latihan-mandiri-membaca-referensi-sel" class="slide level2">
-<h2>🧩 Latihan mandiri: membaca referensi sel</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kerjakan sendiri (5 menit, tidak dinilai)</strong></p>
-</div>
-<div class="callout-content">
-<p>Perhatikan potongan tabel berikut:</p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th></th>
-<th>A</th>
-<th>B</th>
-<th>C</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>1</strong></td>
-<td>ID</td>
-<td>Usia</td>
-<td>Skor</td>
-</tr>
-<tr class="even">
-<td><strong>2</strong></td>
-<td>001</td>
-<td>24</td>
-<td>4.2</td>
-</tr>
-<tr class="odd">
-<td><strong>3</strong></td>
-<td>002</td>
-<td>29</td>
-<td>3.8</td>
-</tr>
-<tr class="even">
-<td><strong>4</strong></td>
-<td>003</td>
-<td>22</td>
-<td>4.6</td>
-</tr>
-</tbody>
-</table>
-<p>Tanpa membuka spreadsheet, jawab di kertas/catatan Anda:</p>
-<ol type="1">
-<li>Formula apa yang menghasilkan <strong>rata-rata usia</strong> ketiga partisipan?</li>
-<li>Sel apa yang berisi <strong>skor tertinggi</strong>?</li>
-<li>Tuliskan formula <code>=AVERAGE()</code> untuk skor menggunakan referensi rentang (bukan menyebut satu-satu sel B2, B3, B4).</li>
-</ol>
-</div>
-</div>
-</div>
-<aside class="notes">
-<p>Beri waktu 2-3 menit, lalu minta 1-2 mahasiswa membacakan jawabannya. Jawaban: 1) =AVERAGE(B2:B4), 2) C4, 3) =AVERAGE(C2:C4).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section></section>
 <section>
 <section id="unit-analisis-dan-prinsip-tidy-data" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -397,7 +322,7 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Note</strong></p>
+<p><strong>Penting diingat</strong></p>
 </div>
 <div class="callout-content">
 <p>Dalam riset psikologi, <em>unique identifier</em> ini biasanya adalah <strong>ID partisipan</strong> — bukan nama, demi menjaga anonimitas sekaligus memudahkan pelacakan data longitudinal.</p>
@@ -509,12 +434,12 @@ Rizqy Amelia Zein
           display:block!important;
       }</style></aside>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="tidy-data" class="slide level2">
+<h2><em>Tidy data</em></h2>
 
 <img data-src="libs/tidy1.jpg" class="r-stretch"></section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section id="tidy-data-1" class="slide level2">
+<h2><em>Tidy data</em></h2>
 
 <img data-src="libs/tidy2.jpg" class="r-stretch"></section></section>
 <section>
@@ -718,7 +643,7 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Note</strong></p>
+<p><strong>Penting diingat</strong></p>
 </div>
 <div class="callout-content">
 <p>Tabel kiri cocok untuk <strong>satu</strong> slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor <strong>per partisipan</strong>, per <em>trait</em> — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.</p>

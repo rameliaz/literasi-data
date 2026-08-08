@@ -21,9 +21,9 @@ execute:
 
 ::: {.incremental}
 * Dari **pertanyaan penelitian** ke **hipotesis**
-* Menyusun ***analysis plan*** — dan kenapa ***preregistration*** bisa menguatkannya
+* Menyusun ***analysis plan*** — dan mengapa ***preregistration*** penting
 * Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
-* Sekilas Jamovi/R sebagai pelengkap spreadsheet
+* Sekilas `jamovi` sebagai pelengkap spreadsheet
 * Studi kasus: menghitung skor skala dan membandingkan kelompok pada dataset *Big Five*
 * 2️⃣ aktivitas (mandiri & kelompok, salah satunya dinilai)
 :::
@@ -38,7 +38,7 @@ Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasi
 
 ::: {.incremental}
 * Kita sudah melewati **Find**, **Get**, **Verify**, dan **Clean**. Sebelum masuk ke **Analyze**, kita perlu kembali sejenak ke tahap paling awal *Data Pipeline*: **Define**.
-* Tanpa pertanyaan penelitian yang jelas, Anda hanya punya **tema** — dan berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.
+* Tanpa pertanyaan penelitian yang jelas, Anda hanya punya **topik penelitian** — dan berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.
 :::
 
 ## Dari tema ke pertanyaan penelitian
@@ -49,7 +49,7 @@ Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasi
 | Kesejahteraan psikologis | Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir? |
 
 ::: {.fragment}
-Pertanyaan yang **presisi** akan memberi tahu Anda persis data apa yang dibutuhkan. Bandingkan: *"Apakah mahasiswa terpengaruh media sosial?"* (terlalu kabur) vs. *"Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?"* (jelas variabel apa yang dicari).
+Pertanyaan yang **presisi** akan memberi tahu Anda data apa yang dibutuhkan. Bandingkan: *"Apakah mahasiswa terpengaruh media sosial?"* (terlalu kabur) vs. *"Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?"* (jelas variabel apa yang dicari).
 :::
 
 ## Merumuskan hipotesis
@@ -67,7 +67,8 @@ Hipotesis berfungsi ganda:
 :::
 
 ::: {.callout-note}
-Contoh: dari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: *"Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah."*
+### Contoh
+Dari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: *"Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah."*
 :::
 
 ## 🧩 Aktivitas mandiri: dari tema ke hipotesis
@@ -108,7 +109,8 @@ Untuk hipotesis *"beban tugas mingguan berkaitan dengan tingkat burnout"*:
 :::
 
 ::: {.callout-tip}
-Kalau Anda belum bisa menyusun *analysis plan* selengkap ini di awal, tidak apa — wajar bagi pemula untuk mengeksplorasi data dulu. Yang penting: **catat** langkah yang berhasil begitu Anda menemukannya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.
+### Penting diingat
+Kalau Anda belum bisa menyusun *analysis plan* selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu. Yang penting: **catat** langkah yang berhasil begitu Anda menemukannya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.
 :::
 
 ## Kenapa *analysis plan* bisa dikuatkan lagi: *preregistration*
@@ -150,12 +152,13 @@ Melihat **hubungan** antara dua variabel atau lebih (mis. apakah *Conscientiousn
 :::
 
 ::: {.callout-note}
-Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: analisis **prediktif** — yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pelatihan statistik lanjutan.
+
+Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: [analisis **prediktif**](https://en.wikipedia.org/wiki/Predictive_modelling), yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.
 :::
 
-## Pivot table: alat serbaguna untuk ketiga teknik
+## *Pivot table*: alat serbaguna untuk ketiga teknik
 
-Pivot table (Pertemuan 2 sudah menyinggung tabel kontijensi — pivot table adalah versi interaktifnya) punya empat komponen:
+*Pivot table* (Pertemuan 2 sudah menyinggung tabel kontigensi. *Pivot table* adalah versi interaktifnya) punya empat komponen:
 
 | Komponen | Fungsi |
 |---|---|
@@ -168,12 +171,12 @@ Pivot table (Pertemuan 2 sudah menyinggung tabel kontijensi — pivot table adal
 Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender."* → Rows: gender, Values: AVERAGE(Extraversion).
 :::
 
-# Sekilas Jamovi/R sebagai Pelengkap Spreadsheet 💻 {background-color="#14497F"}
+# Sekilas `jamovi` sebagai Pelengkap *Spreadsheet* 💻 {background-color="#14497F"}
 
-## Kapan spreadsheet tidak lagi cukup
+## Kapan *spreadsheet* tidak lagi cukup
 
 ::: {.incremental}
-* Spreadsheet sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana — dan itu cukup untuk keperluan mata kuliah ini.
+* *Spreadsheet* sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana dan ini sudah cukup untuk keperluan mata kuliah ini.
 * Tapi begitu Anda butuh uji statistik formal (mis. *independent samples t-test*, ANOVA, korelasi dengan nilai *p*), Anda memerlukan perangkat lunak analisis statistik.
 :::
 
@@ -181,37 +184,23 @@ Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Sa
 
 ::: columns
 ::: {.column width="50%"}
-**Jamovi / JASP**
+**`jamovi` / `JASP`**
 
 * Gratis, antarmuka *point-and-click* — tidak perlu menulis kode.
 * Bisa membaca langsung berkas `.sav`, `.csv`, `.xlsx`.
 * Titik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.
 :::
 ::: {.column width="50%"}
-**R**
+{{< fa brands r-project >}} 
 
-* Berbasis kode/skrip — kurva belajarnya lebih curam di awal.
-* Analisisnya sepenuhnya **reproducible**: skrip yang sama selalu menghasilkan hasil yang sama.
-* Materi presentasi mata kuliah ini sendiri dibuat dengan R + Quarto!
+* Berbasis kode/*script* — *learning curve*nya lebih curam di awal.
+* Analisisnya sepenuhnya ***reproducible***: *script* yang sama (umumnya) menghasilkan hasil yang sama.
+* Materi presentasi mata kuliah ini sendiri dibuat dengan {{< fa brands r-project >}}  + `Quarto`.
 :::
 :::
 
 ::: {.callout-note}
-Mata kuliah ini **tidak** mengajarkan Jamovi/R secara mendalam — spreadsheet tetap alat utama kita. Tapi penting Anda tahu bahwa keduanya ada, sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.
-:::
-
-# Studi Kasus: Skor Skala dan Perbandingan Kelompok 🧮 {background-color="#14497F"}
-
-## Dari item ke skor skala (lagi)
-
-Ingat dari Pertemuan 2: `skor_extraversion = AVERAGE(E1:E10)`. Tapi ingat juga dari Pertemuan 4: sebagian item bersifat *reverse-scored*.
-
-::: {.callout-important}
-### Urutan yang benar
-1. **Bersihkan** dulu — balik skor item *reverse-scored* (Pertemuan 4).
-2. **Baru** hitung `AVERAGE()` untuk skor skala.
-
-Melewatkan langkah 1 adalah kesalahan analisis yang sangat umum dan cukup mudah lolos tanpa disadari kalau Anda tidak berhati-hati.
+Mata kuliah ini **tidak** mengajarkan `jamovi`/{{< fa brands r-project >}} secara mendalam — spreadsheet tetap alat utama kita. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.
 :::
 
 ## Menyusun *analysis plan* untuk dataset kita
@@ -222,7 +211,7 @@ Misalkan pertanyaan penelitian Anda: *"Apakah skor Extraversion berbeda antara p
 1. Hitung `skor_extraversion` per partisipan (`AVERAGE(E1:E10)`, setelah item dibalik sesuai kebutuhan).
 2. Buat pivot table: Rows = `gender`, Values = `AVERAGE(skor_extraversion)`.
 3. Bandingkan rata-rata antar kategori gender.
-4. *(Opsional, di luar cakupan mata kuliah ini)* Uji signifikansi perbedaan tersebut dengan Jamovi/JASP.
+4. *(Opsional, di luar cakupan mata kuliah ini)* Uji signifikansi perbedaan tersebut dengan `jamovi`/`JASP`.
 :::
 
 ## 🧩 Aktivitas kelompok (dinilai): susun *analysis plan* Anda sendiri
@@ -234,7 +223,7 @@ Menggunakan dataset ***Big Five***, kelompok Anda akan menyusun *analysis plan* 
 1. Rumuskan **satu pertanyaan penelitian** yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu *trait* kepribadian atau variabel demografis).
 2. Rumuskan **hipotesisnya**.
 3. Tentukan apakah analisisnya bersifat **deskriptif, komparatif, atau korelasional**.
-4. Tuliskan **langkah-langkah *analysis plan*** secara berurutan, selengkap contoh yang sudah dibahas — termasuk nama kolom yang akan Anda buat/pakai.
+4. Tuliskan **langkah-langkah *analysis plan*** secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.
 :::
 
 ::: notes
@@ -247,15 +236,14 @@ Ini aktivitas yang dinilai (kriteria "Penguasaan Materi"). Berkeliling ke tiap k
 
 ::: {.incremental}
 * Sebelum menganalisis, kembali ke *Define*: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.
-* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda **reproducible** — menuliskannya *sebelum* melihat hasil adalah inti dari ***preregistration***, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.
+* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda ***reproducible*** — menuliskannya *sebelum* melihat hasil adalah inti dari ***preregistration***, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.
 * Tiga kategori teknik analisis: **deskriptif**, **komparatif**, **korelasional** — pivot table adalah alat serbaguna untuk ketiganya.
-* Jamovi/R adalah pelengkap spreadsheet untuk uji statistik formal — tidak wajib, tapi baik untuk diketahui.
 * Urutan yang benar: **bersihkan dulu** (termasuk membalik item *reverse-scored*), baru hitung skor skala.
 :::
 
 ## Referensi {.scrollable .smaller}
 
-* Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.
+* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
 
 ## Ada pertanyaan❓
 
