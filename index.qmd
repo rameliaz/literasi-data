@@ -58,7 +58,7 @@ Pertemuan 1–7 dan 11 dilaksanakan **daring** melalui [Microsoft Teams](https:/
 | 9 | 15 Okt · 08.00 | Dari Fenomena ke Topik Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* |
 | 10 | 22 Okt · 08.00 | Ragam Tinjauan Pustaka dan Narrative Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* |
 | 11 | 29 Okt · 13.00 | Praktik Pencarian dan Sintesis Literatur | Praktikum, Diskusi Kelompok (daring) | Amel | *segera* |
-| 12 | 5 Nov · 08.00 | Menyusun Argumen dan Struktur Naskah | Kuliah, Presentasi (luring) | Ardi | [Slide](slides/pertemuan12.html) |
+| 12 | 5 Nov · 08.00 | Menyusun Argumen dan Struktur Naskah | Kuliah, Presentasi (luring) | Ardi | *segera* |
 | 13 | 12 Nov · disepakati bersama mentor | Praktik Menulis Draf dan Merancang Infografis | Praktikum, Peer Teaching | Amel | *segera* |
 | 14 | 19 Nov · disepakati bersama mentor | Peer Review | Praktikum, Peer Teaching | Amel | *segera* |
 | 15 | 26 Nov · disepakati bersama mentor | Revisi dan Finalisasi | Praktikum, Peer Teaching | Amel | *segera* |
@@ -101,6 +101,12 @@ Terdapat tiga komponen tugas yang dinilai dalam mata kuliah ini:
 Mahasiswa mengerjakan kuis penyusunan rencana analisis data: merumuskan hipotesis dari pertanyaan penelitian, memilih teknik analisis yang sesuai (deskriptif, komparatif, atau korelasional), serta menghitung skor skala dan statistik deskriptif — termasuk perbandingan sederhana antar kelompok — pada dataset psikometrik.
 
 ### UTS — Proyek Literasi Data, kelompok (Pertemuan 8) — 40%
+
+::: {.callout-note}
+### Pembagian kelompok
+
+Silakan Anda memilih anggota kelompok Anda sendiri dan [tuliskan nama seluruh anggota kelompok di *spreadsheet* ini](https://docs.google.com/spreadsheets/d/1hlDK2eZUR_Wo-WcMcqqJ1Wh_cjSaYCSa/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true). *Spreadsheet* akan dikunci aksesnya (tidak dapat di*edit*) pada Pertemuan ke-3.
+:::
 
 Kelompok (3–4 orang) memilih satu dataset psikologi/ilmu sosial terbuka (mis. Open Psychometrics atau daftar dataset yang disediakan), menerapkan tahapan *Data Pipeline* (Define → Find → Get → Verify → Clean → Analyze → Present), dan menyajikan hasilnya dalam laporan singkat (maks. 1500 kata) disertai minimal satu visualisasi data. Laporan mencantumkan kontribusi masing-masing anggota kelompok dan dikumpulkan lewat Psyche paling lambat Pertemuan 8.
 
@@ -158,6 +164,24 @@ Mengikuti peraturan akademik Universitas Airlangga:
 - **Kehadiran.** Mahasiswa diperbolehkan mengikuti UAS jika kehadirannya **minimal 75%**. Apabila kehadiran kurang dari 75%, mahasiswa mendapatkan nilai **E** untuk mata kuliah ini.
 - **Ketidakhadiran karena sakit/tugas.** Laporkan kepada PJMK/dosen pengampu **pada hari pelaksanaan perkuliahan**. Bukti dukung berupa surat keterangan sakit/surat tugas disampaikan ke Bagian Akademik dan PJMK/dosen pengampu **selambat-lambatnya 3 hari** sejak ketidakhadiran. Melewati batas waktu tersebut, mahasiswa tercatat tidak hadir.
 - **Integritas akademik.** Mahasiswa yang melakukan kecurangan akademis dalam segala bentuknya dinyatakan mendapatkan nilai **E** untuk mata kuliah ini.
+
+## Perangkat Lunak
+
+Mata kuliah ini menggunakan **[`jamovi`](https://www.jamovi.org/)** dan *software spreadsheet* (e.g., Microsoft Excel, Google Spreadsheet, LibreOffice Calc, dst.) untuk sebagian aktivitas di mata kuliah ini. `jamovi` gratis, *open source*, dan tersedia untuk Windows, macOS, serta Linux.
+
+::: {.callout-important}
+#### Pasang `jamovi` versi terbaru
+Unduh dan pasang **versi terbaru** jamovi (*latest release*, bukan versi *solid*/lama) dari **<https://www.jamovi.org/download.html>**.
+
+Beberapa modul yang kita pakai hanya tersedia di rilis terbaru, jadi **jangan** memakai `jamovi` versi lama yang mungkin sudah terpasang di laptop Anda. Jika `jamovi` sudah terpasang, periksa versinya lewat menu ☰ → **About**, lalu perbarui bila perlu.
+:::
+
+**Cara install:**
+
+1. Buka <https://www.jamovi.org/download.html> dan pilih pemasang sesuai sistem operasi Anda (Windows / macOS / Linux).
+2. Ambil versi pada kolom ***current*** (rilis terbaru), bukan kolom *solid*.
+3. Pasang seperti aplikasi biasa, lalu buka `jamovi` untuk memastikan berjalan normal.
+4. Modul tambahan dipasang lewat ikon **+ Modules** → **jamovi library** di pojok kanan atas. Modul spesifik yang dibutuhkan akan diumumkan pada pertemuan terkait.
 
 ---
 

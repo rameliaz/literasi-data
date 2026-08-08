@@ -15,7 +15,7 @@ website:
   title: "Literasi Data dan Penulisan Ilmiah"
   navbar:
     left:
-      - href: https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/
+      - href: https://rameliaz.github.io/
         icon: house
         text: "oleh Rizqy Amelia Zein"
     right:
@@ -37,8 +37,14 @@ website:
             href: slides/pertemuan7.html
           - text: "12. Menyusun Argumen dan Struktur Naskah"
             href: slides/pertemuan12.html
+      - text: "Dataset"
+        menu:
+          - text: "Dataset IPIP"
+          - href: data/data.csv
+          - text: "Kamus Data"
+          - href: data/codebook.txt
       - icon: envelope
-        href: "mailto:ameliazein@gmail.com"
+        href: "mailto:amelia.zein@psikologi.unair.ac.id"
   search:
     location: navbar
     type: overlay

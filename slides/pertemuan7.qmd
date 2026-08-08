@@ -37,13 +37,13 @@ Pertemuan terakhir sebelum UTS (Pertemuan 8) — tekankan sejak awal bahwa keter
 ## Pertanyaan yang salah untuk dimulai
 
 ::: {.callout-important}
-Pertanyaan pertama **bukan** *"bagaimana cara memvisualisasikan data ini?"* — melainkan **"apa yang ingin saya buat audiens saya lakukan/pahami dari proyek ini?"**
+Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisualisasikan data ini?"* — melainkan **"apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?"**
 :::
 
 ::: {.incremental}
-* Parameter kunci penyajian data adalah **audiens** dan **pesan** — bukan jenis grafik.
-* Bagaimana Anda menyajikan hasil lewat radio? Ke audiens dengan gangguan penglihatan? Ke komunitas yang tidak familier dengan grafik? Dalam semua kasus itu, grafik saja tidak cukup.
-* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data" — visualisasi hanyalah salah satu alat, bukan tujuan itu sendiri.
+* Parameter kunci penyajian data adalah **audiens** dan **pesan**, bukan jenis grafik.
+* Bagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.
+* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data" — visualisasi hanyalah salah satu alat untuk memvisualisasikan data, tetapi bukan tujuan akhir dalam mengkomunikasikan data.
 :::
 
 ## *Data visualization* vs. infografis
@@ -55,6 +55,7 @@ Pertanyaan pertama **bukan** *"bagaimana cara memvisualisasikan data ini?"* — 
 * Terikat erat dengan data yang mendasarinya.
 * Bisa interaktif dan bereaksi terhadap perubahan data.
 * Jumlah format yang valid terbatas — harus tetap merepresentasikan data secara jujur.
+* [Lihat katalognya di sini (DataViz Catalogue).](https://datavizcatalogue.com/)
 :::
 ::: {.column width="50%"}
 **Infografis**
@@ -62,11 +63,11 @@ Pertanyaan pertama **bukan** *"bagaimana cara memvisualisasikan data ini?"* — 
 * "Grafik informasi" — menyajikan cerita berbasis fakta secara visual.
 * Sering memuat visualisasi data, tapi tidak terikat ketat pada data mentahnya.
 * Lebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi umum (bukan teknis).
+* Dapat menjadi produk Jurnalistik Data.
+  + [Kompas](https://data.kompas.id/)
+  + [Tempo](https://data.tempo.co/)
+  + [KataData](https://katadata.co.id/jurnalisme-data), [Contohnya](https://katadata.co.id/infografik/66cfdafdd198f/infografik-degradasi-jumlah-kelas-menengah-indonesia).
 :::
-:::
-
-::: {.callout-note}
-Ingat kapsul UAS mata kuliah ini: naskah *narrative review* **plus infografis** pendukung. Perbedaan ini akan langsung relevan saat itu.
 :::
 
 ## Tiga elemen yang bisa ditonjolkan
@@ -79,14 +80,15 @@ Ingat kapsul UAS mata kuliah ini: naskah *narrative review* **plus infografis** 
 
 # Memilih Jenis Data dan Tugas Visualisasi 📊 {background-color="#14497F"}
 
-## Kategorikal vs. kontinu (sekali lagi)
+## Kategorikal vs. *continuum* (sekali lagi)
 
 Ingat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan **pilihan grafik** Anda.
 
 ::: {.incremental}
-* **Data kategorikal** (mis. gender, kelompok skor) — cocok untuk *bar chart*, *pie chart*. Tapi grafik butuh **minimal satu variabel kontinu** untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.
-* **Data kontinu** (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada *scatterplot* atau histogram.
-* Data kontinu **bisa** ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang) — tapi tidak sebaliknya.
+* **Data kategorikal** (mis. gender, kelompok skor) — cocok untuk *bar chart*, *pie chart*. Tapi grafik butuh **minimal satu variabel *continuum*** untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.
+* **Data *continuum*** (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada *scatterplot* atau histogram.
+* Data *continuum* **bisa** ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang) — tapi tidak sebaliknya.
+* Anda bisa memanfaatkan [ChartChooser](https://www.juiceanalytics.com/chartchooser) untuk menentukan grafik apa yang sesuai dengan tujuan dan jenis data Anda.
 :::
 
 ## "Saya ingin menunjukkan..."
@@ -100,7 +102,7 @@ Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan...
 | Perubahan rata-rata skor kesejahteraan dari minggu ke minggu | Perbandingan, pola, data dari waktu ke waktu |
 | Sebaran skor Conscientiousness di seluruh sampel | Distribusi |
 
-## Ragam tugas visualisasi dan grafiknya
+## Ragam tujuan visualisasi dan grafiknya
 
 ::: {.incremental}
 * **Perbandingan** → *bar chart*
@@ -112,7 +114,7 @@ Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan...
 :::
 
 ::: {.callout-tip}
-Tidak ada daftar tugas visualisasi yang baku dan lengkap — satu grafik bisa melayani lebih dari satu tugas sekaligus. Yang penting: **rumuskan tugasnya dulu**, baru pilih grafiknya — bukan sebaliknya.
+Tidak ada daftar tugas visualisasi yang baku dan lengkap. satu grafik bisa memenuhi lebih dari satu tujuan sekaligus. Yang penting: **rumuskan tujuannya dulu**, baru pilih grafiknya, bukan sebaliknya.
 :::
 
 # Enam Prinsip *Storytelling with Data* 📖 {background-color="#14497F"}
@@ -134,7 +136,7 @@ Buku *Storytelling with Data* ([Knaflic, 2021](https://www.storytellingwithdata.
 
 ::: {.incremental}
 * Siapa audiens Anda? Apa yang sudah mereka tahu? Tindakan/pemahaman apa yang Anda ingin mereka dapatkan?
-* Ini gaung langsung dari pembahasan "tiga jenis audiens" di Pertemuan 6 — konteks menentukan segalanya, sebelum Anda menyentuh satu grafik pun.
+* Ini gaung langsung dari pembahasan "tiga jenis audiens" di Pertemuan 6. Konteks menentukan segalanya, sebelum Anda menyentuh satu grafik pun.
 :::
 
 ## 2. Pilih visual yang tepat
@@ -176,7 +178,7 @@ Ini menyambung ke apa yang sudah kita bahas Pertemuan 6: *hedging language* menj
 
 ## Merumuskan tugas visualisasi kita
 
-Kita hitung sungguhan skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti prosedur Pertemuan 4–5) dari **19.511 partisipan** dalam dataset kita, dipilah berdasarkan gender.
+Kita hitung skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti prosedur Pertemuan 4–5) dari **19.511 partisipan** dalam dataset kita, dipilah berdasarkan gender.
 
 ::: {.fragment}
 **"Saya ingin menunjukkan"** perbandingan rata-rata skor *Extraversion* antara dua kategori gender → tugasnya adalah **perbandingan** → kandidat grafik: *bar chart* sederhana, dua batang.
@@ -186,7 +188,7 @@ Kita hitung sungguhan skor *Extraversion* (setelah item *reverse-scored* dibalik
 Kedua grafik pada slide berikutnya dibuat dengan **ggplot2** (R) langsung dari `data/data.csv` — bukan angka rekaan. Skripnya ada di `slides/libs/make_pertemuan7_charts.R` kalau Anda ingin melihat/menjalankannya sendiri.
 :::
 
-## Sebelum: melanggar hampir semua prinsip
+## Sebelum: melanggar hampir semua prinsip *Storytelling*
 
 ![](libs/pertemuan7_before.png){fig-align="center" width="85%"}
 
@@ -200,7 +202,7 @@ Kedua grafik pada slide berikutnya dibuat dengan **ggplot2** (R) langsung dari `
 Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil terlihat besar — persis kebalikan dari *hedging language* yang kita pelajari Pertemuan 6.
 :::
 
-## Sesudah: enam prinsip diterapkan
+## Sesudah: 6️⃣ prinsip diterapkan
 
 ![](libs/pertemuan7_after.png){fig-align="center" width="85%"}
 
@@ -213,17 +215,17 @@ Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan
 
 ::: {.callout-important}
 ### Poin penting: signifikan secara statistik ≠ besar secara praktis
-Dengan `n` sebesar ini, CI kedua kelompok **tidak tumpang tindih** — jadi secara statistik perbedaannya "nyata". Tapi besarnya cuma ~0,10 poin pada skala 1–5. Judul grafik sengaja memakai *hedging language* ("sedikit lebih tinggi"), bukan klaim besar — inilah cara **presenting** dan **hedging** bekerja bersama.
+Dengan `n` sebesar ini, CI kedua kelompok **tidak tumpang tindih** — jadi secara statistik perbedaannya *signifikan*. Tapi besarnya cuma ~0.10 poin pada skala 1–5. Judul grafik sengaja memakai *hedging language* ("sedikit lebih tinggi"), bukan klaim yang bombastis. Dalam konteks ini, **presenting** dan **hedging** bekerja bersama.
 :::
 
 ## Angka di balik grafiknya
 
-Grafik itu bagus untuk audiens umum — tapi naskah akademik (Pertemuan 6, gaya APA) tetap butuh tabel angka lengkap:
+Grafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya APA) tetap butuh tabel angka lengkap:
 
 | Gender | n | M | SD | 95% CI |
 |---|---|---|---|---|
-| Laki-laki | 7.583 | 2,95 | 0,92 | [2,93, 2,97] |
-| Perempuan | 11.928 | 3,05 | 0,92 | [3,04, 3,07] |
+| Laki-laki | 7,583 | 2.95 | 0.92 | [2.93, 2.97] |
+| Perempuan | 11,928 | 3.05 | 0.92 | [3.04, 3.07] |
 
 ::: {.callout-note}
 Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (`data/data.csv`, dataset *Big Five*) sudah disebutkan pada slide sebelumnya.
@@ -233,7 +235,7 @@ Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom j
 
 ::: {.callout-warning}
 ### Kerjakan berkelompok (15 menit)
-Gunakan kedua grafik di atas (atau contoh lain dari jurnal/media yang dibawa dosen). Terapkan enam prinsip *storytelling with data* untuk mengkritiknya:
+[Perhatikan grafik berikut ini](https://databoks.katadata.co.id/infografik/2025/08/19/10-provinsi-dengan-angka-kemiskinan-tertinggi-awal-2025). Terapkan enam prinsip *storytelling with data* untuk mengkritiknya:
 
 1. Menurut Anda, apa **konteks/audiens** yang dituju grafik ini? Apakah pilihan visualnya cocok?
 2. Identifikasi elemen yang termasuk ***clutter*** — apa yang bisa dihapus tanpa mengurangi informasi?
@@ -250,7 +252,7 @@ Dua grafik di atas (before/after) sudah bisa langsung dipakai sebagai bahan disk
 ## Memilih alat sesuai audiens dan tujuan
 
 ::: {.incremental}
-* **Grafik spreadsheet** (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.
+* **Grafik *spreadsheet*** (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.
 * **Tableau, Datawrapper, Infogram** — untuk visualisasi **interaktif**, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, *dashboard*).
 * **Canva** — untuk **infografis**, saat pesan dan desain lebih diutamakan daripada presisi data teknis; ini akan jadi alat utama Anda untuk infografis UAS.
 :::
@@ -264,25 +266,10 @@ Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akadem
 ## Rekap Pertemuan 7
 
 ::: {.incremental}
-* Mulai dari **audiens dan pesan**, baru pilih visualisasi — bukan sebaliknya.
+* Mulai dari **audiens dan pesan**, baru pilih visualisasi, dan bukan sebaliknya.
 * Rumuskan tugas visualisasi dengan kalimat **"saya ingin menunjukkan..."**, lalu cocokkan dengan jenis data (kategorikal/*continuum*).
 * Enam prinsip *storytelling with data*: pahami konteks, pilih visual tepat, singkirkan *clutter*, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.
 * Pilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian.
-:::
-
-## 🧩 Aktivitas mandiri: rencana visualisasi UTS
-
-::: {.callout-warning}
-### Kerjakan sendiri, kumpulkan sebagai persiapan UTS
-Merujuk pada dataset yang Anda rencanakan untuk proyek UTS (Pertemuan 3 dan 5):
-
-1. Rumuskan **satu kalimat "saya ingin menunjukkan..."** untuk visualisasi UTS Anda.
-2. Tentukan **jenis grafik** yang paling sesuai, dan jelaskan alasannya lewat enam prinsip *storytelling with data*.
-3. Sebutkan **alat** yang akan Anda pakai untuk membuatnya.
-:::
-
-::: notes
-Ini menjembatani langsung ke UTS Pertemuan 8 — pastikan mahasiswa memahami bahwa hasil aktivitas ini bisa langsung dipakai sebagai draf awal deliverable UTS mereka.
 :::
 
 ## Referensi {.scrollable .smaller}
@@ -298,5 +285,5 @@ Ini menjembatani langsung ke UTS Pertemuan 8 — pastikan mahasiswa memahami bah
 ### Catatan
 
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a>
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
