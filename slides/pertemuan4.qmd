@@ -1,0 +1,245 @@
+---
+title: "Praktik Verifikasi dan Pembersihan Data"
+subtitle: "Literasi Data dan Penulisan Ilmiah"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* Kenapa tahap ***Verify*** sering dilewati — dan kenapa itu berbahaya
+* Tiga kriteria data yang baik, dan empat cara memverifikasinya
+* Masalah data yang umum ditemui
+* ***Clean***: tiga aktivitas pembersihan data
+* Praktik langsung: membersihkan dataset psikometrik yang "kotor"
+* 2️⃣ aktivitas (kelompok & praktik individu/kelompok)
+:::
+
+::: notes
+Metode minggu ini "Diskusi Kelompok" dengan pengalaman belajar "Tugas Praktis" — porsi praktik cleaning di akhir sesi adalah inti pertemuan ini, alokasikan minimal 40-45 menit untuk itu.
+:::
+
+# *Verify*: Apa Itu Data yang Baik? ✅ {background-color="#14497F"}
+
+## Tahap yang paling sering dilewati
+
+::: {.incremental}
+* Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah **langsung lompat ke analisis**.
+* Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang buruk — atau lebih parah, **mempublikasikan kesimpulan yang salah**.
+* Ingat kerangka *Data Pipeline*: **Verify**, **Clean**, dan **Analyze** sering berjalan bolak-balik, bukan satu arah lurus.
+:::
+
+::: {.callout-tip}
+### Ada pepatah di kalangan praktisi data
+*"Semua data itu buruk — kita hanya perlu tahu seberapa buruk."* Verifikasi bukan tentang mencari data yang sempurna, tapi tentang **mengetahui batasannya** sebelum Anda menganalisis.
+:::
+
+## Tiga kriteria data yang baik
+
+::: {.incremental}
+1. **Trustworthiness (dapat dipercaya)** — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.
+2. **Completeness (kelengkapan)** — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.
+3. **Quality (kualitas struktur & dokumentasi)** — apakah data mengikuti prinsip *tidy data* (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya?
+:::
+
+## Metadata, *codebook*, dan *data inventory*
+
+::: columns
+::: {.column width="33%"}
+**Metadata**
+
+"Data tentang data" — siapa pembuatnya, kapan dibuat, format nilai yang diharapkan.
+:::
+::: {.column width="33%"}
+**Data dictionary / *codebook***
+
+Dokumen yang menjelaskan arti setiap kolom dan nilainya — penting untuk kolom berkode singkat, mis. `E1`–`E10` pada dataset *Big Five* kita.
+:::
+::: {.column width="34%"}
+***Data inventory***
+
+Daftar seluruh dataset yang dimiliki/dirilis suatu organisasi atau lembaga riset.
+:::
+:::
+
+::: {.callout-important}
+Dataset psikometrik terbuka yang baik **selalu** menyertakan *codebook* — kalau tidak ada, itu sendiri adalah tanda peringatan pertama dalam verifikasi.
+:::
+
+## Empat metode verifikasi data
+
+::: {.incremental}
+1. **Bertanya ke sumbernya** — pembuat/penyedia data biasanya adalah ahli terbaik soal datanya sendiri. Jangan berusaha memaknai data sendirian kalau sumbernya bisa dihubungi.
+2. **Bertanya ke ahli** — pakar di topik yang relevan bisa membantu Anda memaknai data yang ambigu atau memilih di antara beberapa sumber data yang saling bersaing.
+3. **Pemeriksaan statistik** — hitung ringkasan statistik dasar untuk memahami bentuk data sebelum menganalisisnya lebih jauh (lihat slide berikutnya).
+4. ***Common sense check*** — kemampuan mengenali pola yang aneh atau nilai yang "tidak masuk akal", berdasarkan pengetahuan Anda tentang topiknya.
+:::
+
+## Pemeriksaan statistik sebagai alat verifikasi
+
+Sebelum menganalisis, hitung dulu ringkasan sederhana untuk **setiap kolom numerik**:
+
+| Statistik | Fungsi | Kegunaan untuk verifikasi |
+|---|---|---|
+| Mean & Median | `AVERAGE()`, `MEDIAN()` | Jauh berbeda? Tanda ada nilai ekstrem |
+| Min & Max | `MIN()`, `MAX()` | Di luar rentang yang wajar (mis. skor Likert 1–5 tapi ada nilai 8)? |
+| Modus | `MODE()` | Nilai yang paling sering muncul — masuk akal? |
+| *Count* | `COUNTA()` | Jumlah sel terisi sama di semua kolom? Kalau tidak, ada *missing value* |
+| Standar deviasi | `STDEV()` | Nilai > mean + 2×SD kemungkinan adalah *outlier* |
+
+::: {.callout-note}
+Ini **bukan** analisis data (Pertemuan 5–6) — ini pemeriksaan cepat untuk memastikan data Anda masuk akal sebelum dianalisis sungguhan.
+:::
+
+## 🧩 Aktivitas kelompok: susun *checklist* verifikasi
+
+::: {.callout-warning}
+### Kerjakan berkelompok (10 menit)
+Bayangkan kelompok Anda baru saja mengunduh dataset ***Big Five*** dari Open-Source Psychometrics Project. Susun **checklist verifikasi** singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.
+
+Contoh titik awal: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
+:::
+
+::: notes
+Setelah 10 menit, minta 2 kelompok membacakan 2 poin checklist mereka. Gunakan ini sebagai jembatan ke bagian berikutnya: masalah data yang umum.
+:::
+
+# Masalah Data yang Umum Ditemui ⚠️ {background-color="#14497F"}
+
+## Daftar masalah yang sering muncul
+
+::: {.incremental}
+* ***Missing value*** yang tidak konsisten — sel kosong? Angka `0`? Teks `"NA"`? Ketiganya sering dipakai bergantian dalam satu dataset yang sama.
+* **Baris atau nilai terduplikasi**
+* **Format tanggal tidak konsisten** (`01/02/2024` bisa berarti 1 Februari atau 2 Januari, tergantung konvensi)
+* **Satuan tidak dicantumkan** (detik? menit? milidetik?)
+* **Nama kolom ambigu** (`skor` — skor apa, dari skala berapa?)
+* **Provenance (asal-usul) tidak terdokumentasi**
+* **Nilai yang mencurigakan** (respons Likert bernilai 5, tapi skalanya 1–4)
+* **Total berbeda dari agregat yang dipublikasikan**
+:::
+
+## Studi kasus: dataset *Big Five* yang "kotor" {.smaller}
+
+Dataset psikometrik yang dikumpulkan **secara daring dan terbuka** (siapa saja bisa mengisi) — seperti dataset kita — cenderung memiliki masalah berikut:
+
+::: {.incremental}
+* **Entri tidak lengkap** — responden berhenti di tengah jalan, meninggalkan sisa item kosong.
+* **Item *reverse-scored* belum dibalik** — sebagian item *Big Five* ditulis dengan arah terbalik (mis. item N4 "Saya jarang merasa sedih" (*"I seldom feel blue"*) untuk mengukur *Neuroticism*), dan kalau tidak dibalik dulu skornya, hasil `AVERAGE()` per skala akan salah total.
+* **Kode negara yang tidak standar** — campuran nama negara, kode ISO, atau nilai kosong.
+:::
+
+::: {.callout-caution}
+Perhatikan: sebagian masalah ini (mis. item *reverse-scored*) tidak akan terlihat lewat pemeriksaan statistik dasar — ini butuh pengetahuan tentang **metodologi instrumen**, bukan cuma angka. Inilah kenapa metode verifikasi "bertanya ke sumber/ahli" tetap penting, bukan hanya "pemeriksaan statistik."
+:::
+
+# *Clean*: Membersihkan Data 🧹 {background-color="#14497F"}
+
+## Tiga aktivitas pembersihan data
+
+::: {.incremental}
+1. **Data *tidying*** — membersihkan **struktur** data, tanpa mengubah isinya. Ini adalah lanjutan langsung dari prinsip *tidy data* Pertemuan 2 ([Wickham, 2014](https://doi.org/10.18637/jss.v059.i10)).
+2. **Data *editing*** — mengubah **isi/konten** data agar siap dianalisis (typo, spasi berlebih, nilai salah).
+3. **Data *consolidation*** — menambahkan data pelengkap ke dataset utama Anda (*merging*).
+:::
+
+::: {.callout-note}
+Ada yang bilang 80% waktu bekerja dengan data dihabiskan untuk membersihkannya. Ini bukan lebih-lebihan — tahap ini memang panjang, tapi krusial.
+:::
+
+## Data *tidying*: masalah format
+
+::: {.incremental}
+* **Informasi yang tersebar di banyak kolom** padahal seharusnya satu (mis. nama depan, tengah, belakang → digabung jadi satu kolom "Nama Lengkap" dengan `CONCATENATE()`).
+* **Satu kolom berisi banyak informasi sekaligus** padahal seharusnya dipisah (mis. kolom "Kota, Negara" → dipisah jadi dua kolom lewat *Split text to columns*).
+* **Header berlapis/gabungan sel** — spreadsheet menganalisis data dengan lebih baik kalau header hanya satu baris tunggal.
+:::
+
+## Data *editing*: masalah konten {.smaller}
+
+| Masalah | Formula/cara mengatasi |
+|---|---|
+| Spasi berlebih (di awal/akhir/tengah teks) | `TRIM()` |
+| Kapitalisasi tidak konsisten | `UPPER()`, `LOWER()`, `PROPER()` |
+| Kesalahan ketik/ejaan | *Find and replace*, atau verifikasi manual untuk dataset kecil |
+| Baris terduplikasi | Fitur *Remove Duplicates* pada spreadsheet |
+| Nilai kosong/salah yang mencurigakan | Kembali ke metode verifikasi: cek ke sumber, cek metodologi |
+
+::: {.callout-tip}
+Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.
+:::
+
+## Data *consolidation*: menggabungkan data pelengkap
+
+::: {.incremental}
+* Kadang Anda perlu menambahkan informasi dari dataset lain ke dataset utama — misalnya menambahkan data demografis wilayah ke dataset survei berbasis kode pos.
+* Syarat pentingnya: **kedua dataset harus sudah bersih** (tidak ada masalah format/konten) sebelum digabungkan — kalau tidak, kesalahan akan berlipat ganda.
+* Fungsi `FILTER()` atau `VLOOKUP()`-setara di spreadsheet bisa menarik nilai dari dataset pelengkap berdasarkan nilai yang cocok di dataset utama.
+:::
+
+## Praktik terbaik dalam membersihkan data
+
+::: {.incremental}
+* **Selalu simpan cadangan** data mentah — jangan pernah membersihkan di atas berkas asli.
+* **Buat *tab* baru untuk tiap tahap pembersihan** — supaya Anda bisa kembali ke langkah sebelumnya kalau ada kesalahan. Jangan mengandalkan *undo*.
+* **Jangan menghapus data mentah** — data "kotor" tetap punya nilai, mis. untuk mempelajari jenis dan frekuensi kesalahan itu sendiri.
+* **Dokumentasikan** setiap langkah pembersihan yang Anda lakukan — diri Anda di masa depan (dan pembaca naskah Anda) akan berterima kasih.
+:::
+
+## 🧩 Praktik langsung: membersihkan potongan dataset *Big Five*
+
+::: {.callout-warning}
+### Kerjakan berkelompok, dipandu dosen (25–30 menit)
+Anda akan diberikan potongan kecil dataset *Big Five* yang sengaja dibuat "kotor" untuk latihan. Ikuti langkah berikut:
+
+1. **Identifikasi** minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).
+2. **Golongkan** tiap masalah: apakah itu masalah *tidying* (format) atau *editing* (konten)?
+3. **Tuliskan formula** yang akan Anda pakai untuk memperbaiki tiap masalah (`TRIM()`, `PROPER()`, *Remove Duplicates*, dst.).
+4. Diskusikan: masalah mana yang **tidak bisa** diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item *reverse-scored*)?
+:::
+
+::: notes
+Siapkan potongan dataset kotor sebelum kelas (mis. 15-20 baris dengan beberapa masalah yang disengaja: whitespace, duplikasi, kode negara campur, satu baris dengan item *reverse-scored* yang belum dibalik). Ini adalah aktivitas inti pertemuan ini ("Tugas Praktis" / kriteria "Keakuratan dan Ketelitian") — beri waktu paling banyak di sini dan dampingi tiap kelompok berkeliling.
+:::
+
+# Penutup {background-color="#14497F"}
+
+## Rekap Pertemuan 4
+
+::: {.incremental}
+* Data yang baik punya tiga sifat: **trustworthy**, **complete**, dan **quality** (terstruktur & terdokumentasi).
+* Empat cara memverifikasi: bertanya ke sumber, bertanya ke ahli, pemeriksaan statistik, dan *common sense check*.
+* Masalah data yang umum sering tidak terlihat sampai Anda benar-benar memeriksanya — *missing value* yang tidak konsisten, duplikasi, format yang berantakan.
+* Membersihkan data = ***tidying*** (format) + ***editing*** (konten) + ***consolidation*** (menggabungkan).
+* Selalu bekerja di atas salinan, dokumentasikan tiap langkah, dan jangan buang data mentahnya.
+:::
+
+## Referensi {.scrollable .smaller}
+
+* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
+* Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+* Wickham, H. (2014). Tidy data. *Journal of Statistical Software, 59*(10), 1–23. <https://doi.org/10.18637/jss.v059.i10>
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a>
+:::

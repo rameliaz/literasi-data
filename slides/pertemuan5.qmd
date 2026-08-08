@@ -1,0 +1,269 @@
+---
+title: "Merencanakan Analisis Data"
+subtitle: "Literasi Data dan Penulisan Ilmiah"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* Dari **pertanyaan penelitian** ke **hipotesis**
+* Menyusun ***analysis plan*** — dan kenapa ***preregistration*** bisa menguatkannya
+* Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
+* Sekilas Jamovi/R sebagai pelengkap spreadsheet
+* Studi kasus: menghitung skor skala dan membandingkan kelompok pada dataset *Big Five*
+* 2️⃣ aktivitas (mandiri & kelompok, salah satunya dinilai)
+:::
+
+::: notes
+Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.
+:::
+
+# Dari Pertanyaan ke Hipotesis 🎯 {background-color="#14497F"}
+
+## Kembali ke *Define*
+
+::: {.incremental}
+* Kita sudah melewati **Find**, **Get**, **Verify**, dan **Clean**. Sebelum masuk ke **Analyze**, kita perlu kembali sejenak ke tahap paling awal *Data Pipeline*: **Define**.
+* Tanpa pertanyaan penelitian yang jelas, Anda hanya punya **tema** — dan berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.
+:::
+
+## Dari tema ke pertanyaan penelitian
+
+| Tema | Pertanyaan penelitian |
+|---|---|
+| *Burnout* akademik | Apakah beban tugas mingguan berkaitan dengan tingkat *burnout* pada mahasiswa magister? |
+| Kesejahteraan psikologis | Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir? |
+
+::: {.fragment}
+Pertanyaan yang **presisi** akan memberi tahu Anda persis data apa yang dibutuhkan. Bandingkan: *"Apakah mahasiswa terpengaruh media sosial?"* (terlalu kabur) vs. *"Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?"* (jelas variabel apa yang dicari).
+:::
+
+## Merumuskan hipotesis
+
+::: {.callout-important}
+### Ciri hipotesis yang baik
+**Sederhana, ringkas, dan yang terpenting: dapat diuji** — Anda harus bisa membuktikannya salah.
+:::
+
+Hipotesis berfungsi ganda:
+
+::: {.incremental}
+* **Mempertajam** proyek Anda — menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.
+* **Menyusun narasi** yang ingin Anda buktikan dengan data.
+:::
+
+::: {.callout-note}
+Contoh: dari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: *"Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah."*
+:::
+
+## 🧩 Aktivitas mandiri: dari tema ke hipotesis
+
+::: {.callout-warning}
+### Kerjakan sendiri (10 menit)
+Gunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber data terbuka), atau topik lain yang Anda minati.
+
+1. Tuliskan **tema** riset Anda dalam satu kalimat.
+2. Persempit menjadi **satu pertanyaan penelitian** yang presisi dan *actionable*.
+3. Rumuskan **satu hipotesis** yang sederhana, ringkas, dan dapat diuji.
+:::
+
+::: notes
+Ini latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya, bukan sekadar latihan sekali pakai.
+:::
+
+# Menyusun *Analysis Plan* 📝 {background-color="#14497F"}
+
+## Apa itu *analysis plan*?
+
+::: {.incremental}
+* ***Analysis plan*** adalah rangkaian **transformasi** yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.
+* Disusun **setelah** data dibersihkan — supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya, bukan sekadar deskripsi abstrak.
+* Tujuannya: siapa pun yang diberi data bersih dan *analysis plan* Anda harus bisa **mereproduksi** analisis Anda langkah demi langkah.
+:::
+
+## Contoh *analysis plan*
+
+Untuk hipotesis *"beban tugas mingguan berkaitan dengan tingkat burnout"*:
+
+::: {.incremental}
+1. Hitung skor total `SKOR_BURNOUT` dari item-item skala burnout (`AVERAGE()`).
+2. Kelompokkan responden berdasarkan `BEBAN_TUGAS` menjadi "tinggi" dan "rendah" (mis. dengan nilai tengah/median sebagai batas).
+3. Untuk kelompok "beban tinggi", hitung rata-rata `SKOR_BURNOUT`.
+4. Untuk kelompok "beban rendah", hitung rata-rata `SKOR_BURNOUT`.
+5. Bandingkan kedua rata-rata tersebut.
+:::
+
+::: {.callout-tip}
+Kalau Anda belum bisa menyusun *analysis plan* selengkap ini di awal, tidak apa — wajar bagi pemula untuk mengeksplorasi data dulu. Yang penting: **catat** langkah yang berhasil begitu Anda menemukannya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.
+:::
+
+## Kenapa *analysis plan* bisa dikuatkan lagi: *preregistration*
+
+::: {.incremental}
+* *Analysis plan* yang Anda tulis **sebelum** melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar ***preregistration*** — mendaftarkan hipotesis dan rencana analisis **secara terbuka**, idealnya bahkan **sebelum data dikumpulkan sama sekali**.
+* Pendaftarannya biasa dilakukan di platform terbuka seperti *Open Science Framework* (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya — jadi ada bukti tertulis tentang apa yang Anda rencanakan **sebelum** tahu hasilnya.
+:::
+
+::: {.callout-important}
+### Kenapa ini penting
+*Preregistration* adalah cara paling tegas untuk membedakan **penelitian konfirmatori** (menguji hipotesis yang sudah dirumuskan sejak awal) dari **penelitian eksploratif** (menemukan pola baru setelah melihat data) — keduanya sah-sah saja, tapi harus jujur diberi label yang tepat, bukan dicampuradukkan.
+:::
+
+::: {.fragment}
+Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah — bahkan tanpa disadari — untuk mengubah hipotesis atau cara analisis Anda **setelah** melihat hasilnya, supaya "cocok" dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah bernama *p-hacking* dan **HARKing**.
+:::
+
+# Ragam Teknik Analisis 🔬 {background-color="#14497F"}
+
+## Tiga kategori teknik analisis
+
+::: columns
+::: {.column width="33%"}
+**Deskriptif**
+
+Menjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.
+:::
+::: {.column width="33%"}
+**Komparatif**
+
+Membandingkan nilai suatu variabel **antar kelompok** (mis. skor *Extraversion* antara laki-laki dan perempuan).
+:::
+::: {.column width="34%"}
+**Korelasional**
+
+Melihat **hubungan** antara dua variabel atau lebih (mis. apakah *Conscientiousness* berkaitan dengan usia).
+:::
+:::
+
+::: {.callout-note}
+Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: analisis **prediktif** — yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pelatihan statistik lanjutan.
+:::
+
+## Pivot table: alat serbaguna untuk ketiga teknik
+
+Pivot table (Pertemuan 2 sudah menyinggung tabel kontijensi — pivot table adalah versi interaktifnya) punya empat komponen:
+
+| Komponen | Fungsi |
+|---|---|
+| **Rows** | Variabel utama yang ingin Anda lihat per kategori |
+| **Columns** | Variabel kedua untuk analisis silang |
+| **Values** | Angka yang dihitung (`SUM`, `AVERAGE`, `COUNT`, dst.) |
+| **Filter** | Menyaring subset data tertentu |
+
+::: {.fragment}
+Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender."* → Rows: gender, Values: AVERAGE(Extraversion).
+:::
+
+# Sekilas Jamovi/R sebagai Pelengkap Spreadsheet 💻 {background-color="#14497F"}
+
+## Kapan spreadsheet tidak lagi cukup
+
+::: {.incremental}
+* Spreadsheet sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana — dan itu cukup untuk keperluan mata kuliah ini.
+* Tapi begitu Anda butuh uji statistik formal (mis. *independent samples t-test*, ANOVA, korelasi dengan nilai *p*), Anda memerlukan perangkat lunak analisis statistik.
+:::
+
+## Dua pilihan populer
+
+::: columns
+::: {.column width="50%"}
+**Jamovi / JASP**
+
+* Gratis, antarmuka *point-and-click* — tidak perlu menulis kode.
+* Bisa membaca langsung berkas `.sav`, `.csv`, `.xlsx`.
+* Titik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.
+:::
+::: {.column width="50%"}
+**R**
+
+* Berbasis kode/skrip — kurva belajarnya lebih curam di awal.
+* Analisisnya sepenuhnya **reproducible**: skrip yang sama selalu menghasilkan hasil yang sama.
+* Materi presentasi mata kuliah ini sendiri dibuat dengan R + Quarto!
+:::
+:::
+
+::: {.callout-note}
+Mata kuliah ini **tidak** mengajarkan Jamovi/R secara mendalam — spreadsheet tetap alat utama kita. Tapi penting Anda tahu bahwa keduanya ada, sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.
+:::
+
+# Studi Kasus: Skor Skala dan Perbandingan Kelompok 🧮 {background-color="#14497F"}
+
+## Dari item ke skor skala (lagi)
+
+Ingat dari Pertemuan 2: `skor_extraversion = AVERAGE(E1:E10)`. Tapi ingat juga dari Pertemuan 4: sebagian item bersifat *reverse-scored*.
+
+::: {.callout-important}
+### Urutan yang benar
+1. **Bersihkan** dulu — balik skor item *reverse-scored* (Pertemuan 4).
+2. **Baru** hitung `AVERAGE()` untuk skor skala.
+
+Melewatkan langkah 1 adalah kesalahan analisis yang sangat umum dan cukup mudah lolos tanpa disadari kalau Anda tidak berhati-hati.
+:::
+
+## Menyusun *analysis plan* untuk dataset kita
+
+Misalkan pertanyaan penelitian Anda: *"Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?"*
+
+::: {.incremental}
+1. Hitung `skor_extraversion` per partisipan (`AVERAGE(E1:E10)`, setelah item dibalik sesuai kebutuhan).
+2. Buat pivot table: Rows = `gender`, Values = `AVERAGE(skor_extraversion)`.
+3. Bandingkan rata-rata antar kategori gender.
+4. *(Opsional, di luar cakupan mata kuliah ini)* Uji signifikansi perbedaan tersebut dengan Jamovi/JASP.
+:::
+
+## 🧩 Aktivitas kelompok (dinilai): susun *analysis plan* Anda sendiri
+
+::: {.callout-warning}
+### Kerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum
+Menggunakan dataset ***Big Five***, kelompok Anda akan menyusun *analysis plan* lengkap:
+
+1. Rumuskan **satu pertanyaan penelitian** yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu *trait* kepribadian atau variabel demografis).
+2. Rumuskan **hipotesisnya**.
+3. Tentukan apakah analisisnya bersifat **deskriptif, komparatif, atau korelasional**.
+4. Tuliskan **langkah-langkah *analysis plan*** secara berurutan, selengkap contoh yang sudah dibahas — termasuk nama kolom yang akan Anda buat/pakai.
+:::
+
+::: notes
+Ini aktivitas yang dinilai (kriteria "Penguasaan Materi"). Berkeliling ke tiap kelompok, dan pastikan mereka membedakan dengan jelas antara pertanyaan deskriptif ("berapa rata-rata skor X?") dan komparatif ("apakah skor X berbeda antar kelompok Y?").
+:::
+
+# Penutup {background-color="#14497F"}
+
+## Rekap Pertemuan 5
+
+::: {.incremental}
+* Sebelum menganalisis, kembali ke *Define*: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.
+* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda **reproducible** — menuliskannya *sebelum* melihat hasil adalah inti dari ***preregistration***, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.
+* Tiga kategori teknik analisis: **deskriptif**, **komparatif**, **korelasional** — pivot table adalah alat serbaguna untuk ketiganya.
+* Jamovi/R adalah pelengkap spreadsheet untuk uji statistik formal — tidak wajib, tapi baik untuk diketahui.
+* Urutan yang benar: **bersihkan dulu** (termasuk membalik item *reverse-scored*), baru hitung skor skala.
+:::
+
+## Referensi {.scrollable .smaller}
+
+* Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a>
+:::

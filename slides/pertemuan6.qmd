@@ -1,0 +1,273 @@
+---
+title: "Interpretasi Data"
+subtitle: "Literasi Data dan Penulisan Ilmiah"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* Setelah data dianalisis, **bagaimana melaporkannya**? 
+* Menarasikan ketidakpastian dengan ***hedging language***
+* Studi kasus: generalisasi tergesa-gesa dari subkelompok
+* Melaporkan rentang kepercayaan (*confidence interval*) dengan benar
+* Etika analisis data: mengenali *questionable research practices*
+* 2️⃣ aktivitas (kelompok & mandiri)
+:::
+
+::: notes
+Metode minggu ini "Tugas" dengan kriteria "Etika dan Profesionalisme" — pastikan porsi QRP di akhir sesi tidak terpotong waktu; ini salah satu bagian paling penting mata kuliah ini.
+:::
+
+# Data Telah Dianalisis, Lalu? 📢 {background-color="#14497F"}
+
+## Tiga jenis audiens
+
+Setelah data dianalisis (Pertemuan 5), temuan pentingnya harus dikomunikasikan. Cara Anda mengomunikasikannya sangat bergantung pada **siapa** audiensnya:
+
+::: {.incremental}
+1. **Komunitas akademik serumpun** — latar belakang keilmuannya sama dengan Anda.
+2. ***Informed lay public*** — orang awam terdidik; mampu mencerna informasi kompleks, tapi di luar spesialisasi Anda.
+3. ***General lay public*** — orang awam tanpa latar belakang sains sama sekali.
+:::
+
+## Komunitas akademik serumpun
+
+::: {.incremental}
+* Anda perlu memperhatikan **norma/kelaziman** yang berlaku di komunitas Anda — tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis.
+* Tiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, **Psikologi → APA**.
+* Dengan sejawat serumpun, Anda **diperbolehkan** (bahkan didorong) memakai istilah teknis — jargon justru menambah akurasi komunikasi, bukan menghalanginya.
+:::
+
+## Untuk publik awam
+
+::: {.incremental}
+* Berkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan **presisi** dan **keterbacaan**.
+* Ilmuwan yang baik berhati-hati menjelaskan hasil analisisnya — menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.
+* Bagian tersulit: **menarasikan ketidakpastian**. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting.
+:::
+
+::: {.callout-important}
+Ingat: statistik pada dasarnya bicara soal **probabilitas** — hindari diksi yang menyiratkan realitas yang serba pasti/rigid.
+:::
+
+# Menarasikan Ketidakpastian: *Hedging Language* 🎈 {background-color="#14497F"}
+
+## Apa itu *hedging language*?
+
+::: {.callout-note}
+### Definisi
+***Hedging language*** adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data — interpretasi digambarkan dengan *tone* yang berhati-hati, bukan tegas mutlak.
+:::
+
+Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," "pada sampel ini," "perlu diuji lebih lanjut."*
+
+## Contoh 1: Durasi tidur kucing vs. anjing
+
+> Pada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.
+
+::: {.fragment}
+**Interpretasi yang di-*hedge* dengan baik**: *"Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar."*
+:::
+
+::: {.callout-tip}
+Perhatikan: kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstrem (*outlier*)** dalam sampel — bukan sekadar berkata "hasilnya tidak pasti" tanpa alasan.
+:::
+
+## Contoh 2: Panjang lengan vs. tungkai
+
+> Grafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja — semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.
+
+::: {.fragment}
+Di sini hubungannya memang **kuat dan jelas** — *hedging* yang berlebihan justru tidak tepat. Kuncinya bukan "selalu ragu-ragu," tapi **menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya**.
+:::
+
+# Studi Kasus: Generalisasi Tergesa-Gesa dari Subkelompok ⚠️ {background-color="#14497F"}
+
+## Mari kita lihat datanya
+
+Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui telepon tentang kesediaan vaksinasi. Dari 1.200 partisipan, sekitar **120 orang (10%)** berusia 22–25 tahun.
+
+::: {.fragment}
+**Klaim yang dipublikasikan media**: hanya **45,1%** partisipan usia 22–25 tahun bersedia divaksinasi — proporsi **terendah** di antara semua kelompok usia. Kesimpulan yang beredar: generasi muda (Gen Z) banyak menolak vaksinasi.
+:::
+
+## Persoalannya...
+
+::: {.incremental}
+* Membandingkan proporsi bersedia/tidak bersedia divaksin bersifat **relatif terhadap kelompoknya sendiri** — tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.
+* Kesimpulan "Gen Z banyak menolak vaksin" hanya didasarkan pada kelompok usia 22–25 tahun, **tanpa melibatkan** partisipan usia 21 tahun ke bawah.
+* Ketika dilakukan **analisis korelasi** antara usia dan kesediaan vaksinasi — dengan **seluruh** kelompok usia dilibatkan — hubungannya ternyata **sangat lemah**.
+:::
+
+## Kesimpulannya: Generalisasi Tergesa-Gesa
+
+::: {.callout-important}
+### Generalisasi tergesa-gesa dari subkelompok
+Menyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, tanpa mengecek apakah pola itu bertahan saat seluruh kelompok dilibatkan, adalah bentuk **penyalahgunaan statistik** yang, sayangnya, cukup sering terjadi.
+:::
+
+::: {.fragment}
+***Moral of the story***: selalu cek kesesuaian antara klaim dan data. Kalau sebuah klaim terasa *too good to be true* (atau *too alarming to be true*), itu tanda Anda perlu memeriksa datanya lebih teliti.
+:::
+
+# Melaporkan Rentang Kepercayaan 📏 {background-color="#14497F"}
+
+## Kenapa *confidence interval* penting
+
+::: {.incremental}
+* Saat melaporkan hasil statistik, selalu sertakan **rentang kepercayaan (*confidence interval*, CI)**, bukan hanya *point estimate*-nya saja.
+* CI memberi gambaran yang jauh lebih realistis tentang data dan ketidakpastian yang menyertainya.
+* Melaporkan CI adalah **keharusan** di banyak komunitas akademik — termasuk APA — meski menerjemahkannya ke bahasa awam bukan pekerjaan mudah.
+:::
+
+## Bagaimana melaporkan CI dengan benar
+
+Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (45,1%) dengan *margin of error* 2,9%.
+
+::: columns
+::: {.column width="50%"}
+**Sebelum**
+
+> "Hanya 45,1% partisipan berusia 22–25 tahun bersedia divaksinasi."
+:::
+::: {.column width="50%"}
+**Sesudah**
+
+> "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45,1% yang bersedia divaksinasi (rentang kepercayaan 95%: 42,2–48,0%). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya — bukan berarti ada peluang 95% bahwa nilai sebenarnya ada di rentang *ini*. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat — sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
+:::
+:::
+
+::: {.callout-tip}
+Catatan: margin of error ±2,9% ini sebenarnya angka *topline* untuk seluruh sampel (n=1.200) — untuk subkelompok usia 22–25 tahun (n≈120) margin of error-nya jauh lebih lebar (kira-kira ±9%). Inilah kesalahan pelaporan yang umum terjadi: memakai MoE survei keseluruhan untuk subkelompok yang jauh lebih kecil.
+:::
+
+## 🧩 Aktivitas kelompok: perbaiki narasi laporan
+
+::: {.callout-warning}
+### Kerjakan berkelompok (15 menit)
+Dosen akan membagikan sebuah paragraf hasil analisis yang ditulis **tanpa** *hedging language* dan **tanpa** CI (mis. klaim tegas tentang perbedaan skor kepribadian antar kelompok, berdasarkan sampel kecil).
+
+1. Identifikasi klaim mana yang terlalu tegas/berlebihan.
+2. Tuliskan ulang paragraf tersebut dengan *hedging language* yang sesuai.
+3. Tambahkan cara melaporkan rentang kepercayaan yang wajar (boleh hipotetis, fokus pada **cara menuliskannya**, bukan menghitungnya).
+:::
+
+::: notes
+Siapkan paragraf contoh sebelum kelas — bisa memakai skenario perbandingan skor Extraversion antar gender dari dataset Big Five (Pertemuan 5), sengaja ditulis dengan klaim berlebihan ("perempuan JAUH lebih ekstrovert daripada laki-laki") untuk diperbaiki.
+:::
+
+# Etika Analisis Data: *Questionable Research Practices* ⚖️ {background-color="#14497F"}
+
+## Ketika analisis data disalahgunakan
+
+::: {.incremental}
+* Menganalisis data bukan cuma soal keterampilan teknis — ada **etika** yang menyertainya.
+* ***Questionable research practices*** (QRP) adalah praktik analisis yang secara teknis "tidak curang" tapi menyesatkan kesimpulan — dan menjadi salah satu penyebab utama krisis replikasi dalam psikologi.
+* Dua bentuk QRP yang paling umum: ***p-hacking*** dan **HARKing**.
+:::
+
+## *P-hacking*
+
+::: {.callout-caution}
+### Definisi
+Mengulik analisis — mencoba berbagai kombinasi variabel, metode, atau ambang batas — **sampai** ditemukan hasil yang signifikan secara statistik (*p* < ,05), lalu hanya melaporkan hasil itu saja.
+:::
+
+Contoh bentuknya:
+
+::: {.incremental}
+* Membuang beberapa partisipan/observasi "yang mengganggu" hasil, tanpa alasan metodologis yang jelas.
+* Mencoba berbagai cara mengelompokkan variabel (mis. usia dibagi 2 kelompok, lalu 3, lalu 4) sampai salah satu menghasilkan signifikansi.
+* Menjalankan puluhan uji korelasi dan hanya melaporkan yang signifikan.
+:::
+
+## HARKing
+
+::: {.callout-caution}
+### *Hypothesizing After the Results are Known*
+Menyajikan temuan yang sebenarnya ditemukan **secara eksploratif** (setelah melihat data) seolah-olah itu adalah hipotesis yang sudah dirumuskan **sejak awal**, sebelum data dikumpulkan.
+:::
+
+::: {.fragment}
+Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya justru untuk **mencegah** HARKing — dengan mencatat hipotesis dan rencana analisis **sebelum** melihat hasilnya, Anda punya jejak yang jelas antara mana yang *confirmatory* (diuji sesuai rencana) dan mana yang *exploratory* (ditemukan di tengah jalan).
+:::
+
+## Kenapa ini berbahaya
+
+::: {.incremental}
+* *P-hacking* menyebabkan **inflasi temuan *false positive*** — hasil yang terlihat signifikan padahal sebenarnya kebetulan statistik.
+* HARKing membuat pembaca percaya sebuah hipotesis "berhasil diuji secara ketat", padahal sebenarnya ditemukan lewat coba-coba.
+* Keduanya berkontribusi pada **krisis replikasi**: banyak temuan populer dalam psikologi ternyata gagal direplikasi peneliti lain.
+:::
+
+::: {.callout-note}
+Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing* memang **dibolehkan** — bahkan dianjurkan — dalam *narrative review* yang mensintesis puluhan studi ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)). Yang **tidak boleh** adalah menyamarkan eksplorasi sebagai konfirmasi dalam **satu** studi empiris tunggal — itulah inti masalah HARKing.
+:::
+
+## Cara menjaga diri dari QRP
+
+::: {.incremental}
+* **Susun *analysis plan* sebelum melihat hasil** (Pertemuan 5) — idealnya bahkan sebelum data dikumpulkan (*preregistration*).
+* **Laporkan semua analisis yang Anda coba**, bukan hanya yang signifikan — termasuk yang "gagal".
+* **Bedakan secara eksplisit** dalam naskah Anda: mana temuan yang *confirmatory* (menguji hipotesis awal) dan mana yang *exploratory* (ditemukan setelah melihat data).
+* Analisis eksploratif **boleh** dilaporkan — asal jujur disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.
+:::
+
+## 🧩 Aktivitas mandiri: kenali QRP-nya
+
+::: {.callout-warning}
+### Kerjakan sendiri, lalu diskusikan berpasangan (10 menit)
+Baca skenario berikut: *"Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: 'Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.'"*
+
+1. Identifikasi QRP apa yang terjadi di sini — *p-hacking*, HARKing, atau keduanya?
+2. Bagaimana seharusnya peneliti ini melaporkan temuannya secara jujur?
+:::
+
+::: notes
+Jawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan jujur disebut eksploratif.
+:::
+
+# Penutup {background-color="#14497F"}
+
+## Rekap Pertemuan 6
+
+::: {.incremental}
+* Cara melaporkan temuan bergantung pada audiens: **komunitas akademik**, *informed lay public*, atau *general lay public*.
+* ***Hedging language*** menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu tegas, jangan juga terlalu ragu tanpa alasan.
+* **Generalisasi tergesa-gesa** mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.
+* Selalu laporkan **rentang kepercayaan**, bukan hanya *point estimate*.
+* Waspadai *p-hacking* dan **HARKing** — *analysis plan* dari Pertemuan 5 adalah pertahanan utama Anda.
+:::
+
+## Referensi {.scrollable .smaller}
+
+* Baumeister, R. F., & Leary, M. R. (1997). Writing narrative literature reviews. *Review of General Psychology, 1*(3), 311–320. <https://doi.org/10.1037/1089-2680.1.3.311>
+* John, L. K., Loewenstein, G., & Prelec, D. (2012). Measuring the prevalence of questionable research practices with incentives for truth telling. *Psychological Science, 23*(5), 524–532. <https://doi.org/10.1177/0956797611430953>
+* Kerr, N. L. (1998). HARKing: Hypothesizing after the results are known. *Personality and Social Psychology Review, 2*(3), 196–217. <https://doi.org/10.1207/s15327957pspr0203_4>
+* Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+* Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2011). False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant. *Psychological Science, 22*(11), 1359–1366. <https://doi.org/10.1177/0956797611417632>
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a>
+:::

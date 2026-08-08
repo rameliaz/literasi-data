@@ -1,0 +1,7 @@
+rmarkdown/
+rmarkdown/**
+*.Rmd
+*.R
+*.pptx
+*.Rproj
+CLAUDE.md

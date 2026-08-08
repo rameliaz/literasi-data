@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - libs/
+    - img/
+    - materials/
+    - articles/
+    - slides/libs/
+  render:
+    - index.qmd
+    - slides/
+
+website:
+  title: "Literasi Data dan Penulisan Ilmiah"
+  navbar:
+    left:
+      - href: https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/
+        icon: house
+        text: "oleh Rizqy Amelia Zein"
+    right:
+      - text: "Materi"
+        menu:
+          - text: "1. Pendahuluan: Literasi Data dalam Psikologi"
+            href: slides/pertemuan1.html
+          - text: "2. Bekerja dengan Data Tabular"
+            href: slides/pertemuan2.html
+          - text: "3. Menemukan dan Memanfaatkan Data Terbuka"
+            href: slides/pertemuan3.html
+          - text: "4. Praktik Verifikasi dan Pembersihan Data"
+            href: slides/pertemuan4.html
+          - text: "5. Merencanakan Analisis Data"
+            href: slides/pertemuan5.html
+          - text: "6. Praktik Analisis Data Sederhana"
+            href: slides/pertemuan6.html
+          - text: "7. Menyajikan Data"
+            href: slides/pertemuan7.html
+          - text: "12. Menyusun Argumen dan Struktur Naskah"
+            href: slides/pertemuan12.html
+      - icon: envelope
+        href: "mailto:ameliazein@gmail.com"
+  search:
+    location: navbar
+    type: overlay
+  page-footer:
+      left: "&#169; 2026 Rizqy Amelia Zein"
+      right: "Magister Psikologi, Universitas Airlangga"
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-float: true
+    toc-depth: 3
+    df-print: paged
+    highlight-style: github

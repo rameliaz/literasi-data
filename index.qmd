@@ -1,0 +1,189 @@
+---
+title: "Literasi Data dan Penulisan Ilmiah"
+---
+
+Magister Psikologi, Fakultas Psikologi, Universitas Airlangga.
+Semester Gasal 2026/2027 — 4 SKS (FPS25801005).
+
+**Dosen pengampu:** Dr. phil. Rizqy Amelia Zein, M.Sc. · Dr. Rahkman Ardi, M.Psych.
+**PJMK:** Dr. Rahkman Ardi, M.Psych.
+
+::: {.callout-warning}
+#### *Work in Progress* 👷‍♀️
+Materi mata kuliah ini sedang disusun secara bertahap. Slide pertemuan yang sudah tersedia bisa diakses lewat menu **Materi** di atas atau lewat tabel [Rencana Pertemuan](#rencana-pertemuan) di bawah.
+:::
+
+## Deskripsi Mata Kuliah
+
+Mata kuliah ini membekali mahasiswa dengan literasi data serta keterampilan menulis ilmiah yang sesuai dengan standar akademik magister. Mahasiswa akan mempelajari alur kerja data (*Data Pipeline*) mulai dari merumuskan pertanyaan berbasis data, menemukan dan memperoleh data, memverifikasi dan membersihkan data, hingga menganalisis dan menyajikannya secara visual (termasuk melalui infografis), dengan studi kasus dari data psikologi (misalnya dataset psikometrik terbuka). Selain itu, mahasiswa akan mempelajari penyusunan *narrative review* yang argumentatif dan berbasis bukti sebagai salah satu format penulisan ilmiah dalam psikologi. Sebagai bagian dari penguatan keterampilan riset, mata kuliah ini juga memperkenalkan berbagai alat bantu otomatisasi yang dapat digunakan dalam keseluruhan proses penelitian, mulai dari pencarian dan pengelolaan data, manajemen referensi, analisis data, hingga penyusunan naskah dan visualisasi data. Penggunaan alat ini ditekankan pada aspek tanggung jawab dan etika akademik, termasuk etika penggunaan data dan akal imitasi (AI), sehingga mahasiswa dapat memanfaatkannya secara efektif tanpa mengorbankan integritas ilmiah.
+
+### Manfaat mata kuliah
+
+Dengan mengikuti mata kuliah ini, mahasiswa mampu mengelola, memverifikasi, dan menganalisis data psikologi secara mandiri melalui kerangka *Data Pipeline*, serta menyajikannya secara visual yang mudah dipahami oleh audiens ilmiah maupun awam. Mahasiswa juga mampu menyusun *narrative review* yang argumentatif dan berbasis bukti sebagai salah satu bentuk komunikasi ilmiah, serta memanfaatkan alat bantu otomatisasi (manajemen referensi, perangkat analisis, dan visualisasi data) secara efektif dan beretika dalam proses penelitian.
+
+### Mata kuliah prasyarat
+
+Tidak ada.
+
+## Capaian Pembelajaran Mata Kuliah (CPMK)
+
+1. **Memahami** prinsip literasi data serta cara mengorganisir, menyajikan, dan mendukung argumen dalam penulisan ilmiah berbasis data (C2 — *Understanding*).
+2. **Menganalisis** struktur, karakteristik, dan perbedaan antar format penulisan ilmiah serta memilih format yang paling sesuai dengan tujuan penelitian (C4 — *Analyzing*).
+3. **Menerapkan** prinsip akademik dan etika dalam menyusun laporan penelitian yang sistematis, transparan, dan bertanggung jawab (C3 — *Applying*).
+4. **Menggunakan** alat bantu otomatisasi dalam seluruh proses penelitian (mis. pencarian literatur, manajemen referensi, analisis data, penulisan) secara bertanggung jawab dan etis (C3 — *Applying*).
+5. **Mengembangkan** tulisan ilmiah berbasis data yang memenuhi kaidah akademik serta siap untuk publikasi atau diseminasi (C6 — *Creating*).
+
+### Capaian pembelajaran lulusan yang didukung
+
+Lulusan Magister Psikologi diharapkan mampu menjadi peneliti atau akademisi yang berintegritas, inovatif, kritis dalam berkontribusi pada pengembangan ilmu pengetahuan psikologi dan penerapannya secara inter- atau multidisipliner serta mengomunikasikan hasil penelitiannya kepada komunitas ilmiah dan masyarakat.
+
+## Metode Pembelajaran
+
+Pembelajaran dilakukan secara tatap muka melalui ceramah interaktif, diskusi berbasis artikel/jurnal, studi kasus, dan presentasi kelompok untuk melatih penerapan konsep pada pengalaman sehari-hari.
+
+## Rencana Pertemuan
+
+Pertemuan 1–7 dan 11 dilaksanakan **daring** melalui [Microsoft Teams](https://teams.microsoft.com/meet/454419255686755?p=VvpbkJQA8szVc8HC1r) (Amel). Pertemuan 9, 10, dan 12 dilaksanakan **luring** (Ardi). Pertemuan 13–15 (praktik menulis, *peer review*, revisi) dijadwalkan menyesuaikan kesepakatan dengan mentor S3 pendamping.
+
+| # | Tanggal | Topik | Moda | Dosen | Materi |
+|:--|:--|:------|:--|:--|:--|
+| 1 | Kamis, 13 Agu · 14.00 | Pendahuluan: Literasi Data dalam Psikologi | Kuliah, Diskusi Kelompok (daring) | Amel | [Slide](slides/pertemuan1.html) |
+| 2 | Kamis, 20 Agu · 13.00 | Bekerja dengan Data Tabular | Kuliah, Demo (daring) | Amel | [Slide](slides/pertemuan2.html) |
+| 3 | Kamis, 27 Agu · 13.00 | Menemukan dan Memanfaatkan Data Terbuka | Kuliah, Diskusi Kelompok (daring) | Amel | [Slide](slides/pertemuan3.html) |
+| 4 | Kamis, 3 Sep · 13.00 | Praktik Verifikasi dan Pembersihan Data | Kuliah, Diskusi Kelompok (daring) | Amel | [Slide](slides/pertemuan4.html) |
+| 5 | Kamis, 10 Sep · 13.00 | Menganalisis Data — merencanakan analisis, kuis | Kuliah, Tugas (daring) | Amel | [Slide](slides/pertemuan5.html) |
+| 6 | Kamis, 17 Sep · 13.00 | Interpretasi Data | Kuliah, Tugas (daring) | Amel | [Slide](slides/pertemuan6.html) |
+| 7 | Kamis, 24 Sep · 13.00 | Menyajikan Data | Kuliah, Demo (daring) | Amel | [Slide](slides/pertemuan7.html) |
+| 8 | 28 Sep – 9 Okt | **UTS** — Proyek Literasi Data (kelompok) | Ujian Tengah Semester | — | — |
+| 9 | 15 Okt · 08.00 | Dari Fenomena ke Topik Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* |
+| 10 | 22 Okt · 08.00 | Ragam Tinjauan Pustaka dan Narrative Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* |
+| 11 | 29 Okt · 13.00 | Praktik Pencarian dan Sintesis Literatur | Praktikum, Diskusi Kelompok (daring) | Amel | *segera* |
+| 12 | 5 Nov · 08.00 | Menyusun Argumen dan Struktur Naskah | Kuliah, Presentasi (luring) | Ardi | [Slide](slides/pertemuan12.html) |
+| 13 | 12 Nov · disepakati bersama mentor | Praktik Menulis Draf dan Merancang Infografis | Praktikum, Peer Teaching | Amel | *segera* |
+| 14 | 19 Nov · disepakati bersama mentor | Peer Review | Praktikum, Peer Teaching | Amel | *segera* |
+| 15 | 26 Nov · disepakati bersama mentor | Revisi dan Finalisasi | Praktikum, Peer Teaching | Amel | *segera* |
+| 16 | 7–18 Des | **UAS** — Naskah Narrative Review dan Infografis (final) | Ujian Akhir Semester | — | — |
+
+: Rencana pertemuan, Semester Gasal 2026/2027 {.striped .hover tbl-colwidths="[4,13,35,20,8,10]"}
+
+::: {.callout-note collapse="true"}
+#### Catatan tentang perkuliahan daring
+Mahasiswa **tidak perlu** memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat *browser* tanpa memasang aplikasinya.
+
+Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain `@drive.unair.ac.id`). Lihat [Panduan Penggunaan OneDrive dan MS Teams](https://drive.google.com/file/d/1GZRz9a7TBCpDvYjJJE_ny8-3rgShKK_6/view) dari Direktorat Sistem Informasi (DSI) Universitas Airlangga.
+:::
+
+## Prosedur Pendampingan Mentor S3 (Pertemuan 13–15)
+
+Naskah *narrative review* dan infografis dikerjakan **secara individu** oleh setiap mahasiswa. Untuk mendukung proses ini, mahasiswa dikelompokkan ke dalam kelompok pendampingan (3–4 orang) yang didampingi oleh satu mentor S3 secara tetap pada Pertemuan 13–15, sehingga mahasiswa juga dapat belajar dari umpan balik yang diterima teman sekelompok (*peer learning*) — meski penilaian tetap per mahasiswa.
+
+1. **Pertemuan 13 — Penulisan Draf.** Setiap mahasiswa merancang dan mulai menulis *outline* (kisi-kisi) naskah *narrative review* dan infografis secara individu, lalu mengirimkannya kepada mentor S3 yang ditugaskan paling lambat akhir Pertemuan 13. Mentor S3 hadir di kelas untuk mendampingi dan menjawab pertanyaan mahasiswa.
+2. **Pertemuan 14 — Umpan Balik.** Mentor S3 menyampaikan umpan balik individual kepada setiap mahasiswa dalam sesi kelompok pendampingan (±10–15 menit per mahasiswa), berjalan bersamaan dengan sesi peer review antar mahasiswa.
+3. **Pertemuan 15 — Verifikasi Revisi.** Setiap mahasiswa merevisi naskah dan infografis berdasarkan umpan balik Pertemuan 14. Mentor S3 melakukan pengecekan singkat (dapat asinkron) untuk memastikan revisi telah diakomodasi, sebelum naskah dan infografis final dikumpulkan sebagai UAS pada Pertemuan 16.
+
+Setiap mahasiswa akan diberi tahu kelompok pendampingan dan nama mentornya oleh dosen pengampu sebelum Pertemuan 13 dimulai. Umpan balik mentor S3 bersifat **formatif** — tidak menggantikan penilaian akhir, yang tetap menjadi kewenangan dosen pengampu berdasarkan rubrik pada Rancangan Tugas.
+
+## Tugas dan Penilaian
+
+Terdapat tiga komponen tugas yang dinilai dalam mata kuliah ini:
+
+| Komponen | Bobot | Cakupan |
+|:--|:--|:--|
+| Kuis | 10% | Pertemuan 5 |
+| UTS — Proyek Literasi Data (kelompok) | 40% | Pertemuan 8 |
+| UAS — Naskah *Narrative Review* dan Infografis | 50% | Pertemuan 16 |
+| **Total** | **100%** | |
+
+: Komponen penilaian {.striped tbl-colwidths="[40,15,45]"}
+
+### Kuis (Pertemuan 5) — 10%
+
+Mahasiswa mengerjakan kuis penyusunan rencana analisis data: merumuskan hipotesis dari pertanyaan penelitian, memilih teknik analisis yang sesuai (deskriptif, komparatif, atau korelasional), serta menghitung skor skala dan statistik deskriptif — termasuk perbandingan sederhana antar kelompok — pada dataset psikometrik.
+
+### UTS — Proyek Literasi Data, kelompok (Pertemuan 8) — 40%
+
+Kelompok (3–4 orang) memilih satu dataset psikologi/ilmu sosial terbuka (mis. Open Psychometrics atau daftar dataset yang disediakan), menerapkan tahapan *Data Pipeline* (Define → Find → Get → Verify → Clean → Analyze → Present), dan menyajikan hasilnya dalam laporan singkat (maks. 1500 kata) disertai minimal satu visualisasi data. Laporan mencantumkan kontribusi masing-masing anggota kelompok dan dikumpulkan lewat Psyche paling lambat Pertemuan 8.
+
+Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
+
+| Kriteria | Indikator | Nilai maksimum |
+|:--|:--|--:|
+| Ketepatan Rumusan Pertanyaan (*Define*) | Pertanyaan jelas dan dapat dijawab menggunakan dataset yang dipilih | 15 |
+| Verifikasi dan Pembersihan Data (*Verify & Clean*) | Proses verifikasi kualitas data dan pembersihan data terdokumentasi dan tepat | 25 |
+| Ketepatan Analisis (*Analyze*) | Teknik analisis deskriptif sesuai jenis data dan pertanyaan yang dirumuskan | 25 |
+| Kualitas Visualisasi dan Laporan (*Present*) | Visualisasi tepat, jelas, dan mengomunikasikan temuan secara efektif; laporan tertulis baik | 25 |
+| Kolaborasi Kelompok | Kontribusi anggota tercatat dan merata pada setiap tahapan pengerjaan | 10 |
+| **Total** | | **100** |
+
+: Rubrik penilaian UTS (Rancangan Tugas) {.striped tbl-colwidths="[38,50,12]"}
+
+### UAS — Naskah *Narrative Review* dan Infografis, final (Pertemuan 16) — 50%
+
+Mahasiswa mengumpulkan naskah *narrative review* individu yang telah direvisi berdasarkan umpan balik peer review dan mentor S3, beserta infografis pendukungnya, siap untuk publikasi atau diseminasi.
+
+Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
+
+| Kriteria | Indikator | Nilai maksimum |
+|:--|:--|--:|
+| Kedalaman Sintesis Literatur | Sintesis tematik yang mendalam, bukan ringkasan per-artikel; argumen didukung bukti/referensi relevan | 25 |
+| Struktur, Kaidah Akademik, dan Etika Penulisan | Struktur *narrative review* baku, sitasi konsisten (APA), bebas pelanggaran etika (plagiarisme, transparansi AI) | 20 |
+| Kualitas dan Ketepatan Infografis | Menyajikan pesan utama sintesis secara visual, jelas, dan sesuai naskah | 20 |
+| Koherensi dan Kualitas Argumentasi | Argumen logis, koheren, dan konsisten dari awal hingga akhir | 15 |
+| Proses Pendampingan dan Tindak Lanjut Umpan Balik Mentor S3* | Dinilai dosen berdasarkan Lembar Umpan Balik Mentor S3 (Pertemuan 13–15) | 20 |
+| **Total** | | **100** |
+
+: Rubrik penilaian UAS (Rancangan Tugas) {.striped tbl-colwidths="[38,50,12]"}
+
+*Skor kriteria ini dinilai dosen berdasarkan Lembar Umpan Balik Mentor S3 (Pertemuan 13–15): kejelasan arah/argumen naskah, proses sintesis yang tampak, kejelasan alasan pemilihan sumber, evaluasi kritis atas substansi artikel yang dibaca, kejelasan konsep infografis, dan tindak lanjut umpan balik Pertemuan 14 yang terverifikasi pada Pertemuan 15. Umpan balik mentor bersifat formatif; keputusan nilai akhir tetap di tangan dosen pengampu.
+
+### Kriteria nilai akhir
+
+Mengikuti peraturan akademik Universitas Airlangga:
+
+| Nilai angka | Nilai huruf |
+|:--|:--|
+| 86 – 100 | A |
+| 78 – <86 | AB |
+| 70 – <78 | B |
+| 62 – <70 | BC |
+| 54 – <62 | C |
+| 40 – <54 | D |
+| 0 – <40 | E |
+
+: Konversi nilai {.striped tbl-colwidths="[65,35]"}
+
+## Ketentuan Lain
+
+- **Keterlambatan.** Toleransi keterlambatan perkuliahan adalah **15 menit**. Mahasiswa yang terlambat melebihi batas tersebut tidak diperkenankan mengikuti perkuliahan pada hari itu.
+- **Kehadiran.** Mahasiswa diperbolehkan mengikuti UAS jika kehadirannya **minimal 75%**. Apabila kehadiran kurang dari 75%, mahasiswa mendapatkan nilai **E** untuk mata kuliah ini.
+- **Ketidakhadiran karena sakit/tugas.** Laporkan kepada PJMK/dosen pengampu **pada hari pelaksanaan perkuliahan**. Bukti dukung berupa surat keterangan sakit/surat tugas disampaikan ke Bagian Akademik dan PJMK/dosen pengampu **selambat-lambatnya 3 hari** sejak ketidakhadiran. Melewati batas waktu tersebut, mahasiswa tercatat tidak hadir.
+- **Integritas akademik.** Mahasiswa yang melakukan kecurangan akademis dalam segala bentuknya dinyatakan mendapatkan nilai **E** untuk mata kuliah ini.
+
+---
+
+## Bahan Bacaan Wajib
+
+- Open Knowledge Foundation & International Republican Institute. (2021). *Data Literacy Curriculum*.
+- Wickham, H. (2014). Tidy data. *Journal of Statistical Software*, *59*(10). <https://doi.org/10.18637/jss.v059.i10>
+- Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+- Daftar dataset publik untuk penelitian psikologi dan ilmu sosial (dokumen kolaboratif komunitas). <https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit>
+- Republik Indonesia. (2022). *Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi*.
+- Knaflic, C. N. (2022). *Storytelling with data: A data visualization guide for business professionals*. Wiley.
+- Booth, A. (2004). Chapter 6: Formulating answerable questions. In A. Booth & A. Brice (Eds.), *Evidence-based practice for information professionals: A handbook*. Facet.
+- Booth, A., & Grant, M. J. (2009). A typology of reviews: An analysis of 14 review types and associated methodologies. *Health Information and Libraries Journal*, *26*, 91–108. <https://doi.org/10.1111/j.1471-1842.2009.00848.x>
+- Snyder, H. (2019). Literature review as a research methodology: An overview and guidelines. *Journal of Business Research*, *104*, 333–339. <https://doi.org/10.1016/j.jbusres.2019.07.039>
+- Baumeister, R. F., & Leary, M. R. (1997). Writing narrative literature reviews. *Review of General Psychology*, *1*(3), 311–320. <https://doi.org/10.1037/1089-2680.1.3.311>
+- Torraco, R. J. (2016). Writing integrative literature reviews: Using the past and present to explore the future. *Human Resource Development Review*, *15*(4), 404–428. <https://doi.org/10.1177/1534484316671606>
+- American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
+- Ardi, R. (Ed.). (2023). *Panduan pencegahan plagiarisme*. Unit Penelitian Publikasi Psikologi Fakultas Psikologi Universitas Airlangga.
+- Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. *Journal of Business Research*, *133*, 285–296. <https://doi.org/10.1016/j.jbusres.2021.04.070>
+- Magister Psikologi Universitas Airlangga. (n.d.). *Panduan penulisan tesis*. Universitas Airlangga. <https://magisterprofesi.psikologi.unair.ac.id/wp-content/uploads/sites/9/2020/04/Pedoman-Penulisan-Tesis-Psikologi.pdf>
+
+---
+
+::: {.callout-tip appearance="simple"}
+Halaman ini merupakan ringkasan **Kontrak Perkuliahan** dan **Rancangan Tugas** mata kuliah ini.
+:::
+
+### *Disclosure* penggunaan akal imitasi (AI)
+Saya menggunakan Claude Code (model Opus 5 dan Sonnet 5) untuk *brainstorming* dna menyusun *ouline* materi, menyusun draf RPS/kontrak perkuliahan, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya (Amel) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.

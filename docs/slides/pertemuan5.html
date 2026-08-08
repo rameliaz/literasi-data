@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Rizqy Amelia Zein">
+  <meta name="dcterms.date" content="2026-08-08">
+  <title>Literasi Data dan Penulisan Ilmiah – Merencanakan Analisis Data</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-14c7313e0bd1a6ac1391ac8d6dd3db46.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Merencanakan Analisis Data</h1>
+  <p class="subtitle">Literasi Data dan Penulisan Ilmiah</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Rizqy Amelia Zein
+</div>
+        <p class="quarto-title-affiliation">
+            <a href="https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/"><em>Departemen Psikologi, Universitas Airlangga</em></a>
+          </p>
+    </div>
+</div>
+
+  <p class="date">2026-08-08</p>
+</section>
+<section id="outline" class="slide level2">
+<h2><em>Outline</em></h2>
+<ul>
+<li class="fragment">Dari <strong>pertanyaan penelitian</strong> ke <strong>hipotesis</strong></li>
+<li class="fragment">Menyusun <strong><em>analysis plan</em></strong> — dan kenapa <strong><em>preregistration</em></strong> bisa menguatkannya</li>
+<li class="fragment">Tiga kategori teknik analisis: <strong>deskriptif, komparatif, korelasional</strong></li>
+<li class="fragment">Sekilas Jamovi/R sebagai pelengkap spreadsheet</li>
+<li class="fragment">Studi kasus: menghitung skor skala dan membandingkan kelompok pada dataset <em>Big Five</em></li>
+<li class="fragment">2️⃣ aktivitas (mandiri &amp; kelompok, salah satunya dinilai)</li>
+</ul>
+<aside class="notes">
+<p>Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section>
+<section id="dari-pertanyaan-ke-hipotesis" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Dari Pertanyaan ke Hipotesis 🎯</h1>
+
+</section>
+<section id="kembali-ke-define" class="slide level2">
+<h2>Kembali ke <em>Define</em></h2>
+<ul>
+<li class="fragment">Kita sudah melewati <strong>Find</strong>, <strong>Get</strong>, <strong>Verify</strong>, dan <strong>Clean</strong>. Sebelum masuk ke <strong>Analyze</strong>, kita perlu kembali sejenak ke tahap paling awal <em>Data Pipeline</em>: <strong>Define</strong>.</li>
+<li class="fragment">Tanpa pertanyaan penelitian yang jelas, Anda hanya punya <strong>tema</strong> — dan berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.</li>
+</ul>
+</section>
+<section id="dari-tema-ke-pertanyaan-penelitian" class="slide level2">
+<h2>Dari tema ke pertanyaan penelitian</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tema</th>
+<th>Pertanyaan penelitian</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Burnout</em> akademik</td>
+<td>Apakah beban tugas mingguan berkaitan dengan tingkat <em>burnout</em> pada mahasiswa magister?</td>
+</tr>
+<tr class="even">
+<td>Kesejahteraan psikologis</td>
+<td>Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<p>Pertanyaan yang <strong>presisi</strong> akan memberi tahu Anda persis data apa yang dibutuhkan. Bandingkan: <em>“Apakah mahasiswa terpengaruh media sosial?”</em> (terlalu kabur) vs.&nbsp;<em>“Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?”</em> (jelas variabel apa yang dicari).</p>
+</div>
+</section>
+<section id="merumuskan-hipotesis" class="slide level2">
+<h2>Merumuskan hipotesis</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Ciri hipotesis yang baik</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Sederhana, ringkas, dan yang terpenting: dapat diuji</strong> — Anda harus bisa membuktikannya salah.</p>
+</div>
+</div>
+</div>
+<p>Hipotesis berfungsi ganda:</p>
+<ul>
+<li class="fragment"><strong>Mempertajam</strong> proyek Anda — menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.</li>
+<li class="fragment"><strong>Menyusun narasi</strong> yang ingin Anda buktikan dengan data.</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Contoh: dari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: <em>“Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”</em></p>
+</div>
+</div>
+</div>
+</section>
+<section id="aktivitas-mandiri-dari-tema-ke-hipotesis" class="slide level2">
+<h2>🧩 Aktivitas mandiri: dari tema ke hipotesis</h2>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Kerjakan sendiri (10 menit)</strong></p>
+</div>
+<div class="callout-content">
+<p>Gunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber data terbuka), atau topik lain yang Anda minati.</p>
+<ol type="1">
+<li>Tuliskan <strong>tema</strong> riset Anda dalam satu kalimat.</li>
+<li>Persempit menjadi <strong>satu pertanyaan penelitian</strong> yang presisi dan <em>actionable</em>.</li>
+<li>Rumuskan <strong>satu hipotesis</strong> yang sederhana, ringkas, dan dapat diuji.</li>
+</ol>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Ini latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya, bukan sekadar latihan sekali pakai.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="menyusun-analysis-plan" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Menyusun <em>Analysis Plan</em> 📝</h1>
+
+</section>
+<section id="apa-itu-analysis-plan" class="slide level2">
+<h2>Apa itu <em>analysis plan</em>?</h2>
+<ul>
+<li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian <strong>transformasi</strong> yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.</li>
+<li class="fragment">Disusun <strong>setelah</strong> data dibersihkan — supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya, bukan sekadar deskripsi abstrak.</li>
+<li class="fragment">Tujuannya: siapa pun yang diberi data bersih dan <em>analysis plan</em> Anda harus bisa <strong>mereproduksi</strong> analisis Anda langkah demi langkah.</li>
+</ul>
+</section>
+<section id="contoh-analysis-plan" class="slide level2">
+<h2>Contoh <em>analysis plan</em></h2>
+<p>Untuk hipotesis <em>“beban tugas mingguan berkaitan dengan tingkat burnout”</em>:</p>
+<ol type="1">
+<li class="fragment">Hitung skor total <code>SKOR_BURNOUT</code> dari item-item skala burnout (<code>AVERAGE()</code>).</li>
+<li class="fragment">Kelompokkan responden berdasarkan <code>BEBAN_TUGAS</code> menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).</li>
+<li class="fragment">Untuk kelompok “beban tinggi”, hitung rata-rata <code>SKOR_BURNOUT</code>.</li>
+<li class="fragment">Untuk kelompok “beban rendah”, hitung rata-rata <code>SKOR_BURNOUT</code>.</li>
+<li class="fragment">Bandingkan kedua rata-rata tersebut.</li>
+</ol>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Kalau Anda belum bisa menyusun <em>analysis plan</em> selengkap ini di awal, tidak apa — wajar bagi pemula untuk mengeksplorasi data dulu. Yang penting: <strong>catat</strong> langkah yang berhasil begitu Anda menemukannya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="kenapa-analysis-plan-bisa-dikuatkan-lagi-preregistration" class="slide level2">
+<h2>Kenapa <em>analysis plan</em> bisa dikuatkan lagi: <em>preregistration</em></h2>
+<ul>
+<li class="fragment"><em>Analysis plan</em> yang Anda tulis <strong>sebelum</strong> melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar <strong><em>preregistration</em></strong> — mendaftarkan hipotesis dan rencana analisis <strong>secara terbuka</strong>, idealnya bahkan <strong>sebelum data dikumpulkan sama sekali</strong>.</li>
+<li class="fragment">Pendaftarannya biasa dilakukan di platform terbuka seperti <em>Open Science Framework</em> (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya — jadi ada bukti tertulis tentang apa yang Anda rencanakan <strong>sebelum</strong> tahu hasilnya.</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Kenapa ini penting</strong></p>
+</div>
+<div class="callout-content">
+<p><em>Preregistration</em> adalah cara paling tegas untuk membedakan <strong>penelitian konfirmatori</strong> (menguji hipotesis yang sudah dirumuskan sejak awal) dari <strong>penelitian eksploratif</strong> (menemukan pola baru setelah melihat data) — keduanya sah-sah saja, tapi harus jujur diberi label yang tepat, bukan dicampuradukkan.</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah — bahkan tanpa disadari — untuk mengubah hipotesis atau cara analisis Anda <strong>setelah</strong> melihat hasilnya, supaya “cocok” dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah bernama <em>p-hacking</em> dan <strong>HARKing</strong>.</p>
+</div>
+</section></section>
+<section>
+<section id="ragam-teknik-analisis" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Ragam Teknik Analisis 🔬</h1>
+
+</section>
+<section id="tiga-kategori-teknik-analisis" class="slide level2">
+<h2>Tiga kategori teknik analisis</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Deskriptif</strong></p>
+<p>Menjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.</p>
+</div><div class="column" style="width:33%;">
+<p><strong>Komparatif</strong></p>
+<p>Membandingkan nilai suatu variabel <strong>antar kelompok</strong> (mis. skor <em>Extraversion</em> antara laki-laki dan perempuan).</p>
+</div><div class="column" style="width:34%;">
+<p><strong>Korelasional</strong></p>
+<p>Melihat <strong>hubungan</strong> antara dua variabel atau lebih (mis. apakah <em>Conscientiousness</em> berkaitan dengan usia).</p>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Ada kategori keempat yang <strong>tidak</strong> dibahas mendalam di mata kuliah ini: analisis <strong>prediktif</strong> — yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pelatihan statistik lanjutan.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="pivot-table-alat-serbaguna-untuk-ketiga-teknik" class="slide level2">
+<h2>Pivot table: alat serbaguna untuk ketiga teknik</h2>
+<p>Pivot table (Pertemuan 2 sudah menyinggung tabel kontijensi — pivot table adalah versi interaktifnya) punya empat komponen:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Komponen</th>
+<th>Fungsi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Rows</strong></td>
+<td>Variabel utama yang ingin Anda lihat per kategori</td>
+</tr>
+<tr class="even">
+<td><strong>Columns</strong></td>
+<td>Variabel kedua untuk analisis silang</td>
+</tr>
+<tr class="odd">
+<td><strong>Values</strong></td>
+<td>Angka yang dihitung (<code>SUM</code>, <code>AVERAGE</code>, <code>COUNT</code>, dst.)</td>
+</tr>
+<tr class="even">
+<td><strong>Filter</strong></td>
+<td>Menyaring subset data tertentu</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<p>Kunci memakainya: mulai dengan kalimat <strong>“Saya ingin melihat…”</strong> — mis. <em>“Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender.”</em> → Rows: gender, Values: AVERAGE(Extraversion).</p>
+</div>
+</section></section>
+<section>
+<section id="sekilas-jamovir-sebagai-pelengkap-spreadsheet" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Sekilas Jamovi/R sebagai Pelengkap Spreadsheet 💻</h1>
+
+</section>
+<section id="kapan-spreadsheet-tidak-lagi-cukup" class="slide level2">
+<h2>Kapan spreadsheet tidak lagi cukup</h2>
+<ul>
+<li class="fragment">Spreadsheet sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana — dan itu cukup untuk keperluan mata kuliah ini.</li>
+<li class="fragment">Tapi begitu Anda butuh uji statistik formal (mis. <em>independent samples t-test</em>, ANOVA, korelasi dengan nilai <em>p</em>), Anda memerlukan perangkat lunak analisis statistik.</li>
+</ul>
+</section>
+<section id="dua-pilihan-populer" class="slide level2">
+<h2>Dua pilihan populer</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Jamovi / JASP</strong></p>
+<ul>
+<li>Gratis, antarmuka <em>point-and-click</em> — tidak perlu menulis kode.</li>
+<li>Bisa membaca langsung berkas <code>.sav</code>, <code>.csv</code>, <code>.xlsx</code>.</li>
+<li>Titik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>R</strong></p>
+<ul>
+<li>Berbasis kode/skrip — kurva belajarnya lebih curam di awal.</li>
+<li>Analisisnya sepenuhnya <strong>reproducible</strong>: skrip yang sama selalu menghasilkan hasil yang sama.</li>
+<li>Materi presentasi mata kuliah ini sendiri dibuat dengan R + Quarto!</li>
+</ul>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Mata kuliah ini <strong>tidak</strong> mengajarkan Jamovi/R secara mendalam — spreadsheet tetap alat utama kita. Tapi penting Anda tahu bahwa keduanya ada, sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="studi-kasus-skor-skala-dan-perbandingan-kelompok" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Studi Kasus: Skor Skala dan Perbandingan Kelompok 🧮</h1>
+
+</section>
+<section id="dari-item-ke-skor-skala-lagi" class="slide level2">
+<h2>Dari item ke skor skala (lagi)</h2>
+<p>Ingat dari Pertemuan 2: <code>skor_extraversion = AVERAGE(E1:E10)</code>. Tapi ingat juga dari Pertemuan 4: sebagian item bersifat <em>reverse-scored</em>.</p>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Urutan yang benar</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li><strong>Bersihkan</strong> dulu — balik skor item <em>reverse-scored</em> (Pertemuan 4).</li>
+<li><strong>Baru</strong> hitung <code>AVERAGE()</code> untuk skor skala.</li>
+</ol>
+<p>Melewatkan langkah 1 adalah kesalahan analisis yang sangat umum dan cukup mudah lolos tanpa disadari kalau Anda tidak berhati-hati.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="menyusun-analysis-plan-untuk-dataset-kita" class="slide level2">
+<h2>Menyusun <em>analysis plan</em> untuk dataset kita</h2>
+<p>Misalkan pertanyaan penelitian Anda: <em>“Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”</em></p>
+<ol type="1">
+<li class="fragment">Hitung <code>skor_extraversion</code> per partisipan (<code>AVERAGE(E1:E10)</code>, setelah item dibalik sesuai kebutuhan).</li>
+<li class="fragment">Buat pivot table: Rows = <code>gender</code>, Values = <code>AVERAGE(skor_extraversion)</code>.</li>
+<li class="fragment">Bandingkan rata-rata antar kategori gender.</li>
+<li class="fragment"><em>(Opsional, di luar cakupan mata kuliah ini)</em> Uji signifikansi perbedaan tersebut dengan Jamovi/JASP.</li>
+</ol>
+</section>
+<section id="aktivitas-kelompok-dinilai-susun-analysis-plan-anda-sendiri" class="slide level2">
+<h2>🧩 Aktivitas kelompok (dinilai): susun <em>analysis plan</em> Anda sendiri</h2>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Kerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum</strong></p>
+</div>
+<div class="callout-content">
+<p>Menggunakan dataset <strong><em>Big Five</em></strong>, kelompok Anda akan menyusun <em>analysis plan</em> lengkap:</p>
+<ol type="1">
+<li>Rumuskan <strong>satu pertanyaan penelitian</strong> yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu <em>trait</em> kepribadian atau variabel demografis).</li>
+<li>Rumuskan <strong>hipotesisnya</strong>.</li>
+<li>Tentukan apakah analisisnya bersifat <strong>deskriptif, komparatif, atau korelasional</strong>.</li>
+<li>Tuliskan <strong>langkah-langkah <em>analysis plan</em></strong> secara berurutan, selengkap contoh yang sudah dibahas — termasuk nama kolom yang akan Anda buat/pakai.</li>
+</ol>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Ini aktivitas yang dinilai (kriteria “Penguasaan Materi”). Berkeliling ke tiap kelompok, dan pastikan mereka membedakan dengan jelas antara pertanyaan deskriptif (“berapa rata-rata skor X?”) dan komparatif (“apakah skor X berbeda antar kelompok Y?”).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="penutup" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Penutup</h1>
+
+</section>
+<section id="rekap-pertemuan-5" class="slide level2">
+<h2>Rekap Pertemuan 5</h2>
+<ul>
+<li class="fragment">Sebelum menganalisis, kembali ke <em>Define</em>: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.</li>
+<li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda <strong>reproducible</strong> — menuliskannya <em>sebelum</em> melihat hasil adalah inti dari <strong><em>preregistration</em></strong>, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.</li>
+<li class="fragment">Tiga kategori teknik analisis: <strong>deskriptif</strong>, <strong>komparatif</strong>, <strong>korelasional</strong> — pivot table adalah alat serbaguna untuk ketiganya.</li>
+<li class="fragment">Jamovi/R adalah pelengkap spreadsheet untuk uji statistik formal — tidak wajib, tapi baik untuk diketahui.</li>
+<li class="fragment">Urutan yang benar: <strong>bersihkan dulu</strong> (termasuk membalik item <em>reverse-scored</em>), baru hitung skor skala.</li>
+</ul>
+</section>
+<section id="referensi" class="slide level2 scrollable smaller">
+<h2>Referensi</h2>
+<ul>
+<li>Open Knowledge Foundation &amp; International Republican Institute. (2021). <em>Data literacy curriculum</em>.</li>
+</ul>
+</section>
+<section id="ada-pertanyaan" class="slide level2">
+<h2>Ada pertanyaan❓</h2>
+
+<img data-src="libs/closing.JPG" class="quarto-figure quarto-figure-center r-stretch"><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Catatan</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Paparan disusun dengan menggunakan <i class="fa-brands fa-r-project" aria-label="r-project"></i> dan <a href="https://quarto.org"><strong>Quarto</strong></a> dengan <em>template</em> dari <a href="https://github.com/rameliaz/quarto-unair-theme">UNAIR Theme</a>.</li>
+<li>Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script>
+    // Single unified function to manage all logos
+    function manageLogos() {
+      const slides = document.querySelectorAll('.reveal .slides section');
+      
+      slides.forEach(function(slide, index) {
+        // Handle title slide (first slide)
+        if (index === 0) {
+          // Remove any regular logos from title slide
+          const regularLogos = slide.querySelectorAll('.slide-logo');
+          regularLogos.forEach(logo => logo.remove());
+          
+          // Add centered logo if it doesn't exist
+          if (!slide.querySelector('.title-slide-logo')) {
+            const titleLogo = document.createElement('img');
+            titleLogo.src = 'libs/logo.png';
+            titleLogo.className = 'title-slide-logo';
+            titleLogo.alt = 'Universitas Airlangga Logo';
+            slide.insertBefore(titleLogo, slide.firstChild);
+          }
+          return;
+        }
+        
+        // For all other slides, ensure only ONE logo exists
+        const existingLogos = slide.querySelectorAll('.slide-logo');
+        
+        // If multiple logos exist, remove all and start fresh
+        if (existingLogos.length > 1) {
+          existingLogos.forEach(logo => logo.remove());
+        }
+        
+        // Check background color
+        const bgColor = slide.getAttribute('data-background-color');
+        const logoSrc = (bgColor === '#14497F' || bgColor === '#14497f') 
+          ? 'libs/logo_white.png' 
+          : 'libs/logo.png';
+        
+        // If exactly one logo exists, just update its source
+        if (existingLogos.length === 1) {
+          existingLogos[0].src = logoSrc;
+        } 
+        // If no logo exists, create one
+        else if (existingLogos.length === 0) {
+          const logo = document.createElement('img');
+          logo.src = logoSrc;
+          logo.className = 'slide-logo';
+          logo.alt = 'Universitas Airlangga Logo';
+          slide.appendChild(logo);
+        }
+      });
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof Reveal !== 'undefined') {
+        Reveal.on('ready', function() {
+          manageLogos();
+        });
+      } else {
+        setTimeout(manageLogos, 500);
+      }
+    });
+
+    // Update when slides change
+    if (typeof Reveal !== 'undefined') {
+      Reveal.on('slidechanged', function() {
+        manageLogos();
+      });
+    }
+    </script>
+
+    <style>
+    /* Additional inline styles for logo */
+    .reveal .slide-logo {
+      position: absolute !important;
+      top: -1em !important;  /* Aligns with title */
+      right: 15px !important;
+      max-height: 80px !important;
+      max-width: 200px !important;
+      z-index: 100 !important;
+      object-fit: contain;
+    }
+
+    /* Ensure title slide doesn't have logo overlap */
+    .reveal .title-slide {
+      padding-right: 220px;
+    }
+
+    /* Section title slide styling */
+    .reveal section[data-background-color] h1,
+    .reveal section[data-background-color] h2 {
+      color: white !important;
+    }
+    </style>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

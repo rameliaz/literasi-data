@@ -1,0 +1,278 @@
+---
+title: "Menyusun Argumen dan Struktur Naskah"
+subtitle: "Literasi Data dan Penulisan Ilmiah"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* Dari sintesis literatur ke **argumen** — kenapa *take-home message* itu wajib
+* **Tesis** dan argumentasi berbasis bukti ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311))
+* Tiga cara menyusun **struktur naskah** ([Torraco, 2016](https://doi.org/10.1177/1534484316671606))
+* Kesalahan umum yang membuat *narrative review* ditolak
+* Etika penulisan ilmiah: plagiarisme, *authorship*, dan AI generatif
+* 3️⃣ aktivitas (mandiri, kelompok, diskusi)
+:::
+
+::: notes
+Metode minggu ini "Presentasi" dengan pengalaman belajar "Diskusi dan Interaksi" — mahasiswa sudah melewati Pertemuan 9-11 (topik, ragam tinjauan pustaka, pencarian/sintesis literatur), jadi mereka sudah punya bahan mentah. Pertemuan ini mengubah bahan itu jadi argumen dan struktur naskah yang solid.
+:::
+
+# Dari Sintesis ke Argumen 🎯 {background-color="#14497F"}
+
+## Sampai di mana kita sekarang
+
+::: {.incremental}
+* Pertemuan 9–11: Anda sudah menajamkan topik, memahami ragam tinjauan pustaka, dan mempraktikkan pencarian serta sintesis tematik literatur.
+* Anda sekarang punya **bahan mentah**: tumpukan studi, tema-tema yang mulai terlihat berulang.
+* Pertanyaannya sekarang: bagaimana mengubah tumpukan itu menjadi **naskah yang berargumen**, bukan sekadar daftar ringkasan studi satu per satu?
+:::
+
+## *Narrative review* bukan katalog studi
+
+::: {.callout-important}
+Setiap *narrative review* — apa pun tujuannya — harus menawarkan sebuah **konseptualisasi, perspektif, atau sudut pandang menyeluruh**, sering disebut ***take-home message*** ([Sternberg, 1991, dikutip dalam Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)) — bukan sekadar menceritakan ulang riset-riset sebelumnya.
+:::
+
+::: {.fragment}
+Kalau naskah Anda hanya mendeskripsikan serangkaian studi tanpa mengaitkannya ke sebuah gagasan besar, naskah itu **belum cukup** untuk disebut *narrative review* yang berkontribusi pada bidang ilmu.
+:::
+
+# Tesis dan Argumentasi Berbasis Bukti 📝 {background-color="#14497F"}
+
+## Level abstraksi: kekuatan unik *narrative review*
+
+::: {.incremental}
+* Satu studi empiris **tidak bisa** menjawab pertanyaan yang terlalu luas atau abstrak — datanya tidak cukup untuk itu.
+* *Narrative review* punya keistimewaan: dengan menyintesis pola dari **puluhan** studi, ia bisa menjawab pertanyaan teoretis yang berada di luar jangkauan studi tunggal mana pun.
+* Inilah alasan tesis Anda **boleh** (dan seharusnya) lebih ambisius daripada klaim satu studi individual — asalkan didukung oleh konvergensi bukti dari banyak sumber.
+:::
+
+## Membedakan asersi dan bukti
+
+::: {.callout-caution}
+### Kesalahan yang sangat umum
+Kalimat seperti *"perempuan lebih ekspresif secara emosional (Brown & Green, 1966)"* **tidak jelas**: apakah Brown dan Green sekadar **menyatakan** hal itu, atau benar-benar **membuktikannya** dengan data?
+:::
+
+::: {.incremental}
+* Untuk sumber yang menyediakan **bukti empiris**, sebutkan metodenya secara ringkas: *"pada sampel dewasa, metode X menunjukkan hasil Y (Referensi), yang mendukung pandangan Z."*
+* Untuk sumber yang sekadar **berteori/berpendapat**, katakan secara eksplisit: *"Brown dan Green mengajukan gagasan bahwa..."*
+* Argumen yang kuat dibangun di atas bukti yang jelas asal-usulnya — bukan sekadar rentetan nama dan tahun.
+:::
+
+## Empat kemungkinan simpulan sebuah *review*
+
+Berbeda dari studi empiris tunggal (yang hanya punya dua simpulan: hipotesis didukung atau tidak konklusif), *narrative review* bisa menyimpulkan salah satu dari **empat** hal ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)):
+
+::: {.incremental}
+1. Hipotesis **terbukti benar** — berdasarkan bukti yang tersedia saat ini.
+2. Hipotesis **belum terbukti**, tapi merupakan **dugaan terbaik** yang tersedia sampai ada bukti sebaliknya.
+3. **Tidak diketahui** apakah hipotesis benar atau salah — bukti yang ada tidak cukup atau saling bertentangan.
+4. Hipotesis **terbukti salah**.
+:::
+
+::: {.callout-note}
+Simpulan kedua dan ketiga **tidak punya padanan** dalam laporan studi empiris tunggal — jurnal empiris jarang menerbitkan hasil yang "tidak konklusif". Tapi di dalam *narrative review*, simpulan seperti ini justru bisa menjadi kontribusi ilmiah yang berharga.
+:::
+
+## 🧩 Aktivitas mandiri: asersi atau bukti?
+
+::: {.callout-warning}
+### Kerjakan sendiri (5 menit)
+Perhatikan kutipan berikut dari draf tinjauan literatur seorang mahasiswa: *"Mahasiswa magister rentan mengalami burnout akademik (Suryani, 2019)."*
+
+1. Apakah kalimat ini menyampaikan **asersi** atau **bukti**? Bagaimana Anda tahu?
+2. Tuliskan ulang kalimat ini agar jelas mana yang asersi dan mana yang bukti (boleh menambahkan detail metode/hasil yang masuk akal secara hipotetis).
+:::
+
+::: notes
+Poin pembelajaran: kalimat aslinya ambigu. Kalau Suryani (2019) benar-benar melakukan studi empiris, versi bukti akan menyebut metode dan hasil singkatnya. Kalau Suryani hanya berpendapat/berteori, seharusnya ditulis "Suryani (2019) berpendapat bahwa...".
+:::
+
+# Struktur Naskah *Narrative Review* 🏗️ {background-color="#14497F"}
+
+## Struktur umum naskah
+
+::: {.incremental}
+* Berbeda dari laporan empiris, tidak ada format baku untuk *narrative review* — tapi pembaca tetap mengharapkan naskah dimulai dengan **pengantar topik dan justifikasi kenapa review ini penting**, dan diakhiri dengan **rekapitulasi temuan serta implikasi untuk riset selanjutnya** ([Torraco, 2016](https://doi.org/10.1177/1534484316671606)).
+* **Sampaikan kerangka teoretis Anda di awal naskah** — jangan menunda *take-home message* sampai ke bagian akhir. Sedikit pembaca yang sabar membaca puluhan halaman sebelum tahu apa intinya.
+:::
+
+## Tiga cara menyusun struktur konseptual
+
+Selain alur naskah secara keseluruhan, Anda juga perlu memilih **bagaimana isi review disusun** ([Torraco, 2016](https://doi.org/10.1177/1534484316671606)):
+
+::: columns
+::: {.column width="33%"}
+**Temporal/historis**
+
+Menyusun literatur mengikuti garis waktu perkembangan topik. Cocok untuk topik yang sudah matang dengan sejarah panjang.
+:::
+::: {.column width="33%"}
+**Metodologis**
+
+Mengelompokkan literatur berdasarkan kesamaan metode penelitian (mis. studi kualitatif dahulu, baru kuantitatif).
+:::
+::: {.column width="34%"}
+**Konseptual/tematik**
+
+Mengorganisir di sekitar konsep atau tema utama topik — struktur yang paling umum dipakai.
+:::
+:::
+
+## Memilih struktur yang cocok
+
+::: {.incremental}
+* Pilih struktur yang **konsisten** dengan sifat literatur yang Anda tinjau — jangan memaksakan satu struktur ke topik yang tidak cocok dengannya.
+* Struktur konseptual/tematik biasanya paling fleksibel untuk topik-topik psikologi kontemporer, karena literaturnya sering berkembang paralel, bukan berurutan secara historis atau seragam secara metode.
+* Pertimbangkan membuat **diagram** (peta konsep, garis waktu, atau peta relasi) untuk menggambarkan struktur review Anda — ini membantu Anda sendiri tetap konsisten sekaligus membantu pembaca memahami alurnya.
+:::
+
+## Analisis kritis dan sintesis
+
+::: {.incremental}
+* ***Critical analysis*** — membedah argumen utama tiap sumber literatur untuk mengidentifikasi kekuatan dan kelemahannya.
+* ***Critique*** — hasil dari analisis kritis: mengidentifikasi apa yang hilang, tidak konsisten, atau bermasalah dari literatur yang ada.
+* ***Synthesis*** — proses kreatif menggabungkan gagasan-gagasan lama dengan wawasan baru untuk membentuk formulasi baru tentang topik tersebut. Sintesis **bukan** sekadar rangkuman ulang — ia harus menghasilkan sesuatu yang baru.
+:::
+
+::: {.callout-tip}
+### Lima bentuk sintesis ([Torraco, 2016](https://doi.org/10.1177/1534484316671606))
+Agenda riset ke depan, taksonomi/klasifikasi konsep, model atau kerangka konseptual alternatif, meta-analisis, dan metateori. Untuk tugas UAS Anda, kombinasi **model/kerangka konseptual baru** dan **agenda riset ke depan** biasanya paling realistis.
+:::
+
+## 🧩 Aktivitas kelompok: pilih struktur naskah Anda
+
+::: {.callout-warning}
+### Kerjakan berkelompok (15 menit)
+Menggunakan topik *narrative review* yang sudah Anda kembangkan sejak Pertemuan 9–11:
+
+1. Tentukan struktur mana (temporal, metodologis, atau konseptual/tematik) yang paling cocok untuk topik Anda, dan jelaskan alasannya.
+2. Sketsakan **2–4 sub-tema atau bagian utama** yang akan menjadi kerangka naskah Anda.
+3. Rumuskan **satu kalimat *take-home message*** — inti argumen yang ingin pembaca ingat setelah membaca naskah Anda.
+:::
+
+::: notes
+Ini persiapan langsung untuk menulis draf di Pertemuan 13 — pastikan tiap kelompok punya kerangka konkret sebelum sesi berakhir, bukan hanya diskusi abstrak.
+:::
+
+# Kesalahan Umum dalam Menulis *Narrative Review* ⚠️ {background-color="#14497F"}
+
+## Sembilan kesalahan yang sering membuat naskah ditolak
+
+Berdasarkan [Baumeister dan Leary (1997)](https://doi.org/10.1037/1089-2680.1.3.311):
+
+::: {.incremental}
+1. **Pendahuluan yang lemah** — menunda *take-home message* terlalu lama.
+2. **Cakupan bukti yang tidak memadai** — hanya menyebut simpulan studi tanpa menjelaskan metode/hasilnya.
+3. **Kurang integrasi** — mendeskripsikan studi demi studi tanpa mengaitkannya ke tema besar.
+4. **Kurang kritik** — tidak menilai kekuatan/kelemahan bukti yang disajikan.
+5. **Simpulan tidak disesuaikan** dengan kritik yang sudah diberikan sendiri.
+6. **Mencampur asersi dan bukti** tanpa membedakannya secara jelas.
+7. **Selektif dalam meninjau bukti** — hanya mengutip yang mendukung argumen sendiri.
+8. **Fokus ke peneliti, bukan ke risetnya** — memulai paragraf dengan nama peneliti alih-alih temuannya.
+9. **Berhenti di masa kini** — tidak menyebutkan implikasi atau agenda untuk riset mendatang.
+:::
+
+## Sorotan: tinjauan bukti yang selektif
+
+::: {.incremental}
+* Bentuk paling parah: bertindak sebagai **"pengacara"**, bukan ilmuwan — hanya mencari bukti yang mendukung satu posisi dan mengabaikan sisanya.
+* Bentuk yang lebih halus (tapi tetap bermasalah): **kritik selektif** — menerapkan standar metodologis yang lebih ketat pada bukti yang bertentangan dengan pandangan Anda, dibanding bukti yang mendukungnya.
+* Solusinya: secara sengaja **cari kontra-bukti**. Kalau Anda menemukan pengecualian nyata terhadap pola umum, itu memperkuat (bukan melemahkan) kredibilitas review Anda.
+:::
+
+::: {.callout-caution}
+*Narrative review* justru **lebih rentan** terhadap *confirmation bias* dibanding studi empiris tunggal — karena Anda secara aktif "berburu" bukti yang cocok dengan pola yang sudah Anda curigai sejak awal.
+:::
+
+# Etika Penulisan Ilmiah ⚖️ {background-color="#14497F"}
+
+## Plagiarisme: lebih luas dari sekadar menyalin
+
+::: {.incremental}
+* Bentuk paling jelas: menyalin kalimat/paragraf orang lain tanpa atribusi.
+* Bentuk yang sering luput: **parafrase yang terlalu dekat** dengan struktur kalimat asli (hanya mengganti beberapa kata), dan **self-plagiarism** — menggunakan kembali tulisan Anda sendiri dari karya sebelumnya tanpa disitasi.
+* Panduan resmi tersedia untuk mahasiswa Fakultas Psikologi UNAIR ([Ardi, 2023](https://www.google.com/search?q=Ardi+2023+Panduan+pencegahan+plagiarisme)) — jadikan itu rujukan utama, bukan asumsi pribadi tentang "cukup aman."
+:::
+
+## *Authorship*: siapa berhak jadi penulis
+
+::: {.incremental}
+* Standar umum: kontribusi *authorship* mensyaratkan keterlibatan substansial dalam konsepsi/desain, analisis/interpretasi data, **dan** penulisan/revisi naskah — bukan sekadar membantu pengumpulan data atau memberi akses ke dataset.
+* Urutan nama penulis harus disepakati **secara eksplisit dan sedini mungkin**, bukan diasumsikan.
+* Ini relevan langsung untuk naskah UAS Anda kalau dikerjakan berkelompok — kontribusi tiap anggota perlu jelas dan disepakati bersama.
+:::
+
+## Penggunaan AI generatif secara etis
+
+::: {.incremental}
+* Sesuai deskripsi mata kuliah ini: alat bantu otomatisasi (termasuk akal imitasi/AI) boleh dipakai di seluruh proses riset — pencarian literatur, penyuntingan bahasa, penyusunan kerangka — **selama dilakukan secara transparan dan bertanggung jawab**.
+* Kebanyakan jurnal ilmiah kini mewajibkan **pengungkapan** penggunaan AI, dan hampir semuanya **melarang AI menjadi penulis** (*author*) — karena *authorship* menuntut akuntabilitas, dan AI tidak bisa bertanggung jawab atas isi naskah.
+* Standar praktisnya sederhana: kalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu **tidak boleh** ada di naskah Anda — siapa pun (atau apa pun) yang menuliskannya pertama kali.
+:::
+
+::: {.callout-note}
+### Ikuti kebijakan yang berlaku di UNAIR dan panduan tugas mata kuliah ini
+Selalu cek kebijakan yang berlaku di program studi/fakultas Anda — kalau ragu, prinsip amannya: **lebih baik terbuka sejak awal** soal bagaimana AI Anda pakai, daripada berasumsi tidak perlu diungkapkan.
+:::
+
+## 🧩 Diskusi kelompok: skenario etika penulisan
+
+::: {.callout-warning}
+### Diskusikan bersama kelompok Anda (10 menit)
+Seorang mahasiswa meminta *chatbot* AI menyusun kerangka tinjauan pustaka lengkap dengan referensi-referensi pendukung. Ia lalu memeriksa kerangkanya, tapi tidak sempat memverifikasi apakah semua referensi yang disebutkan AI benar-benar ada dan sesuai isinya.
+
+1. Praktik apa yang bermasalah di sini, dan kenapa?
+2. Bagaimana seharusnya AI digunakan secara bertanggung jawab dalam skenario ini?
+3. Kaitkan jawaban Anda dengan gagasan "Anda harus bisa menjelaskan sendiri setiap paragraf naskah Anda."
+:::
+
+::: notes
+Ini kasus tentang risiko AI "mengarang" referensi (halusinasi) yang tidak diverifikasi — poin utamanya adalah *verifikasi* tetap tanggung jawab manusia, bukan soal boleh/tidaknya memakai AI.
+:::
+
+# Penutup {background-color="#14497F"}
+
+## Rekap Pertemuan 12
+
+::: {.incremental}
+* *Narrative review* butuh **argumen/*take-home message***, bukan sekadar katalog ringkasan studi.
+* Bedakan **asersi** dan **bukti** secara eksplisit — kesalahan ini adalah salah satu yang paling umum dan paling merusak kredibilitas naskah.
+* *Review* bisa menyimpulkan salah satu dari **empat** kemungkinan, tidak hanya "terbukti/tidak terbukti" seperti studi empiris tunggal.
+* Tiga cara menyusun struktur naskah: **temporal, metodologis, konseptual/tematik** — pilih yang paling cocok dengan topik Anda.
+* Etika penulisan ilmiah mencakup plagiarisme, *authorship* yang jelas, dan transparansi penggunaan AI generatif.
+:::
+
+## Referensi {.scrollable .smaller}
+
+* American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
+* Ardi, R. (Ed.). (2023). *Panduan pencegahan plagiarisme*. Unit Penelitian Publikasi Psikologi Fakultas Psikologi Universitas Airlangga.
+* Baumeister, R. F., & Leary, M. R. (1997). Writing narrative literature reviews. *Review of General Psychology, 1*(3), 311–320. <https://doi.org/10.1037/1089-2680.1.3.311>
+* Torraco, R. J. (2016). Writing integrative literature reviews: Using the past and present to explore the future. *Human Resource Development Review, 15*(4), 404–428. <https://doi.org/10.1177/1534484316671606>
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a>
+:::

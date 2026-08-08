@@ -1,0 +1,284 @@
+---
+title: "Menemukan dan Memanfaatkan Data Terbuka"
+subtitle: "Literasi Data dan Penulisan Ilmiah"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* ***Find*** & ***Get***: dua tahap *Data Pipeline* minggu ini
+* Sumber-sumber **data terbuka** untuk riset psikologi
+* Ragam **format data** (CSV, `.sav`, JSON) dan cara membacanya
+* Mengekstraksi data dari **dokumen dan tabel**
+* **Etika** pengumpulan dan penggunaan data, termasuk UU Pelindungan Data Pribadi
+* 2️⃣ aktivitas (mandiri & kelompok)
+:::
+
+::: notes
+Metode minggu ini "Diskusi Kelompok" — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif.
+:::
+
+# *Find* & *Get*: Mencari dan Memperoleh Data 🔎 {background-color="#14497F"}
+
+## Mengingat kembali *Data Pipeline*
+
+Minggu lalu Anda belajar menyusun tabel. Mulai minggu ini, kita bergerak ke tahapan *Data Pipeline*: **Find** (menemukan) dan **Get** (memperoleh) data. Sebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.
+
+::: {.callout-note}
+Dua tahap ini sering terasa remeh. Tetapi, kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda menyadari betapa terbatasnya pilihan data terbuka di bidang kita kalau dibandingkan, misalnya, ekonomi atau kesehatan masyarakat.
+:::
+
+## Tiga pertanyaan sebelum mencari data
+
+::: {.incremental}
+1. **Di mana** datanya berada?
+2. Dalam **format** apa data itu tersimpan?
+3. Apakah data itu perlu **ditransformasi** dulu sebelum bisa dipakai?
+:::
+
+::: {.fragment}
+Ketiga pertanyaan ini akan menstruktur seluruh pertemuan hari ini.
+:::
+
+## Di mana data bisa ditemukan?
+
+::: {.incremental}
+* **Portal data terbuka** — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. *Open-Source Psychometrics Project*, OSF).
+* **Sistem digital organisasi** — banyak lembaga riset/universitas menyimpan data, tapi hanya sebagian yang dirilis ke publik.
+* **API** — cara terprogram untuk "meminta" data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau *update* berkala.
+* **Bebas di halaman web** — data yang hanya ditampilkan sebagai tabel HTML, belum dikemas jadi berkas siap unduh.
+* **Tidak ada di mana pun** — kadang datanya memang belum pernah dikumpulkan; ini di luar cakupan mata kuliah kita, yang berfokus pada data *sekunder* dan *terbuka*.
+:::
+
+## Sumber data terbuka untuk psikologi
+
+::: columns
+::: {.column width="55%"}
+**Open-Source Psychometrics Project**
+
+`openpsychometrics.org/_rawdata/`
+
+* Puluhan dataset hasil pengisian skala psikologi daring
+* Sudah kita kenal lewat dataset ***Big Five*** sejak Pertemuan 1
+:::
+::: {.column width="45%"}
+**Daftar dataset psikologi/ilmu sosial**
+
+[Psychological Stimulus Sets and Datasets (Brick, 2020)](https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit)
+
+Dokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial — bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.
+:::
+:::
+
+::: {.callout-tip}
+### Sumber lain yang layak dijelajahi
+Open Science Framework (OSF), repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. World Values Survey untuk data lintas-negara).
+:::
+
+## 🧩 Aktivitas mandiri: menjelajahi sumber data
+
+::: {.callout-warning}
+### Kerjakan sendiri (10 menit)
+Buka salah satu sumber data terbuka yang baru saja dibahas (*Open-Source Psychometrics Project* atau daftar dataset komunitas).
+
+1. Pilih **satu dataset** yang menarik minat Anda — idealnya yang relevan dengan topik riset yang Anda minati.
+2. Catat: nama dataset, jumlah kira-kira variabel/kolom, dan format berkasnya.
+3. Tuliskan **satu pertanyaan riset** yang mungkin bisa dijawab dengan dataset tersebut.
+:::
+
+::: notes
+Dataset yang ditemukan di sini bisa menjadi kandidat proyek UTS Pertemuan 8 — sampaikan ini ke mahasiswa supaya latihan terasa bermakna, bukan sekadar formalitas.
+:::
+
+# Format Data dan Cara Membacanya 📂 {background-color="#14497F"}
+
+## Tipe Data
+
+![](libs/datatype.png){fig-align="center"}
+
+## Ragam format data
+
+::: {.incremental}
+* **CSV/TSV** *(comma/tab-separated values)* — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.
+* **XLS/XLSX** — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.
+* **`.sav`** — format *native* **SPSS**, paling umum Anda temui di penelitian psikologi; menyimpan data plus label variabel dan value labels (mis. `1 = Laki-laki`, `2 = Perempuan`).
+* **JSON** — format ringan berbasis struktur *tree* (bukan tabel), umum dipakai untuk data dari API atau media sosial.
+:::
+
+## Tabel (CSV/XLSX) vs. *tree* (JSON): kenapa bedanya penting?
+
+::: columns
+::: {.column width="50%"}
+**Struktur tabular**
+
+* Anda tahu di muka berapa kolom yang dibutuhkan.
+* Cocok kalau semua data "pas" masuk ke kolom yang sama untuk setiap baris.
+* Ini struktur yang kita pakai sepanjang mata kuliah ini.
+:::
+::: {.column width="50%"}
+**Struktur *tree* (JSON)**
+
+* Setiap "titik" (*node*) bisa punya jumlah nilai yang berbeda-beda.
+* Cocok untuk data yang jumlah elemennya tidak tetap — mis. daftar komentar pada satu unggahan media sosial, yang jumlahnya beda-beda tiap unggahan.
+:::
+:::
+
+::: {.callout-note}
+Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur **tabular** sudah cukup. JSON lebih relevan kalau Anda bekerja dengan data media sosial atau hasil dari API.
+:::
+
+## Format `json`
+
+![](libs/json.png){fig-align="center"}
+
+## Membaca `.sav` tanpa SPSS
+
+::: {.incremental}
+* Anda tidak selalu perlu lisensi SPSS untuk membaca `.sav` — Jamovi dan JASP (keduanya gratis) bisa membukanya langsung.
+* Spreadsheet (Google Sheets/Excel) **tidak bisa** membuka `.sav` secara langsung — perlu dikonversi dulu ke CSV/XLSX lewat Jamovi/JASP.
+* Perhatikan **value labels**: kolom yang terlihat berisi angka (`1`, `2`) sering kali punya label tersembunyi (`Laki-laki`, `Perempuan`) yang perlu Anda periksa di *variable view*, bukan hanya *data view*.
+:::
+
+# Mengekstraksi Data dari Dokumen dan Tabel 📄 {background-color="#14497F"}
+
+## Kapan Anda butuh ekstraksi
+
+Tidak semua data terbuka tersedia dalam format siap pakai. Kadang Anda hanya menemukan data dalam:
+
+::: {.incremental}
+* **PDF digital** — teksnya bisa disorot/disalin, tapi tabelnya sering berantakan kalau disalin langsung ke spreadsheet.
+* **PDF hasil pindai (*scanned*)** — sebenarnya berupa gambar, kontennya tidak bisa disalin sama sekali tanpa bantuan tambahan.
+* **Halaman web (HTML)** — data tampil sebagai tabel di browser, tapi belum ada tombol "unduh."
+:::
+
+## Strategi ekstraksi sesuai formatnya
+
+| Sumber | Strategi |
+|---|---|
+| PDF digital dengan tabel rapi | Salin manual (tabel pendek), atau *software* ekstraksi tabel khusus (mis. Tabula) untuk tabel panjang/berulang |
+| PDF hasil pindai | Perlu *Optical Character Recognition* (OCR) — perangkat lunak yang "membaca" gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual |
+| Tabel di halaman web | Fungsi `IMPORTHTML()` di Google Sheets bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda |
+
+::: {.callout-caution}
+### Ekstraksi otomatis tidak pernah 100% sempurna
+Selalu **verifikasi** hasil ekstraksi terhadap sumber aslinya — baris yang terlewat atau kolom yang tergeser adalah kesalahan umum, dan inilah kenapa tahap *Verify* (Pertemuan 4) datang tepat setelah *Get*.
+:::
+
+# Etika Pengumpulan dan Penggunaan Data 🔐 {background-color="#14497F"}
+
+## Kenapa etika data penting bagi peneliti
+
+::: {.incremental}
+* Bahkan ketika Anda **tidak** mengumpulkan data sendiri — hanya mengunduh dataset terbuka — Anda tetap memikul tanggung jawab etis atas bagaimana data itu digunakan.
+* Di Indonesia, kerangka hukumnya diatur dalam **Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)**.
+:::
+
+## UU PDP: definisi kunci
+
+::: {.callout-important}
+### Pasal 1
+* **Data Pribadi** — data tentang orang perseorangan yang teridentifikasi atau dapat diidentifikasi, baik sendiri maupun dikombinasikan dengan informasi lain.
+* **Subjek Data Pribadi** — orang perseorangan yang datanya melekat/terkait dengannya (mis. partisipan riset Anda).
+* **Pengendali Data Pribadi** — pihak yang menentukan tujuan dan melakukan kendali atas pemrosesan data (bisa jadi ini Anda, sebagai peneliti).
+:::
+
+## Hak subjek data pribadi (ringkasan)
+
+::: {.incremental}
+* Mendapatkan **informasi** tentang tujuan dan dasar penggunaan datanya
+* **Memperbaiki** data yang salah/tidak akurat
+* Mendapatkan **akses** dan salinan datanya
+* **Menghapus** atau mengakhiri pemrosesan datanya
+* **Menarik kembali persetujuan** yang telah diberikan
+:::
+
+::: {.callout-note}
+Kalau Anda pernah bertanya-tanya kenapa formulir *informed consent* riset psikologi selalu menyebutkan hak partisipan untuk mengundurkan diri kapan saja — inilah dasar hukumnya.
+:::
+
+## Dasar pemrosesan data: persetujuan (Pasal 20–22)
+
+::: {.incremental}
+* Pengendali Data Pribadi **wajib** punya dasar hukum sebelum memproses data — salah satunya adalah **persetujuan eksplisit** dari subjek data.
+* Persetujuan harus disampaikan **tertulis atau terekam**, dan pemroses wajib menjelaskan: legalitas pemrosesan, tujuannya, jenis data yang diproses, jangka waktu penyimpanan, dan hak subjek data.
+* Inilah dasar hukum di balik formulir *informed consent* yang Anda tanda tangani (atau minta ditandatangani partisipan) sebelum penelitian dimulai.
+:::
+
+## Pengecualian untuk kepentingan penelitian ilmiah
+
+::: {.callout-important}
+### Pasal 15 ayat (1)
+Sejumlah hak subjek data — termasuk hak menghapus data dan menarik persetujuan — **dikecualikan** untuk beberapa kepentingan, salah satunya: **"kepentingan statistik dan penelitian ilmiah."**
+:::
+
+::: {.fragment}
+Pengecualian ini **bukan berarti peneliti leluasa menggunakan data milik partisipan**. Ia memberi ruang kerja bagi peneliti (mis. memakai data lama untuk analisis sekunder tanpa perlu melacak ulang persetujuan tiap partisipan), tapi tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti.
+:::
+
+## Menerapkan ini ke dataset kita
+
+Dataset ***Big Five*** yang kita pakai bersifat **terbuka dan sudah dianonimkan**, tidak ada nama, tidak ada informasi yang bisa melacak balik ke individu tertentu. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:
+
+::: {.incremental}
+* Kalau Anda **mengumpulkan data sendiri** (mis. untuk tesis), formulir *informed consent* dan penyimpanan data yang aman adalah kewajiban, bukan formalitas.
+* Kalau Anda **memakai data sekunder terbuka**, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (lisensi, atribusi)?
+:::
+
+## 🧩 Diskusi kelompok: skenario etika data
+
+::: {.callout-warning}
+### Diskusikan bersama kelompok Anda (10 menit)
+Coba cek kembali dataset yang Anda kumpulkan dari riset skripsi Anda. Informasi apa saja yang Anda kumpulkan dalam dataset tersebut.
+
+1. Apakah dataset ini "cukup" anonim untuk dipakai bebas? Mengapa/mengapa tidak?
+2. Langkah apa yang bisa Anda ambil sebelum menggunakannya dalam naskah publikasi?
+3. Kaitkan diskusi ini dengan hak-hak subjek data yang baru kita bahas.
+:::
+
+::: notes
+Ini kasus tentang *k-anonymity*/*re-identification risk* tanpa perlu istilah teknisnya — cukup bangun intuisi bahwa "sudah tanpa nama" ≠ "sudah anonim". Kalau ada waktu, minta tiap kelompok berbagi satu langkah mitigasi yang mereka usulkan.
+:::
+
+# Penutup {background-color="#14497F"}
+
+## Rekap Pertemuan 3
+
+::: {.incremental}
+* Sebelum data bisa ditata atau dibersihkan, ia harus **ditemukan** dan **diperoleh** dulu — dua tahap *Data Pipeline* minggu ini.
+* Sumber data psikologi terbuka: **Open-Source Psychometrics Project** dan daftar dataset komunitas.
+* Format data yang umum: CSV, XLSX, `.sav` (format native SPSS), dan JSON (struktur *tree*, bukan tabel).
+* Ekstraksi data dari PDF/HTML selalu perlu **diverifikasi ulang** — bukan langkah yang bisa sepenuhnya dipercaya begitu saja.
+* **UU PDP** memberi kerangka hukum bagi hak subjek data dan dasar persetujuan — dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti.
+:::
+
+## Referensi {.scrollable .smaller}
+
+* Psychological Stimulus Sets and Datasets (Brick, 2020). <https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit>
+* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
+* Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+* Republik Indonesia. (2022). *Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi*.
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:ameliazein@gmail.com">ameliazein@gmail.com</a>
+:::
