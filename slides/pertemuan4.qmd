@@ -207,7 +207,7 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 
 ::: {.callout-warning}
 ### Kerjakan berkelompok (25–30 menit)
-Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10** (item *Neuroticism*) yang sengaja dibuat "kotor" untuk latihan: [`pertemuan4_dataset_kotor.csv`](../data/pertemuan4_dataset_kotor.csv). Ikuti langkah berikut:
+Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10** (item *Neuroticism*) yang sengaja dibuat "kotor" untuk latihan: [`pertemuan4_dataset_kotor_latihan.csv`](../data/pertemuan4_dataset_kotor_latihan.csv). Ikuti langkah berikut:
 
 1. **Identifikasi** minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).
 2. **Golongkan** tiap masalah: apakah itu masalah *tidying* (format) atau *editing* (konten)?

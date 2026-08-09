@@ -1,0 +1,105 @@
+id,gender,usia,negara,N1,N2,N3,N4,N5,N6,N7,N8,N9,N10
+P001,Laki-laki,25,IN,1,5,6,,0,1,5,4,1,2
+P002,PEREMPUAN,24,NA,1,3,5,1,5,4,NA,5,3,1
+P003,Laki-laki,27,PH,1,4,3,3,3,1,2,2,4,5
+P004,Laki-laki,42,  US,1,4,2,5,3,4,4,2,5,5
+P005, perempuan,25,MY,1,1,2,4,4,4,5,1,1,5
+P006,Perempuan,27,Thailand ,1,3,2,1,3,5,2,2,5,5
+P007,Perempuan ,,Japan,3,2,1,6,5,2,5,5,4,5
+P008,Laki-laki,39,Jamaica,5,2,3,,5,1,1,1,1,3
+P009,perempuan,41,ZA,2,4,1,3,4,1,1,NA,1,2
+P010,perempuan,26,Vietnam,1,5,-1,1,2,4,4,2,4,4
+P011,Perempuan ,41,New Zealand,4,3,1,5,NA,1,5,5,5,0
+P012, Laki-laki,3,South Korea,5,5,,-1,5,3,3,4,3,1
+P013,Laki-Laki ,36,SG,NA,3,3,2,2,5,5,5,,3
+P013,Laki-Laki ,36,SG,NA,3,3,2,2,5,5,5,,3
+P014,laki-laki,21,,3,2,2,3,3,1,6,1,,3
+P014,laki-laki,21,,3,2,2,3,3,1,6,1,,3
+P015,Laki-laki,40,Thailand ,1,NA,2,3,2,1,1,2,1,5
+P016, perempuan,25,GB,2,1,3,4,2,1,1,2,4,2
+P017,Laki-laki,30,France,1,3,5,5,1,3,3,,3,3
+P018, perempuan,21,KR,2,4,,5,2,1,3,1,3,4
+P019,Perempuan ,35,MY,4,2,3,1,2,5,3,4,5,2
+P020,LAKI-LAKI,38,Bangladesh,2,2,2,,4,1,5,4,2,1
+P021,Laki-Laki ,43,  IN,1,1,4,5,4,5,5,2,4,2
+P022, perempuan,25,Canada,3,3,5,0,2,1,3,4,NA,4
+P023, Laki-laki,18,JP,4,4,5,2,3,1,4,4,5,4
+P023, Laki-laki,18,JP,4,4,5,2,3,1,4,4,5,4
+P024,Laki-laki,22,Vietnam,3,2,3,4,4,1,5,NA,2,1
+P025,laki-laki,18,Bangladesh,2,1,2,3,2,1,2,1,3,4
+P026,Perempuan,36,  IN,2,3,5,5,3,3,NA,1,4,3
+P027,Perempuan,23,,3,5,4,5,2,1,4,4,4,4
+P028,perempuan,29,CA,5,3,5,1,4,2,4,1,0,2
+P029,Perempuan,33,New Zealand,4,5,4,3,2,5,2,4,5,5
+P030,Perempuan,27,IN,3,,3,,NA,2,4,1,4,3
+P031,Laki-laki,45,BR,1,1,1,5,1,1,4,5,5,4
+P032, perempuan,27,ZA,5,1,2,3,2,5,NA,,5,1
+P033,LAKI-LAKI,40,Vietnam,NA,3,5,2,5,2,2,NA,3,5
+P034,Perempuan ,40,Germany,3,4,5,,3,1,-1,5,1,3
+P035,laki-laki,38,VN,2,4,4,4,3,1,3,4,4,5
+P036,Laki-Laki , 26 ,FR,4,1,5,1,3,4,1,5,3,4
+P037,Laki-laki,37,India,3,5,2,1,1,2,3,3,4,2
+P038, perempuan,24,Pakistan,2,3,4,5,1,3,5,4,4,3
+P039, perempuan,30,Vietnam,2,2,2,4,,4,2,1,5,1
+P040,Perempuan,32,ID,4,2,NA,3,4,3,5,3,4,1
+P041,laki-laki,27,IN,4,1,3,1,1,3,2,5,2,1
+P042, perempuan,33,South Africa,4,4,1,4,5,4,5,4,4,2
+P043,Perempuan , 30 ,ZA,3,3,,4,5,1,4,3,2,3
+P044,Laki-laki,26,DK,2,1,4,,2,6,4,2,3,3
+P045,LAKI-LAKI,33,DE,3,4,2,2,4,5,4,,4,3
+P046,Perempuan,21,DK,1,5,5,1,4,3,1,1,4,2
+P047,Laki-Laki ,39,,5,2,1,5,3,,4,2,1,3
+P048,Perempuan,24,SG ,4,0,5,1,2,5,5,2,2,2
+P049,LAKI-LAKI,22,MY,2,1,3,2,1,1,4,1,3,1
+P050, perempuan,37,US,5,1,NA,4,1,4,NA,-1,2,5
+P051,Perempuan ,34,DE,5,1,5,2,2,4,1,3,3,4
+P052,Laki-laki,20,Thailand ,-1,2,5,5,1,4,1,5,1,2
+P053,Laki-laki,45,SG,5,3,4,5,5,,3,,3,3
+P054,laki-laki,36,Greece,2,1,-1,4,2,3,5,1,5,
+P055,LAKI-LAKI,31,Brazil,4,5,4,5,3,,5,NA,2,3
+P056,PEREMPUAN, 33 ,,2,2,3,NA,1,4,3,5,4,4
+P057,LAKI-LAKI,37,Vietnam,3,0,5,1,3,2,2,NA,5,3
+P058,Perempuan,38,Malaysia,2,2,1,4,5,4,5,5,3,1
+P059,Perempuan ,43,Canada,3,3,1,NA,1,1,5,5,1,5
+P060,LAKI-LAKI,34,Malaysia,4,3,1,2,,4,5,3,4,3
+P061,Laki-laki,20,France,-1,3,5,3,-1,3,4,1,4,3
+P062,Laki-laki,41,DK,1,4,1,2,3,4,2,3,1,5
+P063,Laki-laki,42,Bangladesh,4,2,5,2,1,2,5,4,2,4
+P064,LAKI-LAKI,36,VN,3,5,2,5,3,NA,3,1,5,3
+P065,laki-laki,34,Malaysia,1,2,3,4,NA,2,1,1,1,3
+P065,laki-laki,34,Malaysia,1,2,3,4,NA,2,1,1,1,3
+P066,laki-laki,,BR,2,4,1,1,2,5,1,2,1,5
+P067,Perempuan, 33 ,Pakistan,5,2,1,2,2,1,3,NA,5,5
+P068,Laki-Laki ,19,Trinidad and Tobago,3,1,1,1,3,3,2,4,4,2
+P069,Laki-laki,32,US,1,1,3,5,1,2,1,3,3,4
+P070,Perempuan ,23,Brazil,3,5,1,1,2,3,3,3,4,4
+P071,Perempuan ,,JP,4,1,NA,3,2,2,4,,NA,3
+P072,Perempuan ,19,Pakistan,4,3,1,5,3,2,1,4,5,3
+P073,perempuan,27,  IN,4,2,4,4,3,1,3,2,2,5
+P074,Laki-laki,43,MY,4,,3,5,1,NA,4,4,1,3
+P075,Laki-Laki ,34,JP,5,2,2,1,5,2,2,5,1,5
+P076,perempuan,37,NZ,-1,5,5,5,5,,1,,5,2
+P077, perempuan,33,Trinidad and Tobago,3,4,1,2,4,3,3,3,3,2
+P078, perempuan,28,India,3,2,6,5,2,5,2,4,4,3
+P079,Perempuan, 30 ,NL,2,3,,5,4,1,4,3,4,4
+P080, Laki-laki,29,New Zealand,4,5,5,1,1,3,3,2,4,1
+P081,laki-laki,43,BR,2,5,5,4,3,5,5,5,1,1
+P082, perempuan,41,  IN,5,5,1,2,5,4,2,,1,4
+P083,Perempuan ,40,Australia,5,1,5,3,4,3,4,3,3,2
+P084,LAKI-LAKI,25,Germany,2,4,3,3,5,4,4,2,3,1
+P085,Perempuan ,41,BR,5,5,2,5,1,5,2,NA,4,2
+P086, Laki-laki,23,TH,4,2,3,1,1,2,1,2,2,1
+P087,Perempuan ,41,DE,1,5,3,5,2,4,1,4,2,
+P088,PEREMPUAN,42,AU,4,5,4,2,4,2,,4,3,5
+P089,LAKI-LAKI,40,India,NA,3,5,3,3,2,2,4,5,5
+P090, perempuan,44,Australia,5,1,5,1,1,NA,5,5,3,4
+P091,Laki-laki,36,Brazil,-1,1,5,5,NA,3,4,1,5,NA
+P092,PEREMPUAN,35,  US,1,4,,2,4,4,4,5,3,5
+P093, perempuan,25,ID,3,5,4,2,2,1,,5,1,1
+P094, Laki-laki,,Pakistan,1,1,2,1,3,5,5,3,2,5
+P095,Laki-Laki ,19,New Zealand,2,4,1,4,3,4,4,5,2,2
+P096,Perempuan,31,New Zealand,4,2,1,3,-1,1,5,1,5,5
+P097,Laki-Laki ,28,Germany,1,2,1,4,5,4,5,3,5,3
+P098,PEREMPUAN,33,Vietnam,-1,3,3,1,2,1,5,4,2,4
+P099,Laki-Laki ,39,France,4,4,3,5,5,1,1,1,4,2
+P100,Laki-laki,24,NL,1,5,4,,4,,3,3,,4

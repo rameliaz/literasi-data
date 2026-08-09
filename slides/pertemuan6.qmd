@@ -174,7 +174,7 @@ Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (4
 ::: {.column width="50%"}
 **Sesudah**
 
-> "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45.1% yang bersedia divaksinasi (rentang kepercayaan 95%: 42.2–48.0%). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat, sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
+> "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45.1% yang bersedia divaksinasi (rentang kepercayaan 95%: **42.2–48.0%**). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat, sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
 :::
 :::
 
@@ -184,6 +184,11 @@ Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (4
 ### Masalahnya
 *Margin of error* ±2.9% ini sebenarnya angka *topline* untuk seluruh sampel (n=1.200), untuk subkelompok usia 22–25 tahun (n≈120) margin of error-nya jauh lebih lebar (kira-kira ±9%). Inilah kesalahan pelaporan yang umum terjadi: memakai MoE survei keseluruhan untuk subkelompok yang jauh lebih kecil.
 :::
+
+. . .
+
+**Seharusnya**
+> "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45.1% yang bersedia divaksinasi (rentang kepercayaan 95%: **36.1–54.1%**). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat, sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
 
 # Etika Analisis Data: *Questionable Research Practices* ⚖️ {background-color="#14497F"}
 
