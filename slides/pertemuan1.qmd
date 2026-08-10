@@ -93,7 +93,7 @@ Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](
 :::
 :::
 
-Bentuk kanan lebih mudah diverifikasi, dibersihkan, dianalisis, dan divisualisasikan. Oleh karena itu, literasi data dimulai dari **cara menyusun data**, bukan dari rumus/logika statistik.
+Bentuk kanan lebih mudah diverifikasi, dibersihkan, dianalisis, dan divisualisasikan. Oleh karena itu, literasi data dimulai dari **cara menyusun dan memahami data**, bukan dari rumus/logika statistik.
 
 ## *Data point* vs. dataset
 
@@ -178,8 +178,8 @@ Catatan: kualitatif ≠ tidak terstruktur, dan kuantitatif ≠ selalu berupa dat
 ## Aktivitas kelompok
 
 ::: {.callout-note}
-### Diskusi kelompok (10 menit)
-Bersama kelompok Anda, ambil satu topik penelitian psikologi yang pernah/ingin Anda kerjakan. Identifikasi:
+### Diskusi
+Ambil satu topik penelitian psikologi yang pernah/ingin Anda kerjakan. Identifikasi:
 
 1. Minimal satu variabel **kategorikal** dan satu **numerik**.
 2. Apakah datanya lebih dekat ke **kualitatif** atau **kuantitatif**, atau keduanya?
@@ -219,7 +219,6 @@ Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](
 
 - Memperoleh data ≠ data itu layak dipakai.
 - Periksa metadata, metodologi pengumpulan, kredibilitas sumber.
-- *"Semua data itu pada dasarnya kacau (messy) — kita hanya perlu tahu seberapa kacau data yang kita miliki."*
 - *(Kita bahas mendalam di Pertemuan 4)*.
 
 ## 5. Clean — membersihkan data
@@ -231,14 +230,14 @@ Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](
 ## 6. Analyze — menganalisis data
 
 - Di sinilah kita menganalisis dataset untuk menjawab pertanyaan yang dirumuskan di tahap *Define*.
-- Dari statistik deskriptif sederhana sampai uji komparatif dan korelasional.
+- Belajar tentang perencanaan analisis data, statistik deskriptif sederhana sampai uji komparatif dan korelasional.
 - *(Kita bahas mendalam di Pertemuan 5–6)*.
 
 ## 7. Present — menyajikan data
 
 - Temuan hanya bermanfaat kalau berhasil dikomunikasikan ke audiens yang tepat, dengan cara yang tepat.
 - Melibatkan pemilihan penekanan pesan, bentuk visualisasi, dan medium penyajian.
-- *(Kita bahas mendalam di Pertemuan 7.)*
+- *(Kita bahas mendalam di Pertemuan 7)*.
 
 ## *Data Pipeline* sebagai peta mata kuliah
 
@@ -264,10 +263,10 @@ Dalam praktiknya, alur ini jarang benar-benar linear. Anda akan sering bolak-bal
 Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data secara kritis dan bertanggung jawab, dan mencakup keseluruhan *Data Pipeline*, bukan hanya kemampuan melakukan uji statistik.
 :::
 
-## Literasi data ≠ hanya statistik
+## Literasi data ≠ kemampuan statistik
 
 ::: {.incremental}
-- Statistik hanyalah **satu tahap** (*Analyze*) dari tujuh tahap *Data Pipeline*.
+- Kemampuan statistik hanya dibutuhkan di **satu tahap** (*Analyze*) dari tujuh tahap *Data Pipeline*.
 - Peneliti yang mahir statistik tapi tidak bisa menilai kredibilitas sumber data, atau tidak bisa membersihkan data secara sistematis, tetap **belum bisa dikatakan *data literate***.
 - Literasi data juga mencakup kesadaran etis: privasi partisipan, keamanan data, dan penggunaan data secara bertanggung jawab.
 :::
@@ -297,7 +296,7 @@ Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data
 
 - **Cukup besar** untuk terasa seperti data riset sungguhan, tapi tetap bisa diolah di *spreadsheet*.
 - **Terstruktur jelas** (item per kolom) — bagus untuk latihan prinsip *tidy data* di Pertemuan 2.
-- **Tidak sempurna** — dikumpulkan daring secara terbuka, sehingga ada data yang perlu diverifikasi dan dibersihkan (Pertemuan 3–4): entri yang tidak lengkap, kode negara yang aneh, waktu pengisian yang mencurigakan.
+- **Tidak sempurna** — dikumpulkan daring secara terbuka, sehingga ada data yang perlu diverifikasi dan dibersihkan (Pertemuan 3–4): entri yang tidak lengkap, kode negara yang tidak terstandar, waktu pengisian yang tidak semuanya "normal".
 - Terdiri dari **skor skala** yang perlu dihitung, dibandingkan antar kelompok, dan diinterpretasi (Pertemuan 5–6) serta divisualisasikan (Pertemuan 7).
 
 ::: {.callout-note}
@@ -310,9 +309,10 @@ Unduh dataset IPIP di *website* Mata Kuliah. Untuk Pertemuan 2, contoh data akan
 ::: {.incremental}
 - Data adalah **representasi dunia yang terstruktur**, jadi bukan sekadar angka.
 - Bentuk data bisa **kategorikal atau numerik** (diskrit/*continuum*), dan **kualitatif atau kuantitatif**.
-- *Data Pipeline* (**Define–Find–Get–Verify–Clean–Analyze–Present**) adalah peta yang akan kita ikuti sampai Pertemuan 7.
-- Literasi data mencakup keseluruhan alur ini, plus *awareness* soal aspek etisnya, bukan hanya kemampuan statistik.
-- Kita akan memakai dataset **Big Five Personality Test** dari Open-Source Psychometrics Project sepanjang paruh pertama semester.
+- *Data Pipeline* (**Define–Find–Get–Verify–Clean–Analyze–Present**) adalah *workflow* yang akan kita ikuti sampai Pertemuan 7.
+- Literasi data mencakup keseluruhan alur ini, plus *awareness* soal aspek etisnya, jadi sangat berbeda denngan kemampuan statistik.
+  + Meskipun begitu, kemampuan statistik juga sangat membantu seseorang untuk memiliki literasi data yang baik.
+- Kita akan memakai dataset **Big Five Personality Test** dari Open-Source Psychometrics Project sepanjang paruh pertama semester sebagai *playing ground*.
 :::
 
 ## Ada pertanyaan❓
