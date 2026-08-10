@@ -55,10 +55,10 @@ Pertemuan 1–7 dan 11 dilaksanakan **daring** melalui [Microsoft Teams](https:/
 | 6 | Jumat, 18 Sep · 13.00 | Interpretasi Data | Kuliah, Tugas (daring) | Amel | [Slide](slides/pertemuan6.html) | [Teams](https://teams.microsoft.com/meet/454419255686755?p=VvpbkJQA8szVc8HC1r) |
 | 7 | Jumat, 24 Sep · 13.00 | Menyajikan Data | Kuliah, Demo (daring) | Amel | [Slide](slides/pertemuan7.html) | [Teams](https://teams.microsoft.com/meet/454419255686755?p=VvpbkJQA8szVc8HC1r) |
 | 8 | 28 Sep – 9 Okt | **UTS** — Proyek Literasi Data (kelompok) | Ujian Tengah Semester | — | — | — |
-| 9 | Rabu, 15 Okt · 08.00 | Dari Fenomena ke Topik Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* | — |
-| 10 | Rabu, 22 Okt · 08.00 | Ragam Tinjauan Pustaka dan Narrative Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* | — |
+| 9 | Kamis, 15 Okt · 08.00 | Dari Fenomena ke Topik Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* | — |
+| 10 | Kamis, 22 Okt · 08.00 | Ragam Tinjauan Pustaka dan Narrative Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* | — |
 | 11 | Jumat, 30 Okt · 13.00 | Praktik Pencarian dan Sintesis Literatur | Praktikum, Diskusi Kelompok (daring) | Amel | *segera* | [Teams](https://teams.microsoft.com/meet/454419255686755?p=VvpbkJQA8szVc8HC1r) |
-| 12 | Rabu, 5 Nov · 08.00 | Menyusun Argumen dan Struktur Naskah | Kuliah, Presentasi (luring) | Ardi | *segera* | — |
+| 12 | Kamis, 5 Nov · 08.00 | Menyusun Argumen dan Struktur Naskah | Kuliah, Presentasi (luring) | Ardi | *segera* | — |
 | 13 | Jumat, 13 Nov · disepakati bersama mentor | Praktik Menulis Draf dan Merancang Infografis | Praktikum, Peer Teaching | Amel | *segera* | — |
 | 14 | Jumat, 20 Nov · disepakati bersama mentor | Peer Review | Praktikum, Peer Teaching | Amel | *segera* | — |
 | 15 | Jumat, 27 Nov · disepakati bersama mentor | Revisi dan Finalisasi | Praktikum, Peer Teaching | Amel | *segera* | — |
