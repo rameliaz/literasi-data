@@ -760,14 +760,14 @@
     "href": "slides/pertemuan1.html#psikologi-adalah-ilmu-yang-bekerja-dengan-data",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
     "section": "Psikologi adalah ilmu yang bekerja dengan data",
-    "text": "Psikologi adalah ilmu yang bekerja dengan data\n\nSkor skala, hasil eksperimen, reaction time, transkrip wawancara, catatan observasi — semuanya data.\nKemampuan memahami, mengorganisir, dan mengomunikasikan data secara jujur dan akurat adalah keterampilan riset inti, bukan sekadar “urusan statistik”.\nBanyak masalah dalam laporan penelitian psikologi bukan berasal dari analisis yang salah, melainkan dari data yang tidak dipahami dengan baik sejak awal."
+    "text": "Psikologi adalah ilmu yang bekerja dengan data\n\nSkor skala, hasil eksperimen, reaction time, transkrip wawancara, catatan observasi, adalah data yang biasa ditangani oleh ilmuwan psikologi.\nKemampuan memahami, mengorganisir, dan mengomunikasikan data secara jujur dan akurat adalah keterampilan riset yang sangat penting.\nBanyak masalah dalam laporan penelitian psikologi bukan berasal dari analisis yang salah, melainkan dari data yang tidak dipahami dengan baik sejak awal."
   },
   {
-    "objectID": "slides/pertemuan1.html#tiga-skenario-yang-mungkin-sudah-anda-kenal",
-    "href": "slides/pertemuan1.html#tiga-skenario-yang-mungkin-sudah-anda-kenal",
+    "objectID": "slides/pertemuan1.html#tiga-skenario-yang-mungkin-sudah-pernah-anda-alami",
+    "href": "slides/pertemuan1.html#tiga-skenario-yang-mungkin-sudah-pernah-anda-alami",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
-    "section": "Tiga skenario yang mungkin sudah Anda kenal",
-    "text": "Tiga skenario yang mungkin sudah Anda kenal\n\nAnda melihat data survei dari lembaga survei yang dipublikasikan di laman webnya — satu kolom berisi campuran angka dan teks, tidak jelas satuan atau skalanya.\nAnda ingin membandingkan dua kelompok, tetapi jumlah partisipan di tiap kelompok tidak sama, sehingga persentase yang dilaporkan menyesatkan.\nAnda harus menjelaskan hasil regresi ke pembaca awam tanpa membuat klaim yang berlebihan.\n\n\n\n\n\n\n\nDiskusi singkat\n\n\nPernahkah Anda mengalami salah satu skenario di atas?"
+    "section": "Tiga skenario yang mungkin sudah pernah Anda alami",
+    "text": "Tiga skenario yang mungkin sudah pernah Anda alami\n\nAnda melihat data survei dari lembaga survei yang dipublikasikan di laman webnya. Satu kolom berisi campuran angka dan teks, tidak jelas satuan atau skalanya.\nAnda ingin membandingkan dua kelompok, tetapi jumlah partisipan di tiap kelompok tidak sama, sehingga persentase yang dilaporkan menyesatkan.\nAnda harus menjelaskan hasil regresi ke pembaca awam tanpa membuat klaim yang berlebihan.\n\n\n\n\n\n\n\nDiskusi singkat\n\n\nPernahkah Anda mengalami salah satu skenario di atas?"
   },
   {
     "objectID": "slides/pertemuan1.html#mengapa-ini-relevan-untuk-penulisan-ilmiah",
@@ -851,7 +851,7 @@
     "href": "slides/pertemuan1.html#peta-alur-kerja-data",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
     "section": "Peta alur kerja data",
-    "text": "Peta alur kerja data\n\nData Pipeline adalah kerangka kerja dari School of Data (program Open Knowledge Foundation) untuk memetakan tahapan bekerja dengan data, dari awal sampai akhir.\nTujuh tahap: Define → Find → Get → Verify → Clean → Analyze → Present.\nKerangka ini akan menjadi peta perjalanan kita selama tujuh pertemuan ke depan.\n\nSumber: Open Knowledge Foundation & International Republican Institute (2021)"
+    "text": "Peta alur kerja data\n\nData Pipeline adalah kerangka kerja dari School of Data (program Open Knowledge Foundation) untuk memetakan tahapan bekerja dengan data, dari awal sampai akhir.\nTujuh tahap: Define → Find → Get → Verify → Clean → Analyze → Present.\nKerangka ini akan menjadi workflow kita selama tujuh pertemuan ke depan.\n\nSumber: Open Knowledge Foundation & International Republican Institute (2021)"
   },
   {
     "objectID": "slides/pertemuan1.html#define-merumuskan-masalah",
@@ -914,7 +914,7 @@
     "href": "slides/pertemuan1.html#mendefinisikan-literasi-data",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
     "section": "Mendefinisikan literasi data",
-    "text": "Mendefinisikan literasi data\n\nKemampuan untuk membaca, memahami, mempertanyakan, dan mengomunikasikan data secara kritis dan bertanggung jawab, dan mencakup keseluruhan Data Pipeline, bukan hanya kemampuan melakukan uji statistik."
+    "text": "Mendefinisikan literasi data\n\nKemampuan untuk membaca, memahami, mempertanyakan, dan mengomunikasikan data secara kritis dan bertanggung jawab, dan mencakup keseluruhan tahapan Data Pipeline."
   },
   {
     "objectID": "slides/pertemuan1.html#literasi-data-kemampuan-statistik",

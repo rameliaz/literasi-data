@@ -34,15 +34,15 @@ execute:
 ## Psikologi adalah ilmu yang bekerja dengan data
 
 ::: {.incremental}
-- Skor skala, hasil eksperimen, *reaction time*, transkrip wawancara, catatan observasi — semuanya **data**.
-- Kemampuan memahami, mengorganisir, dan mengomunikasikan data secara jujur dan akurat adalah keterampilan riset inti, bukan sekadar "urusan statistik".
+- Skor skala, hasil eksperimen, *reaction time*, transkrip wawancara, catatan observasi, adalah **data** yang biasa ditangani oleh ilmuwan psikologi.
+- Kemampuan memahami, mengorganisir, dan mengomunikasikan data secara jujur dan akurat adalah keterampilan riset yang sangat penting.
 - Banyak masalah dalam laporan penelitian psikologi bukan berasal dari analisis yang salah, melainkan dari **data yang tidak dipahami dengan baik** sejak awal.
 :::
 
-## Tiga skenario yang mungkin sudah Anda kenal
+## Tiga skenario yang mungkin sudah pernah Anda alami
 
 ::: {.incremental}
-1. Anda melihat data survei dari lembaga survei yang dipublikasikan di laman webnya — satu kolom berisi campuran angka dan teks, tidak jelas satuan atau skalanya.
+1. Anda melihat data survei dari lembaga survei yang dipublikasikan di laman webnya. Satu kolom berisi campuran angka dan teks, tidak jelas satuan atau skalanya.
 2. Anda ingin membandingkan dua kelompok, tetapi jumlah partisipan di tiap kelompok tidak sama, sehingga persentase yang dilaporkan menyesatkan.
 3. Anda harus menjelaskan hasil regresi ke pembaca awam tanpa membuat klaim yang berlebihan.
 :::
@@ -191,9 +191,9 @@ Ambil satu topik penelitian psikologi yang pernah/ingin Anda kerjakan. Identifik
 ## Peta alur kerja data
 
 ::: {.incremental}
-- *Data Pipeline* adalah kerangka kerja dari School of Data (program Open Knowledge Foundation) untuk memetakan tahapan bekerja dengan data, dari awal sampai akhir.
+- *Data Pipeline* adalah kerangka kerja dari [School of Data](libs/okf.pdf) (program Open Knowledge Foundation) untuk memetakan tahapan bekerja dengan data, dari awal sampai akhir.
 - Tujuh tahap: **Define → Find → Get → Verify → Clean → Analyze → Present**.
-- Kerangka ini akan menjadi **peta perjalanan** kita selama tujuh pertemuan ke depan.
+- Kerangka ini akan menjadi ***workflow*** kita selama tujuh pertemuan ke depan.
 :::
 
 Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](libs/okf.pdf)
@@ -259,9 +259,7 @@ Dalam praktiknya, alur ini jarang benar-benar linear. Anda akan sering bolak-bal
 
 ## Mendefinisikan literasi data
 
-::: {.r-fit-text}
-Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data secara kritis dan bertanggung jawab, dan mencakup keseluruhan *Data Pipeline*, bukan hanya kemampuan melakukan uji statistik.
-:::
+> Kemampuan untuk **membaca, memahami, mempertanyakan, dan mengomunikasikan** data secara kritis dan bertanggung jawab, dan mencakup keseluruhan tahapan *Data Pipeline*.
 
 ## Literasi data ≠ kemampuan statistik
 
