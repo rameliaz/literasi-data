@@ -39,7 +39,7 @@ execute:
 - Banyak masalah dalam laporan penelitian psikologi bukan berasal dari analisis yang salah, melainkan dari **data yang tidak dipahami dengan baik** sejak awal.
 :::
 
-## Tiga skenario yang mungkin sudah pernah Anda alami
+## Tiga situasi yang mungkin sudah pernah Anda alami
 
 ::: {.incremental}
 1. Anda melihat data survei dari lembaga survei yang dipublikasikan di laman webnya. Satu kolom berisi campuran angka dan teks, tidak jelas satuan atau skalanya.
@@ -75,7 +75,7 @@ Pernahkah Anda mengalami salah satu skenario di atas?
 Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](libs/okf.pdf)
 :::
 
-## Deskripsi tidak terstruktur vs. terstruktur
+## Tidak terstruktur vs. terstruktur
 
 ::: columns
 ::: {.column width="50%"}
