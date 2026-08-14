@@ -57,9 +57,9 @@ Pertemuan 1–7 dan 11 dilaksanakan **daring** melalui [Microsoft Teams](https:/
 | 8 | 28 Sep – 9 Okt | **UTS** — Proyek Literasi Data (kelompok) | Ujian Tengah Semester | — | — | — |
 | 9 | Kamis, 15 Okt · 08.00 | Dari Fenomena ke Topik Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* | — |
 | 10 | Kamis, 22 Okt · 08.00 | Ragam Tinjauan Pustaka dan Narrative Review | Kuliah, Diskusi Kelompok (luring) | Ardi | *segera* | — |
-| 11 | Jumat, 30 Okt · 13.00 | Praktik Pencarian dan Sintesis Literatur | Praktikum, Diskusi Kelompok (daring) | Amel | *segera* | [Teams](https://teams.microsoft.com/meet/454419255686755?p=VvpbkJQA8szVc8HC1r) |
+| 11 | Jumat, 30 Okt · 13.00 | Praktik Pencarian Literatur dan Identifikasi Perdebatan Konstruk | Praktikum, Diskusi Kelompok (daring) | Amel | *segera* | [Teams](https://teams.microsoft.com/meet/454419255686755?p=VvpbkJQA8szVc8HC1r) |
 | 12 | Kamis, 5 Nov · 08.00 | Menyusun Argumen dan Struktur Naskah | Kuliah, Presentasi (luring) | Ardi | *segera* | — |
-| 13 | Jumat, 13 Nov · disepakati bersama mentor | Praktik Menulis Draf dan Merancang Infografis | Praktikum, Peer Teaching | Amel | *segera* | — |
+| 13 | Jumat, 13 Nov · disepakati bersama mentor | Praktik Menulis Draf dan Merancang Infografis | Praktikum, Peer Teaching | Ardi | *segera* | — |
 | 14 | Jumat, 20 Nov · disepakati bersama mentor | Peer Review | Praktikum, Peer Teaching | Amel | *segera* | — |
 | 15 | Jumat, 27 Nov · disepakati bersama mentor | Revisi dan Finalisasi | Praktikum, Peer Teaching | Amel | *segera* | — |
 | 16 | 7–18 Des | **UAS** — Naskah Narrative Review dan Infografis (final) | Ujian Akhir Semester | — | — | — |
@@ -77,7 +77,7 @@ Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat
 
 Naskah *narrative review* dan infografis dikerjakan **secara individu** oleh setiap mahasiswa. Untuk mendukung proses ini, mahasiswa dikelompokkan ke dalam kelompok pendampingan (3–4 orang) yang didampingi oleh satu mentor S3 secara tetap pada Pertemuan 13–15, sehingga mahasiswa juga dapat belajar dari umpan balik yang diterima teman sekelompok (*peer learning*) — meski penilaian tetap per mahasiswa.
 
-1. **Pertemuan 13 — Penulisan Draf.** Setiap mahasiswa merancang dan mulai menulis *outline* (kisi-kisi) naskah *narrative review* dan infografis secara individu, lalu mengirimkannya kepada mentor S3 yang ditugaskan paling lambat akhir Pertemuan 13. Mentor S3 hadir di kelas untuk mendampingi dan menjawab pertanyaan mahasiswa.
+1. **Pertemuan 13 — Penulisan Draf.** Setiap mahasiswa merancang dan mulai menulis *outline* (kisi-kisi) naskah *narrative review* — mencakup definisi kerja konstruk, batas konstruk, pemetaan *nomological net* (anteseden, konsekuensi, variasi kontekstual), dan perdebatan/kritik terkait konstruk dalam literatur yang telah dirumuskan — serta infografis secara individu, lalu mengirimkannya kepada mentor S3 yang ditugaskan paling lambat akhir Pertemuan 13. Mentor S3 hadir di kelas untuk mendampingi, menjawab pertanyaan mahasiswa, dan memberi masukan atas kejelasan definisi dan batas konstruk yang diajukan.
 2. **Pertemuan 14 — Umpan Balik.** Mentor S3 menyampaikan umpan balik individual kepada setiap mahasiswa dalam sesi kelompok pendampingan (±10–15 menit per mahasiswa), berjalan bersamaan dengan sesi *peer review* antar mahasiswa.
 3. **Pertemuan 15 — Verifikasi Revisi.** Setiap mahasiswa merevisi naskah dan infografis berdasarkan umpan balik Pertemuan 14. Mentor S3 melakukan pengecekan singkat (dapat asinkron) untuk memastikan revisi telah diakomodasi, sebelum naskah dan infografis final dikumpulkan sebagai UAS pada Pertemuan 16.
 
@@ -125,22 +125,22 @@ Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
 
 ### UAS — Naskah *Narrative Review* dan Infografis, final (Pertemuan 16) — 50%
 
-Mahasiswa mengumpulkan naskah *narrative review* individu yang telah direvisi berdasarkan umpan balik peer review dan mentor S3, beserta infografis pendukungnya, siap untuk publikasi atau diseminasi.
+Mahasiswa mengumpulkan naskah *narrative review* individu tentang satu konstruk psikologi pilihannya — mencakup definisi kerja, batas konstruk, [*nomological net*nya](https://en.wikipedia.org/wiki/Nomological_network) (anteseden, konsekuensi, variasi kontekstual), dan perdebatan/kritik terkait konstruk tersebut dalam literatur — yang telah direvisi berdasarkan umpan balik peer review dan mentor S3, beserta infografis pendukungnya, siap untuk publikasi atau diseminasi.
 
 Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
 
 | Kriteria | Indikator | Nilai maksimum |
 |:--|:--|--:|
-| Kedalaman Sintesis Literatur | Sintesis tematik yang mendalam, bukan ringkasan per-artikel; argumen didukung bukti/referensi relevan | 25 |
+| Kedalaman Kajian Konstruk | Kajian yang mendalam atas konstruk yang dipilih, mencakup pemetaan definisi konstruk dari berbagai sumber (min. 5–10 kutipan langsung), definisi kerja, batas konstruk (termasuk pembeda dari konstruk berdekatan), *nomological net* (anteseden, konsekuensi, variasi kontekstual), dan kesadaran atas perdebatan/kontroversi/kritik terkait konstruk dalam literatur; argumen didukung bukti/referensi relevan | 25 |
 | Struktur, Kaidah Akademik, dan Etika Penulisan | Struktur *narrative review* baku, sitasi konsisten (APA), bebas pelanggaran etika (plagiarisme, transparansi AI) | 20 |
-| Kualitas dan Ketepatan Infografis | Menyajikan pesan utama sintesis secara visual, jelas, dan sesuai naskah | 20 |
+| Kualitas dan Ketepatan Infografis | Menyajikan pesan utama kajian secara visual, jelas, dan sesuai naskah | 20 |
 | Koherensi dan Kualitas Argumentasi | Argumen logis, koheren, dan konsisten dari awal hingga akhir | 15 |
 | Proses Pendampingan dan Tindak Lanjut Umpan Balik Mentor S3* | Dinilai dosen berdasarkan Lembar Umpan Balik Mentor S3 (Pertemuan 13–15) | 20 |
 | **Total** | | **100** |
 
 : Rubrik penilaian UAS (Rancangan Tugas) {.striped tbl-colwidths="[38,50,12]"}
 
-*Skor kriteria ini dinilai dosen berdasarkan Lembar Umpan Balik Mentor S3 (Pertemuan 13–15): kejelasan arah/argumen naskah, proses sintesis yang tampak, kejelasan alasan pemilihan sumber, evaluasi kritis atas substansi artikel yang dibaca, kejelasan konsep infografis, dan tindak lanjut umpan balik Pertemuan 14 yang terverifikasi pada Pertemuan 15. Umpan balik mentor bersifat formatif; keputusan nilai akhir tetap di tangan dosen pengampu.
+*Skor kriteria ini dinilai dosen berdasarkan Lembar Umpan Balik Mentor S3 (Pertemuan 13–15): kejelasan arah/argumen naskah, kedalaman kajian yang tampak (bukan sekadar ringkasan artikel), kejelasan alasan pemilihan sumber, evaluasi kritis atas substansi artikel yang dibaca, kejelasan definisi kerja dan batas konstruk (termasuk gambaran awal *nomological net*: anteseden, konsekuensi, variasi kontekstual), kesadaran atas perdebatan/kontroversi/kritik terkait konstruk dalam literatur, kejelasan konsep infografis, dan tindak lanjut umpan balik Pertemuan 14 yang terverifikasi pada Pertemuan 15. Umpan balik mentor bersifat formatif; keputusan nilai akhir tetap di tangan dosen pengampu.
 
 ### Kriteria nilai akhir
 
