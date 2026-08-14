@@ -13,6 +13,13 @@ Semester Gasal 2026/2027 — 4 SKS (FPS25801005).
 Materi mata kuliah ini sedang disusun secara bertahap. Slide pertemuan yang sudah tersedia bisa diakses lewat menu **Materi** di atas atau lewat tabel [Rencana Pertemuan](#rencana-pertemuan) di bawah.
 :::
 
+::: {.callout-note}
+### Rangkuman dari Dokumen Pembelajaran
+
+Informasi yang tercantum dalam laman web ini merupakan rangkuman dari dokumen pembelajaran, yang mencakup [Rencana Program Pembelajaran](https://drive.google.com/open?id=1g54AHzXOa_3ex1nJhD7o1fOvnxop---C&usp=drive_fs), [Kontrak Perkuliahan](https://drive.google.com/open?id=1zg7Whh5bh0WdTeGAdZmMg_sWN8NVR5cN&usp=drive_fs), dan [Rancangan Tugas](https://drive.google.com/open?id=1Akc8n4JxlXY3RozhLLZyrnoEuB4d9nAe&usp=drive_fs). Ketiganya diunggah di bagian `Files` di [Psyche](https://psyche.psikologi.unair.ac.id/). Tetap cek dokumennya langsung agar mendapatkan informasi yang lebih lengkap.
+
+::: 
+
 ## Deskripsi Mata Kuliah
 
 Mata kuliah ini membekali mahasiswa dengan literasi data serta keterampilan menulis ilmiah yang sesuai dengan standar akademik magister. Mahasiswa akan mempelajari alur kerja data (*Data Pipeline*) mulai dari merumuskan pertanyaan berbasis data, menemukan dan memperoleh data, memverifikasi dan membersihkan data, hingga menganalisis dan menyajikannya secara visual (termasuk melalui infografis), dengan studi kasus dari data psikologi (misalnya dataset psikometrik terbuka). Selain itu, mahasiswa akan mempelajari penyusunan *narrative review* yang argumentatif dan berbasis bukti sebagai salah satu format penulisan ilmiah dalam psikologi. Sebagai bagian dari penguatan keterampilan riset, mata kuliah ini juga memperkenalkan berbagai alat bantu otomatisasi yang dapat digunakan dalam keseluruhan proses penelitian, mulai dari pencarian dan pengelolaan data, manajemen referensi, analisis data, hingga penyusunan naskah dan visualisasi data. Penggunaan alat ini ditekankan pada aspek tanggung jawab dan etika akademik, termasuk etika penggunaan data dan akal imitasi (AI), sehingga mahasiswa dapat memanfaatkannya secara efektif tanpa mengorbankan integritas ilmiah.
@@ -77,7 +84,7 @@ Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat
 
 Naskah *narrative review* dan infografis dikerjakan **secara individu** oleh setiap mahasiswa. Untuk mendukung proses ini, mahasiswa dikelompokkan ke dalam kelompok pendampingan (3–4 orang) yang didampingi oleh satu mentor S3 secara tetap pada Pertemuan 13–15, sehingga mahasiswa juga dapat belajar dari umpan balik yang diterima teman sekelompok (*peer learning*) — meski penilaian tetap per mahasiswa.
 
-1. **Pertemuan 13 — Penulisan Draf.** Setiap mahasiswa merancang dan mulai menulis *outline* (kisi-kisi) naskah *narrative review* — mencakup definisi kerja konstruk, batas konstruk, pemetaan *nomological net* (anteseden, konsekuensi, variasi kontekstual), dan perdebatan/kritik terkait konstruk dalam literatur yang telah dirumuskan — serta infografis secara individu, lalu mengirimkannya kepada mentor S3 yang ditugaskan paling lambat akhir Pertemuan 13. Mentor S3 hadir di kelas untuk mendampingi, menjawab pertanyaan mahasiswa, dan memberi masukan atas kejelasan definisi dan batas konstruk yang diajukan.
+1. **Pertemuan 13 — Penulisan Draf.** Setiap mahasiswa merancang dan mulai menulis [*outline* (kisi-kisi)](https://docs.google.com/document/d/1JUtv6JsyaOPtBVC79j2Dk9bafFV1XEnH/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true) naskah *narrative review* — mencakup definisi kerja konstruk, batas konstruk, pemetaan *nomological net* (anteseden, konsekuensi, variasi kontekstual), dan perdebatan/kritik terkait konstruk dalam literatur yang telah dirumuskan — serta infografis secara individu, lalu mengirimkannya kepada mentor S3 yang ditugaskan paling lambat akhir Pertemuan 13. Mentor S3 hadir di kelas untuk mendampingi, menjawab pertanyaan mahasiswa, dan memberi masukan atas kejelasan definisi dan batas konstruk yang diajukan.
 2. **Pertemuan 14 — Umpan Balik.** Mentor S3 menyampaikan umpan balik individual kepada setiap mahasiswa dalam sesi kelompok pendampingan (±10–15 menit per mahasiswa), berjalan bersamaan dengan sesi *peer review* antar mahasiswa.
 3. **Pertemuan 15 — Verifikasi Revisi.** Setiap mahasiswa merevisi naskah dan infografis berdasarkan umpan balik Pertemuan 14. Mentor S3 melakukan pengecekan singkat (dapat asinkron) untuk memastikan revisi telah diakomodasi, sebelum naskah dan infografis final dikumpulkan sebagai UAS pada Pertemuan 16.
 
@@ -126,6 +133,13 @@ Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
 ### UAS — Naskah *Narrative Review* dan Infografis, final (Pertemuan 16) — 50%
 
 Mahasiswa mengumpulkan naskah *narrative review* individu tentang satu konstruk psikologi pilihannya — mencakup definisi kerja, batas konstruk, [*nomological net*nya](https://en.wikipedia.org/wiki/Nomological_network) (anteseden, konsekuensi, variasi kontekstual), dan perdebatan/kritik terkait konstruk tersebut dalam literatur — yang telah direvisi berdasarkan umpan balik peer review dan mentor S3, beserta infografis pendukungnya, siap untuk publikasi atau diseminasi.
+
+::: {.callout-tip}
+### Rencanakan Tugas Anda dengan *Outline*
+
+Mahasiswa harus mempersiapkan dan mendiskusikan proses *review*nya bersama dengan Mentor S3. [Gunakan *template outline* berikut ini](https://docs.google.com/document/d/1JUtv6JsyaOPtBVC79j2Dk9bafFV1XEnH/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true) untuk mempersiapkan proses diskusi. Kirimkan *outline* ini ke mentor Anda selambatnya pada Pertemuan 13.
+
+:::
 
 Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
 
