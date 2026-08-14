@@ -226,4 +226,4 @@ Halaman ini merupakan ringkasan **Kontrak Perkuliahan** dan **Rancangan Tugas** 
 :::
 
 ### *Disclosure* penggunaan akal imitasi (AI)
-Saya menggunakan Claude Code (model Opus 5 dan Sonnet 5) untuk *brainstorming* dna menyusun *ouline* materi, menyusun draf RPS/kontrak perkuliahan, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya (Amel) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.
+Saya menggunakan Claude Code (model Sonnet 5) untuk *brainstorming* dan menyusun *ouline* materi, menyusun draf RPS/kontrak perkuliahan, membuat *template outline* untuk *narrative review*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya (Amel) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.
