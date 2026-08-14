@@ -75,7 +75,7 @@ Pertemuan 1–7 dan 11 dilaksanakan **daring** melalui [Microsoft Teams](https:/
 
 ::: {.callout-note}
 #### Catatan tentang perkuliahan daring
-Mahasiswa **tidak perlu** memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat *browser* tanpa memasang aplikasinya.
+Mahasiswa **tidak harus** memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat *browser* tanpa memasang aplikasinya.
 
 Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain `@drive.unair.ac.id`). Lihat [Panduan Penggunaan OneDrive dan MS Teams](https://drive.google.com/file/d/1GZRz9a7TBCpDvYjJJE_ny8-3rgShKK_6/view) dari Direktorat Sistem Informasi (DSI) Universitas Airlangga.
 :::
