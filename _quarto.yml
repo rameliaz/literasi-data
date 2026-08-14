@@ -35,8 +35,6 @@ website:
             href: slides/pertemuan6.html
           - text: "7. Menyajikan Data"
             href: slides/pertemuan7.html
-          - text: "12. Menyusun Argumen dan Struktur Naskah"
-            href: slides/pertemuan12.html
       - text: "Dataset"
         menu:
           - text: "Dataset IPIP"
