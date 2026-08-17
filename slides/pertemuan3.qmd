@@ -258,7 +258,7 @@ Ini kasus tentang *k-anonymity*/*re-identification risk* tanpa perlu istilah tek
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 3
+## Kesimpulan Pertemuan 3
 
 ::: {.incremental}
 * Sebelum data bisa ditata atau dibersihkan, ia harus **ditemukan** dan **diperoleh** dulu — dua tahap *Data Pipeline* minggu ini.

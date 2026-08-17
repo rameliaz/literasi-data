@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-08-14">
+  <meta name="dcterms.date" content="2026-08-17">
   <title>Literasi Data dan Penulisan Ilmiah – Bekerja dengan Data Tabular</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -152,7 +152,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-08-14</p>
+  <p class="date">2026-08-17</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
@@ -187,15 +187,15 @@ Rizqy Amelia Zein
 <section id="mengenal-tabel" class="slide level2">
 <h2>Mengenal tabel</h2>
 <ul>
-<li class="fragment">Hampir semua pekerjaan literasi data — dari data mentah sampai naskah publikasi — <strong>menggunakan sebuah tabel</strong> untuk menyajikan data.</li>
-<li class="fragment">Minggu lalu kita bicara tentang <em>Data Pipeline</em> secara konsep. Hari ini kita mulai <strong><em>get your hands dirty</em></strong>: bagaimana tabel disusun, dibaca, dan diubah bentuknya.</li>
+<li class="fragment">Hampir semua pekerjaan literasi data, mulai dari data mentah sampai naskah publikasi, <strong>menggunakan sebuah tabel</strong> untuk menyajikan data.</li>
+<li class="fragment">Minggu lalu kita bicara tentang <em>Data Pipeline</em> secara konsep besarnya. Hari ini kita mulai dari tahap <em>Data Pipeline</em> yang terakhir dulu (‘<em>Present</em>’) dengan tabel: bagaimana tabel disusun, dibaca, dan diubah bentuknya.</li>
 <li class="fragment">Ingat definisi minggu lalu: data adalah <strong>representasi dunia yang terstruktur</strong>. Tabel adalah salah satu bentuk struktur itu yang paling umum kita temui.</li>
 </ul>
 </section>
 <section id="anatomi-sebuah-tabel" class="slide level2">
 <h2>Anatomi sebuah tabel</h2>
 <ul>
-<li class="fragment"><strong>Baris (<em>row</em>)</strong> — mewakili satu <em>record</em>, biasanya berisi informasi tentang satu <strong>unit analisis</strong> (mis. satu partisipan).</li>
+<li class="fragment"><strong>Baris (<em>row</em>)</strong> — mewakili satu <em>record</em>, biasanya berisi informasi tentang satu <strong>unit analisis</strong> (mis. satu partisipan, satu sekolah, dst.).</li>
 <li class="fragment"><strong>Kolom (<em>column</em>)</strong> — mewakili satu <strong>variabel</strong>, misalnya usia, gender, atau skor pada satu item skala.</li>
 <li class="fragment"><strong>Sel (<em>cell</em>)</strong> — pertemuan satu baris dan satu kolom, diidentifikasi lewat sistem referensi (kolom → huruf, baris → angka): sel <code>B3</code> berarti kolom B, baris 3.</li>
 </ul>
@@ -205,7 +205,7 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Baris itu granular</strong></p>
+<p><strong>Baris merupakan unit yang granular</strong></p>
 </div>
 <div class="callout-content">
 <p>Baris idealnya mewakili informasi paling rendah levelnya dan paling detail. Jadi, bukan ringkasan atau subtotal.</p>
@@ -222,7 +222,7 @@ Rizqy Amelia Zein
 <li><code>=AVERAGE(B3:B8)</code> — rata-rata satu rentang</li>
 <li><code>=COUNT(B3:B8)</code> — menghitung berapa sel berisi angka</li>
 </ul>
-<p><strong>Fungsi</strong> adalah kalkulasi siap pakai bawaan spreadsheet — lebih ringkas daripada menulis <code>=B3+B4+B5+B6+B7+B8</code> manual.</p>
+<p><strong>Fungsi</strong> adalah kalkulasi siap pakai bawan dari <em>spreadsheet</em> — lebih ringkas daripada menulis <code>=B3+B4+B5+B6+B7+B8</code> secara manual.</p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -232,7 +232,7 @@ Rizqy Amelia Zein
 <p><strong>Kenapa ini relevan?</strong></p>
 </div>
 <div class="callout-content">
-<p>Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor <em>Extraversion</em>) pada dasarnya adalah <code>=AVERAGE()</code> dari 10 item — satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.</p>
+<p>Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor <em>Extraversion</em>) pada dasarnya adalah <code>=AVERAGE()</code> dari 10 item. Ini adalah satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.</p>
 </div>
 </div>
 </div>
@@ -451,12 +451,12 @@ Rizqy Amelia Zein
 <h2><em>Long</em> vs.&nbsp;<em>wide format</em></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Long form (panjang)</strong></p>
+<p><strong><em>Long form</em> (panjang)</strong></p>
 <ul>
 <li>Tiap variabel mendapat kolom sendiri — paling sesuai prinsip <em>tidy</em>.</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Wide form (lebar)</strong></p>
+<p><strong><em>Wide form</em> (lebar)</strong></p>
 <ul>
 <li>Tiap baris berisi seluruh hasil observasi dari satu unit analisis, biasanya untuk <strong>pengukuran berulang</strong>.</li>
 <li>Cocok untuk melihat tren dari waktu ke waktu (data <em>longitudinal</em>/<em>time series</em>).</li>
@@ -522,7 +522,7 @@ Rizqy Amelia Zein
 </tbody>
 </table>
 <div class="fragment">
-<p>Sama-sama data yang valid — tapi bentuk <em>wide</em> di sini melanggar aturan <em>tidy</em> nomor 1 (kolom “Senin” dan “Selasa” sebenarnya sama-sama variabel “jumlah makanan”, cuma dipisah berdasarkan waktu).</p>
+<p>Sama-sama penyajian data yang valid, tapi bentuk <em>wide</em> di sini melanggar aturan <em>tidy</em> nomor 1 (kolom “Senin” dan “Selasa” sebenarnya sama-sama variabel “jumlah makanan”, cuma dipisah berdasarkan waktu).</p>
 </div>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -530,7 +530,7 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Bukan berarti <em>wide</em> selalu salah</strong></p>
+<p><strong>Bukan berarti tabel <em>wide</em> selalu salah</strong></p>
 </div>
 <div class="callout-content">
 <p><em>Wide format</em> tetap berguna untuk <strong>presentasi</strong> (mis. tabel ringkasan di naskah publikasi). Yang penting: gunakan <em>long format</em> untuk <strong>analisis</strong>, dan konversi ke <em>wide</em> kalau perlu untuk <strong>penyajian</strong> (Pertemuan 7).</p>
@@ -540,7 +540,7 @@ Rizqy Amelia Zein
 </section></section>
 <section>
 <section id="studi-kasus-dataset-big-five-personality-test" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Studi Kasus: Dataset <em>Big Five Personality Test</em> 🧬</h1>
+<h1>Studi Kasus: Dataset Big Five Personality Test 🧬</h1>
 
 </section>
 <section id="menerapkan-prinsip-tadi-ke-dataset-kita" class="slide level2">
@@ -577,7 +577,7 @@ Rizqy Amelia Zein
 </tbody>
 </table>
 <div class="fragment">
-<p><code>skor_extraversion = AVERAGE(E1:E10)</code> — inilah kenapa formula <code>AVERAGE()</code> yang kita bahas di awal tadi sangat penting. <em>(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4.)</em></p>
+<p><code>skor_extraversion = AVERAGE(E1:E10)</code> — inilah kenapa formula <code>AVERAGE()</code> yang kita bahas di awal tadi sangat penting. <em>(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4)</em>.</p>
 </div>
 </section>
 <section id="dari-tabel-dibaca-manusia-ke-tabel-siap-dianalisis" class="slide level2">
@@ -666,30 +666,24 @@ Rizqy Amelia Zein
 </section>
 <section id="aktivitas-kelompok-menata-ulang-tabel" class="slide level2">
 <h2>🧩 Aktivitas kelompok: menata ulang tabel</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kerjakan berkelompok (15 menit)</strong></p>
-</div>
 <div class="callout-content">
-<p>Kelompok Anda diberi tabel “Laporan Kunjungan Konseling &amp; Survei Kesejahteraan Mahasiswa” disusun <strong>untuk dibaca manusia</strong>, bukan untuk dianalisis:</p>
+<p>Susun kembali tabel “Laporan Kunjungan Konseling &amp; Survei Kesejahteraan Mahasiswa”, yang disusun <strong>untuk dibaca manusia</strong> di bawah ini sehingga dapat dianalisis oleh komputer.</p>
 </div>
 </div>
 </div>
 
 <img data-src="libs/aktivitas2_tabel_berantakan.png" class="quarto-figure quarto-figure-center r-stretch" style="width:95.0%"></section>
-<section id="diskusikan" class="slide level2">
-<h2>Diskusikan</h2>
+<section id="perhatikan" class="slide level2">
+<h2>Perhatikan</h2>
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Yang harus didiskusikan</strong></p>
+<p><strong>Yang harus dipertimbangkan</strong></p>
 </div>
 <div class="callout-content">
 <ol type="1">
@@ -927,8 +921,8 @@ Rizqy Amelia Zein
 <h1>Penutup</h1>
 
 </section>
-<section id="rekap-pertemuan-2" class="slide level2">
-<h2>Rekap Pertemuan 2</h2>
+<section id="kesimpulan-pertemuan-2" class="slide level2">
+<h2>Kesimpulan Pertemuan 2</h2>
 <ul>
 <li class="fragment">Tabel tersusun dari <strong>baris (unit analisis)</strong> dan <strong>kolom (variabel)</strong>, dihubungkan lewat sistem referensi sel.</li>
 <li class="fragment">Prinsip <strong><em>tidy data</em></strong> (<a href="https://doi.org/10.18637/jss.v059.i10">Wickham, 2014</a>): satu variabel per kolom, satu unit analisis per baris, satu tabel per observational unit.</li>

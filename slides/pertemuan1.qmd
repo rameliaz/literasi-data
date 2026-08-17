@@ -26,7 +26,6 @@ execute:
 - Kerangka kerja *Data Pipeline*
 - Apa itu literasi data?
 - Dataset yang akan kita pakai sepanjang semester
-- Aktivitas kelompok
 :::
 
 # Mengapa Literasi Data? {background-color="#14497F"}
@@ -175,7 +174,7 @@ Catatan: kualitatif ≠ tidak terstruktur, dan kuantitatif ≠ selalu berupa dat
 
 <small>Catatan: variabel kategorikal tetap kualitatif secara konsep meski sering **dikodekan** dengan angka untuk keperluan komputasi (mis. 1 = laki-laki, 2 = perempuan). Pengodean angka ini untuk kemudahan analisis, bukan berarti bahwa datanya berubah menjadi kuantitatif.</small>
 
-## Aktivitas kelompok
+## Aktivitas
 
 ::: {.callout-note}
 ### Diskusi
@@ -302,7 +301,7 @@ Dalam praktiknya, alur ini jarang benar-benar linear. Anda akan sering bolak-bal
 Unduh dataset IPIP di *website* Mata Kuliah. Untuk Pertemuan 2, contoh data akan disediakan dalam bentuk potongan sederhana.
 :::
 
-## Rekap Pertemuan 1
+## Kesimpulan Pertemuan 1
 
 ::: {.incremental}
 - Data adalah **representasi dunia yang terstruktur**, jadi bukan sekadar angka.

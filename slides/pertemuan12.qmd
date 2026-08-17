@@ -249,7 +249,7 @@ Ini kasus tentang risiko AI "mengarang" referensi (halusinasi) yang tidak diveri
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 12
+## Kesimpulan Pertemuan 12
 
 ::: {.incremental}
 * *Narrative review* butuh **argumen/*take-home message***, bukan sekadar katalog ringkasan studi.

@@ -237,7 +237,7 @@ Ini adalah aktivitas inti pertemuan ini ("Tugas Praktis" / kriteria "Keakuratan 
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 4
+## Kesimpulan Pertemuan 4
 
 ::: {.incremental}
 * Data yang baik punya tiga sifat: **trustworthy**, **complete**, dan **quality** (terstruktur & terdokumentasi).

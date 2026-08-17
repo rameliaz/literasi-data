@@ -126,11 +126,11 @@
     "text": "🧩 Diskusi kelompok: skenario etika penulisan\n\n\n\n\n\n\nDiskusikan bersama kelompok Anda (10 menit)\n\n\nSeorang mahasiswa meminta chatbot AI menyusun kerangka tinjauan pustaka lengkap dengan referensi-referensi pendukung. Ia lalu memeriksa kerangkanya, tapi tidak sempat memverifikasi apakah semua referensi yang disebutkan AI benar-benar ada dan sesuai isinya.\n\nPraktik apa yang bermasalah di sini, dan kenapa?\nBagaimana seharusnya AI digunakan secara bertanggung jawab dalam skenario ini?\nKaitkan jawaban Anda dengan gagasan “Anda harus bisa menjelaskan sendiri setiap paragraf naskah Anda.”\n\n\n\n\n\nIni kasus tentang risiko AI “mengarang” referensi (halusinasi) yang tidak diverifikasi — poin utamanya adalah verifikasi tetap tanggung jawab manusia, bukan soal boleh/tidaknya memakai AI."
   },
   {
-    "objectID": "slides/pertemuan12.html#rekap-pertemuan-12",
-    "href": "slides/pertemuan12.html#rekap-pertemuan-12",
+    "objectID": "slides/pertemuan12.html#kesimpulan-pertemuan-12",
+    "href": "slides/pertemuan12.html#kesimpulan-pertemuan-12",
     "title": "Menyusun Argumen dan Struktur Naskah",
-    "section": "Rekap Pertemuan 12",
-    "text": "Rekap Pertemuan 12\n\nNarrative review butuh argumen/take-home message, bukan sekadar katalog ringkasan studi.\nBedakan asersi dan bukti secara eksplisit — kesalahan ini adalah salah satu yang paling umum dan paling merusak kredibilitas naskah.\nReview bisa menyimpulkan salah satu dari empat kemungkinan, tidak hanya “terbukti/tidak terbukti” seperti studi empiris tunggal.\nTiga cara menyusun struktur naskah: temporal, metodologis, konseptual/tematik — pilih yang paling cocok dengan topik Anda.\nEtika penulisan ilmiah mencakup plagiarisme, authorship yang jelas, dan transparansi penggunaan AI generatif."
+    "section": "Kesimpulan Pertemuan 12",
+    "text": "Kesimpulan Pertemuan 12\n\nNarrative review butuh argumen/take-home message, bukan sekadar katalog ringkasan studi.\nBedakan asersi dan bukti secara eksplisit — kesalahan ini adalah salah satu yang paling umum dan paling merusak kredibilitas naskah.\nReview bisa menyimpulkan salah satu dari empat kemungkinan, tidak hanya “terbukti/tidak terbukti” seperti studi empiris tunggal.\nTiga cara menyusun struktur naskah: temporal, metodologis, konseptual/tematik — pilih yang paling cocok dengan topik Anda.\nEtika penulisan ilmiah mencakup plagiarisme, authorship yang jelas, dan transparansi penggunaan AI generatif."
   },
   {
     "objectID": "slides/pertemuan12.html#referensi",
@@ -315,11 +315,11 @@
     "text": "🧩 Aktivitas mandiri: kenali QRP-nya\n\n\n\n\n\n\nKerjakan sendiri, lalu diskusikan berpasangan (10 menit)\n\n\nBaca skenario berikut: “Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: ‘Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.’”\n\nIdentifikasi QRP apa yang terjadi di sini — p-hacking, HARKing, atau keduanya?\nBagaimana seharusnya peneliti ini melaporkan temuannya secara jujur?\n\n\n\n\n\nJawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan jujur disebut eksploratif."
   },
   {
-    "objectID": "slides/pertemuan6.html#rekap-pertemuan-6",
-    "href": "slides/pertemuan6.html#rekap-pertemuan-6",
+    "objectID": "slides/pertemuan6.html#kesimpulan-pertemuan-6",
+    "href": "slides/pertemuan6.html#kesimpulan-pertemuan-6",
     "title": "Interpretasi Data",
-    "section": "Rekap Pertemuan 6",
-    "text": "Rekap Pertemuan 6\n\nCara melaporkan temuan bergantung pada audiens: komunitas akademik, informed lay public, atau general lay public.\nHedging language menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu tegas, jangan juga terlalu ragu tanpa alasan.\nGeneralisasi tergesa-gesa mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.\nSelalu laporkan rentang kepercayaan, bukan hanya point estimate.\nWaspadai p-hacking dan HARKing — analysis plan dari Pertemuan 5 adalah pertahanan utama Anda."
+    "section": "Kesimpulan Pertemuan 6",
+    "text": "Kesimpulan Pertemuan 6\n\nCara melaporkan temuan bergantung pada audiens: komunitas akademik, informed lay public, atau general lay public.\nHedging language menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu tegas, jangan juga terlalu ragu tanpa alasan.\nGeneralisasi tergesa-gesa mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.\nSelalu laporkan rentang kepercayaan, bukan hanya point estimate.\nWaspadai p-hacking dan HARKing — analysis plan dari Pertemuan 5 adalah pertahanan utama Anda."
   },
   {
     "objectID": "slides/pertemuan6.html#referensi",
@@ -441,11 +441,11 @@
     "text": "🧩 Praktik langsung: membersihkan potongan dataset Big Five\n\n\n\n\n\n\nKerjakan berkelompok (25–30 menit)\n\n\nUnduh potongan kecil dataset Big Five berikut — 18 baris respons N1–N10 (item Neuroticism) yang sengaja dibuat “kotor” untuk latihan: pertemuan4_dataset_kotor_latihan.csv. Ikuti langkah berikut:\n\nIdentifikasi minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).\nGolongkan tiap masalah: apakah itu masalah tidying (format) atau editing (konten)?\nTuliskan formula yang akan Anda pakai untuk memperbaiki tiap masalah (TRIM(), PROPER(), Remove Duplicates, dst.).\nDiskusikan: masalah mana yang tidak bisa diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item reverse-scored)?\n\n\n\n\n\n\n\n\n\n\nKunci skoring (untuk langkah 4)\n\n\nDua dari sepuluh item Neuroticism ini ditulis dengan arah terbalik: N2 (“I am relaxed most of the time”) dan N4 (“I seldom feel blue”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (6 - nilai) sebelum dihitung skor rata-ratanya dengan AVERAGE() — informasi ini tidak ada di dalam data itu sendiri, hanya di codebook instrumennya.\n\n\n\n\nFile data/pertemuan4_dataset_kotor.csv sudah disiapkan (18 baris, 15 responden sungguhan dari dataset Big Five kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:\n\nDuplikasi — baris P03 muncul dua kali persis sama.\nWhitespace — P03 (\"Laki-laki \", \"SG \", ada spasi di akhir) dan P05 (\"  US\", ada spasi di awal).\nKapitalisasi tidak konsisten pada gender — P04 (“perempuan”), P10 (“PEREMPUAN”), P13 (“Laki-Laki”), dibandingkan penulisan baku “Perempuan”/“Laki-laki” di baris lain.\nKode negara campur (negara) — kombinasi kode ISO (PH, CA, US, DK, GB, IN), nama lengkap (Trinidad and Tobago, Pakistan, Greece, Bangladesh, United Kingdom, Jamaica, South Africa), dan satu nilai kosong (P09).\nMissing value tidak konsisten — tiga representasi berbeda: sel kosong (P14, kolom N8–N10), teks \"NA\" (P12, kolom N4), dan angka 0 (P15, kolom N3).\nEntri tidak lengkap — P14 berhenti menjawab di item N7 (N8–N10 kosong), kemungkinan responden keluar di tengah jalan.\nNilai mencurigakan/di luar rentang — P07 kolom N7 bernilai 6, padahal skala Likert-nya 1–5.\nItem reverse-scored belum dibalik — N2 dan N4 butuh 6 - nilai sebelum di-AVERAGE()-kan; ini tidak terlihat dari data mentahnya saja, harus dicek ke codebook (lihat callout di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.\n\nIni adalah aktivitas inti pertemuan ini (“Tugas Praktis” / kriteria “Keakuratan dan Ketelitian”) — beri waktu paling banyak di sini dan dampingi tiap kelompok berkeliling."
   },
   {
-    "objectID": "slides/pertemuan4.html#rekap-pertemuan-4",
-    "href": "slides/pertemuan4.html#rekap-pertemuan-4",
+    "objectID": "slides/pertemuan4.html#kesimpulan-pertemuan-4",
+    "href": "slides/pertemuan4.html#kesimpulan-pertemuan-4",
     "title": "Praktik Verifikasi dan Pembersihan Data",
-    "section": "Rekap Pertemuan 4",
-    "text": "Rekap Pertemuan 4\n\nData yang baik punya tiga sifat: trustworthy, complete, dan quality (terstruktur & terdokumentasi).\nEmpat cara memverifikasi: bertanya ke sumber, bertanya ke ahli, pemeriksaan statistik, dan common sense check.\nMasalah data yang umum sering tidak terlihat sampai Anda benar-benar memeriksanya — missing value yang tidak konsisten, duplikasi, format yang berantakan.\nMembersihkan data = tidying (format) + editing (konten) + consolidation (menggabungkan).\nSelalu bekerja di atas salinan, dokumentasikan tiap langkah, dan jangan buang data mentahnya."
+    "section": "Kesimpulan Pertemuan 4",
+    "text": "Kesimpulan Pertemuan 4\n\nData yang baik punya tiga sifat: trustworthy, complete, dan quality (terstruktur & terdokumentasi).\nEmpat cara memverifikasi: bertanya ke sumber, bertanya ke ahli, pemeriksaan statistik, dan common sense check.\nMasalah data yang umum sering tidak terlihat sampai Anda benar-benar memeriksanya — missing value yang tidak konsisten, duplikasi, format yang berantakan.\nMembersihkan data = tidying (format) + editing (konten) + consolidation (menggabungkan).\nSelalu bekerja di atas salinan, dokumentasikan tiap langkah, dan jangan buang data mentahnya."
   },
   {
     "objectID": "slides/pertemuan4.html#referensi",
@@ -473,21 +473,21 @@
     "href": "slides/pertemuan2.html#mengenal-tabel",
     "title": "Bekerja dengan Data Tabular",
     "section": "Mengenal tabel",
-    "text": "Mengenal tabel\n\nHampir semua pekerjaan literasi data — dari data mentah sampai naskah publikasi — menggunakan sebuah tabel untuk menyajikan data.\nMinggu lalu kita bicara tentang Data Pipeline secara konsep. Hari ini kita mulai get your hands dirty: bagaimana tabel disusun, dibaca, dan diubah bentuknya.\nIngat definisi minggu lalu: data adalah representasi dunia yang terstruktur. Tabel adalah salah satu bentuk struktur itu yang paling umum kita temui."
+    "text": "Mengenal tabel\n\nHampir semua pekerjaan literasi data, mulai dari data mentah sampai naskah publikasi, menggunakan sebuah tabel untuk menyajikan data.\nMinggu lalu kita bicara tentang Data Pipeline secara konsep besarnya. Hari ini kita mulai dari tahap Data Pipeline yang terakhir dulu (‘Present’) dengan tabel: bagaimana tabel disusun, dibaca, dan diubah bentuknya.\nIngat definisi minggu lalu: data adalah representasi dunia yang terstruktur. Tabel adalah salah satu bentuk struktur itu yang paling umum kita temui."
   },
   {
     "objectID": "slides/pertemuan2.html#anatomi-sebuah-tabel",
     "href": "slides/pertemuan2.html#anatomi-sebuah-tabel",
     "title": "Bekerja dengan Data Tabular",
     "section": "Anatomi sebuah tabel",
-    "text": "Anatomi sebuah tabel\n\nBaris (row) — mewakili satu record, biasanya berisi informasi tentang satu unit analisis (mis. satu partisipan).\nKolom (column) — mewakili satu variabel, misalnya usia, gender, atau skor pada satu item skala.\nSel (cell) — pertemuan satu baris dan satu kolom, diidentifikasi lewat sistem referensi (kolom → huruf, baris → angka): sel B3 berarti kolom B, baris 3.\n\n\n\n\n\n\n\nBaris itu granular\n\n\nBaris idealnya mewakili informasi paling rendah levelnya dan paling detail. Jadi, bukan ringkasan atau subtotal."
+    "text": "Anatomi sebuah tabel\n\nBaris (row) — mewakili satu record, biasanya berisi informasi tentang satu unit analisis (mis. satu partisipan, satu sekolah, dst.).\nKolom (column) — mewakili satu variabel, misalnya usia, gender, atau skor pada satu item skala.\nSel (cell) — pertemuan satu baris dan satu kolom, diidentifikasi lewat sistem referensi (kolom → huruf, baris → angka): sel B3 berarti kolom B, baris 3.\n\n\n\n\n\n\n\nBaris merupakan unit yang granular\n\n\nBaris idealnya mewakili informasi paling rendah levelnya dan paling detail. Jadi, bukan ringkasan atau subtotal."
   },
   {
     "objectID": "slides/pertemuan2.html#fungsi-dan-formula-dasar",
     "href": "slides/pertemuan2.html#fungsi-dan-formula-dasar",
     "title": "Bekerja dengan Data Tabular",
     "section": "Fungsi dan formula dasar",
-    "text": "Fungsi dan formula dasar\nFormula selalu diawali tanda =:\n\n=B3+B8 — menjumlahkan dua sel\n=SUM(B3:B8) — menjumlahkan rentang sel (tanda : berarti “sampai dengan”)\n=AVERAGE(B3:B8) — rata-rata satu rentang\n=COUNT(B3:B8) — menghitung berapa sel berisi angka\n\nFungsi adalah kalkulasi siap pakai bawaan spreadsheet — lebih ringkas daripada menulis =B3+B4+B5+B6+B7+B8 manual.\n\n\n\n\n\n\nKenapa ini relevan?\n\n\nSkor total skala kepribadian yang akan kita pakai hari ini (mis. skor Extraversion) pada dasarnya adalah =AVERAGE() dari 10 item — satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini."
+    "text": "Fungsi dan formula dasar\nFormula selalu diawali tanda =:\n\n=B3+B8 — menjumlahkan dua sel\n=SUM(B3:B8) — menjumlahkan rentang sel (tanda : berarti “sampai dengan”)\n=AVERAGE(B3:B8) — rata-rata satu rentang\n=COUNT(B3:B8) — menghitung berapa sel berisi angka\n\nFungsi adalah kalkulasi siap pakai bawan dari spreadsheet — lebih ringkas daripada menulis =B3+B4+B5+B6+B7+B8 secara manual.\n\n\n\n\n\n\nKenapa ini relevan?\n\n\nSkor total skala kepribadian yang akan kita pakai hari ini (mis. skor Extraversion) pada dasarnya adalah =AVERAGE() dari 10 item. Ini adalah satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini."
   },
   {
     "objectID": "slides/pertemuan2.html#tabel-yang-dirancang-untuk-dibaca-manusia",
@@ -550,7 +550,7 @@
     "href": "slides/pertemuan2.html#contoh-wide-form",
     "title": "Bekerja dengan Data Tabular",
     "section": "Contoh: wide form",
-    "text": "Contoh: wide form\n\n\n\nNama\nSenin\nSelasa\n\n\n\n\nKucing A\n100 gr\n120 gr\n\n\nKucing B\n123 gr\n125 gr\n\n\n\n\nSama-sama data yang valid — tapi bentuk wide di sini melanggar aturan tidy nomor 1 (kolom “Senin” dan “Selasa” sebenarnya sama-sama variabel “jumlah makanan”, cuma dipisah berdasarkan waktu).\n\n\n\n\n\n\n\nBukan berarti wide selalu salah\n\n\nWide format tetap berguna untuk presentasi (mis. tabel ringkasan di naskah publikasi). Yang penting: gunakan long format untuk analisis, dan konversi ke wide kalau perlu untuk penyajian (Pertemuan 7)."
+    "text": "Contoh: wide form\n\n\n\nNama\nSenin\nSelasa\n\n\n\n\nKucing A\n100 gr\n120 gr\n\n\nKucing B\n123 gr\n125 gr\n\n\n\n\nSama-sama penyajian data yang valid, tapi bentuk wide di sini melanggar aturan tidy nomor 1 (kolom “Senin” dan “Selasa” sebenarnya sama-sama variabel “jumlah makanan”, cuma dipisah berdasarkan waktu).\n\n\n\n\n\n\n\nBukan berarti tabel wide selalu salah\n\n\nWide format tetap berguna untuk presentasi (mis. tabel ringkasan di naskah publikasi). Yang penting: gunakan long format untuk analisis, dan konversi ke wide kalau perlu untuk penyajian (Pertemuan 7)."
   },
   {
     "objectID": "slides/pertemuan2.html#menerapkan-prinsip-tadi-ke-dataset-kita",
@@ -564,7 +564,7 @@
     "href": "slides/pertemuan2.html#tapi-tidy-siap-pakai",
     "title": "Bekerja dengan Data Tabular",
     "section": "Tapi “tidy” ≠ “siap pakai”",
-    "text": "Tapi “tidy” ≠ “siap pakai”\nDataset ini tidy secara struktur, tapi untuk dianalisis sebagai skor kepribadian, kita masih perlu mengubahnya:\n\n\n\nSebelum (level item)\nSesudah (level skala)\n\n\n\n\nE1, E2, E3, ..., E10 (10 kolom)\nskor_extraversion (1 kolom)\n\n\nN1, N2, N3, ..., N10 (10 kolom)\nskor_neuroticism (1 kolom)\n\n\n\n\nskor_extraversion = AVERAGE(E1:E10) — inilah kenapa formula AVERAGE() yang kita bahas di awal tadi sangat penting. (Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4.)"
+    "text": "Tapi “tidy” ≠ “siap pakai”\nDataset ini tidy secara struktur, tapi untuk dianalisis sebagai skor kepribadian, kita masih perlu mengubahnya:\n\n\n\nSebelum (level item)\nSesudah (level skala)\n\n\n\n\nE1, E2, E3, ..., E10 (10 kolom)\nskor_extraversion (1 kolom)\n\n\nN1, N2, N3, ..., N10 (10 kolom)\nskor_neuroticism (1 kolom)\n\n\n\n\nskor_extraversion = AVERAGE(E1:E10) — inilah kenapa formula AVERAGE() yang kita bahas di awal tadi sangat penting. (Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4)."
   },
   {
     "objectID": "slides/pertemuan2.html#dari-tabel-dibaca-manusia-ke-tabel-siap-dianalisis",
@@ -578,14 +578,14 @@
     "href": "slides/pertemuan2.html#aktivitas-kelompok-menata-ulang-tabel",
     "title": "Bekerja dengan Data Tabular",
     "section": "🧩 Aktivitas kelompok: menata ulang tabel",
-    "text": "🧩 Aktivitas kelompok: menata ulang tabel\n\n\n\n\n\n\nKerjakan berkelompok (15 menit)\n\n\nKelompok Anda diberi tabel “Laporan Kunjungan Konseling & Survei Kesejahteraan Mahasiswa” disusun untuk dibaca manusia, bukan untuk dianalisis:"
+    "text": "🧩 Aktivitas kelompok: menata ulang tabel\n\n\n\nSusun kembali tabel “Laporan Kunjungan Konseling & Survei Kesejahteraan Mahasiswa”, yang disusun untuk dibaca manusia di bawah ini sehingga dapat dianalisis oleh komputer."
   },
   {
-    "objectID": "slides/pertemuan2.html#diskusikan",
-    "href": "slides/pertemuan2.html#diskusikan",
+    "objectID": "slides/pertemuan2.html#perhatikan",
+    "href": "slides/pertemuan2.html#perhatikan",
     "title": "Bekerja dengan Data Tabular",
-    "section": "Diskusikan",
-    "text": "Diskusikan\n\n\n\n\n\n\nYang harus didiskusikan\n\n\n\nIdentifikasi kategori data apa saja yang ada dalam tabel tersebut (mis. ID, minggu, prodi/angkatan, jenis layanan, skor).\nSepakati kolom header apa yang dibutuhkan agar tabel ini memenuhi tiga aturan tidy data — termasuk kolom mana yang sebenarnya harus dipecah jadi dua.\nGambarkan (di ppt/Canva/dst.) versi tidy dari tabel tersebut.\nDiskusikan: informasi apa yang “hilang” saat direstrukturisasi, dan bagaimana cara memunculkannya kembali dengan formula?\n\n\n\n\n\nTabel contoh sudah disiapkan (libs/aktivitas2_tabel_berantakan.png): laporan konseling & survei kesejahteraan mahasiswa dengan baris judul gabungan, baris header per minggu, baris subtotal, dan tiga kolom yang masing-masing menggabungkan dua variabel (Nama+NIM, Prodi+Angkatan, Tanggal+Jenis Layanan). Minta mahasiswa mengenali ketiga pelanggaran ini secara eksplisit."
+    "section": "Perhatikan",
+    "text": "Perhatikan\n\n\n\n\n\n\nYang harus dipertimbangkan\n\n\n\nIdentifikasi kategori data apa saja yang ada dalam tabel tersebut (mis. ID, minggu, prodi/angkatan, jenis layanan, skor).\nSepakati kolom header apa yang dibutuhkan agar tabel ini memenuhi tiga aturan tidy data — termasuk kolom mana yang sebenarnya harus dipecah jadi dua.\nGambarkan (di ppt/Canva/dst.) versi tidy dari tabel tersebut.\nDiskusikan: informasi apa yang “hilang” saat direstrukturisasi, dan bagaimana cara memunculkannya kembali dengan formula?\n\n\n\n\n\nTabel contoh sudah disiapkan (libs/aktivitas2_tabel_berantakan.png): laporan konseling & survei kesejahteraan mahasiswa dengan baris judul gabungan, baris header per minggu, baris subtotal, dan tiga kolom yang masing-masing menggabungkan dua variabel (Nama+NIM, Prodi+Angkatan, Tanggal+Jenis Layanan). Minta mahasiswa mengenali ketiga pelanggaran ini secara eksplisit."
   },
   {
     "objectID": "slides/pertemuan2.html#tabel-distribusi-frekuensi",
@@ -658,11 +658,11 @@
     "text": "Tata letak dan visual tabel\n\nGaya APA umumnya menghindari garis vertikal — cukup garis horizontal tegas, biasanya hanya di bawah baris judul kolom.\nGunakan model “spreadsheet penuh” (garis vertikal + horizontal) hanya jika informasi sangat padat dan sulit dibaca tanpa pembatas.\nPetunjuk visual seperti shading baris berselang bisa membantu pembaca menyusuri tabel panjang.\nGunakan tabular numeral (font angka berjarak sama, mis. Courier, Lucida Console) agar deretan angka lebih mudah dibandingkan secara visual."
   },
   {
-    "objectID": "slides/pertemuan2.html#rekap-pertemuan-2",
-    "href": "slides/pertemuan2.html#rekap-pertemuan-2",
+    "objectID": "slides/pertemuan2.html#kesimpulan-pertemuan-2",
+    "href": "slides/pertemuan2.html#kesimpulan-pertemuan-2",
     "title": "Bekerja dengan Data Tabular",
-    "section": "Rekap Pertemuan 2",
-    "text": "Rekap Pertemuan 2\n\nTabel tersusun dari baris (unit analisis) dan kolom (variabel), dihubungkan lewat sistem referensi sel.\nPrinsip tidy data (Wickham, 2014): satu variabel per kolom, satu unit analisis per baris, satu tabel per observational unit.\nLong format untuk analisis, wide format untuk presentasi/pengukuran berulang.\nDataset Big Five kita sudah tidy di level item, tapi perlu direshape ke level skala (AVERAGE()) untuk dianalisis sebagai skor kepribadian.\nTabel distribusi frekuensi (univariat) dan tabel kontingensi (bivariat) adalah dua alat ringkasan utama, lengkap dengan rasio/proporsi/rate.\nTabel yang baik punya judul jelas, satuan tercantum, sumber tercantum, dan mengikuti gaya penulisan ilmiah bidang Anda."
+    "section": "Kesimpulan Pertemuan 2",
+    "text": "Kesimpulan Pertemuan 2\n\nTabel tersusun dari baris (unit analisis) dan kolom (variabel), dihubungkan lewat sistem referensi sel.\nPrinsip tidy data (Wickham, 2014): satu variabel per kolom, satu unit analisis per baris, satu tabel per observational unit.\nLong format untuk analisis, wide format untuk presentasi/pengukuran berulang.\nDataset Big Five kita sudah tidy di level item, tapi perlu direshape ke level skala (AVERAGE()) untuk dianalisis sebagai skor kepribadian.\nTabel distribusi frekuensi (univariat) dan tabel kontingensi (bivariat) adalah dua alat ringkasan utama, lengkap dengan rasio/proporsi/rate.\nTabel yang baik punya judul jelas, satuan tercantum, sumber tercantum, dan mengikuti gaya penulisan ilmiah bidang Anda."
   },
   {
     "objectID": "slides/pertemuan2.html#referensi",
@@ -753,7 +753,7 @@
     "href": "slides/pertemuan1.html#outline",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
     "section": "Outline",
-    "text": "Outline\n\nMengapa peneliti psikologi perlu memiliki literasi data?\nApa itu data?\nJenis-jenis data\nKerangka kerja Data Pipeline\nApa itu literasi data?\nDataset yang akan kita pakai sepanjang semester\nAktivitas kelompok"
+    "text": "Outline\n\nMengapa peneliti psikologi perlu memiliki literasi data?\nApa itu data?\nJenis-jenis data\nKerangka kerja Data Pipeline\nApa itu literasi data?\nDataset yang akan kita pakai sepanjang semester"
   },
   {
     "objectID": "slides/pertemuan1.html#psikologi-adalah-ilmu-yang-bekerja-dengan-data",
@@ -840,11 +840,11 @@
     "text": "Ringkasan: mengenali jenis data\n\n\n\n\n\n\n\n\nContoh dalam riset psikologi\nKategorikal / Numerik\nKualitatif / Kuantitatif\n\n\n\n\nJenis kelamin partisipan\nKategorikal (nominal)\nKualitatif\n\n\nTingkat pendidikan\nKategorikal (ordinal)\nKualitatif\n\n\nJumlah sesi konseling yang dihadiri\nNumerik (diskrit)\nKuantitatif\n\n\nSkor total skala kepribadian\nNumerik (continuous)\nKuantitatif\n\n\nKutipan hasil wawancara\n—\nKualitatif\n\n\n\nCatatan: variabel kategorikal tetap kualitatif secara konsep meski sering dikodekan dengan angka untuk keperluan komputasi (mis. 1 = laki-laki, 2 = perempuan). Pengodean angka ini untuk kemudahan analisis, bukan berarti bahwa datanya berubah menjadi kuantitatif."
   },
   {
-    "objectID": "slides/pertemuan1.html#aktivitas-kelompok",
-    "href": "slides/pertemuan1.html#aktivitas-kelompok",
+    "objectID": "slides/pertemuan1.html#aktivitas",
+    "href": "slides/pertemuan1.html#aktivitas",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
-    "section": "Aktivitas kelompok",
-    "text": "Aktivitas kelompok\n\n\n\n\n\n\nDiskusi\n\n\nAmbil satu topik penelitian psikologi yang pernah/ingin Anda kerjakan. Identifikasi:\n\nMinimal satu variabel kategorikal dan satu numerik.\nApakah datanya lebih dekat ke kualitatif atau kuantitatif, atau keduanya?\nSatu potensi kesalahan dalam mengklasifikasikan jenis data tersebut."
+    "section": "Aktivitas",
+    "text": "Aktivitas\n\n\n\n\n\n\nDiskusi\n\n\nAmbil satu topik penelitian psikologi yang pernah/ingin Anda kerjakan. Identifikasi:\n\nMinimal satu variabel kategorikal dan satu numerik.\nApakah datanya lebih dekat ke kualitatif atau kuantitatif, atau keduanya?\nSatu potensi kesalahan dalam mengklasifikasikan jenis data tersebut."
   },
   {
     "objectID": "slides/pertemuan1.html#peta-alur-kerja-data",
@@ -952,11 +952,11 @@
     "text": "Kenapa dataset ini cocok untuk belajar?\n\nCukup besar untuk terasa seperti data riset sungguhan, tapi tetap bisa diolah di spreadsheet.\nTerstruktur jelas (item per kolom) — bagus untuk latihan prinsip tidy data di Pertemuan 2.\nTidak sempurna — dikumpulkan daring secara terbuka, sehingga ada data yang perlu diverifikasi dan dibersihkan (Pertemuan 3–4): entri yang tidak lengkap, kode negara yang tidak terstandar, waktu pengisian yang tidak semuanya “normal”.\nTerdiri dari skor skala yang perlu dihitung, dibandingkan antar kelompok, dan diinterpretasi (Pertemuan 5–6) serta divisualisasikan (Pertemuan 7).\n\n\n\n\n\n\n\nUntuk pertemuan minggu depan\n\n\nUnduh dataset IPIP di website Mata Kuliah. Untuk Pertemuan 2, contoh data akan disediakan dalam bentuk potongan sederhana."
   },
   {
-    "objectID": "slides/pertemuan1.html#rekap-pertemuan-1",
-    "href": "slides/pertemuan1.html#rekap-pertemuan-1",
+    "objectID": "slides/pertemuan1.html#kesimpulan-pertemuan-1",
+    "href": "slides/pertemuan1.html#kesimpulan-pertemuan-1",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
-    "section": "Rekap Pertemuan 1",
-    "text": "Rekap Pertemuan 1\n\nData adalah representasi dunia yang terstruktur, jadi bukan sekadar angka.\nBentuk data bisa kategorikal atau numerik (diskrit/continuum), dan kualitatif atau kuantitatif.\nData Pipeline (Define–Find–Get–Verify–Clean–Analyze–Present) adalah workflow yang akan kita ikuti sampai Pertemuan 7.\nLiterasi data mencakup keseluruhan alur ini, plus awareness soal aspek etisnya, jadi sangat berbeda denngan kemampuan statistik.\n\nMeskipun begitu, kemampuan statistik juga sangat membantu seseorang untuk memiliki literasi data yang baik.\n\nKita akan memakai dataset Big Five Personality Test dari Open-Source Psychometrics Project sepanjang paruh pertama semester sebagai playing ground."
+    "section": "Kesimpulan Pertemuan 1",
+    "text": "Kesimpulan Pertemuan 1\n\nData adalah representasi dunia yang terstruktur, jadi bukan sekadar angka.\nBentuk data bisa kategorikal atau numerik (diskrit/continuum), dan kualitatif atau kuantitatif.\nData Pipeline (Define–Find–Get–Verify–Clean–Analyze–Present) adalah workflow yang akan kita ikuti sampai Pertemuan 7.\nLiterasi data mencakup keseluruhan alur ini, plus awareness soal aspek etisnya, jadi sangat berbeda denngan kemampuan statistik.\n\nMeskipun begitu, kemampuan statistik juga sangat membantu seseorang untuk memiliki literasi data yang baik.\n\nKita akan memakai dataset Big Five Personality Test dari Open-Source Psychometrics Project sepanjang paruh pertama semester sebagai playing ground."
   },
   {
     "objectID": "slides/pertemuan1.html#ada-pertanyaan",
@@ -1106,11 +1106,11 @@
     "text": "🧩 Diskusi kelompok: skenario etika data\n\n\n\n\n\n\nDiskusikan bersama kelompok Anda (10 menit)\n\n\nCoba cek kembali dataset yang Anda kumpulkan dari riset skripsi Anda. Informasi apa saja yang Anda kumpulkan dalam dataset tersebut.\n\nApakah dataset ini “cukup” anonim untuk dipakai bebas? Mengapa/mengapa tidak?\nLangkah apa yang bisa Anda ambil sebelum menggunakannya dalam naskah publikasi?\nKaitkan diskusi ini dengan hak-hak subjek data yang baru kita bahas.\n\n\n\n\n\nIni kasus tentang k-anonymity/re-identification risk tanpa perlu istilah teknisnya — cukup bangun intuisi bahwa “sudah tanpa nama” ≠ “sudah anonim”. Kalau ada waktu, minta tiap kelompok berbagi satu langkah mitigasi yang mereka usulkan."
   },
   {
-    "objectID": "slides/pertemuan3.html#rekap-pertemuan-3",
-    "href": "slides/pertemuan3.html#rekap-pertemuan-3",
+    "objectID": "slides/pertemuan3.html#kesimpulan-pertemuan-3",
+    "href": "slides/pertemuan3.html#kesimpulan-pertemuan-3",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
-    "section": "Rekap Pertemuan 3",
-    "text": "Rekap Pertemuan 3\n\nSebelum data bisa ditata atau dibersihkan, ia harus ditemukan dan diperoleh dulu — dua tahap Data Pipeline minggu ini.\nSumber data psikologi terbuka: Open-Source Psychometrics Project dan daftar dataset komunitas.\nFormat data yang umum: CSV, XLSX, .sav (format native SPSS), dan JSON (struktur tree, bukan tabel).\nEkstraksi data dari PDF/HTML selalu perlu diverifikasi ulang — bukan langkah yang bisa sepenuhnya dipercaya begitu saja.\nUU PDP memberi kerangka hukum bagi hak subjek data dan dasar persetujuan — dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti."
+    "section": "Kesimpulan Pertemuan 3",
+    "text": "Kesimpulan Pertemuan 3\n\nSebelum data bisa ditata atau dibersihkan, ia harus ditemukan dan diperoleh dulu — dua tahap Data Pipeline minggu ini.\nSumber data psikologi terbuka: Open-Source Psychometrics Project dan daftar dataset komunitas.\nFormat data yang umum: CSV, XLSX, .sav (format native SPSS), dan JSON (struktur tree, bukan tabel).\nEkstraksi data dari PDF/HTML selalu perlu diverifikasi ulang — bukan langkah yang bisa sepenuhnya dipercaya begitu saja.\nUU PDP memberi kerangka hukum bagi hak subjek data dan dasar persetujuan — dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti."
   },
   {
     "objectID": "slides/pertemuan3.html#referensi",
@@ -1225,11 +1225,11 @@
     "text": "🧩 Aktivitas kelompok (dinilai): susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum\n\n\nMenggunakan dataset Big Five, kelompok Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.\n\n\n\n\n\nIni aktivitas yang dinilai (kriteria “Penguasaan Materi”). Berkeliling ke tiap kelompok, dan pastikan mereka membedakan dengan jelas antara pertanyaan deskriptif (“berapa rata-rata skor X?”) dan komparatif (“apakah skor X berbeda antar kelompok Y?”)."
   },
   {
-    "objectID": "slides/pertemuan5.html#rekap-pertemuan-5",
-    "href": "slides/pertemuan5.html#rekap-pertemuan-5",
+    "objectID": "slides/pertemuan5.html#kesimpulan-pertemuan-5",
+    "href": "slides/pertemuan5.html#kesimpulan-pertemuan-5",
     "title": "Merencanakan Analisis Data",
-    "section": "Rekap Pertemuan 5",
-    "text": "Rekap Pertemuan 5\n\nSebelum menganalisis, kembali ke Define: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.\nAnalysis plan adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda reproducible — menuliskannya sebelum melihat hasil adalah inti dari preregistration, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional — pivot table adalah alat serbaguna untuk ketiganya.\nUrutan yang benar: bersihkan dulu (termasuk membalik item reverse-scored), baru hitung skor skala."
+    "section": "Kesimpulan Pertemuan 5",
+    "text": "Kesimpulan Pertemuan 5\n\nSebelum menganalisis, kembali ke Define: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.\nAnalysis plan adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda reproducible — menuliskannya sebelum melihat hasil adalah inti dari preregistration, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional — pivot table adalah alat serbaguna untuk ketiganya.\nUrutan yang benar: bersihkan dulu (termasuk membalik item reverse-scored), baru hitung skor skala."
   },
   {
     "objectID": "slides/pertemuan5.html#referensi",
@@ -1386,11 +1386,11 @@
     "text": "Memilih alat sesuai audiens dan tujuan\n\nGrafik spreadsheet (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.\nTableau, Datawrapper, Infogram — untuk visualisasi interaktif, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, dashboard).\nCanva — untuk infografis, saat pesan dan desain lebih diutamakan daripada presisi data teknis; ini akan jadi alat utama Anda untuk infografis UAS.\n\n\n\n\n\n\n\nNote\n\n\nKembali ke pembahasan “tiga jenis audiens” (Pertemuan 6): untuk komunitas akademik serumpun → grafik spreadsheet dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Alat mengikuti audiens, bukan sebaliknya."
   },
   {
-    "objectID": "slides/pertemuan7.html#rekap-pertemuan-7",
-    "href": "slides/pertemuan7.html#rekap-pertemuan-7",
+    "objectID": "slides/pertemuan7.html#kesimpulan-pertemuan-7",
+    "href": "slides/pertemuan7.html#kesimpulan-pertemuan-7",
     "title": "Menyajikan Data",
-    "section": "Rekap Pertemuan 7",
-    "text": "Rekap Pertemuan 7\n\nMulai dari audiens dan pesan, baru pilih visualisasi, dan bukan sebaliknya.\nRumuskan tugas visualisasi dengan kalimat “saya ingin menunjukkan…”, lalu cocokkan dengan jenis data (kategorikal/continuum).\nEnam prinsip storytelling with data: pahami konteks, pilih visual tepat, singkirkan clutter, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.\nPilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian."
+    "section": "Kesimpulan Pertemuan 7",
+    "text": "Kesimpulan Pertemuan 7\n\nMulai dari audiens dan pesan, baru pilih visualisasi, dan bukan sebaliknya.\nRumuskan tugas visualisasi dengan kalimat “saya ingin menunjukkan…”, lalu cocokkan dengan jenis data (kategorikal/continuum).\nEnam prinsip storytelling with data: pahami konteks, pilih visual tepat, singkirkan clutter, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.\nPilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian."
   },
   {
     "objectID": "slides/pertemuan7.html#referensi",

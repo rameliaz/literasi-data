@@ -264,7 +264,7 @@ Jawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (m
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 6
+## Kesimpulan Pertemuan 6
 
 ::: {.incremental}
 * Cara melaporkan temuan bergantung pada audiens: **komunitas akademik**, *informed lay public*, atau *general lay public*.

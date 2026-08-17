@@ -232,7 +232,7 @@ Ini aktivitas yang dinilai (kriteria "Penguasaan Materi"). Berkeliling ke tiap k
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 5
+## Kesimpulan Pertemuan 5
 
 ::: {.incremental}
 * Sebelum menganalisis, kembali ke *Define*: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.

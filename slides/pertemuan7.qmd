@@ -263,7 +263,7 @@ Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akadem
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 7
+## Kesimpulan Pertemuan 7
 
 ::: {.incremental}
 * Mulai dari **audiens dan pesan**, baru pilih visualisasi, dan bukan sebaliknya.

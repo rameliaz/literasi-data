@@ -38,21 +38,21 @@ Sesi ini padat (150 menit) dan banyak *hands-on*. Alokasikan waktu: ±30 menit d
 ## Mengenal tabel
 
 ::: {.incremental}
-* Hampir semua pekerjaan literasi data — dari data mentah sampai naskah publikasi — **menggunakan sebuah tabel** untuk menyajikan data.
-* Minggu lalu kita bicara tentang *Data Pipeline* secara konsep. Hari ini kita mulai ***get your hands dirty***: bagaimana tabel disusun, dibaca, dan diubah bentuknya.
+* Hampir semua pekerjaan literasi data, mulai dari data mentah sampai naskah publikasi, **menggunakan sebuah tabel** untuk menyajikan data.
+* Minggu lalu kita bicara tentang *Data Pipeline* secara konsep besarnya. Hari ini kita mulai dari tahap *Data Pipeline* yang terakhir dulu ('*Present*') dengan tabel: bagaimana tabel disusun, dibaca, dan diubah bentuknya.
 * Ingat definisi minggu lalu: data adalah **representasi dunia yang terstruktur**. Tabel adalah salah satu bentuk struktur itu yang paling umum kita temui.
 :::
 
 ## Anatomi sebuah tabel
 
 ::: {.incremental}
-* **Baris (*row*)** — mewakili satu *record*, biasanya berisi informasi tentang satu **unit analisis** (mis. satu partisipan).
+* **Baris (*row*)** — mewakili satu *record*, biasanya berisi informasi tentang satu **unit analisis** (mis. satu partisipan, satu sekolah, dst.).
 * **Kolom (*column*)** — mewakili satu **variabel**, misalnya usia, gender, atau skor pada satu item skala.
 * **Sel (*cell*)** — pertemuan satu baris dan satu kolom, diidentifikasi lewat sistem referensi (kolom → huruf, baris → angka): sel `B3` berarti kolom B, baris 3.
 :::
 
 ::: {.callout-tip}
-### Baris itu granular
+### Baris merupakan unit yang granular
 Baris idealnya mewakili informasi paling rendah levelnya dan paling detail. Jadi, bukan ringkasan atau subtotal. 
 :::
 
@@ -65,11 +65,11 @@ Formula selalu diawali tanda `=`:
 * `=AVERAGE(B3:B8)` — rata-rata satu rentang
 * `=COUNT(B3:B8)` — menghitung berapa sel berisi angka
 
-**Fungsi** adalah kalkulasi siap pakai bawaan spreadsheet — lebih ringkas daripada menulis `=B3+B4+B5+B6+B7+B8` manual.
+**Fungsi** adalah kalkulasi siap pakai bawan dari *spreadsheet* — lebih ringkas daripada menulis `=B3+B4+B5+B6+B7+B8` secara manual.
 
 ::: {.callout-note}
 ### Kenapa ini relevan?
-Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor *Extraversion*) pada dasarnya adalah `=AVERAGE()` dari 10 item — satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.
+Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor *Extraversion*) pada dasarnya adalah `=AVERAGE()` dari 10 item. Ini adalah satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.
 :::
 
 # Unit Analisis dan Prinsip *Tidy Data* 🧹 {background-color="#14497F"}
@@ -179,12 +179,12 @@ Ini prinsip paling penting di keseluruhan pertemuan ini — sering diulang di pe
 
 ::: columns
 ::: {.column width="50%"}
-**Long form (panjang)**
+***Long form* (panjang)**
 
 * Tiap variabel mendapat kolom sendiri — paling sesuai prinsip *tidy*.
 :::
 ::: {.column width="50%"}
-**Wide form (lebar)**
+***Wide form* (lebar)**
 
 * Tiap baris berisi seluruh hasil observasi dari satu unit analisis, biasanya untuk **pengukuran berulang**.
 * Cocok untuk melihat tren dari waktu ke waktu (data *longitudinal*/*time series*).
@@ -210,15 +210,15 @@ Satu baris = satu observasi (satu kucing, pada satu waktu tertentu).
 | Kucing B | 123 gr | 125 gr |
 
 ::: {.fragment}
-Sama-sama data yang valid — tapi bentuk *wide* di sini melanggar aturan *tidy* nomor 1 (kolom "Senin" dan "Selasa" sebenarnya sama-sama variabel "jumlah makanan", cuma dipisah berdasarkan waktu).
+Sama-sama penyajian data yang valid, tapi bentuk *wide* di sini melanggar aturan *tidy* nomor 1 (kolom "Senin" dan "Selasa" sebenarnya sama-sama variabel "jumlah makanan", cuma dipisah berdasarkan waktu).
 :::
 
 ::: {.callout-caution}
-### Bukan berarti *wide* selalu salah
+### Bukan berarti tabel *wide* selalu salah
 *Wide format* tetap berguna untuk **presentasi** (mis. tabel ringkasan di naskah publikasi). Yang penting: gunakan *long format* untuk **analisis**, dan konversi ke *wide* kalau perlu untuk **penyajian** (Pertemuan 7).
 :::
 
-# Studi Kasus: Dataset *Big Five Personality Test* 🧬 {background-color="#14497F"}
+# Studi Kasus: Dataset Big Five Personality Test 🧬 {background-color="#14497F"}
 
 ## Menerapkan prinsip tadi ke dataset kita
 
@@ -244,7 +244,7 @@ Dataset ini tidy secara struktur, tapi untuk **dianalisis sebagai skor kepribadi
 | `N1, N2, N3, ..., N10` (10 kolom) | `skor_neuroticism` (1 kolom) |
 
 ::: {.fragment}
-`skor_extraversion = AVERAGE(E1:E10)` — inilah kenapa formula `AVERAGE()` yang kita bahas di awal tadi sangat penting. *(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4.)*
+`skor_extraversion = AVERAGE(E1:E10)` — inilah kenapa formula `AVERAGE()` yang kita bahas di awal tadi sangat penting. *(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4)*.
 :::
 
 ## Dari tabel "dibaca manusia" ke tabel "siap dianalisis"
@@ -284,17 +284,16 @@ Ini contoh hipotetis untuk ilustrasi, bukan angka riil dari dataset. Tekankan ba
 
 ## 🧩 Aktivitas kelompok: menata ulang tabel
 
-::: {.callout-warning}
-### Kerjakan berkelompok (15 menit)
-Kelompok Anda diberi tabel "Laporan Kunjungan Konseling & Survei Kesejahteraan Mahasiswa" disusun **untuk dibaca manusia**, bukan untuk dianalisis:
+::: {.callout-warning appearance="minimal"}
+Susun kembali tabel "Laporan Kunjungan Konseling & Survei Kesejahteraan Mahasiswa", yang disusun **untuk dibaca manusia** di bawah ini sehingga dapat dianalisis oleh komputer. 
 :::
 
 ![](libs/aktivitas2_tabel_berantakan.png){fig-align="center" width="95%"}
 
-## Diskusikan
+## Perhatikan
 
 ::: {.callout-warning}
-### Yang harus didiskusikan
+### Yang harus dipertimbangkan
 
 1. Identifikasi kategori data apa saja yang ada dalam tabel tersebut (mis. ID, minggu, prodi/angkatan, jenis layanan, skor).
 2. Sepakati kolom *header* apa yang dibutuhkan agar tabel ini memenuhi tiga aturan *tidy data* — termasuk kolom mana yang sebenarnya harus dipecah jadi dua.
@@ -432,7 +431,7 @@ Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorik
 
 # Penutup {background-color="#14497F"}
 
-## Rekap Pertemuan 2
+## Kesimpulan Pertemuan 2
 
 ::: {.incremental}
 * Tabel tersusun dari **baris (unit analisis)** dan **kolom (variabel)**, dihubungkan lewat sistem referensi sel.
