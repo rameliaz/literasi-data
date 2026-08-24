@@ -38,11 +38,11 @@ website:
       - text: "Dataset"
         menu:
           - text: "Dataset IPIP"
-          - href: data/data.csv
+            href: data/data.csv
           - text: "Kamus Data"
-          - href: data/codebook.txt
+            href: data/codebook.txt
           - text: "Dataset Kotor Pertemuan 4"
-          - href: data/pertemuan4_dataset_kotor.csv 
+            href: data/pertemuan4_dataset_kotor.csv
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
   search:

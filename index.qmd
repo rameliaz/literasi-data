@@ -80,6 +80,15 @@ Mahasiswa **tidak harus** memiliki akun Microsoft Teams untuk mengikuti kuliah, 
 Namun, untuk mengakses percakapan (*chat*) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain `@drive.unair.ac.id`). Lihat [Panduan Penggunaan OneDrive dan MS Teams](https://drive.google.com/file/d/1GZRz9a7TBCpDvYjJJE_ny8-3rgShKK_6/view) dari Direktorat Sistem Informasi (DSI) Universitas Airlangga.
 :::
 
+::: {.callout-tip}
+### Petunjuk mengunduh *slide* 🖨️
+Klik *icon* ☰ yang ada di pojok kiri bawah *slide* → klik `Tools` di pojok kiri atas → pilih `PDF Export Mode` → tekan tombol `ctrl` + `p` hingga keluar *pop-up window* untuk mencetak *slide*, kemudian *print* sebagai *file* `PDF`.
+
+Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *slide* sebagai *file* `PDF`.
+
+‼️**Saya akan selalu memperbarui konten dalam *slide deck* di atas**. Oleh karena itu, sebaiknya perlakukan *slide* ini sebagai dokumen hidup (*living document*). Apabila Anda menyimpan versi `PDF` yang sifatnya statis, maka perubahan dan pembaruan yang saya lakukan setelah Anda menyimpan versi statisnya, tidak akan terlihat dalam *file* yang Anda unduh.
+:::
+
 ## Prosedur Pendampingan Mentor S3 (Pertemuan 13–15)
 
 Naskah *narrative review* dan infografis dikerjakan **secara individu** oleh setiap mahasiswa. Untuk mendukung proses ini, mahasiswa dikelompokkan ke dalam kelompok pendampingan (3–4 orang) yang didampingi oleh satu mentor S3 secara tetap pada Pertemuan 13–15, sehingga mahasiswa juga dapat belajar dari umpan balik yang diterima teman sekelompok (*peer learning*) — meski penilaian tetap per mahasiswa.
@@ -88,7 +97,7 @@ Naskah *narrative review* dan infografis dikerjakan **secara individu** oleh set
 2. **Pertemuan 14 — Umpan Balik.** Mentor S3 menyampaikan umpan balik individual kepada setiap mahasiswa dalam sesi kelompok pendampingan (±10–15 menit per mahasiswa), berjalan bersamaan dengan sesi *peer review* antar mahasiswa.
 3. **Pertemuan 15 — Verifikasi Revisi.** Setiap mahasiswa merevisi naskah dan infografis berdasarkan umpan balik Pertemuan 14. Mentor S3 melakukan pengecekan singkat (dapat asinkron) untuk memastikan revisi telah diakomodasi, sebelum naskah dan infografis final dikumpulkan sebagai UAS pada Pertemuan 16.
 
-Setiap mahasiswa akan diberi tahu kelompok pendampingan dan nama mentornya oleh dosen pengampu sebelum Pertemuan 13 dimulai. Umpan balik mentor S3 bersifat **formatif** — tidak menggantikan penilaian akhir, yang tetap menjadi kewenangan dosen pengampu berdasarkan rubrik pada Rancangan Tugas.
+Setiap mahasiswa akan diberi tahu kelompok pendampingan dan nama mentornya oleh dosen pengampu sebelum Pertemuan 13 dimulai. Umpan balik mentor S3 bersifat **formatif**, sehingga tidak menggantikan penilaian akhir, yang tetap menjadi kewenangan dosen pengampu berdasarkan rubrik pada Rancangan Tugas.
 
 ## Tugas dan Penilaian
 
@@ -115,7 +124,7 @@ Mahasiswa mengerjakan kuis penyusunan rencana analisis data: merumuskan hipotesi
 Silakan Anda memilih anggota kelompok Anda sendiri dan [tuliskan nama seluruh anggota kelompok di *spreadsheet* ini](https://docs.google.com/spreadsheets/d/1hlDK2eZUR_Wo-WcMcqqJ1Wh_cjSaYCSa/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true). *Spreadsheet* akan dikunci aksesnya (tidak dapat di*edit*) pada Pertemuan ke-3.
 :::
 
-Kelompok (3–4 orang) memilih satu dataset psikologi/ilmu sosial terbuka (mis. Open Psychometrics atau daftar dataset yang disediakan), menerapkan tahapan *Data Pipeline* (Define → Find → Get → Verify → Clean → Analyze → Present), dan menyajikan hasilnya dalam laporan singkat (maks. 1500 kata) disertai minimal satu visualisasi data. Laporan mencantumkan kontribusi masing-masing anggota kelompok dan dikumpulkan lewat Psyche paling lambat Pertemuan 8.
+Kelompok (3–4 orang) memilih satu dataset psikologi/ilmu sosial terbuka (mis. Open Psychometrics atau daftar dataset yang disediakan), menerapkan tahapan *Data Pipeline* (Define → Find → Get → Verify → Clean → Analyze → Present), dan menyajikan hasilnya dalam laporan singkat (maks. 1500 kata) disertai minimal satu visualisasi data. Laporan mencantumkan kontribusi masing-masing anggota kelompok dan dikumpulkan lewat Psyche pada saat UTS.
 
 Penilaian menggunakan rubrik resmi pada Rancangan Tugas:
 
