@@ -26,7 +26,7 @@ execute:
 * Studi kasus: menata dataset ***Big Five Personality Test***
 * Menyusun tabel ringkasan: **distribusi frekuensi** dan **tabel kontingensi**
 * Menyajikan tabel dengan baik
-* 2️⃣ aktivitas (mandiri & kelompok)
+* 2️⃣ aktivitas (mandiri)
 :::
 
 ::: notes
