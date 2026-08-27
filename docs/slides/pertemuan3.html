@@ -213,7 +213,7 @@ Rizqy Amelia Zein
 <section id="di-mana-data-bisa-ditemukan" class="slide level2">
 <h2>Di mana data bisa ditemukan?</h2>
 <ul>
-<li class="fragment"><strong>Portal data terbuka</strong> — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. <em>Open-Source Psychometrics Project</em>, <a href="https://osf.io/">Open Science Framework (OSF)</a>).</li>
+<li class="fragment"><strong>Portal data terbuka</strong> — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. <a href="https://openpsychometrics.org/_rawdata/"><em>Open-Source Psychometrics Project</em></a>, <a href="https://osf.io/"><em>Open Science Framework</em>/OSF</a>).</li>
 <li class="fragment"><strong>Sistem digital organisasi</strong> — banyak lembaga riset/universitas menyimpan data, tapi hanya sebagian yang dirilis ke publik.</li>
 <li class="fragment"><a href="https://en.wikipedia.org/wiki/API"><strong><em>Application Programming Interface</em> (API)</strong></a> — cara terprogram untuk “menarik” data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau <em>update</em> berkala.</li>
 <li class="fragment"><strong>Bebas di halaman web</strong> — data yang hanya ditampilkan sebagai tabel <code>HTML</code>, belum dikemas jadi berkas yang siap diunduh.</li>
@@ -224,10 +224,10 @@ Rizqy Amelia Zein
 <div class="columns">
 <div class="column" style="width:55%;">
 <p><strong>Open-Source Psychometrics Project</strong></p>
-<p><code>openpsychometrics.org/_rawdata/</code></p>
+<p><a href="https://openpsychometrics.org/_rawdata/"><code>openpsychometrics.org/_rawdata/</code></a></p>
 <ul>
 <li>Puluhan dataset hasil pengisian skala psikologi daring</li>
-<li>Sudah kita kenal lewat dataset <strong><em>Big Five</em></strong> sejak Pertemuan 1</li>
+<li>Sudah diperkenalkan sebagai sumber dataset <strong><em>Big Five</em></strong> sejak Pertemuan 1</li>
 </ul>
 </div><div class="column" style="width:45%;">
 <p><strong>Daftar dataset psikologi/ilmu sosial</strong></p>
@@ -372,8 +372,8 @@ Rizqy Amelia Zein
 <td>Salin manual (tabel pendek), atau <em>software</em> ekstraksi tabel khusus (mis. <a href="https://tabula.technology/">Tabula</a>) untuk tabel panjang/berulang</td>
 </tr>
 <tr class="even">
-<td>PDF hasil pindai</td>
-<td>Perlu <em>Optical Character Recognition</em> (OCR) — perangkat lunak yang “membaca” gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual</td>
+<td>PDF hasil pindai (<em>scan</em>)</td>
+<td>Perlu <a href="https://cloud.google.com/use-cases/ocr?hl=id"><em>Optical Character Recognition</em> (OCR)</a> — perangkat lunak yang “membaca” gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual</td>
 </tr>
 <tr class="odd">
 <td>Tabel di halaman web</td>
@@ -785,17 +785,26 @@ Rizqy Amelia Zein
     <script>
     // Single unified function to manage all logos
     function manageLogos() {
-      const slides = document.querySelectorAll('.reveal .slides section');
-      
+      const allSections = document.querySelectorAll('.reveal .slides section');
+
+      // Reveal.js wraps vertical sub-slide stacks in an outer <section> that also
+      // matches the selector above. Skip those wrapper sections — only real
+      // content slides (no nested <section> children) should get a logo, and
+      // :scope keeps each slide's logo lookup from bleeding into its own stack
+      // wrapper's descendant count.
+      const slides = Array.from(allSections).filter(
+        (s) => s.querySelectorAll(':scope > section').length === 0
+      );
+
       slides.forEach(function(slide, index) {
         // Handle title slide (first slide)
         if (index === 0) {
           // Remove any regular logos from title slide
-          const regularLogos = slide.querySelectorAll('.slide-logo');
+          const regularLogos = slide.querySelectorAll(':scope > .slide-logo');
           regularLogos.forEach(logo => logo.remove());
-          
+
           // Add centered logo if it doesn't exist
-          if (!slide.querySelector('.title-slide-logo')) {
+          if (!slide.querySelector(':scope > .title-slide-logo')) {
             const titleLogo = document.createElement('img');
             titleLogo.src = 'libs/logo.png';
             titleLogo.className = 'title-slide-logo';
@@ -804,27 +813,27 @@ Rizqy Amelia Zein
           }
           return;
         }
-        
+
         // For all other slides, ensure only ONE logo exists
-        const existingLogos = slide.querySelectorAll('.slide-logo');
-        
-        // If multiple logos exist, remove all and start fresh
-        if (existingLogos.length > 1) {
-          existingLogos.forEach(logo => logo.remove());
-        }
-        
+        const existingLogos = slide.querySelectorAll(':scope > .slide-logo');
+
         // Check background color
         const bgColor = slide.getAttribute('data-background-color');
-        const logoSrc = (bgColor === '#14497F' || bgColor === '#14497f') 
-          ? 'libs/logo_white.png' 
+        const logoSrc = (bgColor === '#14497F' || bgColor === '#14497f')
+          ? 'libs/logo_white.png'
           : 'libs/logo.png';
-        
-        // If exactly one logo exists, just update its source
-        if (existingLogos.length === 1) {
+
+        // If multiple logos somehow exist, collapse to one
+        if (existingLogos.length > 1) {
+          existingLogos.forEach((logo, i) => { if (i > 0) logo.remove(); });
           existingLogos[0].src = logoSrc;
-        } 
+        }
+        // If exactly one logo exists, just update its source
+        else if (existingLogos.length === 1) {
+          existingLogos[0].src = logoSrc;
+        }
         // If no logo exists, create one
-        else if (existingLogos.length === 0) {
+        else {
           const logo = document.createElement('img');
           logo.src = logoSrc;
           logo.className = 'slide-logo';

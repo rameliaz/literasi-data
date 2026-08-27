@@ -59,7 +59,7 @@ Kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan top
 ## Di mana data bisa ditemukan?
 
 ::: {.incremental}
-* **Portal data terbuka** — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. *Open-Source Psychometrics Project*, [Open Science Framework (OSF)](https://osf.io/)).
+* **Portal data terbuka** — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. [*Open-Source Psychometrics Project*](https://openpsychometrics.org/_rawdata/), [*Open Science Framework*/OSF](https://osf.io/)).
 * **Sistem digital organisasi** — banyak lembaga riset/universitas menyimpan data, tapi hanya sebagian yang dirilis ke publik.
 * [***Application Programming Interface* (API)**](https://en.wikipedia.org/wiki/API) — cara terprogram untuk "menarik" data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau *update* berkala.
 * **Bebas di halaman web** — data yang hanya ditampilkan sebagai tabel `HTML`, belum dikemas jadi berkas yang siap diunduh.
@@ -71,10 +71,10 @@ Kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan top
 ::: {.column width="55%"}
 **Open-Source Psychometrics Project**
 
-`openpsychometrics.org/_rawdata/`
+[`openpsychometrics.org/_rawdata/`](https://openpsychometrics.org/_rawdata/)
 
 * Puluhan dataset hasil pengisian skala psikologi daring
-* Sudah kita kenal lewat dataset ***Big Five*** sejak Pertemuan 1
+* Sudah diperkenalkan sebagai sumber dataset ***Big Five*** sejak Pertemuan 1
 :::
 ::: {.column width="45%"}
 **Daftar dataset psikologi/ilmu sosial**
@@ -171,7 +171,7 @@ Tidak semua data terbuka tersedia dalam format siap pakai. Kadang Anda hanya men
 | Sumber | Strategi |
 |---|---|
 | PDF digital dengan tabel rapi | Salin manual (tabel pendek), atau *software* ekstraksi tabel khusus (mis. [Tabula](https://tabula.technology/)) untuk tabel panjang/berulang |
-| PDF hasil pindai | Perlu *Optical Character Recognition* (OCR) — perangkat lunak yang "membaca" gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual |
+| PDF hasil pindai (*scan*) | Perlu [*Optical Character Recognition* (OCR)](https://cloud.google.com/use-cases/ocr?hl=id) — perangkat lunak yang "membaca" gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual |
 | Tabel di halaman web | Fungsi `IMPORTHTML()` di [Google Sheets](https://support.google.com/docs/answer/3093339?hl=en) bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda |
 
 ::: {.callout-caution}
