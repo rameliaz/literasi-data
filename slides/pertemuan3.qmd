@@ -172,7 +172,7 @@ Tidak semua data terbuka tersedia dalam format siap pakai. Kadang Anda hanya men
 |---|---|
 | PDF digital dengan tabel rapi | Salin manual (tabel pendek), atau *software* ekstraksi tabel khusus (mis. [Tabula](https://tabula.technology/)) untuk tabel panjang/berulang |
 | PDF hasil pindai (*scan*) | Perlu [*Optical Character Recognition* (OCR)](https://cloud.google.com/use-cases/ocr?hl=id) — perangkat lunak yang "membaca" gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual |
-| Tabel di halaman web | Fungsi `IMPORTHTML()` di [Google Sheets](https://support.google.com/docs/answer/3093339?hl=en) bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda |
+| Tabel di halaman web | Fungsi `IMPORTHTML()` di [Google Sheets](https://support.google.com/docs/answer/3093339?hl=en) bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda. [Contoh klik di sini.](https://docs.google.com/spreadsheets/d/1dmXKbWZ1Am4XQp-Lbc6aYNA7gyCm8IMUBFljXVYDo9k/edit?usp=sharing) |
 
 ::: {.callout-caution}
 ### Ekstraksi otomatis tidak pernah 100% sempurna

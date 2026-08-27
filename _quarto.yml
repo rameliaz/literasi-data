@@ -43,6 +43,13 @@ website:
             href: data/codebook.txt
           - text: "Dataset Kotor Pertemuan 4"
             href: data/pertemuan4_dataset_kotor.csv
+      - text: "Mentoring"
+        menu:
+          - text: "*Outline Narrative Review*" 
+            href: https://docs.google.com/document/d/1JUtv6JsyaOPtBVC79j2Dk9bafFV1XEnH/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true
+          - text: "Lembar Umpan Balik (untuk Mentor)"
+            href: https://docs.google.com/document/d/15S3NJ51ZW24o0pNdNt_tIOebuG7Z64ki/edit?usp=sharing&ouid=100126014993390956583&rtpof=true&sd=true
+          - text: "Kuesioner Evaluasi Mentor (untuk Mahasiswa)"  
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
     tools:
