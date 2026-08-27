@@ -970,42 +970,42 @@
     "href": "slides/pertemuan3.html#outline",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Outline",
-    "text": "Outline\n\nFind & Get: dua tahap Data Pipeline minggu ini\nSumber-sumber data terbuka untuk riset psikologi\nRagam format data (CSV, .sav, JSON) dan cara membacanya\nMengekstraksi data dari dokumen dan tabel\nEtika pengumpulan dan penggunaan data, termasuk UU Pelindungan Data Pribadi\n2️⃣ aktivitas (mandiri & kelompok)\n\n\nMetode minggu ini “Diskusi Kelompok” — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif."
+    "text": "Outline\n\nFind & Get: dua tahap Data Pipeline yang dibahas minggu ini\nSumber-sumber data terbuka untuk riset psikologi\nRagam format data (.csv, .sav, json) dan cara membacanya\nMengekstraksi data dari dokumen dan tabel dari file statis\nEtika pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi\n2️⃣ aktivitas (mandiri & kelompok)\n\n\nMetode minggu ini “Diskusi Kelompok” — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif."
   },
   {
     "objectID": "slides/pertemuan3.html#mengingat-kembali-data-pipeline",
     "href": "slides/pertemuan3.html#mengingat-kembali-data-pipeline",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Mengingat kembali Data Pipeline",
-    "text": "Mengingat kembali Data Pipeline\nMinggu lalu Anda belajar menyusun tabel. Mulai minggu ini, kita bergerak ke tahapan Data Pipeline: Find (menemukan) dan Get (memperoleh) data. Sebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.\n\n\n\n\n\n\n\nMengapa bagian ini penting\n\n\nKalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda akan menyadari betapa terbatasnya pilihan data terbuka di bidang kita kalau dibandingkan, misalnya, ekonomi atau kesehatan masyarakat."
+    "text": "Mengingat kembali Data Pipeline\nMinggu lalu Anda belajar mempresentasikan data dengan tabel. Mulai minggu ini, kita fokus pada tahapan Data Pipeline: Find (menemukan) dan Get (memperoleh) data.\n\nSebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.\n\n\n\n\n\n\n\n\nKalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda akan menyadari betapa terbatasnya pilihan data terbuka untuk bidang psikologi kalau dibandingkan, misalnya, dengan ekonomi atau kesehatan masyarakat."
   },
   {
-    "objectID": "slides/pertemuan3.html#tiga-pertanyaan-sebelum-mencari-data",
-    "href": "slides/pertemuan3.html#tiga-pertanyaan-sebelum-mencari-data",
+    "objectID": "slides/pertemuan3.html#pertanyaan-sebelum-mencari-data",
+    "href": "slides/pertemuan3.html#pertanyaan-sebelum-mencari-data",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
-    "section": "Tiga pertanyaan sebelum mencari data",
-    "text": "Tiga pertanyaan sebelum mencari data\n\nDi mana datanya berada?\nDalam format apa data itu tersimpan?\nApakah data itu perlu ditransformasi dulu sebelum bisa dipakai?\n\n\nKetiga pertanyaan ini akan menstruktur seluruh pertemuan hari ini."
+    "section": "3️⃣ pertanyaan sebelum mencari data",
+    "text": "3️⃣ pertanyaan sebelum mencari data\n\nDi mana datanya berada?\nDalam format apa data itu tersimpan?\nApakah data itu perlu diolah dulu sebelum bisa dipakai?"
   },
   {
     "objectID": "slides/pertemuan3.html#di-mana-data-bisa-ditemukan",
     "href": "slides/pertemuan3.html#di-mana-data-bisa-ditemukan",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Di mana data bisa ditemukan?",
-    "text": "Di mana data bisa ditemukan?\n\nPortal data terbuka — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. Open-Source Psychometrics Project, OSF).\nSistem digital organisasi — banyak lembaga riset/universitas menyimpan data, tapi hanya sebagian yang dirilis ke publik.\nAPI — cara terprogram untuk “meminta” data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau update berkala.\nBebas di halaman web — data yang hanya ditampilkan sebagai tabel HTML, belum dikemas jadi berkas siap unduh.\nTidak ada di mana pun — kadang datanya memang belum pernah dikumpulkan; ini di luar cakupan mata kuliah kita, yang berfokus pada data sekunder dan terbuka."
+    "text": "Di mana data bisa ditemukan?\n\nPortal data terbuka — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. Open-Source Psychometrics Project, Open Science Framework (OSF)).\nSistem digital organisasi — banyak lembaga riset/universitas menyimpan data, tapi hanya sebagian yang dirilis ke publik.\nApplication Programming Interface (API) — cara terprogram untuk “menarik” data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau update berkala.\nBebas di halaman web — data yang hanya ditampilkan sebagai tabel HTML, belum dikemas jadi berkas yang siap diunduh."
   },
   {
     "objectID": "slides/pertemuan3.html#sumber-data-terbuka-untuk-psikologi",
     "href": "slides/pertemuan3.html#sumber-data-terbuka-untuk-psikologi",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Sumber data terbuka untuk psikologi",
-    "text": "Sumber data terbuka untuk psikologi\n\n\nOpen-Source Psychometrics Project\nopenpsychometrics.org/_rawdata/\n\nPuluhan dataset hasil pengisian skala psikologi daring\nSudah kita kenal lewat dataset Big Five sejak Pertemuan 1\n\n\nDaftar dataset psikologi/ilmu sosial\nPsychological Stimulus Sets and Datasets (Brick, 2020)\nDokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial — bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.\n\n\n\n\n\n\n\nSumber lain yang layak dijelajahi\n\n\nOpen Science Framework (OSF), repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. World Values Survey untuk data lintas-negara)."
+    "text": "Sumber data terbuka untuk psikologi\n\n\nOpen-Source Psychometrics Project\nopenpsychometrics.org/_rawdata/\n\nPuluhan dataset hasil pengisian skala psikologi daring\nSudah kita kenal lewat dataset Big Five sejak Pertemuan 1\n\n\nDaftar dataset psikologi/ilmu sosial\nPsychological Stimulus Sets and Datasets (Brick, 2020)\nDokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial yang bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.\n\n\n\n\n\n\n\nSumber lain yang layak dijelajahi\n\n\nOpen Science Framework (OSF), repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. World Values Survey, Wellcome Global Monitor untuk data lintas-negara)."
   },
   {
     "objectID": "slides/pertemuan3.html#aktivitas-mandiri-menjelajahi-sumber-data",
     "href": "slides/pertemuan3.html#aktivitas-mandiri-menjelajahi-sumber-data",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "🧩 Aktivitas mandiri: menjelajahi sumber data",
-    "text": "🧩 Aktivitas mandiri: menjelajahi sumber data\n\n\n\n\n\n\nKerjakan sendiri (10 menit)\n\n\nBuka salah satu sumber data terbuka yang baru saja dibahas (Open-Source Psychometrics Project atau daftar dataset komunitas).\n\nPilih satu dataset yang menarik minat Anda — idealnya yang relevan dengan topik riset yang Anda minati.\nCatat: nama dataset, jumlah kira-kira variabel/kolom, dan format berkasnya.\nTuliskan satu pertanyaan riset yang mungkin bisa dijawab dengan dataset tersebut.\n\n\n\n\n\nDataset yang ditemukan di sini bisa menjadi kandidat proyek UTS Pertemuan 8 — sampaikan ini ke mahasiswa supaya latihan terasa bermakna, bukan sekadar formalitas."
+    "text": "🧩 Aktivitas mandiri: menjelajahi sumber data\n\n\n\n\n\n\nKerjakan sendiri (10 menit)\n\n\nBuka salah satu sumber data terbuka yang baru saja dibahas (Open-Source Psychometrics Project atau daftar dataset komunitas).\n\nPilih satu dataset yang menarik minat Anda. Idealnya yang relevan dengan topik riset yang Anda minati.\nCatat: nama dataset, jumlah kira-kira variabel/kolom, dan format berkasnya.\nTuliskan satu pertanyaan riset yang mungkin bisa dijawab dengan dataset tersebut.\n\n\n\n\n\nDataset yang ditemukan di sini bisa menjadi kandidat proyek UTS Pertemuan 8 — sampaikan ini ke mahasiswa supaya latihan terasa bermakna, bukan sekadar formalitas."
   },
   {
     "objectID": "slides/pertemuan3.html#tipe-data",
@@ -1019,14 +1019,14 @@
     "href": "slides/pertemuan3.html#ragam-format-data",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Ragam format data",
-    "text": "Ragam format data\n\nCSV/TSV (comma/tab-separated values) — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.\nXLS/XLSX — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.\n.sav — format native SPSS, paling umum Anda temui di penelitian psikologi; menyimpan data plus label variabel dan value labels (mis. 1 = Laki-laki, 2 = Perempuan).\nJSON — format ringan berbasis struktur tree (bukan tabel), umum dipakai untuk data dari API atau media sosial."
+    "text": "Ragam format data\n\n.csv/.tsv (comma/tab-separated values) — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.\n.xls/.xlsx — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.\n.sav — format native SPSS, paling umum Anda temui di penelitian psikologi; menyimpan data plus label variabel dan value labels (mis. 1 = Laki-laki, 2 = Perempuan).\n.json — format ringan berbasis struktur tree (bukan tabel), umum dipakai untuk data dari API atau media sosial."
   },
   {
-    "objectID": "slides/pertemuan3.html#tabel-csvxlsx-vs.-tree-json-kenapa-bedanya-penting",
-    "href": "slides/pertemuan3.html#tabel-csvxlsx-vs.-tree-json-kenapa-bedanya-penting",
+    "objectID": "slides/pertemuan3.html#tabel-.csv.xlsx-vs.-tree-.json-apa-perbedaannya",
+    "href": "slides/pertemuan3.html#tabel-.csv.xlsx-vs.-tree-.json-apa-perbedaannya",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
-    "section": "Tabel (CSV/XLSX) vs. tree (JSON): kenapa bedanya penting?",
-    "text": "Tabel (CSV/XLSX) vs. tree (JSON): kenapa bedanya penting?\n\n\nStruktur tabular\n\nAnda tahu di muka berapa kolom yang dibutuhkan.\nCocok kalau semua data “pas” masuk ke kolom yang sama untuk setiap baris.\nIni struktur yang kita pakai sepanjang mata kuliah ini.\n\n\nStruktur tree (JSON)\n\nSetiap “titik” (node) bisa punya jumlah nilai yang berbeda-beda.\nCocok untuk data yang jumlah elemennya tidak tetap — mis. daftar komentar pada satu unggahan media sosial, yang jumlahnya beda-beda tiap unggahan.\n\n\n\n\n\n\n\n\nNote\n\n\nUntuk sebagian besar data riset psikologi (respons survei, skor tes), struktur tabular sudah cukup. JSON lebih relevan kalau Anda bekerja dengan data media sosial atau hasil dari API."
+    "section": "Tabel (.csv/.xlsx) vs. tree (.json): Apa perbedaannya?",
+    "text": "Tabel (.csv/.xlsx) vs. tree (.json): Apa perbedaannya?\n\n\nStruktur tabular\n\nAnda langsung tahu berapa kolom yang dibutuhkan.\nCocok kalau semua data “pas” masuk ke kolom yang sama untuk setiap baris.\nIni adalah struktur yang kita pakai sepanjang mata kuliah ini.\n\n\nStruktur tree (JSON)\n\nSetiap “titik” (node) bisa punya jumlah nilai yang berbeda-beda.\nCocok untuk data yang jumlah elemennya tidak tetap — mis. daftar komentar pada satu unggahan media sosial, yang jumlahnya beda-beda tiap unggahan.\n\n\n\n\n\n\n\n\nNote\n\n\nUntuk sebagian besar data riset psikologi (respons survei, skor tes), struktur tabular sudah cukup. .json lebih relevan kalau Anda bekerja dengan data media sosial atau hasil ekstraksi dari API."
   },
   {
     "objectID": "slides/pertemuan3.html#format-json",
@@ -1040,7 +1040,7 @@
     "href": "slides/pertemuan3.html#membaca-.sav-tanpa-spss",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Membaca .sav tanpa SPSS",
-    "text": "Membaca .sav tanpa SPSS\n\nAnda tidak selalu perlu lisensi SPSS untuk membaca .sav — Jamovi dan JASP (keduanya gratis) bisa membukanya langsung.\nSpreadsheet (Google Sheets/Excel) tidak bisa membuka .sav secara langsung — perlu dikonversi dulu ke CSV/XLSX lewat Jamovi/JASP.\nPerhatikan value labels: kolom yang terlihat berisi angka (1, 2) sering kali punya label tersembunyi (Laki-laki, Perempuan) yang perlu Anda periksa di variable view, bukan hanya data view."
+    "text": "Membaca .sav tanpa SPSS\n\nAnda tidak selalu perlu lisensi SPSS untuk membaca .sav karena jamovi dan JASP (keduanya gratis) bisa membukanya langsung.\nSpreadsheet (Google Sheets/Excel) tidak bisa membuka .sav secara langsung — perlu dikonversi dulu ke .csv/.xlsx lewat jamovi/JASP.\nPerhatikan value labels: kolom yang terlihat berisi angka (1, 2) sering kali punya label tersembunyi (Laki-laki, Perempuan) yang perlu Anda periksa di variable view, bukan hanya data view."
   },
   {
     "objectID": "slides/pertemuan3.html#kapan-anda-butuh-ekstraksi",
@@ -1054,21 +1054,21 @@
     "href": "slides/pertemuan3.html#strategi-ekstraksi-sesuai-formatnya",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Strategi ekstraksi sesuai formatnya",
-    "text": "Strategi ekstraksi sesuai formatnya\n\n\n\n\n\n\n\nSumber\nStrategi\n\n\n\n\nPDF digital dengan tabel rapi\nSalin manual (tabel pendek), atau software ekstraksi tabel khusus (mis. Tabula) untuk tabel panjang/berulang\n\n\nPDF hasil pindai\nPerlu Optical Character Recognition (OCR) — perangkat lunak yang “membaca” gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual\n\n\nTabel di halaman web\nFungsi IMPORTHTML() di Google Sheets bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda\n\n\n\n\n\n\n\n\n\nEkstraksi otomatis tidak pernah 100% sempurna\n\n\nSelalu verifikasi hasil ekstraksi terhadap sumber aslinya — baris yang terlewat atau kolom yang tergeser adalah kesalahan umum, dan inilah kenapa tahap Verify (Pertemuan 4) datang tepat setelah Get."
+    "text": "Strategi ekstraksi sesuai formatnya\n\n\n\nSumber\nStrategi\n\n\n\n\nPDF digital dengan tabel rapi\nSalin manual (tabel pendek), atau software ekstraksi tabel khusus (mis. Tabula) untuk tabel panjang/berulang\n\n\nPDF hasil pindai\nPerlu Optical Character Recognition (OCR) — perangkat lunak yang “membaca” gambar menjadi teks, meski hasilnya sering perlu dikoreksi manual\n\n\nTabel di halaman web\nFungsi IMPORTHTML() di Google Sheets bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda\n\n\n\n\n\n\n\n\n\nEkstraksi otomatis tidak pernah 100% sempurna\n\n\nSelalu verifikasi hasil ekstraksi terhadap sumber aslinya, karena ada kemungkinan baris yang terlewat atau kolom yang tergeser adalah kesalahan umum. Inilah kenapa tahap Verify (Pertemuan 4) dilakukan setelah Get."
   },
   {
     "objectID": "slides/pertemuan3.html#kenapa-etika-data-penting-bagi-peneliti",
     "href": "slides/pertemuan3.html#kenapa-etika-data-penting-bagi-peneliti",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Kenapa etika data penting bagi peneliti",
-    "text": "Kenapa etika data penting bagi peneliti\n\nBahkan ketika Anda tidak mengumpulkan data sendiri — hanya mengunduh dataset terbuka — Anda tetap memikul tanggung jawab etis atas bagaimana data itu digunakan.\nDi Indonesia, kerangka hukumnya diatur dalam Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)."
+    "text": "Kenapa etika data penting bagi peneliti\n\nBahkan ketika Anda tidak mengumpulkan data sendiri, hanya mengunduh dataset terbuka, Anda tetap memikul tanggung jawab etis atas bagaimana data itu digunakan.\nDi Indonesia, kerangka hukumnya diatur dalam Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)."
   },
   {
-    "objectID": "slides/pertemuan3.html#uu-pdp-definisi-kunci",
-    "href": "slides/pertemuan3.html#uu-pdp-definisi-kunci",
+    "objectID": "slides/pertemuan3.html#uu-pdp-definisi-penting",
+    "href": "slides/pertemuan3.html#uu-pdp-definisi-penting",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
-    "section": "UU PDP: definisi kunci",
-    "text": "UU PDP: definisi kunci\n\n\n\n\n\n\nPasal 1\n\n\n\nData Pribadi — data tentang orang perseorangan yang teridentifikasi atau dapat diidentifikasi, baik sendiri maupun dikombinasikan dengan informasi lain.\nSubjek Data Pribadi — orang perseorangan yang datanya melekat/terkait dengannya (mis. partisipan riset Anda).\nPengendali Data Pribadi — pihak yang menentukan tujuan dan melakukan kendali atas pemrosesan data (bisa jadi ini Anda, sebagai peneliti)."
+    "section": "UU PDP: definisi penting",
+    "text": "UU PDP: definisi penting\n\n\n\n\n\n\nPasal 1\n\n\n\nData Pribadi — data tentang orang perseorangan yang teridentifikasi atau dapat diidentifikasi, baik sendiri maupun dikombinasikan dengan informasi lain.\nSubjek Data Pribadi — orang perseorangan yang datanya melekat/terkait dengannya (mis. partisipan riset Anda).\nPengendali Data Pribadi — pihak yang menentukan tujuan dan melakukan kendali atas pemrosesan data (bisa jadi ini Anda, sebagai peneliti)."
   },
   {
     "objectID": "slides/pertemuan3.html#hak-subjek-data-pribadi-ringkasan",
@@ -1089,14 +1089,14 @@
     "href": "slides/pertemuan3.html#pengecualian-untuk-kepentingan-penelitian-ilmiah",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Pengecualian untuk kepentingan penelitian ilmiah",
-    "text": "Pengecualian untuk kepentingan penelitian ilmiah\n\n\n\n\n\n\nPasal 15 ayat (1)\n\n\nSejumlah hak subjek data — termasuk hak menghapus data dan menarik persetujuan — dikecualikan untuk beberapa kepentingan, salah satunya: “kepentingan statistik dan penelitian ilmiah.”\n\n\n\n\nPengecualian ini bukan berarti peneliti leluasa menggunakan data milik partisipan. Ia memberi ruang kerja bagi peneliti (mis. memakai data lama untuk analisis sekunder tanpa perlu melacak ulang persetujuan tiap partisipan), tapi tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti."
+    "text": "Pengecualian untuk kepentingan penelitian ilmiah\n\n\n\n\n\n\nPasal 15 ayat (1)\n\n\nSejumlah hak subjek data, termasuk hak menghapus data dan menarik persetujuan, dikecualikan untuk beberapa kepentingan, salah satunya: “kepentingan statistik dan penelitian ilmiah.”\n\n\n\n\nPengecualian ini bukan berarti peneliti leluasa menggunakan data milik partisipan. Ia memberi ruang kerja bagi peneliti (mis. memakai data lama untuk analisis sekunder tanpa perlu melacak ulang persetujuan tiap partisipan), tapi tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti."
   },
   {
-    "objectID": "slides/pertemuan3.html#menerapkan-ini-ke-dataset-kita",
-    "href": "slides/pertemuan3.html#menerapkan-ini-ke-dataset-kita",
+    "objectID": "slides/pertemuan3.html#menerapkan-ini-ke-dataset-contoh",
+    "href": "slides/pertemuan3.html#menerapkan-ini-ke-dataset-contoh",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
-    "section": "Menerapkan ini ke dataset kita",
-    "text": "Menerapkan ini ke dataset kita\nDataset Big Five yang kita pakai bersifat terbuka dan sudah dianonimkan, tidak ada nama, tidak ada informasi yang bisa melacak balik ke individu tertentu. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:\n\nKalau Anda mengumpulkan data sendiri (mis. untuk tesis), formulir informed consent dan penyimpanan data yang aman adalah kewajiban, bukan formalitas.\nKalau Anda memakai data sekunder terbuka, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (lisensi, atribusi)?"
+    "section": "Menerapkan ini ke dataset contoh",
+    "text": "Menerapkan ini ke dataset contoh\nDataset Big Five yang kita pakai bersifat terbuka dan sudah dianonimkan, tidak ada nama, tidak ada informasi yang bisa melacak balik ke individu tertentu. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:\n\nKalau Anda mengumpulkan data sendiri (mis. untuk tesis), formulir informed consent dan penyimpanan data yang aman adalah kewajiban Anda sebagai peneliti.\nKalau Anda memakai data sekunder terbuka, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (lisensi, atribusi)?"
   },
   {
     "objectID": "slides/pertemuan3.html#diskusi-kelompok-skenario-etika-data",
@@ -1110,7 +1110,7 @@
     "href": "slides/pertemuan3.html#kesimpulan-pertemuan-3",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Kesimpulan Pertemuan 3",
-    "text": "Kesimpulan Pertemuan 3\n\nSebelum data bisa ditata atau dibersihkan, ia harus ditemukan dan diperoleh dulu — dua tahap Data Pipeline minggu ini.\nSumber data psikologi terbuka: Open-Source Psychometrics Project dan daftar dataset komunitas.\nFormat data yang umum: CSV, XLSX, .sav (format native SPSS), dan JSON (struktur tree, bukan tabel).\nEkstraksi data dari PDF/HTML selalu perlu diverifikasi ulang — bukan langkah yang bisa sepenuhnya dipercaya begitu saja.\nUU PDP memberi kerangka hukum bagi hak subjek data dan dasar persetujuan — dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti."
+    "text": "Kesimpulan Pertemuan 3\n\nSebelum data bisa ditata atau dibersihkan, ia harus ditemukan dan diperoleh dulu dan ini yang menjadi fokus Data Pipeline minggu ini.\nSumber data psikologi terbuka: Open-Source Psychometrics Project dan daftar dataset komunitas.\nFormat data yang umum: .csv, .xlsx, .sav (format native SPSS), dan .json (struktur tree, bukan tabel).\nEkstraksi data dari PDF/HTML selalu perlu diverifikasi ulang.\nUU PDP memberi kerangka hukum bagi hak subjek data dan dasar persetujuan dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti."
   },
   {
     "objectID": "slides/pertemuan3.html#referensi",

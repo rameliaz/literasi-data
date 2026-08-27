@@ -45,6 +45,15 @@ website:
             href: data/pertemuan4_dataset_kotor.csv
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
+    tools:
+      - icon: github
+        menu: 
+          - text: "Source Code"
+            href: https://github.com/rameliaz/literasi-data
+          - text: "Report Issues"
+            href: https://github.com/rameliaz/literasi-data/issues
+      - icon: house-heart
+        url: https://rameliaz.github.io/
   search:
     location: navbar
     type: overlay

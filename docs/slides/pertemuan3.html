@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-08-21">
+  <meta name="dcterms.date" content="2026-08-27">
   <title>Literasi Data dan Penulisan Ilmiah – Menemukan dan Memanfaatkan Data Terbuka</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -152,16 +152,16 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-08-21</p>
+  <p class="date">2026-08-27</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment"><strong><em>Find</em></strong> &amp; <strong><em>Get</em></strong>: dua tahap <em>Data Pipeline</em> minggu ini</li>
+<li class="fragment"><strong><em>Find</em></strong> &amp; <strong><em>Get</em></strong>: dua tahap <em>Data Pipeline</em> yang dibahas minggu ini</li>
 <li class="fragment">Sumber-sumber <strong>data terbuka</strong> untuk riset psikologi</li>
-<li class="fragment">Ragam <strong>format data</strong> (CSV, <code>.sav</code>, JSON) dan cara membacanya</li>
-<li class="fragment">Mengekstraksi data dari <strong>dokumen dan tabel</strong></li>
-<li class="fragment"><strong>Etika</strong> pengumpulan dan penggunaan data, termasuk UU Pelindungan Data Pribadi</li>
+<li class="fragment">Ragam <strong>format data</strong> (<code>.csv</code>, <code>.sav</code>, <code>json</code>) dan cara membacanya</li>
+<li class="fragment">Mengekstraksi data dari <strong>dokumen dan tabel</strong> dari <em>file</em> statis</li>
+<li class="fragment"><strong>Etika</strong> pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi</li>
 <li class="fragment">2️⃣ aktivitas (mandiri &amp; kelompok)</li>
 </ul>
 <aside class="notes">
@@ -180,47 +180,43 @@ Rizqy Amelia Zein
 </section>
 <section>
 <section id="find-get-mencari-dan-memperoleh-data" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1><em>Find</em> &amp; <em>Get</em>: Mencari dan Memperoleh Data 🔎</h1>
+<h1>Find &amp; Get: Mencari dan Memperoleh Data 🔎</h1>
 
 </section>
 <section id="mengingat-kembali-data-pipeline" class="slide level2">
 <h2>Mengingat kembali <em>Data Pipeline</em></h2>
-<p>Minggu lalu Anda belajar menyusun tabel. Mulai minggu ini, kita bergerak ke tahapan <em>Data Pipeline</em>: <strong>Find</strong> (menemukan) dan <strong>Get</strong> (memperoleh) data. Sebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.</p>
+<p>Minggu lalu Anda belajar mempresentasikan data dengan tabel. Mulai minggu ini, kita fokus pada tahapan <em>Data Pipeline</em>: <strong>Find</strong> (menemukan) dan <strong>Get</strong> (memperoleh) data.</p>
 <div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
+<p>Sebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.</p>
+</div>
+<div class="fragment">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Mengapa bagian ini penting</strong></p>
-</div>
 <div class="callout-content">
-<p>Kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda akan menyadari betapa terbatasnya pilihan data terbuka di bidang kita kalau dibandingkan, misalnya, ekonomi atau kesehatan masyarakat.</p>
+<p>Kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan topik riset Anda, Anda akan menyadari betapa terbatasnya pilihan data terbuka untuk bidang psikologi kalau dibandingkan, misalnya, dengan ekonomi atau kesehatan masyarakat.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="tiga-pertanyaan-sebelum-mencari-data" class="slide level2">
-<h2>Tiga pertanyaan sebelum mencari data</h2>
+<section id="pertanyaan-sebelum-mencari-data" class="slide level2">
+<h2>3️⃣ pertanyaan sebelum mencari data</h2>
 <ol type="1">
 <li class="fragment"><strong>Di mana</strong> datanya berada?</li>
 <li class="fragment">Dalam <strong>format</strong> apa data itu tersimpan?</li>
-<li class="fragment">Apakah data itu perlu <strong>ditransformasi</strong> dulu sebelum bisa dipakai?</li>
+<li class="fragment">Apakah data itu perlu <strong>diolah</strong> dulu sebelum bisa dipakai?</li>
 </ol>
-<div class="fragment">
-<p>Ketiga pertanyaan ini akan menstruktur seluruh pertemuan hari ini.</p>
-</div>
 </section>
 <section id="di-mana-data-bisa-ditemukan" class="slide level2">
 <h2>Di mana data bisa ditemukan?</h2>
 <ul>
-<li class="fragment"><strong>Portal data terbuka</strong> — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. <em>Open-Source Psychometrics Project</em>, OSF).</li>
+<li class="fragment"><strong>Portal data terbuka</strong> — antarmuka web yang dirancang khusus untuk berbagi dataset yang bisa dipakai ulang (mis. <em>Open-Source Psychometrics Project</em>, <a href="https://osf.io/">Open Science Framework (OSF)</a>).</li>
 <li class="fragment"><strong>Sistem digital organisasi</strong> — banyak lembaga riset/universitas menyimpan data, tapi hanya sebagian yang dirilis ke publik.</li>
-<li class="fragment"><strong>API</strong> — cara terprogram untuk “meminta” data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau <em>update</em> berkala.</li>
-<li class="fragment"><strong>Bebas di halaman web</strong> — data yang hanya ditampilkan sebagai tabel HTML, belum dikemas jadi berkas siap unduh.</li>
-<li class="fragment"><strong>Tidak ada di mana pun</strong> — kadang datanya memang belum pernah dikumpulkan; ini di luar cakupan mata kuliah kita, yang berfokus pada data <em>sekunder</em> dan <em>terbuka</em>.</li>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/API"><strong><em>Application Programming Interface</em> (API)</strong></a> — cara terprogram untuk “menarik” data dari sistem tertentu; berguna kalau Anda butuh data dalam jumlah besar atau <em>update</em> berkala.</li>
+<li class="fragment"><strong>Bebas di halaman web</strong> — data yang hanya ditampilkan sebagai tabel <code>HTML</code>, belum dikemas jadi berkas yang siap diunduh.</li>
 </ul>
 </section>
 <section id="sumber-data-terbuka-untuk-psikologi" class="slide level2">
@@ -236,7 +232,7 @@ Rizqy Amelia Zein
 </div><div class="column" style="width:45%;">
 <p><strong>Daftar dataset psikologi/ilmu sosial</strong></p>
 <p><a href="https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit">Psychological Stimulus Sets and Datasets (Brick, 2020)</a></p>
-<p>Dokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial — bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.</p>
+<p>Dokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial yang bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.</p>
 </div></div>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -247,7 +243,7 @@ Rizqy Amelia Zein
 <p><strong>Sumber lain yang layak dijelajahi</strong></p>
 </div>
 <div class="callout-content">
-<p>Open Science Framework (OSF), repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. World Values Survey untuk data lintas-negara).</p>
+<p><a href="https://osf.io/">Open Science Framework (OSF)</a>, repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. <a href="https://www.worldvaluessurvey.org/">World Values Survey</a>, <a href="https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor">Wellcome Global Monitor</a> untuk data lintas-negara).</p>
 </div>
 </div>
 </div>
@@ -265,7 +261,7 @@ Rizqy Amelia Zein
 <div class="callout-content">
 <p>Buka salah satu sumber data terbuka yang baru saja dibahas (<em>Open-Source Psychometrics Project</em> atau daftar dataset komunitas).</p>
 <ol type="1">
-<li>Pilih <strong>satu dataset</strong> yang menarik minat Anda — idealnya yang relevan dengan topik riset yang Anda minati.</li>
+<li>Pilih <strong>satu dataset</strong> yang menarik minat Anda. Idealnya yang relevan dengan topik riset yang Anda minati.</li>
 <li>Catat: nama dataset, jumlah kira-kira variabel/kolom, dan format berkasnya.</li>
 <li>Tuliskan <strong>satu pertanyaan riset</strong> yang mungkin bisa dijawab dengan dataset tersebut.</li>
 </ol>
@@ -298,21 +294,21 @@ Rizqy Amelia Zein
 <section id="ragam-format-data" class="slide level2">
 <h2>Ragam format data</h2>
 <ul>
-<li class="fragment"><strong>CSV/TSV</strong> <em>(comma/tab-separated values)</em> — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.</li>
-<li class="fragment"><strong>XLS/XLSX</strong> — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.</li>
+<li class="fragment"><strong><code>.csv</code>/<code>.tsv</code></strong> <em>(comma/tab-separated values)</em> — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.</li>
+<li class="fragment"><strong><code>.xls</code>/<code>.xlsx</code></strong> — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.</li>
 <li class="fragment"><strong><code>.sav</code></strong> — format <em>native</em> <strong>SPSS</strong>, paling umum Anda temui di penelitian psikologi; menyimpan data plus label variabel dan value labels (mis. <code>1 = Laki-laki</code>, <code>2 = Perempuan</code>).</li>
-<li class="fragment"><strong>JSON</strong> — format ringan berbasis struktur <em>tree</em> (bukan tabel), umum dipakai untuk data dari API atau media sosial.</li>
+<li class="fragment"><strong><code>.json</code></strong> — format ringan berbasis struktur <em>tree</em> (bukan tabel), umum dipakai untuk data dari API atau media sosial.</li>
 </ul>
 </section>
-<section id="tabel-csvxlsx-vs.-tree-json-kenapa-bedanya-penting" class="slide level2">
-<h2>Tabel (CSV/XLSX) vs.&nbsp;<em>tree</em> (JSON): kenapa bedanya penting?</h2>
+<section id="tabel-.csv.xlsx-vs.-tree-.json-apa-perbedaannya" class="slide level2">
+<h2>Tabel (<code>.csv</code>/<code>.xlsx</code>) vs.&nbsp;<em>tree</em> (<code>.json</code>): Apa perbedaannya?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>Struktur tabular</strong></p>
 <ul>
-<li>Anda tahu di muka berapa kolom yang dibutuhkan.</li>
+<li>Anda langsung tahu berapa kolom yang dibutuhkan.</li>
 <li>Cocok kalau semua data “pas” masuk ke kolom yang sama untuk setiap baris.</li>
-<li>Ini struktur yang kita pakai sepanjang mata kuliah ini.</li>
+<li>Ini adalah struktur yang kita pakai sepanjang mata kuliah ini.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><strong>Struktur <em>tree</em> (JSON)</strong></p>
@@ -330,7 +326,7 @@ Rizqy Amelia Zein
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur <strong>tabular</strong> sudah cukup. JSON lebih relevan kalau Anda bekerja dengan data media sosial atau hasil dari API.</p>
+<p>Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur <strong>tabular</strong> sudah cukup. <code>.json</code> lebih relevan kalau Anda bekerja dengan data media sosial atau hasil ekstraksi dari API.</p>
 </div>
 </div>
 </div>
@@ -340,10 +336,10 @@ Rizqy Amelia Zein
 
 <img data-src="libs/json.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="membaca-.sav-tanpa-spss" class="slide level2">
-<h2>Membaca <code>.sav</code> tanpa SPSS</h2>
+<h2>Membaca <code>.sav</code> tanpa <code>SPSS</code></h2>
 <ul>
-<li class="fragment">Anda tidak selalu perlu lisensi SPSS untuk membaca <code>.sav</code> — Jamovi dan JASP (keduanya gratis) bisa membukanya langsung.</li>
-<li class="fragment">Spreadsheet (Google Sheets/Excel) <strong>tidak bisa</strong> membuka <code>.sav</code> secara langsung — perlu dikonversi dulu ke CSV/XLSX lewat Jamovi/JASP.</li>
+<li class="fragment">Anda tidak selalu perlu lisensi <code>SPSS</code> untuk membaca <code>.sav</code> karena <code>jamovi</code> dan <code>JASP</code> (keduanya gratis) bisa membukanya langsung.</li>
+<li class="fragment">Spreadsheet (Google Sheets/Excel) <strong>tidak bisa</strong> membuka <code>.sav</code> secara langsung — perlu dikonversi dulu ke <code>.csv</code>/<code>.xlsx</code> lewat <code>jamovi</code>/<code>JASP</code>.</li>
 <li class="fragment">Perhatikan <strong>value labels</strong>: kolom yang terlihat berisi angka (<code>1</code>, <code>2</code>) sering kali punya label tersembunyi (<code>Laki-laki</code>, <code>Perempuan</code>) yang perlu Anda periksa di <em>variable view</em>, bukan hanya <em>data view</em>.</li>
 </ul>
 </section></section>
@@ -356,18 +352,14 @@ Rizqy Amelia Zein
 <h2>Kapan Anda butuh ekstraksi</h2>
 <p>Tidak semua data terbuka tersedia dalam format siap pakai. Kadang Anda hanya menemukan data dalam:</p>
 <ul>
-<li class="fragment"><strong>PDF digital</strong> — teksnya bisa disorot/disalin, tapi tabelnya sering berantakan kalau disalin langsung ke spreadsheet.</li>
-<li class="fragment"><strong>PDF hasil pindai (<em>scanned</em>)</strong> — sebenarnya berupa gambar, kontennya tidak bisa disalin sama sekali tanpa bantuan tambahan.</li>
-<li class="fragment"><strong>Halaman web (HTML)</strong> — data tampil sebagai tabel di browser, tapi belum ada tombol “unduh.”</li>
+<li class="fragment"><strong><code>PDF</code> digital</strong> — teksnya bisa disorot/disalin, tapi tabelnya sering berantakan kalau disalin langsung ke spreadsheet.</li>
+<li class="fragment"><strong><code>PDF</code> hasil pindai (<em>scanned</em>)</strong> — sebenarnya berupa gambar, kontennya tidak bisa disalin sama sekali tanpa bantuan tambahan.</li>
+<li class="fragment"><strong>Halaman web (<code>HTML</code>)</strong> — data tampil sebagai tabel di browser, tapi belum ada tombol “unduh.”</li>
 </ul>
 </section>
 <section id="strategi-ekstraksi-sesuai-formatnya" class="slide level2">
 <h2>Strategi ekstraksi sesuai formatnya</h2>
 <table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Sumber</th>
@@ -377,7 +369,7 @@ Rizqy Amelia Zein
 <tbody>
 <tr class="odd">
 <td>PDF digital dengan tabel rapi</td>
-<td>Salin manual (tabel pendek), atau <em>software</em> ekstraksi tabel khusus (mis. Tabula) untuk tabel panjang/berulang</td>
+<td>Salin manual (tabel pendek), atau <em>software</em> ekstraksi tabel khusus (mis. <a href="https://tabula.technology/">Tabula</a>) untuk tabel panjang/berulang</td>
 </tr>
 <tr class="even">
 <td>PDF hasil pindai</td>
@@ -385,7 +377,7 @@ Rizqy Amelia Zein
 </tr>
 <tr class="odd">
 <td>Tabel di halaman web</td>
-<td>Fungsi <code>IMPORTHTML()</code> di Google Sheets bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda</td>
+<td>Fungsi <code>IMPORTHTML()</code> di <a href="https://support.google.com/docs/answer/3093339?hl=en">Google Sheets</a> bisa langsung menarik tabel/daftar dari sebuah URL ke spreadsheet Anda</td>
 </tr>
 </tbody>
 </table>
@@ -398,7 +390,7 @@ Rizqy Amelia Zein
 <p><strong>Ekstraksi otomatis tidak pernah 100% sempurna</strong></p>
 </div>
 <div class="callout-content">
-<p>Selalu <strong>verifikasi</strong> hasil ekstraksi terhadap sumber aslinya — baris yang terlewat atau kolom yang tergeser adalah kesalahan umum, dan inilah kenapa tahap <em>Verify</em> (Pertemuan 4) datang tepat setelah <em>Get</em>.</p>
+<p>Selalu <strong>verifikasi</strong> hasil ekstraksi terhadap sumber aslinya, karena ada kemungkinan baris yang terlewat atau kolom yang tergeser adalah kesalahan umum. Inilah kenapa tahap <em>Verify</em> (Pertemuan 4) dilakukan setelah <em>Get</em>.</p>
 </div>
 </div>
 </div>
@@ -411,12 +403,12 @@ Rizqy Amelia Zein
 <section id="kenapa-etika-data-penting-bagi-peneliti" class="slide level2">
 <h2>Kenapa etika data penting bagi peneliti</h2>
 <ul>
-<li class="fragment">Bahkan ketika Anda <strong>tidak</strong> mengumpulkan data sendiri — hanya mengunduh dataset terbuka — Anda tetap memikul tanggung jawab etis atas bagaimana data itu digunakan.</li>
-<li class="fragment">Di Indonesia, kerangka hukumnya diatur dalam <strong>Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)</strong>.</li>
+<li class="fragment">Bahkan ketika Anda <strong>tidak</strong> mengumpulkan data sendiri, hanya mengunduh dataset terbuka, Anda tetap memikul tanggung jawab etis atas bagaimana data itu digunakan.</li>
+<li class="fragment">Di Indonesia, kerangka hukumnya diatur dalam <a href="https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang+nomor+27+tahun+2022"><strong>Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)</strong></a>.</li>
 </ul>
 </section>
-<section id="uu-pdp-definisi-kunci" class="slide level2">
-<h2>UU PDP: definisi kunci</h2>
+<section id="uu-pdp-definisi-penting" class="slide level2">
+<h2>UU PDP: definisi penting</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -477,7 +469,7 @@ Rizqy Amelia Zein
 <p><strong>Pasal 15 ayat (1)</strong></p>
 </div>
 <div class="callout-content">
-<p>Sejumlah hak subjek data — termasuk hak menghapus data dan menarik persetujuan — <strong>dikecualikan</strong> untuk beberapa kepentingan, salah satunya: <strong>“kepentingan statistik dan penelitian ilmiah.”</strong></p>
+<p>Sejumlah hak subjek data, termasuk hak menghapus data dan menarik persetujuan, <strong>dikecualikan</strong> untuk beberapa kepentingan, salah satunya: <strong>“kepentingan statistik dan penelitian ilmiah.”</strong></p>
 </div>
 </div>
 </div>
@@ -485,12 +477,12 @@ Rizqy Amelia Zein
 <p>Pengecualian ini <strong>bukan berarti peneliti leluasa menggunakan data milik partisipan</strong>. Ia memberi ruang kerja bagi peneliti (mis. memakai data lama untuk analisis sekunder tanpa perlu melacak ulang persetujuan tiap partisipan), tapi tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti.</p>
 </div>
 </section>
-<section id="menerapkan-ini-ke-dataset-kita" class="slide level2">
-<h2>Menerapkan ini ke dataset kita</h2>
+<section id="menerapkan-ini-ke-dataset-contoh" class="slide level2">
+<h2>Menerapkan ini ke dataset contoh</h2>
 <p>Dataset <strong><em>Big Five</em></strong> yang kita pakai bersifat <strong>terbuka dan sudah dianonimkan</strong>, tidak ada nama, tidak ada informasi yang bisa melacak balik ke individu tertentu. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:</p>
 <ul>
-<li class="fragment">Kalau Anda <strong>mengumpulkan data sendiri</strong> (mis. untuk tesis), formulir <em>informed consent</em> dan penyimpanan data yang aman adalah kewajiban, bukan formalitas.</li>
-<li class="fragment">Kalau Anda <strong>memakai data sekunder terbuka</strong>, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (lisensi, atribusi)?</li>
+<li class="fragment">Kalau Anda <strong>mengumpulkan data sendiri</strong> (mis. untuk tesis), formulir <em>informed consent</em> dan penyimpanan data yang aman adalah <strong>kewajiban Anda sebagai peneliti</strong>.</li>
+<li class="fragment">Kalau Anda <strong>memakai data sekunder terbuka</strong>, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (<a href="https://www.howtofair.dk/how-to-fair/data-licences/">lisensi</a>, atribusi)?</li>
 </ul>
 </section>
 <section id="diskusi-kelompok-skenario-etika-data" class="slide level2">
@@ -535,11 +527,11 @@ Rizqy Amelia Zein
 <section id="kesimpulan-pertemuan-3" class="slide level2">
 <h2>Kesimpulan Pertemuan 3</h2>
 <ul>
-<li class="fragment">Sebelum data bisa ditata atau dibersihkan, ia harus <strong>ditemukan</strong> dan <strong>diperoleh</strong> dulu — dua tahap <em>Data Pipeline</em> minggu ini.</li>
-<li class="fragment">Sumber data psikologi terbuka: <strong>Open-Source Psychometrics Project</strong> dan daftar dataset komunitas.</li>
-<li class="fragment">Format data yang umum: CSV, XLSX, <code>.sav</code> (format native SPSS), dan JSON (struktur <em>tree</em>, bukan tabel).</li>
-<li class="fragment">Ekstraksi data dari PDF/HTML selalu perlu <strong>diverifikasi ulang</strong> — bukan langkah yang bisa sepenuhnya dipercaya begitu saja.</li>
-<li class="fragment"><strong>UU PDP</strong> memberi kerangka hukum bagi hak subjek data dan dasar persetujuan — dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti.</li>
+<li class="fragment">Sebelum data bisa ditata atau dibersihkan, ia harus <strong>ditemukan</strong> dan <strong>diperoleh</strong> dulu dan ini yang menjadi fokus <em>Data Pipeline</em> minggu ini.</li>
+<li class="fragment">Sumber data psikologi terbuka: <strong>Open-Source Psychometrics Project</strong> dan <a href="https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit?gid=0#gid=0">daftar dataset komunitas</a>.</li>
+<li class="fragment">Format data yang umum: <code>.csv</code>, <code>.xlsx</code>, <code>.sav</code> (format native SPSS), dan <code>.json</code> (struktur <em>tree</em>, bukan tabel).</li>
+<li class="fragment">Ekstraksi data dari PDF/HTML selalu perlu <strong>diverifikasi ulang</strong>.</li>
+<li class="fragment"><strong>UU PDP</strong> memberi kerangka hukum bagi hak subjek data dan dasar persetujuan dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti.</li>
 </ul>
 </section>
 <section id="referensi" class="slide level2 scrollable smaller">
