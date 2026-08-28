@@ -8,11 +8,6 @@ Semester Gasal 2026/2027 — 4 SKS (FPS25801005).
 **Dosen pengampu:** Dr. phil. Rizqy Amelia Zein, M.Sc. · Dr. Rahkman Ardi, M.Psych.
 **PJMK:** Dr. Rahkman Ardi, M.Psych.
 
-::: {.callout-warning collapse="true"}
-#### *Work in Progress* 👷‍♀️
-Materi mata kuliah ini sedang disusun secara bertahap. Slide pertemuan yang sudah tersedia bisa diakses lewat menu **Materi** di atas atau lewat tabel [Rencana Pertemuan](#rencana-pertemuan) di bawah.
-:::
-
 ::: {.callout-note}
 ### Rangkuman dari Dokumen Pembelajaran
 
