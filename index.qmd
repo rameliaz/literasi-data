@@ -215,7 +215,7 @@ Untuk mengelola referensi (terutama menjelang Pertemuan 10–11), kami merekomen
 - Brick, C. (2020). Psychological Stimulus Sets and Datasets. <https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit>
 - Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. *Journal of Business Research*, *133*, 285–296. <https://doi.org/10.1016/j.jbusres.2021.04.070>
 - Knaflic, C. N. (2022). *Storytelling with data: A data visualization guide for business professionals*. Wiley.
-- Magister Psikologi Universitas Airlangga. (2026). [*Panduan penulisan tesis*](libs/panduan.pdf). Universitas Airlangga.
+- Magister Psikologi Universitas Airlangga. (2026). [*Panduan penulisan tesis*](/slides/libs/libs/panduan.pdf). Universitas Airlangga.
 - Open Knowledge Foundation & International Republican Institute. (2021). *Data Literacy Curriculum*.
 - Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
 - Republik Indonesia. (2022). *Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi*.
