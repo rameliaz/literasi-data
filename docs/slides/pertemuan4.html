@@ -157,12 +157,12 @@ Rizqy Amelia Zein
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment">Mengapa tahap <strong><em>Verify</em></strong> sering dilewati</li>
+<li class="fragment">Mengapa tahap <strong><em>Verify</em></strong> sering dilewatkan</li>
 <li class="fragment">Tiga kriteria data yang baik, dan empat cara memverifikasinya</li>
-<li class="fragment">Masalah data yang umum ditemui — termasuk <em>outlier</em> dan pola <em>missing value</em></li>
+<li class="fragment">Masalah data yang umum ditemui, termasuk <em>outlier</em> dan pola <em>missing value</em></li>
 <li class="fragment"><strong><em>Clean</em></strong>: alur kerja dan tiga aktivitas pembersihan data</li>
 <li class="fragment">Mendokumentasikan proses pembersihan data</li>
-<li class="fragment">Praktik langsung: membersihkan dataset psikometrik yang “kotor”</li>
+<li class="fragment">Praktik langsung: membersihkan dataset yang “kotor”</li>
 <li class="fragment">2️⃣ aktivitas mandiri</li>
 </ul>
 <aside class="notes">
@@ -184,12 +184,12 @@ Rizqy Amelia Zein
 <h1><strong>Verify</strong>: Seperti Apa Dataset yang Baik? ✅</h1>
 
 </section>
-<section id="tahap-yang-paling-sering-dilewati" class="slide level2">
-<h2>Tahap yang paling sering dilewati</h2>
+<section id="tahap-yang-paling-sering-dilewatkan" class="slide level2">
+<h2>Tahap yang paling sering dilewatkan</h2>
 <ul>
 <li class="fragment">Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah <strong>langsung lompat ke analisis</strong>.</li>
-<li class="fragment">Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang buruk — atau lebih parah, <strong>mempublikasikan kesimpulan yang salah</strong>.</li>
-<li class="fragment">Ingat kerangka <em>Data Pipeline</em>: <strong>Verify</strong>, <strong>Clean</strong>, dan <strong>Analyze</strong> sering berjalan bolak-balik, bukan tahapan yang harus selalu berurutan.</li>
+<li class="fragment">Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, <strong>mempublikasikan kesimpulan yang salah</strong>.</li>
+<li class="fragment">Ingat kerangka <em>Data Pipeline</em>: <strong>Verify</strong>, <strong>Clean</strong>, dan <strong>Analyze</strong> tidak selalu berjalan secara linear.</li>
 </ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -200,7 +200,7 @@ Rizqy Amelia Zein
 <p><strong>Ada pepatah di kalangan praktisi data</strong></p>
 </div>
 <div class="callout-content">
-<p><em>“Semua data pada dasarnya buruk, kita hanya perlu tahu seberapa buruk.”</em> Verifikasi bukan tentang mencari data yang sempurna, tapi tentang <strong>mengetahui batasannya</strong> sebelum Anda menganalisis.</p>
+<p><em>“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.”</em> Verifikasi membantu Anda untuk <strong>mengetahui batasan</strong> yang melekat pada data Anda sebelum menganalisis.</p>
 </div>
 </div>
 </div>
@@ -210,7 +210,7 @@ Rizqy Amelia Zein
 <ol type="1">
 <li class="fragment"><strong><em>Trustworthiness</em> (dapat dipercaya)</strong> — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.</li>
 <li class="fragment"><strong><em>Completeness</em> (kelengkapan)</strong> — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.</li>
-<li class="fragment"><strong><em>Quality</em> (kualitas struktur &amp; dokumentasi)</strong> — apakah data mengikuti prinsip <em>tidy data</em> (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya?</li>
+<li class="fragment"><strong><em>Quality</em> (kualitas struktur &amp; dokumentasi)</strong> — apakah data mengikuti prinsip <em>tidy data</em> (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?</li>
 </ol>
 </section>
 <section id="metadata-codebook-dan-data-inventory" class="slide level2">
@@ -220,8 +220,8 @@ Rizqy Amelia Zein
 <p><strong>Metadata</strong></p>
 <p>“Data tentang data” — siapa pembuatnya, kapan dibuat, format nilai yang diharapkan.</p>
 </div><div class="column" style="width:33%;">
-<p><strong>Data dictionary / <em>codebook</em></strong></p>
-<p>Dokumen yang menjelaskan arti setiap kolom dan nilainya — penting untuk kolom berkode singkat, mis. <code>E1</code>–<code>E10</code> pada dataset <em>Big Five</em> kita.</p>
+<p><strong>Data dictionary/<em>codebook</em></strong></p>
+<p>Dokumen yang menjelaskan arti setiap kolom dan nilainya. Penting untuk kolom berkode singkat, mis. <code>E1</code>–<code>E10</code> pada dataset <em>Big Five</em> kita.</p>
 </div><div class="column" style="width:34%;">
 <p><strong><em>Data inventory</em></strong></p>
 <p>Daftar seluruh dataset yang dimiliki/dirilis suatu organisasi atau lembaga riset.</p>
@@ -269,7 +269,7 @@ Rizqy Amelia Zein
 <tr class="odd">
 <td>Mean &amp; Median</td>
 <td><code>AVERAGE()</code>, <code>MEDIAN()</code></td>
-<td>Jauh berbeda? Tanda ada nilai ekstrem</td>
+<td>Nilainya jauh berbeda? Tanda ada nilai ekstrem</td>
 </tr>
 <tr class="even">
 <td>Min &amp; Max</td>
@@ -279,7 +279,7 @@ Rizqy Amelia Zein
 <tr class="odd">
 <td>Modus</td>
 <td><code>MODE()</code></td>
-<td>Nilai yang paling sering muncul — masuk akal?</td>
+<td>Nilai yang paling sering muncul, apakah masuk akal?</td>
 </tr>
 <tr class="even">
 <td><em>Count</em></td>
@@ -299,7 +299,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Ini <strong>bukan</strong> analisis data (Pertemuan 5–6). Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal sebelum dianalisis sungguhan.</p>
+<p>Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal sebelum dianalisis sesuai dengan hipotesis/pertanyaan penelitian yang Anda ajukan.</p>
 </div>
 </div>
 </div>
@@ -316,7 +316,7 @@ Rizqy Amelia Zein
 </div>
 <div class="callout-content">
 <p>Bayangkan Anda baru saja mengunduh dataset <strong><em>Big Five</em></strong> dari <em>Open-Source Psychometrics Project</em>. Susun <strong><em>checklist</em> verifikasi</strong> singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.</p>
-<p>Contoh titik awal: <em>“Apakah ada codebook yang menjelaskan arti kolom <code>E1</code>–<code>E10</code>?”</em></p>
+<p>Contoh: <em>“Apakah ada codebook yang menjelaskan arti kolom <code>E1</code>–<code>E10</code>?”</em></p>
 </div>
 </div>
 </div>
@@ -334,7 +334,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong>Format tanggal tidak konsisten</strong> (<code>01/02/2024</code> bisa berarti 1 Februari atau 2 Januari, tergantung konvensi)</li>
 <li class="fragment"><strong>Satuan tidak dicantumkan</strong> (detik? menit? milidetik?)</li>
 <li class="fragment"><strong>Nama kolom ambigu</strong> (<code>skor</code> — skor apa, dari skala berapa?)</li>
-<li class="fragment"><strong>Provenance (asal-usul) tidak terdokumentasi</strong></li>
+<li class="fragment"><strong><em>Provenance</em> (asal-usul) tidak terdokumentasi</strong></li>
 <li class="fragment"><strong>Nilai yang mencurigakan</strong> (respons Likert bernilai 5, tapi skalanya 1–4)</li>
 <li class="fragment"><strong>Total berbeda dari agregat yang dipublikasikan</strong></li>
 </ul>
@@ -342,17 +342,14 @@ Rizqy Amelia Zein
 <section id="tiga-jenis-nilai-yang-bermasalah" class="slide level2">
 <h2>Tiga jenis nilai yang bermasalah</h2>
 <ol type="1">
-<li class="fragment"><strong><em>Wild codes</em> (nilai di luar rentang)</strong> — nilai yang berada di luar rentang yang valid. Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; “Laki-laki” dikode campur aduk sebagai <code>1</code>, <code>M</code>, <code>L</code>, <code>Pria</code> dalam kolom yang sama.</li>
+<li class="fragment"><strong><em>Wild codes</em> (nilai di luar rentang)</strong> — nilai yang berada di luar rentang yang valid. Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; “Laki-laki” dikode dengan berbagai macam, mis. <code>1</code>, <code>M</code>, <code>L</code>, <code>Pria</code> dalam kolom yang sama.</li>
 <li class="fragment"><strong><em>Inconsistent values</em> (nilai yang tidak koheren)</strong> — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. Contoh: usia <code>40</code> tahun tapi tahun lahir <code>2000</code> pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.</li>
 <li class="fragment"><strong><em>Implausible values</em> (nilai yang tidak masuk akal)</strong> — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. Contoh: skor IQ <code>250</code>; penghasilan rumah tangga Rp1 triliun/bulan.</li>
 </ol>
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
 <p>Ketiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. <strong>Wild codes</strong> paling mudah dicegah sejak desain kuesioner — batasi <em>input</em> yang bisa dimasukkan. <strong>Inconsistent</strong> dan <strong>implausible values</strong> baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap <em>Verify</em>.</p>
@@ -363,8 +360,11 @@ Rizqy Amelia Zein
 <section id="nilai-ekstrem-outlier" class="slide level2">
 <h2>Nilai ekstrem (<em>outlier</em>)</h2>
 <ul>
-<li class="fragment"><strong><em>Outlier</em></strong> — nilai yang jauh berbeda dari sebagian besar data lainnya. Beda dengan <em>wild codes</em> atau <em>implausible values</em>: <em>outlier</em> bisa jadi valid, hanya jarang terjadi.</li>
+<li class="fragment"><strong><em>Outlier</em></strong>: nilai yang jauh berbeda dari sebagian besar data lainnya.
+<ul>
+<li class="fragment">Beda dengan <em>wild codes</em> atau <em>implausible values</em>: <em>outlier</em> bisa jadi valid, hanya jarang terjadi.</li>
 <li class="fragment"><strong>Contoh</strong>: satu partisipan berusia 45 tahun dalam sampel mahasiswa S1 yang mayoritas 18–22 tahun. Ini belum tentu berarti ada kesalahan input, hanya saja, sangat jarang mahasiswa S1 usianya 45 tahun.</li>
+</ul></li>
 <li class="fragment">Deteksi cepat: urutkan kolom atau buat <em>boxplot</em> untuk melihat ujung distribusinya, atau pakai <em>Z-score</em>, yang mana, nilai <strong>di luar <em>mean</em> ± 2SD patut dicurigai</strong>, <strong>di luar ± 3SD nyaris pasti <em>outlier</em></strong>.</li>
 </ul>
 </section>
@@ -384,8 +384,8 @@ Rizqy Amelia Zein
 </div>
 </div>
 <ul>
-<li class="fragment"><strong>Kalau ternyata salah input</strong> (typo, nilai yang mustahil) — boleh dikoreksi atau dihapus, asal didokumentasikan di <em>logbook</em>.</li>
-<li class="fragment"><strong>Kalau nilainya valid</strong> — jangan dihapus begitu saja. Laporkan dua versi analisis (dengan dan tanpa <em>outlier</em> tersebut) kalau itu memang mengganggu analisis data.</li>
+<li class="fragment"><strong>Kalau ternyata salah input</strong> (typo, nilai yang mustahil), maka boleh dikoreksi atau dihapus, asal didokumentasikan di <em>logbook</em>.</li>
+<li class="fragment"><strong>Kalau nilainya valid</strong>, maka jangan dihapus begitu saja. Laporkan dua versi analisis (dengan dan tanpa <em>outlier</em> tersebut) kalau <em>outlier</em> ini memang mengganggu analisis data.</li>
 </ul>
 </section>
 <section id="missing-value" class="slide level2">
@@ -395,9 +395,18 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja.</li>
 </ul></li>
-<li class="fragment"><strong><em>Missing completely at random</em> (MCAR)</strong> — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun. Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.</li>
-<li class="fragment"><strong><em>Missing at random</em> (MAR)</strong> — probabilitas hilangnya data berkaitan dengan variabel <em>lain</em> yang terekam di dataset, bukan dengan data itu sendiri. Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang “kesulitan mengekspresikan emosi”, tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.</li>
-<li class="fragment"><strong><em>Not missing at random</em> (NMAR)</strong> — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri. Contoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan “seberapa sering Anda mencontek?” sehingga paling berisiko menghasilkan bias.</li>
+<li class="fragment"><strong><em>Missing completely at random</em> (MCAR)</strong> — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun.
+<ul>
+<li class="fragment">Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.</li>
+</ul></li>
+<li class="fragment"><strong><em>Missing at random</em> (MAR)</strong> — probabilitas hilangnya data berkaitan dengan variabel <em>lain</em> yang terekam di dataset, bukan dengan data itu sendiri.
+<ul>
+<li class="fragment">Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang “kesulitan mengekspresikan emosi”, tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.</li>
+</ul></li>
+<li class="fragment"><strong><em>Not missing at random</em> (NMAR)</strong> — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri.
+<ul>
+<li class="fragment">Contoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan “seberapa sering Anda mencontek?” sehingga paling berisiko menghasilkan bias.</li>
+</ul></li>
 </ul>
 </section>
 <section id="bagaimana-mendeteksi-polanya" class="slide level2">
@@ -415,13 +424,10 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
 <p>Penanganan statistik untuk MAR/NMAR (mis. <em>multiple imputation</em>) di luar cakupan mata kuliah ini. Sekarang, Anda cukup mengenali polanya dulu, karena itu yang menentukan apakah aman langsung dihapus atau perlu didiskusikan lebih lanjut.</p>
@@ -431,7 +437,7 @@ Rizqy Amelia Zein
 </section>
 <section id="studi-kasus-dataset-big-five-yang-kotor" class="slide level2">
 <h2>Studi kasus: dataset <em>Big Five</em> yang “kotor”</h2>
-<p>Dataset psikometrik yang dikumpulkan <strong>secara daring dan terbuka</strong> (siapa saja bisa mengisi) — seperti dataset kita — cenderung memiliki masalah berikut:</p>
+<p>Dataset psikometrik yang dikumpulkan <strong>secara daring dan terbuka</strong> (siapa saja bisa mengisi) — seperti dataset contoh cenderung memiliki masalah berikut:</p>
 <ul>
 <li class="fragment"><strong>Entri tidak lengkap</strong> — responden berhenti di tengah jalan, meninggalkan sisa item kosong.</li>
 <li class="fragment"><strong>Item <em>reverse-scored</em> belum dibalik</strong> — sebagian item <em>Big Five</em> ditulis dengan arah terbalik (mis. item N4 “Saya jarang merasa sedih” (<em>“I seldom feel blue”</em>) untuk mengukur <em>Neuroticism</em>), dan kalau tidak dibalik dulu skornya, hasil <code>AVERAGE()</code> per skala akan salah total.</li>
@@ -507,7 +513,7 @@ Rizqy Amelia Zein
 <p><strong>Penting diketahui</strong></p>
 </div>
 <div class="callout-content">
-<p>Norma umum di sains data adalah ilmuwan/insinyur <a href="https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/">menghabiskan 80% waktunya</a> bekerja untuk membersihkannya.</p>
+<p>Norma umum di sains data adalah ilmuwan/praktisi data <a href="https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/">menghabiskan 80% waktunya</a> bekerja untuk membersihkannya.</p>
 </div>
 </div>
 </div>
@@ -517,7 +523,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong>Informasi yang tersebar di banyak kolom</strong> padahal seharusnya satu (mis. nama depan, tengah, belakang → digabung jadi satu kolom “Nama Lengkap” dengan <code>CONCATENATE()</code>).</li>
 <li class="fragment"><strong>Satu kolom berisi banyak informasi sekaligus</strong> padahal seharusnya dipisah (mis. kolom “Kota, Negara” → dipisah jadi dua kolom lewat <em>Split text to columns</em>).</li>
-<li class="fragment"><strong>Header berlapis/gabungan sel</strong> — spreadsheet menganalisis data dengan lebih baik kalau header hanya satu baris tunggal.</li>
+<li class="fragment"><strong><em>Header</em> berlapis/gabungan sel</strong> — <em>spreadsheet</em> menganalisis data dengan lebih baik kalau <em>header</em> hanya satu baris tunggal.</li>
 </ul>
 </section>
 <section id="data-editing-masalah-konten" class="slide level2">
@@ -556,13 +562,10 @@ Rizqy Amelia Zein
 </tr>
 </tbody>
 </table>
-<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Tips</strong></p>
 </div>
 <div class="callout-content">
 <p>Setelah menerapkan formula pembersihan, <strong>salin nilainya</strong> (<em>paste values only</em>) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.</p>
@@ -573,9 +576,9 @@ Rizqy Amelia Zein
 <section id="data-consolidation-menggabungkan-data-pelengkap" class="slide level2">
 <h2>Data <em>consolidation</em>: menggabungkan data pelengkap</h2>
 <ul>
-<li class="fragment">Kadang Anda perlu menambahkan informasi dari dataset lain ke dataset utama — misalnya menambahkan data demografis wilayah ke dataset survei berbasis kode pos.</li>
-<li class="fragment">Syarat pentingnya: <strong>kedua dataset harus sudah bersih</strong> (tidak ada masalah format/konten) sebelum digabungkan — kalau tidak, kesalahan akan berlipat ganda.</li>
-<li class="fragment">Fungsi <code>FILTER()</code> atau <code>VLOOKUP()</code>-setara di spreadsheet bisa menarik nilai dari dataset pelengkap berdasarkan nilai yang cocok di dataset utama.</li>
+<li class="fragment">Kadang Anda perlu menambahkan informasi dari dataset lain ke dataset utama, misalnya menambahkan data demografis wilayah ke dataset survei berbasis kode pos.</li>
+<li class="fragment">Syarat pentingnya: <strong>kedua dataset harus sudah bersih</strong> (tidak ada masalah format/konten) sebelum digabungkan, kalau tidak, kesalahan dalam dataset akan makin banyak.</li>
+<li class="fragment">Fungsi <code>FILTER()</code> atau <code>VLOOKUP()</code> di <em>spreadsheet</em> bisa menarik nilai dari dataset pelengkap berdasarkan nilai yang cocok di dataset utama.</li>
 </ul>
 </section>
 <section id="praktik-terbaik-dalam-membersihkan-data" class="slide level2">
@@ -590,9 +593,12 @@ Rizqy Amelia Zein
 <section id="mendokumentasikan-proses-pembersihan-data" class="slide level2">
 <h2>Mendokumentasikan proses pembersihan data</h2>
 <ul>
-<li class="fragment"><strong>Tentukan <em>exclusion criteria</em> sebelum mengambil data</strong>, bukan setelah melihat hasilnya — menentukannya belakangan termasuk <em>questionable research practice</em>.</li>
+<li class="fragment"><strong>Tentukan <em>exclusion criteria</em> sebelum mengambil data</strong>, bukan setelah melihat hasil analisis. Menentukannya belakangan termasuk <em>questionable research practice</em>.</li>
 <li class="fragment"><strong>Catat setiap langkah di <em>logbook</em></strong> (atau langsung di <em>script</em> R/Python): kasus yang dihapus dan alasannya, variabel yang dimodifikasi, nilai ekstrem yang ditemukan, keputusan atas <em>missing value</em>.</li>
-<li class="fragment">Dokumentasi ini melindungi Anda dari lupa sendiri — enam bulan lagi, Anda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus.</li>
+<li class="fragment">Dokumentasi ini akan melindungi Anda ingatan Anda yang terbatas.
+<ul>
+<li class="fragment">Anda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus enam bulan setelah mengambil keputusannya.</li>
+</ul></li>
 </ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -617,7 +623,7 @@ Rizqy Amelia Zein
 </div>
 <div class="callout-content">
 <pre><code>## Versi 1.1 (2025-02-20)
-- Menghapus 3 kasus dengan missing value &gt;50%
+- Menghapus 3 kasus dengan *missing value* &gt;50%
 - Memperbaiki koding jenis_kelamin (1=L, 2=P)
 
 ## Versi 1.0 (2025-02-15)
@@ -627,8 +633,8 @@ Rizqy Amelia Zein
 </div>
 </div>
 </section>
-<section id="praktik-langsung-membersihkan-potongan-dataset-big-five" class="slide level2">
-<h2>🧩 Praktik langsung: membersihkan potongan dataset <em>Big Five</em></h2>
+<section id="praktik-membersihkan-potongan-dataset-big-five" class="slide level2">
+<h2>🧩 Praktik: membersihkan potongan dataset <em>Big Five</em></h2>
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -643,25 +649,14 @@ Rizqy Amelia Zein
 <li><strong>Identifikasi</strong> minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).</li>
 <li><strong>Golongkan</strong> tiap masalah: apakah itu masalah <em>tidying</em> (format) atau <em>editing</em> (konten)?</li>
 <li><strong>Tuliskan formula</strong> yang akan Anda pakai untuk memperbaiki tiap masalah (<code>TRIM()</code>, <code>PROPER()</code>, <em>Remove Duplicates</em>, dst.).</li>
-<li>Diskusikan: masalah mana yang <strong>tidak bisa</strong> diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item <em>reverse-scored</em>)?</li>
+<li>Refleksikan: masalah mana yang <strong>tidak bisa</strong> diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item <em>reverse-scored</em>)?</li>
 </ol>
 </div>
 </div>
 </div>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kunci skoring (untuk langkah 4)</strong></p>
-</div>
-<div class="callout-content">
+<section id="kunci-skoring-untuk-langkah-4" class="notes">
+<h3>Kunci skoring (untuk langkah 4)</h3>
 <p>Dua dari sepuluh item <em>Neuroticism</em> ini ditulis dengan arah terbalik: <strong>N2</strong> (“<em>I am relaxed most of the time</em>”) dan <strong>N4</strong> (“<em>I seldom feel blue</em>”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (<code>6 - nilai</code>) sebelum dihitung skor rata-ratanya dengan <code>AVERAGE()</code> — informasi ini <strong>tidak</strong> ada di dalam data itu sendiri, hanya di <em>codebook</em> instrumennya.</p>
-</div>
-</div>
-</div>
-<aside class="notes">
 <p>File <code>data/pertemuan4_dataset_kotor.csv</code> sudah disiapkan (18 baris, 15 responden sungguhan dari dataset <em>Big Five</em> kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:</p>
 <ul>
 <li><strong>Duplikasi</strong> — baris <code>P03</code> muncul dua kali persis sama.</li>
@@ -673,18 +668,7 @@ Rizqy Amelia Zein
 <li><strong>Nilai mencurigakan/di luar rentang</strong> — <code>P07</code> kolom N7 bernilai <code>6</code>, padahal skala Likert-nya 1–5.</li>
 <li><strong>Item <em>reverse-scored</em> belum dibalik</strong> — N2 dan N4 butuh <code>6 - nilai</code> sebelum di-<em>AVERAGE()</em>-kan; ini <strong>tidak</strong> terlihat dari data mentahnya saja, harus dicek ke <em>codebook</em> (lihat <em>callout</em> di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.</li>
 </ul>
-<p>Ini adalah aktivitas inti pertemuan ini (“Tugas Praktis” / kriteria “Keakuratan dan Ketelitian”) — beri waktu paling banyak di sini dan dampingi tiap kelompok berkeliling.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</section>
 </section></section>
 <section>
 <section id="penutup" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -697,7 +681,7 @@ Rizqy Amelia Zein
 <li class="fragment">Data yang baik punya tiga sifat: <strong>trustworthy</strong>, <strong>complete</strong>, dan <strong>quality</strong> (terstruktur &amp; terdokumentasi).</li>
 <li class="fragment">Empat cara memverifikasi: bertanya ke sumber, bertanya ke ahli, pemeriksaan statistik, dan <em>common sense check</em>.</li>
 <li class="fragment">Masalah data yang umum sering tidak terlihat sampai Anda benar-benar memeriksanya — <em>wild codes</em>, <em>inconsistent</em> dan <em>implausible values</em>, serta <em>missing value</em> dengan pola MCAR/MAR/NMAR yang risikonya berbeda-beda.</li>
-<li class="fragment"><em>Outlier</em> tidak otomatis salah — hapus hanya kalau ada justifikasi jelas, dan laporkan dua versi analisis kalau perlu.</li>
+<li class="fragment"><em>Outlier</em> tidak otomatis “salah”, maka hapus hanya kalau ada justifikasi jelas, dan laporkan dua versi analisis apabila perlu.</li>
 <li class="fragment">Alur kerja pembersihan: <strong>Screening</strong> (temukan) → <strong>Diagnosing</strong> (ukur skalanya) → <strong>Editing</strong> (<em>tidying</em> + <em>editing</em> + <em>consolidation</em>).</li>
 <li class="fragment">Selalu bekerja di atas salinan, jangan buang data mentahnya, dan dokumentasikan tiap langkah lewat <em>logbook</em> dan <em>exclusion criteria</em> yang jelas.</li>
 </ul>

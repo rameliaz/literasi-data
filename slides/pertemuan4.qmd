@@ -20,12 +20,12 @@ execute:
 ## _Outline_
 
 ::: {.incremental}
-* Mengapa tahap ***Verify*** sering dilewati
+* Mengapa tahap ***Verify*** sering dilewatkan
 * Tiga kriteria data yang baik, dan empat cara memverifikasinya
-* Masalah data yang umum ditemui — termasuk *outlier* dan pola *missing value*
+* Masalah data yang umum ditemui, termasuk *outlier* dan pola *missing value*
 * ***Clean***: alur kerja dan tiga aktivitas pembersihan data
 * Mendokumentasikan proses pembersihan data
-* Praktik langsung: membersihkan dataset psikometrik yang "kotor"
+* Praktik langsung: membersihkan dataset yang "kotor"
 * 2️⃣ aktivitas mandiri
 :::
 
@@ -35,17 +35,17 @@ Metode minggu ini "Diskusi Kelompok" dengan pengalaman belajar "Tugas Praktis" �
 
 # **Verify**: Seperti Apa Dataset yang Baik? ✅ {background-color="#14497F"}
 
-## Tahap yang paling sering dilewati
+## Tahap yang paling sering dilewatkan
 
 ::: {.incremental}
 * Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah **langsung lompat ke analisis**.
-* Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang buruk — atau lebih parah, **mempublikasikan kesimpulan yang salah**.
-* Ingat kerangka *Data Pipeline*: **Verify**, **Clean**, dan **Analyze** sering berjalan bolak-balik, bukan tahapan yang harus selalu berurutan.
+* Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, **mempublikasikan kesimpulan yang salah**.
+* Ingat kerangka *Data Pipeline*: **Verify**, **Clean**, dan **Analyze** tidak selalu berjalan secara linear.
 :::
 
 ::: {.callout-tip}
 ### Ada pepatah di kalangan praktisi data
-*"Semua data pada dasarnya buruk, kita hanya perlu tahu seberapa buruk."* Verifikasi bukan tentang mencari data yang sempurna, tapi tentang **mengetahui batasannya** sebelum Anda menganalisis.
+*"Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek."* Verifikasi membantu Anda untuk **mengetahui batasan** yang melekat pada data Anda sebelum menganalisis.
 :::
 
 ## Tiga kriteria data yang baik
@@ -53,7 +53,7 @@ Metode minggu ini "Diskusi Kelompok" dengan pengalaman belajar "Tugas Praktis" �
 ::: {.incremental}
 1. ***Trustworthiness* (dapat dipercaya)** — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.
 2. ***Completeness* (kelengkapan)** — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.
-3. ***Quality* (kualitas struktur & dokumentasi)** — apakah data mengikuti prinsip *tidy data* (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya?
+3. ***Quality* (kualitas struktur & dokumentasi)** — apakah data mengikuti prinsip *tidy data* (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?
 :::
 
 ## Metadata, *codebook*, dan *data inventory*
@@ -65,9 +65,9 @@ Metode minggu ini "Diskusi Kelompok" dengan pengalaman belajar "Tugas Praktis" �
 "Data tentang data" — siapa pembuatnya, kapan dibuat, format nilai yang diharapkan.
 :::
 ::: {.column width="33%"}
-**Data dictionary / *codebook***
+**Data dictionary/*codebook***
 
-Dokumen yang menjelaskan arti setiap kolom dan nilainya — penting untuk kolom berkode singkat, mis. `E1`–`E10` pada dataset *Big Five* kita.
+Dokumen yang menjelaskan arti setiap kolom dan nilainya. Penting untuk kolom berkode singkat, mis. `E1`–`E10` pada dataset *Big Five* kita.
 :::
 ::: {.column width="34%"}
 ***Data inventory***
@@ -95,14 +95,14 @@ Sebelum menganalisis, hitung dulu ringkasan sederhana untuk **setiap kolom numer
 
 | Statistik | Fungsi | Kegunaan untuk verifikasi |
 |---|---|---|
-| Mean & Median | `AVERAGE()`, `MEDIAN()` | Jauh berbeda? Tanda ada nilai ekstrem |
+| Mean & Median | `AVERAGE()`, `MEDIAN()` | Nilainya jauh berbeda? Tanda ada nilai ekstrem |
 | Min & Max | `MIN()`, `MAX()` | Di luar rentang yang wajar (mis. skor Likert 1–5 tapi ada nilai 8)? |
-| Modus | `MODE()` | Nilai yang paling sering muncul — masuk akal? |
+| Modus | `MODE()` | Nilai yang paling sering muncul, apakah masuk akal? |
 | *Count* | `COUNTA()` | Jumlah sel terisi sama di semua kolom? Kalau tidak, ada *missing value* |
 | Standar deviasi | `STDEV()` | Nilai > mean + 2×SD kemungkinan adalah *outlier* |
 
 ::: {.callout-note appearance="simple"}
-Ini **bukan** analisis data (Pertemuan 5–6). Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal sebelum dianalisis sungguhan.
+Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal sebelum dianalisis sesuai dengan hipotesis/pertanyaan penelitian yang Anda ajukan.
 :::
 
 ## 🧩 Aktivitas mandiri: susun *checklist* verifikasi
@@ -111,7 +111,7 @@ Ini **bukan** analisis data (Pertemuan 5–6). Tabel di atas merupakan pemeriksa
 ### Kerjakan secara mandiri (10 menit)
 Bayangkan Anda baru saja mengunduh dataset ***Big Five*** dari *Open-Source Psychometrics Project*. Susun ***checklist* verifikasi** singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.
 
-Contoh titik awal: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
+Contoh: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
 :::
 
 # Masalah Data yang Umum Ditemui ⚠️ {background-color="#14497F"}
@@ -124,7 +124,7 @@ Contoh titik awal: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10
 * **Format tanggal tidak konsisten** (`01/02/2024` bisa berarti 1 Februari atau 2 Januari, tergantung konvensi)
 * **Satuan tidak dicantumkan** (detik? menit? milidetik?)
 * **Nama kolom ambigu** (`skor` — skor apa, dari skala berapa?)
-* **Provenance (asal-usul) tidak terdokumentasi**
+* ***Provenance* (asal-usul) tidak terdokumentasi**
 * **Nilai yang mencurigakan** (respons Likert bernilai 5, tapi skalanya 1–4)
 * **Total berbeda dari agregat yang dipublikasikan**
 :::
@@ -132,20 +132,21 @@ Contoh titik awal: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10
 ## Tiga jenis nilai yang bermasalah
 
 ::: {.incremental}
-1. ***Wild codes* (nilai di luar rentang)** — nilai yang berada di luar rentang yang valid. Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; "Laki-laki" dikode campur aduk sebagai `1`, `M`, `L`, `Pria` dalam kolom yang sama.
+1. ***Wild codes* (nilai di luar rentang)** — nilai yang berada di luar rentang yang valid. Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; "Laki-laki" dikode dengan berbagai macam, mis. `1`, `M`, `L`, `Pria` dalam kolom yang sama.
 2. ***Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. Contoh: usia `40` tahun tapi tahun lahir `2000` pada survei yang diisi 2025; pekerjaan "dokter spesialis" tapi pendidikan tertinggi "SMA".
 3. ***Implausible values* (nilai yang tidak masuk akal)** — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. Contoh: skor IQ `250`; penghasilan rumah tangga Rp1 triliun/bulan.
 :::
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Ketiganya beririsan dengan "nilai yang mencurigakan" di slide sebelumnya. **Wild codes** paling mudah dicegah sejak desain kuesioner — batasi *input* yang bisa dimasukkan. **Inconsistent** dan **implausible values** baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap *Verify*.
 :::
 
 ## Nilai ekstrem (*outlier*)
 
 ::: {.incremental}
-* ***Outlier*** — nilai yang jauh berbeda dari sebagian besar data lainnya. Beda dengan *wild codes* atau *implausible values*: *outlier* bisa jadi valid, hanya jarang terjadi.
-* **Contoh**: satu partisipan berusia 45 tahun dalam sampel mahasiswa S1 yang mayoritas 18–22 tahun. Ini belum tentu berarti ada kesalahan input, hanya saja, sangat jarang mahasiswa S1 usianya 45 tahun.
+* ***Outlier***: nilai yang jauh berbeda dari sebagian besar data lainnya. 
+  + Beda dengan *wild codes* atau *implausible values*: *outlier* bisa jadi valid, hanya jarang terjadi.
+  + **Contoh**: satu partisipan berusia 45 tahun dalam sampel mahasiswa S1 yang mayoritas 18–22 tahun. Ini belum tentu berarti ada kesalahan input, hanya saja, sangat jarang mahasiswa S1 usianya 45 tahun.
 * Deteksi cepat: urutkan kolom atau buat *boxplot* untuk melihat ujung distribusinya, atau pakai *Z-score*, yang mana, nilai **di luar *mean* ± 2SD patut dicurigai**, **di luar ± 3SD nyaris pasti *outlier***.
 :::
 
@@ -157,8 +158,8 @@ Menghapus *outlier* tanpa justifikasi yang jelas termasuk *questionable research
 :::
 
 ::: {.incremental}
-* **Kalau ternyata salah input** (typo, nilai yang mustahil) — boleh dikoreksi atau dihapus, asal didokumentasikan di *logbook*.
-* **Kalau nilainya valid** — jangan dihapus begitu saja. Laporkan dua versi analisis (dengan dan tanpa *outlier* tersebut) kalau itu memang mengganggu analisis data.
+* **Kalau ternyata salah input** (typo, nilai yang mustahil), maka boleh dikoreksi atau dihapus, asal didokumentasikan di *logbook*.
+* **Kalau nilainya valid**, maka jangan dihapus begitu saja. Laporkan dua versi analisis (dengan dan tanpa *outlier* tersebut) kalau *outlier* ini memang mengganggu analisis data.
 :::
 
 ## *Missing value*
@@ -166,9 +167,12 @@ Menghapus *outlier* tanpa justifikasi yang jelas termasuk *questionable research
 ::: {.incremental}
 * Tidak semua *missing value* dapat mengganggu proses analisis data. 
   + Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja.
-* ***Missing completely at random* (MCAR)** — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun. Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.
-* ***Missing at random* (MAR)** — probabilitas hilangnya data berkaitan dengan variabel *lain* yang terekam di dataset, bukan dengan data itu sendiri. Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang "kesulitan mengekspresikan emosi", tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.
-* ***Not missing at random* (NMAR)** — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri. Contoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan "seberapa sering Anda mencontek?" sehingga paling berisiko menghasilkan bias.
+* ***Missing completely at random* (MCAR)** — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun. 
+  + Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.
+* ***Missing at random* (MAR)** — probabilitas hilangnya data berkaitan dengan variabel *lain* yang terekam di dataset, bukan dengan data itu sendiri. 
+  + Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang "kesulitan mengekspresikan emosi", tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.
+* ***Not missing at random* (NMAR)** — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri. 
+  + Contoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan "seberapa sering Anda mencontek?" sehingga paling berisiko menghasilkan bias.
 :::
 
 ## Bagaimana mendeteksi polanya?
@@ -178,13 +182,13 @@ Menghapus *outlier* tanpa justifikasi yang jelas termasuk *questionable research
 Pakai *reasoning*: variabel apa yang mungkin menjelaskan mengapa sebagian responden tidak menjawab pertanyaan tertentu?
 :::
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Penanganan statistik untuk MAR/NMAR (mis. *multiple imputation*) di luar cakupan mata kuliah ini. Sekarang, Anda cukup mengenali polanya dulu, karena itu yang menentukan apakah aman langsung dihapus atau perlu didiskusikan lebih lanjut.
 :::
 
 ## Studi kasus: dataset *Big Five* yang "kotor"
 
-Dataset psikometrik yang dikumpulkan **secara daring dan terbuka** (siapa saja bisa mengisi) — seperti dataset kita — cenderung memiliki masalah berikut:
+Dataset psikometrik yang dikumpulkan **secara daring dan terbuka** (siapa saja bisa mengisi) — seperti dataset contoh cenderung memiliki masalah berikut:
 
 ::: {.incremental}
 * **Entri tidak lengkap** — responden berhenti di tengah jalan, meninggalkan sisa item kosong.
@@ -229,7 +233,7 @@ Istilah **Editing** di tahap 3 ini adalah payung untuk tiga aktivitas konkret di
 
 ::: {.callout-note}
 ### Penting diketahui
-Norma umum di sains data adalah ilmuwan/insinyur [menghabiskan 80% waktunya](https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/) bekerja untuk membersihkannya. 
+Norma umum di sains data adalah ilmuwan/praktisi data [menghabiskan 80% waktunya](https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/) bekerja untuk membersihkannya. 
 :::
 
 ## Data *tidying*: masalah format
@@ -237,7 +241,7 @@ Norma umum di sains data adalah ilmuwan/insinyur [menghabiskan 80% waktunya](htt
 ::: {.incremental}
 * **Informasi yang tersebar di banyak kolom** padahal seharusnya satu (mis. nama depan, tengah, belakang → digabung jadi satu kolom "Nama Lengkap" dengan `CONCATENATE()`).
 * **Satu kolom berisi banyak informasi sekaligus** padahal seharusnya dipisah (mis. kolom "Kota, Negara" → dipisah jadi dua kolom lewat *Split text to columns*).
-* **Header berlapis/gabungan sel** — spreadsheet menganalisis data dengan lebih baik kalau header hanya satu baris tunggal.
+* ***Header* berlapis/gabungan sel** — *spreadsheet* menganalisis data dengan lebih baik kalau *header* hanya satu baris tunggal.
 :::
 
 ## Data *editing*: masalah konten
@@ -250,17 +254,16 @@ Norma umum di sains data adalah ilmuwan/insinyur [menghabiskan 80% waktunya](htt
 | Baris terduplikasi | Fitur *Remove Duplicates* pada spreadsheet |
 | Nilai kosong/salah yang mencurigakan | Kembali ke metode verifikasi: cek ke sumber, cek metodologi |
 
-::: {.callout-tip}
-### Tips
+::: {.callout-tip appearance="simple"}
 Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.
 :::
 
 ## Data *consolidation*: menggabungkan data pelengkap
 
 ::: {.incremental}
-* Kadang Anda perlu menambahkan informasi dari dataset lain ke dataset utama — misalnya menambahkan data demografis wilayah ke dataset survei berbasis kode pos.
-* Syarat pentingnya: **kedua dataset harus sudah bersih** (tidak ada masalah format/konten) sebelum digabungkan — kalau tidak, kesalahan akan berlipat ganda.
-* Fungsi `FILTER()` atau `VLOOKUP()`-setara di spreadsheet bisa menarik nilai dari dataset pelengkap berdasarkan nilai yang cocok di dataset utama.
+* Kadang Anda perlu menambahkan informasi dari dataset lain ke dataset utama, misalnya menambahkan data demografis wilayah ke dataset survei berbasis kode pos.
+* Syarat pentingnya: **kedua dataset harus sudah bersih** (tidak ada masalah format/konten) sebelum digabungkan, kalau tidak, kesalahan dalam dataset akan makin banyak.
+* Fungsi `FILTER()` atau `VLOOKUP()` di *spreadsheet* bisa menarik nilai dari dataset pelengkap berdasarkan nilai yang cocok di dataset utama.
 :::
 
 ## Praktik terbaik dalam membersihkan data
@@ -275,9 +278,10 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 ## Mendokumentasikan proses pembersihan data
 
 ::: {.incremental}
-* **Tentukan *exclusion criteria* sebelum mengambil data**, bukan setelah melihat hasilnya — menentukannya belakangan termasuk *questionable research practice*.
+* **Tentukan *exclusion criteria* sebelum mengambil data**, bukan setelah melihat hasil analisis. Menentukannya belakangan termasuk *questionable research practice*.
 * **Catat setiap langkah di *logbook*** (atau langsung di *script* R/Python): kasus yang dihapus dan alasannya, variabel yang dimodifikasi, nilai ekstrem yang ditemukan, keputusan atas *missing value*.
-* Dokumentasi ini melindungi Anda dari lupa sendiri — enam bulan lagi, Anda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus.
+* Dokumentasi ini akan melindungi Anda ingatan Anda yang terbatas. 
+  + Anda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus enam bulan setelah mengambil keputusannya.
 :::
 
 ::: {.callout-tip}
@@ -289,7 +293,7 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 ### Contoh *log* singkat (bisa jadi *tab* tersendiri di spreadsheet, atau file `.txt`/`.md` terpisah)
 ```
 ## Versi 1.1 (2025-02-20)
-- Menghapus 3 kasus dengan missing value >50%
+- Menghapus 3 kasus dengan *missing value* >50%
 - Memperbaiki koding jenis_kelamin (1=L, 2=P)
 
 ## Versi 1.0 (2025-02-15)
@@ -298,7 +302,7 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 ```
 :::
 
-## 🧩 Praktik langsung: membersihkan potongan dataset *Big Five*
+## 🧩 Praktik: membersihkan potongan dataset *Big Five*
 
 ::: {.callout-warning}
 ### Kerjakan secara mandiri (25–30 menit)
@@ -307,15 +311,14 @@ Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10*
 1. **Identifikasi** minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).
 2. **Golongkan** tiap masalah: apakah itu masalah *tidying* (format) atau *editing* (konten)?
 3. **Tuliskan formula** yang akan Anda pakai untuk memperbaiki tiap masalah (`TRIM()`, `PROPER()`, *Remove Duplicates*, dst.).
-4. Diskusikan: masalah mana yang **tidak bisa** diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item *reverse-scored*)?
-:::
-
-::: {.callout-note collapse="true"}
-### Kunci skoring (untuk langkah 4)
-Dua dari sepuluh item *Neuroticism* ini ditulis dengan arah terbalik: **N2** ("*I am relaxed most of the time*") dan **N4** ("*I seldom feel blue*", lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (`6 - nilai`) sebelum dihitung skor rata-ratanya dengan `AVERAGE()` — informasi ini **tidak** ada di dalam data itu sendiri, hanya di *codebook* instrumennya.
+4. Refleksikan: masalah mana yang **tidak bisa** diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item *reverse-scored*)?
 :::
 
 ::: notes
+
+### Kunci skoring (untuk langkah 4)
+Dua dari sepuluh item *Neuroticism* ini ditulis dengan arah terbalik: **N2** ("*I am relaxed most of the time*") dan **N4** ("*I seldom feel blue*", lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (`6 - nilai`) sebelum dihitung skor rata-ratanya dengan `AVERAGE()` — informasi ini **tidak** ada di dalam data itu sendiri, hanya di *codebook* instrumennya.
+
 File `data/pertemuan4_dataset_kotor.csv` sudah disiapkan (18 baris, 15 responden sungguhan dari dataset *Big Five* kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:
 
 * **Duplikasi** — baris `P03` muncul dua kali persis sama.
@@ -327,7 +330,6 @@ File `data/pertemuan4_dataset_kotor.csv` sudah disiapkan (18 baris, 15 responden
 * **Nilai mencurigakan/di luar rentang** — `P07` kolom N7 bernilai `6`, padahal skala Likert-nya 1–5.
 * **Item *reverse-scored* belum dibalik** — N2 dan N4 butuh `6 - nilai` sebelum di-*AVERAGE()*-kan; ini **tidak** terlihat dari data mentahnya saja, harus dicek ke *codebook* (lihat *callout* di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.
 
-Ini adalah aktivitas inti pertemuan ini ("Tugas Praktis" / kriteria "Keakuratan dan Ketelitian") — beri waktu paling banyak di sini dan dampingi tiap kelompok berkeliling.
 :::
 
 # Penutup {background-color="#14497F"}
@@ -338,7 +340,7 @@ Ini adalah aktivitas inti pertemuan ini ("Tugas Praktis" / kriteria "Keakuratan 
 * Data yang baik punya tiga sifat: **trustworthy**, **complete**, dan **quality** (terstruktur & terdokumentasi).
 * Empat cara memverifikasi: bertanya ke sumber, bertanya ke ahli, pemeriksaan statistik, dan *common sense check*.
 * Masalah data yang umum sering tidak terlihat sampai Anda benar-benar memeriksanya — *wild codes*, *inconsistent* dan *implausible values*, serta *missing value* dengan pola MCAR/MAR/NMAR yang risikonya berbeda-beda.
-* *Outlier* tidak otomatis salah — hapus hanya kalau ada justifikasi jelas, dan laporkan dua versi analisis kalau perlu.
+* *Outlier* tidak otomatis "salah", maka hapus hanya kalau ada justifikasi jelas, dan laporkan dua versi analisis apabila perlu.
 * Alur kerja pembersihan: **Screening** (temukan) → **Diagnosing** (ukur skalanya) → **Editing** (*tidying* + *editing* + *consolidation*).
 * Selalu bekerja di atas salinan, jangan buang data mentahnya, dan dokumentasikan tiap langkah lewat *logbook* dan *exclusion criteria* yang jelas.
 :::
