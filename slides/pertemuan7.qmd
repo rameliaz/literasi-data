@@ -24,37 +24,33 @@ execute:
 * Memilih jenis data dan **tugas visualisasi** yang tepat
 * Enam prinsip *storytelling with data* ([Knaflic, 2021](https://www.storytellingwithdata.com))
 * Studi kasus: memvisualisasikan dataset *Big Five*
-* Alat bantu: spreadsheet, Tableau/Datawrapper, Canva
-* 2️⃣ aktivitas (kelompok & mandiri — mempersiapkan visualisasi UTS Anda)
+* Alat bantu: *spreadsheet*, Tableau/Datawrapper, Canva
+* 2️⃣ aktivitas mandiri
 :::
 
-::: notes
-Pertemuan terakhir sebelum UTS (Pertemuan 8) — tekankan sejak awal bahwa keterampilan hari ini langsung dipakai untuk deliverable UTS: laporan singkat + 1 visualisasi.
-:::
+# Presenting vs. Visualizing Data 🎨 {background-color="#14497F"}
 
-# *Presenting* vs. *Visualizing* Data 🎨 {background-color="#14497F"}
+## *Point of entry*
 
-## Pertanyaan yang salah untuk dimulai
-
-::: {.callout-important}
-Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisualisasikan data ini?"* — melainkan **"apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?"**
+::: {.callout-important appearance="simple"}
+Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisualisasikan temuan dari data ini?"*, melainkan **"apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?"**
 :::
 
 ::: {.incremental}
-* Parameter kunci penyajian data adalah **audiens** dan **pesan**, bukan jenis grafik.
+* Parameter kunci penyajian data adalah **audiens** dan **pesan**.
 * Bagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.
-* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data": visualisasi hanyalah salah satu alat komunikasi data, bukan tujuan akhirnya.
+* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data" karena visualisasi hanyalah salah satu alat komunikasi data, tetapi bukan tujuan akhirnya.
 :::
 
 ## *Data visualization* vs. infografis
 
 ::: columns
 ::: {.column width="50%"}
-**Data visualization**
+***Data visualization***
 
 * Terikat erat dengan data yang mendasarinya.
 * Bisa interaktif dan bereaksi terhadap perubahan data.
-* Jumlah format yang valid terbatas — harus tetap merepresentasikan data secara jujur.
+* Jumlah format yang valid terbatas, tetapi harus tetap merepresentasikan data secara transparan.
 * [Lihat katalognya di sini (DataViz Catalogue).](https://datavizcatalogue.com/)
 :::
 ::: {.column width="50%"}
@@ -80,14 +76,14 @@ Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisua
 
 # Memilih Jenis Data dan Tugas Visualisasi 📊 {background-color="#14497F"}
 
-## Kategorikal vs. *continuum* (sekali lagi)
+## Kategorikal vs. *continuum* 
 
 Ingat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan **pilihan grafik** Anda.
 
 ::: {.incremental}
 * **Data kategorikal** (mis. gender, kelompok skor) — cocok untuk *bar chart*, *pie chart*. Tapi grafik butuh **minimal satu variabel *continuum*** untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.
 * **Data *continuum*** (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada *scatterplot* atau histogram.
-* Data *continuum* **bisa** ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang) — tapi tidak sebaliknya.
+* Data *continuum* **bisa** ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang), tapi tidak berlaku sebaliknya.
 * Anda bisa memanfaatkan [ChartChooser](https://www.juiceanalytics.com/chartchooser) untuk menentukan grafik apa yang sesuai dengan tujuan dan jenis data Anda.
 :::
 
@@ -102,6 +98,8 @@ Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan...
 | Perubahan rata-rata skor kesejahteraan dari minggu ke minggu | Perbandingan, pola, data dari waktu ke waktu |
 | Sebaran skor Conscientiousness di seluruh sampel | Distribusi |
 
+: {tbl-colwidths="[55,45]"}
+
 ## Ragam tujuan visualisasi dan grafiknya
 
 ::: {.incremental}
@@ -113,11 +111,11 @@ Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan...
 * **Lokasi** → peta
 :::
 
-::: {.callout-tip}
-Tidak ada daftar tugas visualisasi yang baku dan lengkap. satu grafik bisa memenuhi lebih dari satu tujuan sekaligus. Yang penting: **rumuskan tujuannya dulu**, baru pilih grafiknya, bukan sebaliknya.
+::: {.callout-tip appearance="simple"}
+Tidak ada daftar jenis visualisasi data yang lengkap. Satu grafik bisa saja memenuhi lebih dari satu tujuan sekaligus. Yang penting: **rumuskan tujuannya dulu**, baru pilih grafiknya, bukan sebaliknya.
 :::
 
-# Enam Prinsip *Storytelling with Data* 📖 {background-color="#14497F"}
+# 6️⃣ Prinsip Storytelling with Data 📖 {background-color="#14497F"}
 
 ## Kerangka dari Cole Nussbaumer Knaflic
 
@@ -132,51 +130,51 @@ Buku *Storytelling with Data* ([Knaflic, 2021](https://www.storytellingwithdata.
 6. **Ceritakan sebuah kisah**
 :::
 
-## 1. Pahami konteksnya
+## 1️⃣ Pahami konteksnya
 
 ::: {.incremental}
 * Siapa audiens Anda? Apa yang sudah mereka tahu? Tindakan/pemahaman apa yang Anda ingin mereka dapatkan?
-* Ini gaung langsung dari pembahasan "tiga jenis audiens" di Pertemuan 6. Konteks menentukan segalanya, sebelum Anda menyentuh satu grafik pun.
+* Ini kelanjutan langsung dari pembahasan "tiga jenis audiens" di Pertemuan 6. 
 :::
 
-## 2. Pilih visual yang tepat
+## 2️⃣ Pilih visual yang tepat
 
-Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat — jangan biarkan perangkat lunak "menebak" untuk Anda, karena ia tidak tahu audiens dan konteks proyek Anda.
+Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak "menebak" kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.
 
-## 3. Singkirkan kekacauan (*clutter*)
+## 3️⃣ Singkirkan kekacauan (*clutter*)
 
 ::: {.incremental}
-* *Clutter* = elemen visual yang tidak menambah informasi, tapi membebani mata audiens: gridlines tebal, efek 3D, terlalu banyak warna, border berlebihan.
+* *Clutter* = elemen visual yang tidak menambah informasi, tapi membebani mata audiens: *gridlines* tebal, efek 3D, terlalu banyak warna, border berlebihan.
 * Aturan praktis: kalau menghapus sebuah elemen tidak mengurangi informasi yang tersampaikan, **hapus saja**.
 :::
 
-## 4. Arahkan perhatian audiens
+## 4️⃣ Arahkan perhatian audiens
 
 ::: {.incremental}
 * Mata manusia tertarik secara otomatis pada elemen tertentu (warna kontras, ukuran lebih besar, posisi) — inilah yang disebut *preattentive attributes*.
 * Gunakan ini secara sengaja: beri warna berbeda pada satu batang yang ingin Anda tonjolkan, sementara batang lain tetap abu-abu netral.
 :::
 
-## 5. Berpikir seperti desainer
+## 5️⃣ Berpikir seperti desainer
 
 ::: {.incremental}
-* Desain yang baik bukan cuma soal estetika — tapi soal **fungsi**: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses (termasuk untuk audiens dengan keterbatasan penglihatan warna)?
+* Desain yang baik bukan cuma soal estetika, tetapi soal **fungsi**: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses (termasuk untuk audiens dengan keterbatasan penglihatan warna)?
 * Prinsip ini menjembatani ke elemen "desain" yang kita bahas di awal pertemuan.
 :::
 
-## 6. Ceritakan sebuah kisah
+## 6️⃣ Ceritakan sebuah kisah
 
 ::: {.callout-important}
-Data tanpa narasi hanyalah angka. Visualisasi yang baik punya **alur**: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi — persis seperti cerita yang baik pada umumnya.
+Data tanpa narasi hanyalah angka. Visualisasi yang baik punya **alur**: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi, persis seperti cerita yang baik pada umumnya.
 :::
 
 ::: {.fragment}
-Ini menyambung ke apa yang sudah kita bahas Pertemuan 6: *hedging language* menjaga kejujuran narasi Anda; prinsip ini memastikan narasi itu juga **menarik** dan mudah diingat.
+Ini menyambung ke apa yang sudah kita bahas Pertemuan 6: *hedging language* menjaga transparansi narasi Anda; prinsip ini memastikan narasi itu juga **menarik** dan mudah diingat.
 :::
 
 # Studi Kasus: Memvisualisasikan Dataset *Big Five* 🧬 {background-color="#14497F"}
 
-## Merumuskan tugas visualisasi kita
+## Merumuskan tugas visualisasi
 
 Kita hitung skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti prosedur Pertemuan 4–5) dari **19.511 partisipan** dalam dataset kita, dipilah berdasarkan gender.
 
@@ -184,39 +182,50 @@ Kita hitung skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti 
 **"Saya ingin menunjukkan"** perbandingan rata-rata skor *Extraversion* antara dua kategori gender → tugasnya adalah **perbandingan** → kandidat grafik: *bar chart* sederhana, dua batang.
 :::
 
-::: {.callout-note}
-Kedua grafik pada slide berikutnya dibuat dengan **ggplot2** (R) langsung dari `data/data.csv` — bukan angka rekaan. Skripnya ada di `slides/libs/make_pertemuan7_charts.R` kalau Anda ingin melihat/menjalankannya sendiri.
+::: {.callout-note appearance="simple"}
+Kedua grafik pada slide berikutnya dibuat dengan **ggplot2** (R) langsung dari `data/data.csv`. Skripnya ada di [`slides/libs/make_pertemuan7_charts.R`](libs/make_pertemuan7_charts.R) kalau Anda ingin melihat/menjalankannya sendiri.
 :::
 
 ## Sebelum: melanggar hampir semua prinsip *Storytelling*
 
-![](libs/pertemuan7_before.png){fig-align="center" width="85%"}
-
+::: columns
+::: {.column width="60%"}
+![](libs/pertemuan7_before.png){fig-align="center" width="100%"}
+:::
+::: {.column width="40%"}
 ::: {.incremental}
 * Judul generik ("Chart 1") — tidak ada *takeaway*.
 * *Gridlines* penuh dan legenda yang sebenarnya tidak perlu (label sumbu-x sudah cukup).
 * **Sumbu-y dipotong** mulai dari 2,85, bukan dari 0 — secara visual ini melebih-lebihkan perbedaan kecil menjadi terlihat dramatis.
 :::
+:::
+:::
 
-::: {.callout-caution}
+::: {.callout-caution appearance="simple"}
 Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil terlihat besar — persis kebalikan dari *hedging language* yang kita pelajari Pertemuan 6.
 :::
 
 ## Sesudah: 6️⃣ prinsip diterapkan
 
-![](libs/pertemuan7_after.png){fig-align="center" width="85%"}
-
+::: columns
+::: {.column width="60%"}
+![](libs/pertemuan7_after.png){fig-align="center" width="100%"}
+:::
+::: {.column width="40%"}
 ::: {.incremental}
-* **Judul** langsung menyampaikan *takeaway* (prinsip 6), bukan sekadar label grafik.
+* **Judul** langsung menyampaikan *takeaway* (prinsip 6).
 * *Gridlines* dan legenda dihapus (prinsip 3); satu warna aksen menonjolkan kelompok yang ingin difokuskan (prinsip 4).
 * **Sumbu-y penuh** (1–5, skala Likert aslinya) — perbedaannya terlihat sekecil apa adanya.
 * Rentang kepercayaan 95% disertakan (prinsip Pertemuan 6) — nyaris tak terlihat di grafik ini karena `n` yang sangat besar membuatnya sangat sempit.
 :::
-
-::: {.callout-important}
-### Poin penting: signifikan secara statistik ≠ besar secara praktis
-Dengan `n` sebesar ini, CI kedua kelompok **tidak tumpang tindih** — jadi secara statistik perbedaannya *signifikan*. Tapi besarnya cuma ~0.10 poin pada skala 1–5. Judul grafik sengaja memakai *hedging language* ("sedikit lebih tinggi"), bukan klaim yang bombastis. Dalam konteks ini, **presenting** dan **hedging** bekerja bersama.
 :::
+:::
+
+::: {.callout-important appearance="simple"}
+### Signifikan secara statistik ≠ besar secara praktis
+Dengan `n` sebesar ini, CI kedua kelompok **tidak tumpang tindih** — jadi secara statistik perbedaannya *signifikan*. Tapi besarnya cuma ~0.10 poin pada skala 1–5.
+:::
+
 
 ## Angka di balik grafiknya
 
@@ -227,14 +236,13 @@ Grafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya AP
 | Laki-laki | 7,583 | 2.95 | 0.92 | [2.93, 2.97] |
 | Perempuan | 11,928 | 3.05 | 0.92 | [3.04, 3.07] |
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (`data/data.csv`, dataset *Big Five*) sudah disebutkan pada slide sebelumnya.
 :::
 
-## 🧩 Aktivitas kelompok: kritik sebuah visualisasi
+## 🧩 Aktivitas mandiri
 
-::: {.callout-warning}
-### Kerjakan berkelompok (15 menit)
+::: {.callout-warning appearance="simple"}
 [Perhatikan grafik berikut ini](https://databoks.katadata.co.id/infografik/2025/08/19/10-provinsi-dengan-angka-kemiskinan-tertinggi-awal-2025). Terapkan enam prinsip *storytelling with data* untuk mengkritiknya:
 
 1. Menurut Anda, apa **konteks/audiens** yang dituju grafik ini? Apakah pilihan visualnya cocok?
@@ -254,11 +262,11 @@ Dua grafik di atas (before/after) sudah bisa langsung dipakai sebagai bahan disk
 ::: {.incremental}
 * **Grafik *spreadsheet*** (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.
 * **Tableau, Datawrapper, Infogram** — untuk visualisasi **interaktif**, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, *dashboard*).
-* **Canva** — untuk **infografis**, saat pesan dan desain lebih diutamakan daripada presisi data teknis; ini akan jadi alat utama Anda untuk infografis UAS.
+* **Canva** — untuk **infografis**, saat pesan dan desain lebih diutamakan; ini bisa jadi alat utama Anda untuk infografis UAS.
 :::
 
-::: {.callout-note}
-Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akademik serumpun → grafik spreadsheet dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Alat mengikuti audiens, bukan sebaliknya.
+::: {.callout-note appearance="simple"}
+Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akademik serumpun → grafik *spreadsheet* dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Jadi, alat mengikuti audiens, bukan sebaliknya.
 :::
 
 # Penutup {background-color="#14497F"}

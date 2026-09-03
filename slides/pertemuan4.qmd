@@ -21,7 +21,7 @@ execute:
 
 ::: {.incremental}
 * Mengapa tahap ***Verify*** sering dilewatkan
-* Tiga kriteria data yang baik, dan empat cara memverifikasinya
+* Tiga kriteria dataset yang siap dianalisis, dan empat cara memverifikasinya
 * Masalah data yang umum ditemui, termasuk *outlier* dan pola *missing value*
 * ***Clean***: alur kerja dan tiga aktivitas pembersihan data
 * Mendokumentasikan proses pembersihan data
@@ -29,31 +29,33 @@ execute:
 * 2️⃣ aktivitas mandiri
 :::
 
-::: notes
-Metode minggu ini "Diskusi Kelompok" dengan pengalaman belajar "Tugas Praktis" — porsi praktik cleaning di akhir sesi adalah inti pertemuan ini, alokasikan minimal 40-45 menit untuk itu. Slide jenis nilai bermasalah, outlier, pola missing value, alur *screening-diagnosing-editing*, dan dokumentasi bisa dipercepat kalau waktu mepet — jangan sampai memotong jatah praktik.
-:::
-
-# **Verify**: Seperti Apa Dataset yang Baik? ✅ {background-color="#14497F"}
+# Verify: Seperti Apa Dataset yang Siap Dianalisis? ✅ {background-color="#14497F"}
 
 ## Tahap yang paling sering dilewatkan
 
 ::: {.incremental}
-* Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah **langsung lompat ke analisis**.
-* Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, **mempublikasikan kesimpulan yang salah**.
+* Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah **langsung melakukan analisis data**.
+* Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, **menarik kesimpulan yang salah**.
 * Ingat kerangka *Data Pipeline*: **Verify**, **Clean**, dan **Analyze** tidak selalu berjalan secara linear.
 :::
 
-::: {.callout-tip}
-### Ada pepatah di kalangan praktisi data
-*"Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek."* Verifikasi membantu Anda untuk **mengetahui batasan** yang melekat pada data Anda sebelum menganalisis.
+::: {.callout-tip appearance="simple"}
+*"Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek."* 
+
+Verifikasi membantu Anda untuk **mengetahui batasan** yang melekat pada data Anda sebelum menganalisis.
 :::
 
 ## Tiga kriteria data yang baik
 
 ::: {.incremental}
-1. ***Trustworthiness* (dapat dipercaya)** — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.
-2. ***Completeness* (kelengkapan)** — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.
-3. ***Quality* (kualitas struktur & dokumentasi)** — apakah data mengikuti prinsip *tidy data* (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?
+* ***Trustworthiness* (dapat dipercaya)** — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? 
+  + Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.
+
+* ***Completeness* (kelengkapan)** — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? 
+  + Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.
+
+* ***Quality* (kualitas struktur & dokumentasi)** — apakah data mengikuti prinsip *tidy data* (Pertemuan 2)? 
+  + Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?
 :::
 
 ## Metadata, *codebook*, dan *data inventory*
@@ -76,7 +78,7 @@ Daftar seluruh dataset yang dimiliki/dirilis suatu organisasi atau lembaga riset
 :::
 :::
 
-::: {.callout-important}
+::: {.callout-important appearance="simple"}
 Dataset psikometrik terbuka yang baik **selalu** menyertakan *codebook*. Kalau tidak ada *codebook* sama sekali, maka ini 🚩🚩🚩.
 :::
 
@@ -101,17 +103,10 @@ Sebelum menganalisis, hitung dulu ringkasan sederhana untuk **setiap kolom numer
 | *Count* | `COUNTA()` | Jumlah sel terisi sama di semua kolom? Kalau tidak, ada *missing value* |
 | Standar deviasi | `STDEV()` | Nilai > mean + 2×SD kemungkinan adalah *outlier* |
 
+: {tbl-colwidths="[20,25,55]"}
+
 ::: {.callout-note appearance="simple"}
 Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal sebelum dianalisis sesuai dengan hipotesis/pertanyaan penelitian yang Anda ajukan.
-:::
-
-## 🧩 Aktivitas mandiri: susun *checklist* verifikasi
-
-::: {.callout-warning}
-### Kerjakan secara mandiri (10 menit)
-Bayangkan Anda baru saja mengunduh dataset ***Big Five*** dari *Open-Source Psychometrics Project*. Susun ***checklist* verifikasi** singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.
-
-Contoh: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
 :::
 
 # Masalah Data yang Umum Ditemui ⚠️ {background-color="#14497F"}
@@ -132,13 +127,18 @@ Contoh: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
 ## Tiga jenis nilai yang bermasalah
 
 ::: {.incremental}
-1. ***Wild codes* (nilai di luar rentang)** — nilai yang berada di luar rentang yang valid. Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; "Laki-laki" dikode dengan berbagai macam, mis. `1`, `M`, `L`, `Pria` dalam kolom yang sama.
-2. ***Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. Contoh: usia `40` tahun tapi tahun lahir `2000` pada survei yang diisi 2025; pekerjaan "dokter spesialis" tapi pendidikan tertinggi "SMA".
-3. ***Implausible values* (nilai yang tidak masuk akal)** — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. Contoh: skor IQ `250`; penghasilan rumah tangga Rp1 triliun/bulan.
+* ***Wild codes* (nilai di luar rentang)** — nilai yang berada di luar rentang yang valid. 
+  + Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; "Laki-laki" dikode dengan berbagai macam, mis. `1`, `M`, `L`, `Pria` dalam kolom yang sama.
+
+* ****Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. 
+  + Contoh: usia `40` tahun tapi tahun lahir `2000` pada survei yang diisi 2025; pekerjaan "dokter spesialis" tapi pendidikan tertinggi "SMA".
+
+* ***Implausible values* (nilai yang tidak masuk akal)** — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. 
+  + Contoh: skor IQ `250`; penghasilan rumah tangga Rp1 triliun/bulan.
 :::
 
 ::: {.callout-note appearance="simple"}
-Ketiganya beririsan dengan "nilai yang mencurigakan" di slide sebelumnya. **Wild codes** paling mudah dicegah sejak desain kuesioner — batasi *input* yang bisa dimasukkan. **Inconsistent** dan **implausible values** baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap *Verify*.
+Ketiganya beririsan dengan "nilai yang mencurigakan" di slide sebelumnya. **Wild codes** paling mudah dicegah sejak desain kuesioner dengan membatasi *input* yang bisa dimasukkan. **Inconsistent** dan **implausible values** baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap *Verify*.
 :::
 
 ## Nilai ekstrem (*outlier*)
@@ -164,9 +164,10 @@ Menghapus *outlier* tanpa justifikasi yang jelas termasuk *questionable research
 
 ## *Missing value*
 
+Tidak semua *missing value* dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya:
+
 ::: {.incremental}
-* Tidak semua *missing value* dapat mengganggu proses analisis data. 
-  + Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja.
+
 * ***Missing completely at random* (MCAR)** — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun. 
   + Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.
 * ***Missing at random* (MAR)** — probabilitas hilangnya data berkaitan dengan variabel *lain* yang terekam di dataset, bukan dengan data itu sendiri. 
@@ -202,14 +203,14 @@ Dataset psikometrik yang dikumpulkan **secara daring dan terbuka** (siapa saja b
 sebagian masalah ini (mis. item *reverse-scored*) tidak akan terlihat lewat pemeriksaan statistik dasar — ini butuh pengetahuan tentang **metodologi instrumen**, bukan cuma angka. Inilah kenapa metode verifikasi "bertanya ke sumber/ahli" tetap penting, bukan hanya "pemeriksaan statistik."
 :::
 
-# **Clean**: Membersihkan Data 🧹 {background-color="#14497F"}
+# Clean: Membersihkan Data 🧹 {background-color="#14497F"}
 
 ## Alur kerja: tiga tahap pembersihan data
 
 ::: {.incremental}
-1. **Screening** — mencari kasus/nilai yang bermasalah: *wild codes*, *inconsistent values*, pola *missing value* yang mencurigakan. Gunakan *range checks*, *frequency counts* (tabel frekuensi), dan inspeksi visual.
-2. **Diagnosing** — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?
-3. **Editing** — barulah di tahap ini data benar-benar dirapikan: *tidying*, *editing* konten, dan *consolidation* (tiga aktivitas di slide berikutnya).
+1. ***Screening*** — mencari kasus/nilai yang bermasalah: *wild codes*, *inconsistent values*, pola *missing value* yang mencurigakan. Gunakan *range checks*, *frequency counts* (tabel frekuensi), dan inspeksi visual.
+2. ***Diagnosing*** — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?
+3. ***Editing*** — barulah di tahap ini data benar-benar dirapikan: *tidying*, *editing* konten, dan *consolidation*.
 :::
 
 ::: {.callout-important}
@@ -217,7 +218,7 @@ sebagian masalah ini (mis. item *reverse-scored*) tidak akan terlihat lewat peme
 Jangan langsung "mengedit" sebelum *screening* dan *diagnosing* selesai. Memperbaiki nilai satu per satu tanpa memetakan skala masalahnya dulu berisiko membuat Anda melewatkan pola yang lebih besar — misalnya satu kolom yang seluruhnya salah kode.
 :::
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 Istilah **Editing** di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (*tidying*, *editing* konten, *consolidation*) — jangan tertukar dengan "data *editing*" sebagai salah satu dari ketiganya.
 :::
 
@@ -289,6 +290,8 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 *"Kami akan mengeluarkan partisipan yang menyatakan datanya tidak boleh dipakai (item 'use-me'), berusia di bawah 18 tahun, atau menjawab nilai yang identik untuk seluruh item (straight-lining) pada skala X."*
 :::
 
+## Mendokumentasikan proses pembersihan data
+
 ::: {.callout-note}
 ### Contoh *log* singkat (bisa jadi *tab* tersendiri di spreadsheet, atau file `.txt`/`.md` terpisah)
 ```
@@ -300,6 +303,15 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 - Data cleaning awal
 - Mengedit wild codes pada variabel pendidikan
 ```
+:::
+
+## 🧩 Aktivitas mandiri: susun *checklist* verifikasi
+
+::: {.callout-warning}
+### Kerjakan secara mandiri (10 menit)
+Bayangkan Anda baru saja mengunduh dataset ***Big Five*** dari *Open-Source Psychometrics Project*. Susun ***checklist* verifikasi** singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.
+
+Contoh: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
 :::
 
 ## 🧩 Praktik: membersihkan potongan dataset *Big Five*

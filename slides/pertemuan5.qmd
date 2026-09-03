@@ -20,43 +20,47 @@ execute:
 ## _Outline_
 
 ::: {.incremental}
-* Dari **pertanyaan penelitian** ke **hipotesis**
-* Menyusun ***analysis plan*** — dan mengapa ***preregistration*** penting
+* Menurunkan **pertanyaan penelitian** menjadi **hipotesis**
+* Menyusun ***analysis plan*** dan mengapa ***preregistration*** penting
 * Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
-* Sekilas `jamovi` sebagai pelengkap spreadsheet
+* Sekilas `jamovi` sebagai pelengkap *spreadsheet*
 * Studi kasus: menghitung skor skala dan membandingkan kelompok pada dataset *Big Five*
-* 2️⃣ aktivitas (mandiri & kelompok, salah satunya dinilai)
+* 2️⃣ aktivitas
 :::
 
 ::: notes
 Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.
 :::
 
-# Dari Pertanyaan ke Hipotesis 🎯 {background-color="#14497F"}
+# Menurunkan Pertanyaan Penelitian Menjadi Hipotesis 🎯 {background-color="#14497F"}
 
 ## Kembali ke *Define*
 
 ::: {.incremental}
 * Kita sudah melewati **Find**, **Get**, **Verify**, dan **Clean**. Sebelum masuk ke **Analyze**, kita perlu kembali sejenak ke tahap paling awal *Data Pipeline*: **Define**.
-* Tanpa pertanyaan penelitian yang jelas, Anda hanya punya **topik penelitian** — dan berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.
+* Tanpa pertanyaan penelitian yang jelas, Anda hanya punya **topik penelitian** dan ini berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.
 :::
 
-## Dari tema ke pertanyaan penelitian
+## Masalah psikologis/sosial vs. pertanyaan penelitian
 
 | Tema | Pertanyaan penelitian |
 |---|---|
 | *Burnout* akademik | Apakah beban tugas mingguan berkaitan dengan tingkat *burnout* pada mahasiswa magister? |
 | Kesejahteraan psikologis | Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir? |
 
+: {tbl-colwidths="[30,70]"}
+
 ::: {.fragment}
-Pertanyaan yang **presisi** akan memberi tahu Anda data apa yang dibutuhkan. Bandingkan: *"Apakah mahasiswa terpengaruh media sosial?"* (terlalu kabur) vs. *"Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?"* (jelas variabel apa yang dicari).
+Pertanyaan yang **presisi** dan **spesifik** akan memberi tahu Anda data apa yang dibutuhkan. 
+
+**Bandingkan**: *"Apakah mahasiswa terpengaruh media sosial?"* (terlalu kabur) vs. *"Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?"* (jelas variabel apa yang diteliti).
 :::
 
 ## Merumuskan hipotesis
 
 ::: {.callout-important}
 ### Ciri hipotesis yang baik
-**Sederhana, ringkas, dan yang terpenting: dapat diuji** — Anda harus bisa membuktikannya salah.
+**Sederhana, ringkas, dan yang terpenting: dapat diuji**. Artinya, Anda harus bisa membuktikannya salah (ingat prinsip falsifikasi).
 :::
 
 Hipotesis berfungsi ganda:
@@ -71,28 +75,13 @@ Hipotesis berfungsi ganda:
 Dari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: *"Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah."*
 :::
 
-## 🧩 Aktivitas mandiri: dari tema ke hipotesis
-
-::: {.callout-warning}
-### Kerjakan sendiri (10 menit)
-Gunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber data terbuka), atau topik lain yang Anda minati.
-
-1. Tuliskan **tema** riset Anda dalam satu kalimat.
-2. Persempit menjadi **satu pertanyaan penelitian** yang presisi dan *actionable*.
-3. Rumuskan **satu hipotesis** yang sederhana, ringkas, dan dapat diuji.
-:::
-
-::: notes
-Ini latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya.
-:::
-
-# Menyusun *Analysis Plan* 📝 {background-color="#14497F"}
+# Menyusun Analysis Plan 📝 {background-color="#14497F"}
 
 ## Apa itu *analysis plan*?
 
 ::: {.incremental}
 * ***Analysis plan*** adalah rangkaian **transformasi** yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.
-* Disusun **setelah** data dibersihkan — supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya, bukan sekadar deskripsi abstrak.
+* Disusun **setelah** data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya.
 * Tujuannya: siapa pun yang diberi data bersih dan *analysis plan* Anda harus bisa **mereproduksi** analisis Anda langkah demi langkah.
 :::
 
@@ -108,25 +97,27 @@ Untuk hipotesis *"beban tugas mingguan berkaitan dengan tingkat burnout"*:
 5. Bandingkan kedua rata-rata tersebut.
 :::
 
-::: {.callout-tip}
-### Penting diingat
-Kalau Anda belum bisa menyusun *analysis plan* selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu. Yang penting: **catat** langkah yang berhasil begitu Anda menemukannya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.
+::: {.callout-tip appearance="simple"}
+Kalau Anda belum bisa menyusun *analysis plan* selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu. 
+
+Yang penting: **catat** langkah yang berhasil begitu Anda menyusunnya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.
 :::
 
-## Kenapa *analysis plan* bisa dikuatkan lagi: *preregistration*
+## *Analysis plan* dan *preregistration*
 
 ::: {.incremental}
-* *Analysis plan* yang Anda tulis **sebelum** melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar ***preregistration*** — mendaftarkan hipotesis dan rencana analisis **secara terbuka**, idealnya bahkan **sebelum data dikumpulkan sama sekali**.
-* Pendaftarannya biasa dilakukan di platform terbuka seperti *Open Science Framework* (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya — jadi ada bukti tertulis tentang apa yang Anda rencanakan **sebelum** tahu hasilnya.
+* *Analysis plan* yang Anda tulis **sebelum** melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar ***preregistration***.
+  + Artinya, mendaftarkan hipotesis dan rencana analisis **secara terbuka**, idealnya bahkan **sebelum data dikumpulkan sama sekali**.
+* Pendaftarannya biasa dilakukan di *platform* terbuka seperti *Open Science Framework* (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya. Jadi, ada bukti tertulis tentang apa yang Anda rencanakan **sebelum** tahu hasilnya.
 :::
 
 ::: {.callout-important}
 ### Kenapa ini penting
-*Preregistration* adalah cara paling tegas untuk membedakan **penelitian konfirmatori** (menguji hipotesis yang sudah dirumuskan sejak awal) dari **penelitian eksploratif** (menemukan pola baru setelah melihat data) — keduanya sah-sah saja, tapi harus jujur diberi label yang tepat, bukan dicampuradukkan.
+*Preregistration* adalah cara yang paling umum digunakan untuk membedakan **penelitian konfirmatori**/*hypothesis testing* (menguji hipotesis yang sudah dirumuskan sejak awal) dari **penelitian eksploratif**/*hypothesis generating* (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.
 :::
 
 ::: {.fragment}
-Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah — bahkan tanpa disadari — untuk mengubah hipotesis atau cara analisis Anda **setelah** melihat hasilnya, supaya "cocok" dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah bernama *p-hacking* dan **HARKing**.
+Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadari, untuk mengubah hipotesis atau cara analisis Anda **setelah** melihat hasilnya, supaya "cocok" dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah ini bernama *p-hacking* dan **HARKing**.
 :::
 
 # Ragam Teknik Analisis 🔬 {background-color="#14497F"}
@@ -151,7 +142,7 @@ Melihat **hubungan** antara dua variabel atau lebih (mis. apakah *Conscientiousn
 :::
 :::
 
-::: {.callout-note}
+::: {.callout-note appearance="simple"}
 
 Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: [analisis **prediktif**](https://en.wikipedia.org/wiki/Predictive_modelling), yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.
 :::
@@ -171,7 +162,7 @@ Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: [analis
 Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender."* → Rows: gender, Values: AVERAGE(Extraversion).
 :::
 
-# Sekilas `jamovi` sebagai Pelengkap *Spreadsheet* 💻 {background-color="#14497F"}
+# Sekilas `jamovi` sebagai Pelengkap Spreadsheet 💻 {background-color="#14497F"}
 
 ## Kapan *spreadsheet* tidak lagi cukup
 
@@ -180,15 +171,15 @@ Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Sa
 * Tapi begitu Anda butuh uji statistik formal (mis. *independent samples t-test*, ANOVA, korelasi dengan nilai *p*), Anda memerlukan perangkat lunak analisis statistik.
 :::
 
-## Dua pilihan populer
+## Dua pilihan yang paling populer
 
 ::: columns
 ::: {.column width="50%"}
-**`jamovi` / `JASP`**
+**`jamovi`/`JASP`**
 
 * Gratis, antarmuka *point-and-click* — tidak perlu menulis kode.
 * Bisa membaca langsung berkas `.sav`, `.csv`, `.xlsx`.
-* Titik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.
+* Titik masuk yang ramah untuk mahasiswa yang belum terbiasa *coding*.
 :::
 ::: {.column width="50%"}
 {{< fa brands r-project >}} 
@@ -199,35 +190,35 @@ Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Sa
 :::
 :::
 
-::: {.callout-note}
-Mata kuliah ini **tidak** mengajarkan `jamovi`/{{< fa brands r-project >}} secara mendalam — spreadsheet tetap alat utama kita. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.
+::: {.callout-note appearance="simple"}
+Mata kuliah ini **tidak** mengajarkan `jamovi`/{{< fa brands r-project >}} secara mendalam. *Spreadsheet* tetap alat utama yang digunakan untuk MK ini. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.
 :::
 
-## Menyusun *analysis plan* untuk dataset kita
+## 🧩 Aktivitas mandiri: Menyusun *analysis plan* untuk dataset contoh (dikumpulkan untuk nilai kuis)
 
 Misalkan pertanyaan penelitian Anda: *"Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?"*
 
 ::: {.incremental}
 1. Hitung `skor_extraversion` per partisipan (`AVERAGE(E1:E10)`, setelah item dibalik sesuai kebutuhan).
-2. Buat pivot table: Rows = `gender`, Values = `AVERAGE(skor_extraversion)`.
+2. Buat *pivot table*: Rows = `gender`, Values = `AVERAGE(skor_extraversion)`.
 3. Bandingkan rata-rata antar kategori gender.
-4. *(Opsional, di luar cakupan mata kuliah ini)* Uji signifikansi perbedaan tersebut dengan `jamovi`/`JASP`.
+4. Uji perbedaan rata-rata tersebut di MS Excel dengan fungsi [`T.TEST()`](https://support.microsoft.com/en-us/excel/functions/t-test-function)
 :::
 
-## 🧩 Aktivitas kelompok (dinilai): susun *analysis plan* Anda sendiri
+::: {.callout-important appearance="simple"}
+Kumpulkan file Excel yang digunakan untuk analisis di Psyche. Akan dinilai sebagai nilai kuis.
+:::
+
+## 🧩 Aktivitas mandiri: susun *analysis plan* Anda sendiri
 
 ::: {.callout-warning}
 ### Kerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum
-Menggunakan dataset ***Big Five***, kelompok Anda akan menyusun *analysis plan* lengkap:
+Menggunakan dataset ***Big Five***, Anda akan menyusun *analysis plan* lengkap:
 
 1. Rumuskan **satu pertanyaan penelitian** yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu *trait* kepribadian atau variabel demografis).
 2. Rumuskan **hipotesisnya**.
 3. Tentukan apakah analisisnya bersifat **deskriptif, komparatif, atau korelasional**.
 4. Tuliskan **langkah-langkah *analysis plan*** secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.
-:::
-
-::: notes
-Ini aktivitas yang dinilai (kriteria "Penguasaan Materi"). Berkeliling ke tiap kelompok, dan pastikan mereka membedakan dengan jelas antara pertanyaan deskriptif ("berapa rata-rata skor X?") dan komparatif ("apakah skor X berbeda antar kelompok Y?").
 :::
 
 # Penutup {background-color="#14497F"}
@@ -236,8 +227,8 @@ Ini aktivitas yang dinilai (kriteria "Penguasaan Materi"). Berkeliling ke tiap k
 
 ::: {.incremental}
 * Sebelum menganalisis, kembali ke *Define*: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.
-* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda ***reproducible*** — menuliskannya *sebelum* melihat hasil adalah inti dari ***preregistration***, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.
-* Tiga kategori teknik analisis: **deskriptif**, **komparatif**, **korelasional** — pivot table adalah alat serbaguna untuk ketiganya.
+* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda ***reproducible*** — menuliskannya *sebelum* melihat hasil adalah inti dari ***preregistration***, dan membantu membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.
+* Tiga kategori teknik analisis: **deskriptif**, **komparatif**, **korelasional** — *pivot table* adalah alat serbaguna untuk ketiganya.
 * Urutan yang benar: **bersihkan dulu** (termasuk membalik item *reverse-scored*), baru hitung skor skala.
 :::
 

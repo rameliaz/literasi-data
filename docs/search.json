@@ -151,7 +151,7 @@
     "href": "slides/pertemuan6.html#outline",
     "title": "Interpretasi Data",
     "section": "Outline",
-    "text": "Outline\n\nSetelah data dianalisis, bagaimana melaporkannya?\nMenarasikan ketidakpastian dengan hedging language\nStudi kasus: generalisasi tergesa-gesa dari subkelompok\nMelaporkan rentang kepercayaan (confidence interval) dengan benar\nEtika analisis data: mengenali questionable research practices\n2️⃣ aktivitas (kelompok & mandiri)\n\n\nMetode minggu ini “Tugas” dengan kriteria “Etika dan Profesionalisme” — pastikan porsi QRP di akhir sesi tidak terpotong waktu; ini salah satu bagian paling penting mata kuliah ini.",
+    "text": "Outline\n\nSetelah data dianalisis, bagaimana melaporkannya?\nMenarasikan ketidakpastian dengan hedging language\nStudi kasus: generalisasi tergesa-gesa dari subkelompok\nMelaporkan rentang kepercayaan (confidence interval) dengan benar\nEtika analisis data: mengenali questionable research practices\n2️⃣ aktivitas mandiri",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -175,7 +175,7 @@
     "href": "slides/pertemuan6.html#komunitas-akademik-serumpun",
     "title": "Interpretasi Data",
     "section": "Komunitas akademik serumpun",
-    "text": "Komunitas akademik serumpun\n\nAnda perlu memperhatikan norma/kelaziman yang berlaku di komunitas Anda — tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis.\nTiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, Psikologi → APA.\nDengan sejawat serumpun, Anda diperbolehkan (bahkan didorong) memakai istilah teknis — jargon justru menambah akurasi komunikasi, bukan menghalanginya.",
+    "text": "Komunitas akademik serumpun\n\nAnda perlu memperhatikan norma/kelaziman yang berlaku di komunitas Anda — tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis.\nTiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, Psikologi → APA.\nDengan sejawat serumpun, Anda diperbolehkan (bahkan didorong) memakai istilah teknis, sehingga jargon justru menambah akurasi dalam proses komunikasi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -187,7 +187,7 @@
     "href": "slides/pertemuan6.html#untuk-publik-awam",
     "title": "Interpretasi Data",
     "section": "Untuk publik awam",
-    "text": "Untuk publik awam\n\nBerkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan presisi dan keterbacaan.\nIlmuwan yang baik berhati-hati menjelaskan hasil analisisnya — menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.\nBagian tersulit: menarasikan ketidakpastian. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting.\n\n\n\n\n\n\n\nPenting diingat\n\n\nIngat: statistik pada dasarnya bicara soal probabilitas, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.",
+    "text": "Untuk publik awam\n\nBerkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan ketepatan dan keterbacaan.\nIlmuwan yang baik berhati-hati menjelaskan hasil analisisnya dengan menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.\nBagian tersulit: menarasikan ketidakpastian. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai audiens; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting (dan mungkin berisiko membuat Anda terlihat kurang kompeten).\n\n\n\n\n\n\n\nIngat: statistik pada dasarnya bicara soal probabilitas, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -199,7 +199,7 @@
     "href": "slides/pertemuan6.html#apa-itu-hedging-language",
     "title": "Interpretasi Data",
     "section": "Apa itu hedging language?",
-    "text": "Apa itu hedging language?\n\n\n\n\n\n\nDefinisi\n\n\nHedging language adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data. Interpretasi digambarkan dengan tone yang berhati-hati, bukan sesuatu yang mutlak.\n\n\n\nKata kunci yang sering dipakai: “cenderung,” “mengindikasikan,” “kemungkinan,” “pada sampel ini,” “perlu diuji lebih lanjut.”",
+    "text": "Apa itu hedging language?\n\n\n\n\n\n\nDefinisi\n\n\nHedging language adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data. Interpretasi harus diartikulasikan dengan tone yang hati-hati.\n\n\n\nKata kunci yang sering dipakai: “cenderung,” “mengindikasikan,” “kemungkinan,” “pada sampel ini,” “perlu diuji lebih lanjut.”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -211,7 +211,7 @@
     "href": "slides/pertemuan6.html#contoh-1-durasi-tidur-kucing-vs.-anjing",
     "title": "Interpretasi Data",
     "section": "Contoh 1: Durasi tidur kucing vs. anjing",
-    "text": "Contoh 1: Durasi tidur kucing vs. anjing\n\nPada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.\n\n\nInterpretasi yang di-hedge dengan baik: “Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.”\n\n\n\n\n\n\n\nPenting diingat\n\n\nKalimat ini secara eksplisit mengaitkan ketidakpastian dengan satu nilai ekstrem (outlier) dalam sampel, bukan sekadar berkata “hasilnya tidak pasti” tanpa alasan yang jelas.",
+    "text": "Contoh 1: Durasi tidur kucing vs. anjing\n\nPada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.\n\n\nInterpretasi yang di-hedge dengan baik: “Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.”\n\n\n\n\n\n\n\nKalimat ini secara eksplisit mengaitkan ketidakpastian dengan satu nilai ekstrem (outlier) dalam sampel, bukan sekadar berkata “hasilnya tidak pasti” tanpa alasan yang jelas.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -223,7 +223,7 @@
     "href": "slides/pertemuan6.html#contoh-2-panjang-lengan-vs.-tungkai",
     "title": "Interpretasi Data",
     "section": "Contoh 2: Panjang lengan vs. tungkai",
-    "text": "Contoh 2: Panjang lengan vs. tungkai\n\nGrafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja — semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.\n\n\nDi sini hubungannya memang kuat dan jelas — hedging yang berlebihan justru tidak tepat. Kuncinya bukan “selalu ragu-ragu,” tapi menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya.",
+    "text": "Contoh 2: Panjang lengan vs. tungkai\n\nGrafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja. Semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.\n\n\nDi sini hubungannya memang kuat dan jelas. Hedging yang berlebihan justru tidak tepat. Kuncinya bukan “selalu ragu-ragu,” tapi menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -271,7 +271,7 @@
     "href": "slides/pertemuan6.html#mari-kita-lihat-datanya",
     "title": "Interpretasi Data",
     "section": "Mari kita lihat datanya",
-    "text": "Mari kita lihat datanya\nSebuah lembaga survei mewawancarai 1.200 partisipan secara acak melalui telepon tentang kesediaan vaksinasi. Dari 1.200 partisipan, sekitar 120 orang (10%) berusia 22–25 tahun.\n\nKlaim yang dipublikasikan media: hanya 45.1% partisipan usia 22–25 tahun bersedia divaksinasi — proporsi terendah di antara semua kelompok usia. Kesimpulan yang beredar: generasi muda (Gen Z) banyak menolak vaksinasi.",
+    "text": "Mari kita lihat datanya\nSebuah lembaga survei mewawancarai 1.200 partisipan secara acak melalui telepon tentang kesediaan vaksinasi. Dari 1.200 partisipan, sekitar 120 orang (10%) berusia 22–25 tahun.\n\nKlaim yang dipublikasikan media: hanya 45.1% partisipan usia 22–25 tahun bersedia divaksinasi, yang merupakan proporsi terendah di antara semua kelompok usia. Kesimpulan yang menjadi headline media: generasi muda (Gen Z) banyak menolak vaksinasi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -295,7 +295,7 @@
     "href": "slides/pertemuan6.html#persoalannya",
     "title": "Interpretasi Data",
     "section": "Persoalannya…",
-    "text": "Persoalannya…\n\nMembandingkan proporsi bersedia/tidak bersedia divaksin bersifat relatif terhadap kelompoknya sendiri — tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.\nKesimpulan “Gen Z banyak menolak vaksin” hanya didasarkan pada kelompok usia 22–25 tahun, tanpa melibatkan partisipan usia 21 tahun ke bawah.\nKetika dilakukan analisis korelasi antara usia dan kesediaan vaksinasi — dengan seluruh kelompok usia dilibatkan — hubungannya ternyata sangat lemah.",
+    "text": "Persoalannya…\n\nMembandingkan proporsi bersedia/tidak bersedia divaksin bersifat relatif terhadap kelompoknya sendiri — tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.\nKesimpulan “Gen Z banyak menolak vaksin” hanya didasarkan pada kelompok usia 22–25 tahun, tanpa melibatkan partisipan usia 21 tahun ke bawah.\nKetika dilakukan analisis korelasi antara usia dan kesediaan vaksinasi, dengan seluruh kelompok usia dilibatkan, hubungannya ternyata sangat lemah (lihat slide berikutnya).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -331,7 +331,7 @@
     "href": "slides/pertemuan6.html#kenapa-confidence-interval-penting",
     "title": "Interpretasi Data",
     "section": "Kenapa confidence interval penting",
-    "text": "Kenapa confidence interval penting\n\nSaat melaporkan hasil statistik, selalu sertakan rentang kepercayaan (confidence interval, CI), bukan hanya point estimate-nya saja.\nCI memberi gambaran yang jauh lebih realistis tentang data dan ketidakpastian yang menyertainya.\nMelaporkan CI adalah keharusan di banyak komunitas akademik — termasuk APA — meski menerjemahkannya ke bahasa awam bukan pekerjaan mudah.",
+    "text": "Kenapa confidence interval penting\n\nSaat melaporkan hasil statistik, selalu sertakan rentang kepercayaan (confidence interval, CI), bukan hanya point estimate-nya saja.\nCI memberi gambaran yang jauh lebih realistis tentang data dan ketidakpastian yang menyertainya.\nMelaporkan CI adalah keharusan di banyak komunitas akademik, termasuk APA, meski menerjemahkannya ke bahasa awam bukan pekerjaan mudah.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -363,11 +363,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan6.html#ketika-analisis-data-disalahgunakan",
-    "href": "slides/pertemuan6.html#ketika-analisis-data-disalahgunakan",
+    "objectID": "slides/pertemuan6.html#qrp",
+    "href": "slides/pertemuan6.html#qrp",
     "title": "Interpretasi Data",
-    "section": "Ketika analisis data disalahgunakan",
-    "text": "Ketika analisis data disalahgunakan\n\nMenganalisis data bukan cuma soal keterampilan teknis — ada etika yang menyertainya.\nQuestionable research practices (QRP) adalah praktik analisis yang secara teknis “tidak curang” tapi menyesatkan kesimpulan — dan menjadi salah satu penyebab utama krisis replikasi dalam psikologi.\nDua bentuk QRP yang paling umum: p-hacking dan HARKing.",
+    "section": "QRP",
+    "text": "QRP\n\nMenganalisis data bukan cuma soal keterampilan teknis, tetapi ada etika yang menyertainya.\nQuestionable research practices (QRP) adalah praktik analisis yang secara teknis “tidak curang” tapi menyesatkan kesimpulan, dan menjadi salah satu penyebab utama krisis replikasi dalam psikologi.\nDua bentuk QRP yang paling umum: p-hacking dan HARKing.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -379,7 +379,7 @@
     "href": "slides/pertemuan6.html#p-hacking",
     "title": "Interpretasi Data",
     "section": "P-hacking",
-    "text": "P-hacking\n\n\n\n\n\n\nDefinisi\n\n\nMengulik analisis — mencoba berbagai kombinasi variabel, metode, atau ambang batas — sampai ditemukan hasil yang signifikan secara statistik (p &lt; ,05), lalu hanya melaporkan hasil itu saja.\n\n\n\nContoh bentuknya:\n\nMembuang beberapa partisipan/observasi “yang mengganggu” hasil, tanpa alasan metodologis yang jelas.\nMencoba berbagai cara mengelompokkan variabel (mis. usia dibagi 2 kelompok, lalu 3, lalu 4) sampai salah satu menghasilkan signifikansi.\nMenjalankan puluhan uji korelasi dan hanya melaporkan yang signifikan.",
+    "text": "P-hacking\n\n\n\n\n\n\nDefinisi\n\n\nMengulik analisis dengan mencoba berbagai kombinasi variabel, metode, atau ambang batas, sampai ditemukan hasil yang signifikan secara statistik (p &lt; ,05), lalu hanya melaporkan hasil yang signifikan saja.\n\n\n\nContoh bentuknya:\n\nMembuang beberapa partisipan/observasi “yang mengganggu” hasil, tanpa alasan metodologis yang jelas.\nMencoba berbagai cara mengelompokkan variabel (mis. usia dibagi 2 kelompok, lalu 3, lalu 4) sampai salah satu menghasilkan signifikansi.\nMenjalankan puluhan uji korelasi dan hanya melaporkan yang signifikan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -391,7 +391,7 @@
     "href": "slides/pertemuan6.html#harking",
     "title": "Interpretasi Data",
     "section": "HARKing",
-    "text": "HARKing\n\n\n\n\n\n\nHypothesizing After the Results are Known\n\n\nMenyajikan temuan yang sebenarnya ditemukan secara eksploratif (setelah melihat data) seolah-olah itu adalah hipotesis yang sudah dirumuskan sejak awal, sebelum data dikumpulkan.\n\n\n\n\nIngat analysis plan dari Pertemuan 5? Salah satu fungsinya justru untuk mencegah HARKing — dengan mencatat hipotesis dan rencana analisis sebelum melihat hasilnya, Anda punya jejak yang jelas antara mana yang confirmatory (diuji sesuai rencana) dan mana yang exploratory (ditemukan di tengah jalan).",
+    "text": "HARKing\n\n\n\n\n\n\nHypothesizing After the Results are Known\n\n\nMenyajikan temuan yang sebenarnya ditemukan secara eksploratif (setelah melihat data) seolah-olah itu adalah hipotesis yang sudah dirumuskan sejak awal, sebelum data dikumpulkan.\n\n\n\n\nIngat analysis plan dari Pertemuan 5? Salah satu fungsinya justru untuk mencegah HARKing, yaitu dengan mencatat hipotesis dan rencana analisis sebelum melihat hasilnya, Anda punya jejak yang jelas antara mana yang confirmatory (diuji sesuai rencana) dan mana yang exploratory (ditemukan di tengah jalan).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -403,7 +403,7 @@
     "href": "slides/pertemuan6.html#kenapa-ini-berisiko",
     "title": "Interpretasi Data",
     "section": "Kenapa ini berisiko",
-    "text": "Kenapa ini berisiko\n\nP-hacking menyebabkan inflasi temuan false positive — hasil yang terlihat signifikan padahal sebenarnya kebetulan statistik.\nHARKing membuat pembaca percaya sebuah hipotesis “berhasil diuji secara ketat”, padahal sebenarnya ditemukan lewat coba-coba.\nKeduanya berkontribusi pada krisis replikasi: banyak temuan populer dalam psikologi ternyata gagal direplikasi peneliti lain.\n\n\n\n\n\n\n\nPenting diingat\n\n\nBandingkan dengan yang akan kita pelajari di Pertemuan 12: post hoc theorizing memang dibolehkan — bahkan dianjurkan — dalam narrative review yang mensintesis puluhan studi (Baumeister & Leary, 1997). Yang tidak boleh adalah menyamarkan eksplorasi sebagai konfirmasi dalam satu studi empiris tunggal — itulah inti masalah HARKing.",
+    "text": "Kenapa ini berisiko\n\nP-hacking menyebabkan tidak terkendalinya false positive rate — hasil yang terlihat signifikan padahal sebenarnya hanya kebetulan statistik.\nHARKing membuat pembaca percaya sebuah hipotesis “berhasil diuji secara ketat”, padahal sebenarnya ditemukan lewat coba-coba.\nKeduanya berkontribusi pada krisis replikasi: banyak temuan populer dalam psikologi ternyata gagal direplikasi peneliti lain.\n\n\n\n\n\n\n\nPenting diingat\n\n\nBandingkan dengan yang akan kita pelajari di Pertemuan 12: post hoc theorizing memang dibolehkan — bahkan dianjurkan — dalam narrative review yang mensintesis puluhan studi (Baumeister & Leary, 1997). Yang tidak boleh adalah menyamarkan eksplorasi sebagai konfirmasi dalam satu studi empiris tunggal.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -415,7 +415,7 @@
     "href": "slides/pertemuan6.html#cara-menjaga-diri-dari-qrp",
     "title": "Interpretasi Data",
     "section": "Cara menjaga diri dari QRP",
-    "text": "Cara menjaga diri dari QRP\n\nSusun analysis plan sebelum melihat hasil (Pertemuan 5) — idealnya bahkan sebelum data dikumpulkan (preregistration).\nLaporkan semua analisis yang Anda coba, bukan hanya yang signifikan — termasuk yang “gagal”.\nBedakan secara eksplisit dalam naskah Anda: mana temuan yang confirmatory (menguji hipotesis awal) dan mana yang exploratory (ditemukan setelah melihat data).\nAnalisis eksploratif boleh dilaporkan — asal jujur disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.",
+    "text": "Cara menjaga diri dari QRP\n\nSusun analysis plan sebelum melihat hasil (Pertemuan 5) — idealnya bahkan sebelum data dikumpulkan (preregistration).\nLaporkan semua analisis yang Anda coba, bukan hanya yang signifikan dan selalu termasuk yang “gagal”.\nBedakan secara eksplisit dalam naskah Anda: mana temuan yang confirmatory (menguji hipotesis awal) dan mana yang exploratory (ditemukan setelah melihat data).\nAnalisis eksploratif boleh dilaporkan, asal transparan disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -427,7 +427,7 @@
     "href": "slides/pertemuan6.html#aktivitas-mandiri-kenali-qrp-nya",
     "title": "Interpretasi Data",
     "section": "🧩 Aktivitas mandiri: kenali QRP-nya",
-    "text": "🧩 Aktivitas mandiri: kenali QRP-nya\n\n\n\n\n\n\nKerjakan sendiri, lalu diskusikan berpasangan (10 menit)\n\n\nBaca skenario berikut: “Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: ‘Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.’”\n\nIdentifikasi QRP apa yang terjadi di sini — p-hacking, HARKing, atau keduanya?\nBagaimana seharusnya peneliti ini melaporkan temuannya secara jujur?\n\n\n\n\n\nJawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan jujur disebut eksploratif.",
+    "text": "🧩 Aktivitas mandiri: kenali QRP-nya\n\n\n\n\n\n\nPerhatikan\n\n\nBaca skenario berikut: “Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: ‘Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.’”\n\nIdentifikasi QRP apa yang terjadi di sini — p-hacking, HARKing, atau keduanya?\nBagaimana seharusnya peneliti ini melaporkan temuannya secara transparan?\n\n\n\n\n\nJawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan transparan disebut eksploratif.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -439,7 +439,7 @@
     "href": "slides/pertemuan6.html#kesimpulan-pertemuan-6",
     "title": "Interpretasi Data",
     "section": "Kesimpulan Pertemuan 6",
-    "text": "Kesimpulan Pertemuan 6\n\nCara melaporkan temuan bergantung pada audiens: komunitas akademik, informed lay public, atau general lay public.\nHedging language menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu tegas, jangan juga terlalu ragu tanpa alasan.\nGeneralisasi tergesa-gesa mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.\nSelalu laporkan rentang kepercayaan, bukan hanya point estimate.\nWaspadai p-hacking dan HARKing — analysis plan dari Pertemuan 5 adalah pertahanan utama Anda.",
+    "text": "Kesimpulan Pertemuan 6\n\nCara melaporkan temuan bergantung pada audiens: komunitas akademik, informed lay public, atau general lay public.\nHedging language menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu firm, jangan juga terlalu terbaca ragu-ragu.\nGeneralisasi tergesa-gesa mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.\nSelalu laporkan rentang kepercayaan, bukan hanya point estimate.\nWaspadai p-hacking dan HARKing — analysis plan dari Pertemuan 5 adalah pertahanan utama Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -475,7 +475,7 @@
     "href": "slides/pertemuan4.html#outline",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Outline",
-    "text": "Outline\n\nMengapa tahap Verify sering dilewatkan\nTiga kriteria data yang baik, dan empat cara memverifikasinya\nMasalah data yang umum ditemui, termasuk outlier dan pola missing value\nClean: alur kerja dan tiga aktivitas pembersihan data\nMendokumentasikan proses pembersihan data\nPraktik langsung: membersihkan dataset yang “kotor”\n2️⃣ aktivitas mandiri\n\n\nMetode minggu ini “Diskusi Kelompok” dengan pengalaman belajar “Tugas Praktis” — porsi praktik cleaning di akhir sesi adalah inti pertemuan ini, alokasikan minimal 40-45 menit untuk itu. Slide jenis nilai bermasalah, outlier, pola missing value, alur screening-diagnosing-editing, dan dokumentasi bisa dipercepat kalau waktu mepet — jangan sampai memotong jatah praktik.",
+    "text": "Outline\n\nMengapa tahap Verify sering dilewatkan\nTiga kriteria dataset yang siap dianalisis, dan empat cara memverifikasinya\nMasalah data yang umum ditemui, termasuk outlier dan pola missing value\nClean: alur kerja dan tiga aktivitas pembersihan data\nMendokumentasikan proses pembersihan data\nPraktik langsung: membersihkan dataset yang “kotor”\n2️⃣ aktivitas mandiri",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -487,7 +487,7 @@
     "href": "slides/pertemuan4.html#tahap-yang-paling-sering-dilewatkan",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Tahap yang paling sering dilewatkan",
-    "text": "Tahap yang paling sering dilewatkan\n\nSetelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah langsung lompat ke analisis.\nMelewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, mempublikasikan kesimpulan yang salah.\nIngat kerangka Data Pipeline: Verify, Clean, dan Analyze tidak selalu berjalan secara linear.\n\n\n\n\n\n\n\nAda pepatah di kalangan praktisi data\n\n\n“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.” Verifikasi membantu Anda untuk mengetahui batasan yang melekat pada data Anda sebelum menganalisis.",
+    "text": "Tahap yang paling sering dilewatkan\n\nSetelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah langsung melakukan analisis data.\nMelewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, menarik kesimpulan yang salah.\nIngat kerangka Data Pipeline: Verify, Clean, dan Analyze tidak selalu berjalan secara linear.\n\n\n\n\n\n\n\n“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.”\nVerifikasi membantu Anda untuk mengetahui batasan yang melekat pada data Anda sebelum menganalisis.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -499,7 +499,7 @@
     "href": "slides/pertemuan4.html#tiga-kriteria-data-yang-baik",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Tiga kriteria data yang baik",
-    "text": "Tiga kriteria data yang baik\n\nTrustworthiness (dapat dipercaya) — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.\nCompleteness (kelengkapan) — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.\nQuality (kualitas struktur & dokumentasi) — apakah data mengikuti prinsip tidy data (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?",
+    "text": "Tiga kriteria data yang baik\n\nTrustworthiness (dapat dipercaya) — seberapa baik data merepresentasikan realitas yang ingin digambarkannya?\n\nIni butuh pemahaman atas metodologi di balik pengumpulan data tersebut.\n\nCompleteness (kelengkapan) — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap?\n\nData bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.\n\nQuality (kualitas struktur & dokumentasi) — apakah data mengikuti prinsip tidy data (Pertemuan 2)?\n\nApakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -511,7 +511,7 @@
     "href": "slides/pertemuan4.html#metadata-codebook-dan-data-inventory",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Metadata, codebook, dan data inventory",
-    "text": "Metadata, codebook, dan data inventory\n\n\nMetadata\n“Data tentang data” — siapa pembuatnya, kapan dibuat, format nilai yang diharapkan.\n\nData dictionary/codebook\nDokumen yang menjelaskan arti setiap kolom dan nilainya. Penting untuk kolom berkode singkat, mis. E1–E10 pada dataset Big Five kita.\n\nData inventory\nDaftar seluruh dataset yang dimiliki/dirilis suatu organisasi atau lembaga riset.\n\n\n\n\n\n\n\nImportant\n\n\nDataset psikometrik terbuka yang baik selalu menyertakan codebook. Kalau tidak ada codebook sama sekali, maka ini 🚩🚩🚩.",
+    "text": "Metadata, codebook, dan data inventory\n\n\nMetadata\n“Data tentang data” — siapa pembuatnya, kapan dibuat, format nilai yang diharapkan.\n\nData dictionary/codebook\nDokumen yang menjelaskan arti setiap kolom dan nilainya. Penting untuk kolom berkode singkat, mis. E1–E10 pada dataset Big Five kita.\n\nData inventory\nDaftar seluruh dataset yang dimiliki/dirilis suatu organisasi atau lembaga riset.\n\n\n\n\n\n\n\nDataset psikometrik terbuka yang baik selalu menyertakan codebook. Kalau tidak ada codebook sama sekali, maka ini 🚩🚩🚩.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -543,18 +543,6 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan4.html#aktivitas-mandiri-susun-checklist-verifikasi",
-    "href": "slides/pertemuan4.html#aktivitas-mandiri-susun-checklist-verifikasi",
-    "title": "Praktik Verifikasi dan Pembersihan Data",
-    "section": "🧩 Aktivitas mandiri: susun checklist verifikasi",
-    "text": "🧩 Aktivitas mandiri: susun checklist verifikasi\n\n\n\n\n\n\nKerjakan secara mandiri (10 menit)\n\n\nBayangkan Anda baru saja mengunduh dataset Big Five dari Open-Source Psychometrics Project. Susun checklist verifikasi singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.\nContoh: “Apakah ada codebook yang menjelaskan arti kolom E1–E10?”",
-    "crumbs": [
-      "oleh Rizqy Amelia Zein",
-      "Materi",
-      "4. Praktik Verifikasi dan Pembersihan Data"
-    ]
-  },
-  {
     "objectID": "slides/pertemuan4.html#daftar-masalah-yang-sering-muncul",
     "href": "slides/pertemuan4.html#daftar-masalah-yang-sering-muncul",
     "title": "Praktik Verifikasi dan Pembersihan Data",
@@ -571,7 +559,7 @@
     "href": "slides/pertemuan4.html#tiga-jenis-nilai-yang-bermasalah",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Tiga jenis nilai yang bermasalah",
-    "text": "Tiga jenis nilai yang bermasalah\n\nWild codes (nilai di luar rentang) — nilai yang berada di luar rentang yang valid. Contoh: skor 9 pada skala Likert 1–6; usia partisipan 350 tahun; “Laki-laki” dikode dengan berbagai macam, mis. 1, M, L, Pria dalam kolom yang sama.\nInconsistent values (nilai yang tidak koheren) — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. Contoh: usia 40 tahun tapi tahun lahir 2000 pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.\nImplausible values (nilai yang tidak masuk akal) — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. Contoh: skor IQ 250; penghasilan rumah tangga Rp1 triliun/bulan.\n\n\n\n\n\n\n\nKetiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. Wild codes paling mudah dicegah sejak desain kuesioner — batasi input yang bisa dimasukkan. Inconsistent dan implausible values baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap Verify.",
+    "text": "Tiga jenis nilai yang bermasalah\n\nWild codes (nilai di luar rentang) — nilai yang berada di luar rentang yang valid.\n\nContoh: skor 9 pada skala Likert 1–6; usia partisipan 350 tahun; “Laki-laki” dikode dengan berbagai macam, mis. 1, M, L, Pria dalam kolom yang sama.\n\n****Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.\n\nContoh: usia 40 tahun tapi tahun lahir 2000 pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.\n\nImplausible values (nilai yang tidak masuk akal) — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif.\n\nContoh: skor IQ 250; penghasilan rumah tangga Rp1 triliun/bulan.\n\n\n\n\n\n\n\n\nKetiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. Wild codes paling mudah dicegah sejak desain kuesioner dengan membatasi input yang bisa dimasukkan. Inconsistent dan implausible values baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap Verify.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -607,7 +595,7 @@
     "href": "slides/pertemuan4.html#missing-value",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Missing value",
-    "text": "Missing value\n\nTidak semua missing value dapat mengganggu proses analisis data.\n\nPolanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja.\n\nMissing completely at random (MCAR) — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun.\n\nContoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.\n\nMissing at random (MAR) — probabilitas hilangnya data berkaitan dengan variabel lain yang terekam di dataset, bukan dengan data itu sendiri.\n\nContoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang “kesulitan mengekspresikan emosi”, tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.\n\nNot missing at random (NMAR) — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri.\n\nContoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan “seberapa sering Anda mencontek?” sehingga paling berisiko menghasilkan bias.",
+    "text": "Missing value\nTidak semua missing value dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya:\n\nMissing completely at random (MCAR) — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun.\n\nContoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.\n\nMissing at random (MAR) — probabilitas hilangnya data berkaitan dengan variabel lain yang terekam di dataset, bukan dengan data itu sendiri.\n\nContoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang “kesulitan mengekspresikan emosi”, tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.\n\nNot missing at random (NMAR) — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri.\n\nContoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan “seberapa sering Anda mencontek?” sehingga paling berisiko menghasilkan bias.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -643,7 +631,7 @@
     "href": "slides/pertemuan4.html#alur-kerja-tiga-tahap-pembersihan-data",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Alur kerja: tiga tahap pembersihan data",
-    "text": "Alur kerja: tiga tahap pembersihan data\n\nScreening — mencari kasus/nilai yang bermasalah: wild codes, inconsistent values, pola missing value yang mencurigakan. Gunakan range checks, frequency counts (tabel frekuensi), dan inspeksi visual.\nDiagnosing — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?\nEditing — barulah di tahap ini data benar-benar dirapikan: tidying, editing konten, dan consolidation (tiga aktivitas di slide berikutnya).\n\n\n\n\n\n\n\nUrutannya penting\n\n\nJangan langsung “mengedit” sebelum screening dan diagnosing selesai. Memperbaiki nilai satu per satu tanpa memetakan skala masalahnya dulu berisiko membuat Anda melewatkan pola yang lebih besar — misalnya satu kolom yang seluruhnya salah kode.\n\n\n\n\n\n\n\n\n\nNote\n\n\nIstilah Editing di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (tidying, editing konten, consolidation) — jangan tertukar dengan “data editing” sebagai salah satu dari ketiganya.",
+    "text": "Alur kerja: tiga tahap pembersihan data\n\nScreening — mencari kasus/nilai yang bermasalah: wild codes, inconsistent values, pola missing value yang mencurigakan. Gunakan range checks, frequency counts (tabel frekuensi), dan inspeksi visual.\nDiagnosing — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?\nEditing — barulah di tahap ini data benar-benar dirapikan: tidying, editing konten, dan consolidation.\n\n\n\n\n\n\n\nUrutannya penting\n\n\nJangan langsung “mengedit” sebelum screening dan diagnosing selesai. Memperbaiki nilai satu per satu tanpa memetakan skala masalahnya dulu berisiko membuat Anda melewatkan pola yang lebih besar — misalnya satu kolom yang seluruhnya salah kode.\n\n\n\n\n\n\n\n\n\nIstilah Editing di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (tidying, editing konten, consolidation) — jangan tertukar dengan “data editing” sebagai salah satu dari ketiganya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -715,7 +703,31 @@
     "href": "slides/pertemuan4.html#mendokumentasikan-proses-pembersihan-data",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Mendokumentasikan proses pembersihan data",
-    "text": "Mendokumentasikan proses pembersihan data\n\nTentukan exclusion criteria sebelum mengambil data, bukan setelah melihat hasil analisis. Menentukannya belakangan termasuk questionable research practice.\nCatat setiap langkah di logbook (atau langsung di script R/Python): kasus yang dihapus dan alasannya, variabel yang dimodifikasi, nilai ekstrem yang ditemukan, keputusan atas missing value.\nDokumentasi ini akan melindungi Anda ingatan Anda yang terbatas.\n\nAnda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus enam bulan setelah mengambil keputusannya.\n\n\n\n\n\n\n\n\nContoh exclusion criteria\n\n\n“Kami akan mengeluarkan partisipan yang menyatakan datanya tidak boleh dipakai (item ‘use-me’), berusia di bawah 18 tahun, atau menjawab nilai yang identik untuk seluruh item (straight-lining) pada skala X.”\n\n\n\n\n\n\n\n\n\nContoh log singkat (bisa jadi tab tersendiri di spreadsheet, atau file .txt/.md terpisah)\n\n\n## Versi 1.1 (2025-02-20)\n- Menghapus 3 kasus dengan *missing value* &gt;50%\n- Memperbaiki koding jenis_kelamin (1=L, 2=P)\n\n## Versi 1.0 (2025-02-15)\n- Data cleaning awal\n- Mengedit wild codes pada variabel pendidikan",
+    "text": "Mendokumentasikan proses pembersihan data\n\nTentukan exclusion criteria sebelum mengambil data, bukan setelah melihat hasil analisis. Menentukannya belakangan termasuk questionable research practice.\nCatat setiap langkah di logbook (atau langsung di script R/Python): kasus yang dihapus dan alasannya, variabel yang dimodifikasi, nilai ekstrem yang ditemukan, keputusan atas missing value.\nDokumentasi ini akan melindungi Anda ingatan Anda yang terbatas.\n\nAnda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus enam bulan setelah mengambil keputusannya.\n\n\n\n\n\n\n\n\nContoh exclusion criteria\n\n\n“Kami akan mengeluarkan partisipan yang menyatakan datanya tidak boleh dipakai (item ‘use-me’), berusia di bawah 18 tahun, atau menjawab nilai yang identik untuk seluruh item (straight-lining) pada skala X.”",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "4. Praktik Verifikasi dan Pembersihan Data"
+    ]
+  },
+  {
+    "objectID": "slides/pertemuan4.html#mendokumentasikan-proses-pembersihan-data-1",
+    "href": "slides/pertemuan4.html#mendokumentasikan-proses-pembersihan-data-1",
+    "title": "Praktik Verifikasi dan Pembersihan Data",
+    "section": "Mendokumentasikan proses pembersihan data",
+    "text": "Mendokumentasikan proses pembersihan data\n\n\n\n\n\n\nContoh log singkat (bisa jadi tab tersendiri di spreadsheet, atau file .txt/.md terpisah)\n\n\n## Versi 1.1 (2025-02-20)\n- Menghapus 3 kasus dengan *missing value* &gt;50%\n- Memperbaiki koding jenis_kelamin (1=L, 2=P)\n\n## Versi 1.0 (2025-02-15)\n- Data cleaning awal\n- Mengedit wild codes pada variabel pendidikan",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "4. Praktik Verifikasi dan Pembersihan Data"
+    ]
+  },
+  {
+    "objectID": "slides/pertemuan4.html#aktivitas-mandiri-susun-checklist-verifikasi",
+    "href": "slides/pertemuan4.html#aktivitas-mandiri-susun-checklist-verifikasi",
+    "title": "Praktik Verifikasi dan Pembersihan Data",
+    "section": "🧩 Aktivitas mandiri: susun checklist verifikasi",
+    "text": "🧩 Aktivitas mandiri: susun checklist verifikasi\n\n\n\n\n\n\nKerjakan secara mandiri (10 menit)\n\n\nBayangkan Anda baru saja mengunduh dataset Big Five dari Open-Source Psychometrics Project. Susun checklist verifikasi singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.\nContoh: “Apakah ada codebook yang menjelaskan arti kolom E1–E10?”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1905,7 +1917,7 @@
     "href": "slides/pertemuan5.html#outline",
     "title": "Merencanakan Analisis Data",
     "section": "Outline",
-    "text": "Outline\n\nDari pertanyaan penelitian ke hipotesis\nMenyusun analysis plan — dan mengapa preregistration penting\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional\nSekilas jamovi sebagai pelengkap spreadsheet\nStudi kasus: menghitung skor skala dan membandingkan kelompok pada dataset Big Five\n2️⃣ aktivitas (mandiri & kelompok, salah satunya dinilai)\n\n\nIni salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.",
+    "text": "Outline\n\nMenurunkan pertanyaan penelitian menjadi hipotesis\nMenyusun analysis plan dan mengapa preregistration penting\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional\nSekilas jamovi sebagai pelengkap spreadsheet\nStudi kasus: menghitung skor skala dan membandingkan kelompok pada dataset Big Five\n2️⃣ aktivitas\n\n\nIni salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1917,7 +1929,7 @@
     "href": "slides/pertemuan5.html#kembali-ke-define",
     "title": "Merencanakan Analisis Data",
     "section": "Kembali ke Define",
-    "text": "Kembali ke Define\n\nKita sudah melewati Find, Get, Verify, dan Clean. Sebelum masuk ke Analyze, kita perlu kembali sejenak ke tahap paling awal Data Pipeline: Define.\nTanpa pertanyaan penelitian yang jelas, Anda hanya punya topik penelitian — dan berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.",
+    "text": "Kembali ke Define\n\nKita sudah melewati Find, Get, Verify, dan Clean. Sebelum masuk ke Analyze, kita perlu kembali sejenak ke tahap paling awal Data Pipeline: Define.\nTanpa pertanyaan penelitian yang jelas, Anda hanya punya topik penelitian dan ini berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1925,11 +1937,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#dari-tema-ke-pertanyaan-penelitian",
-    "href": "slides/pertemuan5.html#dari-tema-ke-pertanyaan-penelitian",
+    "objectID": "slides/pertemuan5.html#masalah-psikologissosial-vs.-pertanyaan-penelitian",
+    "href": "slides/pertemuan5.html#masalah-psikologissosial-vs.-pertanyaan-penelitian",
     "title": "Merencanakan Analisis Data",
-    "section": "Dari tema ke pertanyaan penelitian",
-    "text": "Dari tema ke pertanyaan penelitian\n\n\n\n\n\n\n\nTema\nPertanyaan penelitian\n\n\n\n\nBurnout akademik\nApakah beban tugas mingguan berkaitan dengan tingkat burnout pada mahasiswa magister?\n\n\nKesejahteraan psikologis\nApakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?\n\n\n\n\nPertanyaan yang presisi akan memberi tahu Anda data apa yang dibutuhkan. Bandingkan: “Apakah mahasiswa terpengaruh media sosial?” (terlalu kabur) vs. “Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?” (jelas variabel apa yang dicari).",
+    "section": "Masalah psikologis/sosial vs. pertanyaan penelitian",
+    "text": "Masalah psikologis/sosial vs. pertanyaan penelitian\n\n\n\n\n\n\n\nTema\nPertanyaan penelitian\n\n\n\n\nBurnout akademik\nApakah beban tugas mingguan berkaitan dengan tingkat burnout pada mahasiswa magister?\n\n\nKesejahteraan psikologis\nApakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?\n\n\n\n\nPertanyaan yang presisi dan spesifik akan memberi tahu Anda data apa yang dibutuhkan.\nBandingkan: “Apakah mahasiswa terpengaruh media sosial?” (terlalu kabur) vs. “Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?” (jelas variabel apa yang diteliti).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1941,19 +1953,7 @@
     "href": "slides/pertemuan5.html#merumuskan-hipotesis",
     "title": "Merencanakan Analisis Data",
     "section": "Merumuskan hipotesis",
-    "text": "Merumuskan hipotesis\n\n\n\n\n\n\nCiri hipotesis yang baik\n\n\nSederhana, ringkas, dan yang terpenting: dapat diuji — Anda harus bisa membuktikannya salah.\n\n\n\nHipotesis berfungsi ganda:\n\nMempertajam proyek Anda — menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.\nMenyusun narasi yang ingin Anda buktikan dengan data.\n\n\n\n\n\n\n\nContoh\n\n\nDari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: “Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”",
-    "crumbs": [
-      "oleh Rizqy Amelia Zein",
-      "Materi",
-      "5. Merencanakan Analisis Data"
-    ]
-  },
-  {
-    "objectID": "slides/pertemuan5.html#aktivitas-mandiri-dari-tema-ke-hipotesis",
-    "href": "slides/pertemuan5.html#aktivitas-mandiri-dari-tema-ke-hipotesis",
-    "title": "Merencanakan Analisis Data",
-    "section": "🧩 Aktivitas mandiri: dari tema ke hipotesis",
-    "text": "🧩 Aktivitas mandiri: dari tema ke hipotesis\n\n\n\n\n\n\nKerjakan sendiri (10 menit)\n\n\nGunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber data terbuka), atau topik lain yang Anda minati.\n\nTuliskan tema riset Anda dalam satu kalimat.\nPersempit menjadi satu pertanyaan penelitian yang presisi dan actionable.\nRumuskan satu hipotesis yang sederhana, ringkas, dan dapat diuji.\n\n\n\n\n\nIni latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya.",
+    "text": "Merumuskan hipotesis\n\n\n\n\n\n\nCiri hipotesis yang baik\n\n\nSederhana, ringkas, dan yang terpenting: dapat diuji. Artinya, Anda harus bisa membuktikannya salah (ingat prinsip falsifikasi).\n\n\n\nHipotesis berfungsi ganda:\n\nMempertajam proyek Anda — menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.\nMenyusun narasi yang ingin Anda buktikan dengan data.\n\n\n\n\n\n\n\nContoh\n\n\nDari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: “Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1965,7 +1965,7 @@
     "href": "slides/pertemuan5.html#apa-itu-analysis-plan",
     "title": "Merencanakan Analisis Data",
     "section": "Apa itu analysis plan?",
-    "text": "Apa itu analysis plan?\n\nAnalysis plan adalah rangkaian transformasi yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.\nDisusun setelah data dibersihkan — supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya, bukan sekadar deskripsi abstrak.\nTujuannya: siapa pun yang diberi data bersih dan analysis plan Anda harus bisa mereproduksi analisis Anda langkah demi langkah.",
+    "text": "Apa itu analysis plan?\n\nAnalysis plan adalah rangkaian transformasi yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.\nDisusun setelah data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya.\nTujuannya: siapa pun yang diberi data bersih dan analysis plan Anda harus bisa mereproduksi analisis Anda langkah demi langkah.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1977,7 +1977,7 @@
     "href": "slides/pertemuan5.html#contoh-analysis-plan",
     "title": "Merencanakan Analisis Data",
     "section": "Contoh analysis plan",
-    "text": "Contoh analysis plan\nUntuk hipotesis “beban tugas mingguan berkaitan dengan tingkat burnout”:\n\nHitung skor total SKOR_BURNOUT dari item-item skala burnout (AVERAGE()).\nKelompokkan responden berdasarkan BEBAN_TUGAS menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).\nUntuk kelompok “beban tinggi”, hitung rata-rata SKOR_BURNOUT.\nUntuk kelompok “beban rendah”, hitung rata-rata SKOR_BURNOUT.\nBandingkan kedua rata-rata tersebut.\n\n\n\n\n\n\n\nPenting diingat\n\n\nKalau Anda belum bisa menyusun analysis plan selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu. Yang penting: catat langkah yang berhasil begitu Anda menemukannya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.",
+    "text": "Contoh analysis plan\nUntuk hipotesis “beban tugas mingguan berkaitan dengan tingkat burnout”:\n\nHitung skor total SKOR_BURNOUT dari item-item skala burnout (AVERAGE()).\nKelompokkan responden berdasarkan BEBAN_TUGAS menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).\nUntuk kelompok “beban tinggi”, hitung rata-rata SKOR_BURNOUT.\nUntuk kelompok “beban rendah”, hitung rata-rata SKOR_BURNOUT.\nBandingkan kedua rata-rata tersebut.\n\n\n\n\n\n\n\nKalau Anda belum bisa menyusun analysis plan selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu.\nYang penting: catat langkah yang berhasil begitu Anda menyusunnya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1985,11 +1985,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#kenapa-analysis-plan-bisa-dikuatkan-lagi-preregistration",
-    "href": "slides/pertemuan5.html#kenapa-analysis-plan-bisa-dikuatkan-lagi-preregistration",
+    "objectID": "slides/pertemuan5.html#analysis-plan-dan-preregistration",
+    "href": "slides/pertemuan5.html#analysis-plan-dan-preregistration",
     "title": "Merencanakan Analisis Data",
-    "section": "Kenapa analysis plan bisa dikuatkan lagi: preregistration",
-    "text": "Kenapa analysis plan bisa dikuatkan lagi: preregistration\n\nAnalysis plan yang Anda tulis sebelum melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar preregistration — mendaftarkan hipotesis dan rencana analisis secara terbuka, idealnya bahkan sebelum data dikumpulkan sama sekali.\nPendaftarannya biasa dilakukan di platform terbuka seperti Open Science Framework (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya — jadi ada bukti tertulis tentang apa yang Anda rencanakan sebelum tahu hasilnya.\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nPreregistration adalah cara paling tegas untuk membedakan penelitian konfirmatori (menguji hipotesis yang sudah dirumuskan sejak awal) dari penelitian eksploratif (menemukan pola baru setelah melihat data) — keduanya sah-sah saja, tapi harus jujur diberi label yang tepat, bukan dicampuradukkan.\n\n\n\n\nTanpa rencana yang terdokumentasi lebih dulu, sangat mudah — bahkan tanpa disadari — untuk mengubah hipotesis atau cara analisis Anda setelah melihat hasilnya, supaya “cocok” dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah bernama p-hacking dan HARKing.",
+    "section": "Analysis plan dan preregistration",
+    "text": "Analysis plan dan preregistration\n\nAnalysis plan yang Anda tulis sebelum melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar preregistration.\n\nArtinya, mendaftarkan hipotesis dan rencana analisis secara terbuka, idealnya bahkan sebelum data dikumpulkan sama sekali.\n\nPendaftarannya biasa dilakukan di platform terbuka seperti Open Science Framework (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya. Jadi, ada bukti tertulis tentang apa yang Anda rencanakan sebelum tahu hasilnya.\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nPreregistration adalah cara yang paling umum digunakan untuk membedakan penelitian konfirmatori/hypothesis testing (menguji hipotesis yang sudah dirumuskan sejak awal) dari penelitian eksploratif/hypothesis generating (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.\n\n\n\n\nTanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadari, untuk mengubah hipotesis atau cara analisis Anda setelah melihat hasilnya, supaya “cocok” dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah ini bernama p-hacking dan HARKing.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2001,7 +2001,7 @@
     "href": "slides/pertemuan5.html#tiga-kategori-teknik-analisis",
     "title": "Merencanakan Analisis Data",
     "section": "Tiga kategori teknik analisis",
-    "text": "Tiga kategori teknik analisis\n\n\nDeskriptif\nMenjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.\n\nKomparatif\nMembandingkan nilai suatu variabel antar kelompok (mis. skor Extraversion antara laki-laki dan perempuan).\n\nKorelasional\nMelihat hubungan antara dua variabel atau lebih (mis. apakah Conscientiousness berkaitan dengan usia).\n\n\n\n\n\n\n\nNote\n\n\nAda kategori keempat yang tidak dibahas mendalam di mata kuliah ini: analisis prediktif, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.",
+    "text": "Tiga kategori teknik analisis\n\n\nDeskriptif\nMenjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.\n\nKomparatif\nMembandingkan nilai suatu variabel antar kelompok (mis. skor Extraversion antara laki-laki dan perempuan).\n\nKorelasional\nMelihat hubungan antara dua variabel atau lebih (mis. apakah Conscientiousness berkaitan dengan usia).\n\n\n\n\n\n\n\nAda kategori keempat yang tidak dibahas mendalam di mata kuliah ini: analisis prediktif, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2033,11 +2033,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#dua-pilihan-populer",
-    "href": "slides/pertemuan5.html#dua-pilihan-populer",
+    "objectID": "slides/pertemuan5.html#dua-pilihan-yang-paling-populer",
+    "href": "slides/pertemuan5.html#dua-pilihan-yang-paling-populer",
     "title": "Merencanakan Analisis Data",
-    "section": "Dua pilihan populer",
-    "text": "Dua pilihan populer\n\n\njamovi / JASP\n\nGratis, antarmuka point-and-click — tidak perlu menulis kode.\nBisa membaca langsung berkas .sav, .csv, .xlsx.\nTitik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.\n\n\n\n\nBerbasis kode/script — learning curvenya lebih curam di awal.\nAnalisisnya sepenuhnya reproducible: script yang sama (umumnya) menghasilkan hasil yang sama.\nMateri presentasi mata kuliah ini sendiri dibuat dengan  + Quarto.\n\n\n\n\n\n\n\n\nNote\n\n\nMata kuliah ini tidak mengajarkan jamovi/ secara mendalam — spreadsheet tetap alat utama kita. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.",
+    "section": "Dua pilihan yang paling populer",
+    "text": "Dua pilihan yang paling populer\n\n\njamovi/JASP\n\nGratis, antarmuka point-and-click — tidak perlu menulis kode.\nBisa membaca langsung berkas .sav, .csv, .xlsx.\nTitik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.\n\n\n\n\nBerbasis kode/script — learning curvenya lebih curam di awal.\nAnalisisnya sepenuhnya reproducible: script yang sama (umumnya) menghasilkan hasil yang sama.\nMateri presentasi mata kuliah ini sendiri dibuat dengan  + Quarto.\n\n\n\n\n\n\n\n\nMata kuliah ini tidak mengajarkan jamovi/ secara mendalam. Spreadsheet tetap alat utama yang digunakan untuk MK ini. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2045,11 +2045,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#menyusun-analysis-plan-untuk-dataset-kita",
-    "href": "slides/pertemuan5.html#menyusun-analysis-plan-untuk-dataset-kita",
+    "objectID": "slides/pertemuan5.html#aktivitas-mandiri-menyusun-analysis-plan-untuk-dataset-contoh-dikumpulkan-untuk-nilai-kuis",
+    "href": "slides/pertemuan5.html#aktivitas-mandiri-menyusun-analysis-plan-untuk-dataset-contoh-dikumpulkan-untuk-nilai-kuis",
     "title": "Merencanakan Analisis Data",
-    "section": "Menyusun analysis plan untuk dataset kita",
-    "text": "Menyusun analysis plan untuk dataset kita\nMisalkan pertanyaan penelitian Anda: “Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”\n\nHitung skor_extraversion per partisipan (AVERAGE(E1:E10), setelah item dibalik sesuai kebutuhan).\nBuat pivot table: Rows = gender, Values = AVERAGE(skor_extraversion).\nBandingkan rata-rata antar kategori gender.\n(Opsional, di luar cakupan mata kuliah ini) Uji signifikansi perbedaan tersebut dengan jamovi/JASP.",
+    "section": "🧩 Aktivitas mandiri: Menyusun analysis plan untuk dataset contoh (dikumpulkan untuk nilai kuis)",
+    "text": "🧩 Aktivitas mandiri: Menyusun analysis plan untuk dataset contoh (dikumpulkan untuk nilai kuis)\nMisalkan pertanyaan penelitian Anda: “Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”\n\nHitung skor_extraversion per partisipan (AVERAGE(E1:E10), setelah item dibalik sesuai kebutuhan).\nBuat pivot table: Rows = gender, Values = AVERAGE(skor_extraversion).\nBandingkan rata-rata antar kategori gender.\nUji perbedaan rata-rata tersebut di MS Excel dengan fungsi T.TEST()\n\n\n\n\n\n\n\nKumpulkan file Excel yang digunakan untuk analisis di Psyche. Akan dinilai sebagai nilai kuis.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2057,11 +2057,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#aktivitas-kelompok-dinilai-susun-analysis-plan-anda-sendiri",
-    "href": "slides/pertemuan5.html#aktivitas-kelompok-dinilai-susun-analysis-plan-anda-sendiri",
+    "objectID": "slides/pertemuan5.html#aktivitas-mandiri-susun-analysis-plan-anda-sendiri",
+    "href": "slides/pertemuan5.html#aktivitas-mandiri-susun-analysis-plan-anda-sendiri",
     "title": "Merencanakan Analisis Data",
-    "section": "🧩 Aktivitas kelompok (dinilai): susun analysis plan Anda sendiri",
-    "text": "🧩 Aktivitas kelompok (dinilai): susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum\n\n\nMenggunakan dataset Big Five, kelompok Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.\n\n\n\n\n\nIni aktivitas yang dinilai (kriteria “Penguasaan Materi”). Berkeliling ke tiap kelompok, dan pastikan mereka membedakan dengan jelas antara pertanyaan deskriptif (“berapa rata-rata skor X?”) dan komparatif (“apakah skor X berbeda antar kelompok Y?”).",
+    "section": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri",
+    "text": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum\n\n\nMenggunakan dataset Big Five, Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2073,7 +2073,7 @@
     "href": "slides/pertemuan5.html#kesimpulan-pertemuan-5",
     "title": "Merencanakan Analisis Data",
     "section": "Kesimpulan Pertemuan 5",
-    "text": "Kesimpulan Pertemuan 5\n\nSebelum menganalisis, kembali ke Define: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.\nAnalysis plan adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda reproducible — menuliskannya sebelum melihat hasil adalah inti dari preregistration, dan membantu membedakan penelitian konfirmatori dari eksploratif secara jujur.\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional — pivot table adalah alat serbaguna untuk ketiganya.\nUrutan yang benar: bersihkan dulu (termasuk membalik item reverse-scored), baru hitung skor skala.",
+    "text": "Kesimpulan Pertemuan 5\n\nSebelum menganalisis, kembali ke Define: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.\nAnalysis plan adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda reproducible — menuliskannya sebelum melihat hasil adalah inti dari preregistration, dan membantu membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional — pivot table adalah alat serbaguna untuk ketiganya.\nUrutan yang benar: bersihkan dulu (termasuk membalik item reverse-scored), baru hitung skor skala.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2109,7 +2109,7 @@
     "href": "slides/pertemuan7.html#outline",
     "title": "Menyajikan Data",
     "section": "Outline",
-    "text": "Outline\n\nPresenting vs. visualizing\nMemilih jenis data dan tugas visualisasi yang tepat\nEnam prinsip storytelling with data (Knaflic, 2021)\nStudi kasus: memvisualisasikan dataset Big Five\nAlat bantu: spreadsheet, Tableau/Datawrapper, Canva\n2️⃣ aktivitas (kelompok & mandiri — mempersiapkan visualisasi UTS Anda)\n\n\nPertemuan terakhir sebelum UTS (Pertemuan 8) — tekankan sejak awal bahwa keterampilan hari ini langsung dipakai untuk deliverable UTS: laporan singkat + 1 visualisasi.",
+    "text": "Outline\n\nPresenting vs. visualizing\nMemilih jenis data dan tugas visualisasi yang tepat\nEnam prinsip storytelling with data (Knaflic, 2021)\nStudi kasus: memvisualisasikan dataset Big Five\nAlat bantu: spreadsheet, Tableau/Datawrapper, Canva\n2️⃣ aktivitas mandiri",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2117,11 +2117,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#pertanyaan-yang-salah-untuk-dimulai",
-    "href": "slides/pertemuan7.html#pertanyaan-yang-salah-untuk-dimulai",
+    "objectID": "slides/pertemuan7.html#point-of-entry",
+    "href": "slides/pertemuan7.html#point-of-entry",
     "title": "Menyajikan Data",
-    "section": "Pertanyaan yang salah untuk dimulai",
-    "text": "Pertanyaan yang salah untuk dimulai\n\n\n\n\n\n\nImportant\n\n\nPertanyaan pertama yang akan kita selesaikan bukan “bagaimana cara memvisualisasikan data ini?” — melainkan “apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?”\n\n\n\n\nParameter kunci penyajian data adalah audiens dan pesan, bukan jenis grafik.\nBagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.\nItulah kenapa judul pertemuan ini “Menyajikan Data”, bukan “Memvisualisasikan Data”: visualisasi hanyalah salah satu alat komunikasi data, bukan tujuan akhirnya.",
+    "section": "Point of entry",
+    "text": "Point of entry\n\n\n\n\n\n\nPertanyaan pertama yang akan kita selesaikan bukan “bagaimana cara memvisualisasikan temuan dari data ini?”, melainkan “apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?”\n\n\n\n\nParameter kunci penyajian data adalah audiens dan pesan.\nBagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.\nItulah kenapa judul pertemuan ini “Menyajikan Data”, bukan “Memvisualisasikan Data” karena visualisasi hanyalah salah satu alat komunikasi data, tetapi bukan tujuan akhirnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2133,7 +2133,7 @@
     "href": "slides/pertemuan7.html#data-visualization-vs.-infografis",
     "title": "Menyajikan Data",
     "section": "Data visualization vs. infografis",
-    "text": "Data visualization vs. infografis\n\n\nData visualization\n\nTerikat erat dengan data yang mendasarinya.\nBisa interaktif dan bereaksi terhadap perubahan data.\nJumlah format yang valid terbatas — harus tetap merepresentasikan data secara jujur.\nLihat katalognya di sini (DataViz Catalogue).\n\n\nInfografis\n\n“Grafik informasi” — menyajikan cerita berbasis fakta secara visual.\nSering memuat visualisasi data, tapi tidak terikat ketat pada data mentahnya.\nLebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi umum (bukan teknis).\nDapat menjadi produk Jurnalistik Data.\n\nKompas\nTempo\nKataData, Contohnya.",
+    "text": "Data visualization vs. infografis\n\n\nData visualization\n\nTerikat erat dengan data yang mendasarinya.\nBisa interaktif dan bereaksi terhadap perubahan data.\nJumlah format yang valid terbatas, tetapi harus tetap merepresentasikan data secara transparan.\nLihat katalognya di sini (DataViz Catalogue).\n\n\nInfografis\n\n“Grafik informasi” — menyajikan cerita berbasis fakta secara visual.\nSering memuat visualisasi data, tapi tidak terikat ketat pada data mentahnya.\nLebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi umum (bukan teknis).\nDapat menjadi produk Jurnalistik Data.\n\nKompas\nTempo\nKataData, Contohnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2153,11 +2153,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#kategorikal-vs.-continuum-sekali-lagi",
-    "href": "slides/pertemuan7.html#kategorikal-vs.-continuum-sekali-lagi",
+    "objectID": "slides/pertemuan7.html#kategorikal-vs.-continuum",
+    "href": "slides/pertemuan7.html#kategorikal-vs.-continuum",
     "title": "Menyajikan Data",
-    "section": "Kategorikal vs. continuum (sekali lagi)",
-    "text": "Kategorikal vs. continuum (sekali lagi)\nIngat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan pilihan grafik Anda.\n\nData kategorikal (mis. gender, kelompok skor) — cocok untuk bar chart, pie chart. Tapi grafik butuh minimal satu variabel continuum untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.\nData continuum (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada scatterplot atau histogram.\nData continuum bisa ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang) — tapi tidak sebaliknya.\nAnda bisa memanfaatkan ChartChooser untuk menentukan grafik apa yang sesuai dengan tujuan dan jenis data Anda.",
+    "section": "Kategorikal vs. continuum",
+    "text": "Kategorikal vs. continuum\nIngat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan pilihan grafik Anda.\n\nData kategorikal (mis. gender, kelompok skor) — cocok untuk bar chart, pie chart. Tapi grafik butuh minimal satu variabel continuum untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.\nData continuum (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada scatterplot atau histogram.\nData continuum bisa ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang), tapi tidak berlaku sebaliknya.\nAnda bisa memanfaatkan ChartChooser untuk menentukan grafik apa yang sesuai dengan tujuan dan jenis data Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2181,7 +2181,7 @@
     "href": "slides/pertemuan7.html#ragam-tujuan-visualisasi-dan-grafiknya",
     "title": "Menyajikan Data",
     "section": "Ragam tujuan visualisasi dan grafiknya",
-    "text": "Ragam tujuan visualisasi dan grafiknya\n\nPerbandingan → bar chart\nBagian-dari-keseluruhan → pie chart, stacked bar chart\nDistribusi → histogram, box plot\nHubungan (antara dua variabel kontinu) → scatterplot\nData dari waktu ke waktu → line chart\nLokasi → peta\n\n\n\n\n\n\n\nTip\n\n\nTidak ada daftar tugas visualisasi yang baku dan lengkap. satu grafik bisa memenuhi lebih dari satu tujuan sekaligus. Yang penting: rumuskan tujuannya dulu, baru pilih grafiknya, bukan sebaliknya.",
+    "text": "Ragam tujuan visualisasi dan grafiknya\n\nPerbandingan → bar chart\nBagian-dari-keseluruhan → pie chart, stacked bar chart\nDistribusi → histogram, box plot\nHubungan (antara dua variabel kontinu) → scatterplot\nData dari waktu ke waktu → line chart\nLokasi → peta\n\n\n\n\n\n\n\nTidak ada daftar jenis visualisasi data yang lengkap. Satu grafik bisa saja memenuhi lebih dari satu tujuan sekaligus. Yang penting: rumuskan tujuannya dulu, baru pilih grafiknya, bukan sebaliknya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2204,8 +2204,8 @@
     "objectID": "slides/pertemuan7.html#pahami-konteksnya",
     "href": "slides/pertemuan7.html#pahami-konteksnya",
     "title": "Menyajikan Data",
-    "section": "1. Pahami konteksnya",
-    "text": "1. Pahami konteksnya\n\nSiapa audiens Anda? Apa yang sudah mereka tahu? Tindakan/pemahaman apa yang Anda ingin mereka dapatkan?\nIni gaung langsung dari pembahasan “tiga jenis audiens” di Pertemuan 6. Konteks menentukan segalanya, sebelum Anda menyentuh satu grafik pun.",
+    "section": "1️⃣ Pahami konteksnya",
+    "text": "1️⃣ Pahami konteksnya\n\nSiapa audiens Anda? Apa yang sudah mereka tahu? Tindakan/pemahaman apa yang Anda ingin mereka dapatkan?\nIni kelanjutan langsung dari pembahasan “tiga jenis audiens” di Pertemuan 6.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2216,8 +2216,8 @@
     "objectID": "slides/pertemuan7.html#pilih-visual-yang-tepat",
     "href": "slides/pertemuan7.html#pilih-visual-yang-tepat",
     "title": "Menyajikan Data",
-    "section": "2. Pilih visual yang tepat",
-    "text": "2. Pilih visual yang tepat\nSudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat — jangan biarkan perangkat lunak “menebak” untuk Anda, karena ia tidak tahu audiens dan konteks proyek Anda.",
+    "section": "2️⃣ Pilih visual yang tepat",
+    "text": "2️⃣ Pilih visual yang tepat\nSudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak “menebak” kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2228,8 +2228,8 @@
     "objectID": "slides/pertemuan7.html#singkirkan-kekacauan-clutter",
     "href": "slides/pertemuan7.html#singkirkan-kekacauan-clutter",
     "title": "Menyajikan Data",
-    "section": "3. Singkirkan kekacauan (clutter)",
-    "text": "3. Singkirkan kekacauan (clutter)\n\nClutter = elemen visual yang tidak menambah informasi, tapi membebani mata audiens: gridlines tebal, efek 3D, terlalu banyak warna, border berlebihan.\nAturan praktis: kalau menghapus sebuah elemen tidak mengurangi informasi yang tersampaikan, hapus saja.",
+    "section": "3️⃣ Singkirkan kekacauan (clutter)",
+    "text": "3️⃣ Singkirkan kekacauan (clutter)\n\nClutter = elemen visual yang tidak menambah informasi, tapi membebani mata audiens: gridlines tebal, efek 3D, terlalu banyak warna, border berlebihan.\nAturan praktis: kalau menghapus sebuah elemen tidak mengurangi informasi yang tersampaikan, hapus saja.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2240,8 +2240,8 @@
     "objectID": "slides/pertemuan7.html#arahkan-perhatian-audiens",
     "href": "slides/pertemuan7.html#arahkan-perhatian-audiens",
     "title": "Menyajikan Data",
-    "section": "4. Arahkan perhatian audiens",
-    "text": "4. Arahkan perhatian audiens\n\nMata manusia tertarik secara otomatis pada elemen tertentu (warna kontras, ukuran lebih besar, posisi) — inilah yang disebut preattentive attributes.\nGunakan ini secara sengaja: beri warna berbeda pada satu batang yang ingin Anda tonjolkan, sementara batang lain tetap abu-abu netral.",
+    "section": "4️⃣ Arahkan perhatian audiens",
+    "text": "4️⃣ Arahkan perhatian audiens\n\nMata manusia tertarik secara otomatis pada elemen tertentu (warna kontras, ukuran lebih besar, posisi) — inilah yang disebut preattentive attributes.\nGunakan ini secara sengaja: beri warna berbeda pada satu batang yang ingin Anda tonjolkan, sementara batang lain tetap abu-abu netral.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2252,8 +2252,8 @@
     "objectID": "slides/pertemuan7.html#berpikir-seperti-desainer",
     "href": "slides/pertemuan7.html#berpikir-seperti-desainer",
     "title": "Menyajikan Data",
-    "section": "5. Berpikir seperti desainer",
-    "text": "5. Berpikir seperti desainer\n\nDesain yang baik bukan cuma soal estetika — tapi soal fungsi: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses (termasuk untuk audiens dengan keterbatasan penglihatan warna)?\nPrinsip ini menjembatani ke elemen “desain” yang kita bahas di awal pertemuan.",
+    "section": "5️⃣ Berpikir seperti desainer",
+    "text": "5️⃣ Berpikir seperti desainer\n\nDesain yang baik bukan cuma soal estetika, tetapi soal fungsi: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses (termasuk untuk audiens dengan keterbatasan penglihatan warna)?\nPrinsip ini menjembatani ke elemen “desain” yang kita bahas di awal pertemuan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2264,8 +2264,8 @@
     "objectID": "slides/pertemuan7.html#ceritakan-sebuah-kisah",
     "href": "slides/pertemuan7.html#ceritakan-sebuah-kisah",
     "title": "Menyajikan Data",
-    "section": "6. Ceritakan sebuah kisah",
-    "text": "6. Ceritakan sebuah kisah\n\n\n\n\n\n\nImportant\n\n\nData tanpa narasi hanyalah angka. Visualisasi yang baik punya alur: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi — persis seperti cerita yang baik pada umumnya.\n\n\n\n\nIni menyambung ke apa yang sudah kita bahas Pertemuan 6: hedging language menjaga kejujuran narasi Anda; prinsip ini memastikan narasi itu juga menarik dan mudah diingat.",
+    "section": "6️⃣ Ceritakan sebuah kisah",
+    "text": "6️⃣ Ceritakan sebuah kisah\n\n\n\n\n\n\nImportant\n\n\nData tanpa narasi hanyalah angka. Visualisasi yang baik punya alur: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi, persis seperti cerita yang baik pada umumnya.\n\n\n\n\nIni menyambung ke apa yang sudah kita bahas Pertemuan 6: hedging language menjaga transparansi narasi Anda; prinsip ini memastikan narasi itu juga menarik dan mudah diingat.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2273,11 +2273,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#merumuskan-tugas-visualisasi-kita",
-    "href": "slides/pertemuan7.html#merumuskan-tugas-visualisasi-kita",
+    "objectID": "slides/pertemuan7.html#merumuskan-tugas-visualisasi",
+    "href": "slides/pertemuan7.html#merumuskan-tugas-visualisasi",
     "title": "Menyajikan Data",
-    "section": "Merumuskan tugas visualisasi kita",
-    "text": "Merumuskan tugas visualisasi kita\nKita hitung skor Extraversion (setelah item reverse-scored dibalik, seperti prosedur Pertemuan 4–5) dari 19.511 partisipan dalam dataset kita, dipilah berdasarkan gender.\n\n“Saya ingin menunjukkan” perbandingan rata-rata skor Extraversion antara dua kategori gender → tugasnya adalah perbandingan → kandidat grafik: bar chart sederhana, dua batang.\n\n\n\n\n\n\n\nNote\n\n\nKedua grafik pada slide berikutnya dibuat dengan ggplot2 (R) langsung dari data/data.csv — bukan angka rekaan. Skripnya ada di slides/libs/make_pertemuan7_charts.R kalau Anda ingin melihat/menjalankannya sendiri.",
+    "section": "Merumuskan tugas visualisasi",
+    "text": "Merumuskan tugas visualisasi\nKita hitung skor Extraversion (setelah item reverse-scored dibalik, seperti prosedur Pertemuan 4–5) dari 19.511 partisipan dalam dataset kita, dipilah berdasarkan gender.\n\n“Saya ingin menunjukkan” perbandingan rata-rata skor Extraversion antara dua kategori gender → tugasnya adalah perbandingan → kandidat grafik: bar chart sederhana, dua batang.\n\n\n\n\n\n\n\nKedua grafik pada slide berikutnya dibuat dengan ggplot2 (R) langsung dari data/data.csv. Skripnya ada di slides/libs/make_pertemuan7_charts.R kalau Anda ingin melihat/menjalankannya sendiri.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2289,7 +2289,7 @@
     "href": "slides/pertemuan7.html#sebelum-melanggar-hampir-semua-prinsip-storytelling",
     "title": "Menyajikan Data",
     "section": "Sebelum: melanggar hampir semua prinsip Storytelling",
-    "text": "Sebelum: melanggar hampir semua prinsip Storytelling\n\n\nJudul generik (“Chart 1”) — tidak ada takeaway.\nGridlines penuh dan legenda yang sebenarnya tidak perlu (label sumbu-x sudah cukup).\nSumbu-y dipotong mulai dari 2,85, bukan dari 0 — secara visual ini melebih-lebihkan perbedaan kecil menjadi terlihat dramatis.\n\n\n\n\n\n\n\nCaution\n\n\nSumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil terlihat besar — persis kebalikan dari hedging language yang kita pelajari Pertemuan 6.",
+    "text": "Sebelum: melanggar hampir semua prinsip Storytelling\n\n\n\n\n\n\n\n\n\nJudul generik (“Chart 1”) — tidak ada takeaway.\nGridlines penuh dan legenda yang sebenarnya tidak perlu (label sumbu-x sudah cukup).\nSumbu-y dipotong mulai dari 2,85, bukan dari 0 — secara visual ini melebih-lebihkan perbedaan kecil menjadi terlihat dramatis.\n\n\n\n\n\n\n\n\nSumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil terlihat besar — persis kebalikan dari hedging language yang kita pelajari Pertemuan 6.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2301,7 +2301,7 @@
     "href": "slides/pertemuan7.html#sesudah-6-prinsip-diterapkan",
     "title": "Menyajikan Data",
     "section": "Sesudah: 6️⃣ prinsip diterapkan",
-    "text": "Sesudah: 6️⃣ prinsip diterapkan\n\n\nJudul langsung menyampaikan takeaway (prinsip 6), bukan sekadar label grafik.\nGridlines dan legenda dihapus (prinsip 3); satu warna aksen menonjolkan kelompok yang ingin difokuskan (prinsip 4).\nSumbu-y penuh (1–5, skala Likert aslinya) — perbedaannya terlihat sekecil apa adanya.\nRentang kepercayaan 95% disertakan (prinsip Pertemuan 6) — nyaris tak terlihat di grafik ini karena n yang sangat besar membuatnya sangat sempit.\n\n\n\n\n\n\n\nPoin penting: signifikan secara statistik ≠ besar secara praktis\n\n\nDengan n sebesar ini, CI kedua kelompok tidak tumpang tindih — jadi secara statistik perbedaannya signifikan. Tapi besarnya cuma ~0.10 poin pada skala 1–5. Judul grafik sengaja memakai hedging language (“sedikit lebih tinggi”), bukan klaim yang bombastis. Dalam konteks ini, presenting dan hedging bekerja bersama.",
+    "text": "Sesudah: 6️⃣ prinsip diterapkan\n\n\n\n\n\n\n\n\n\nJudul langsung menyampaikan takeaway (prinsip 6).\nGridlines dan legenda dihapus (prinsip 3); satu warna aksen menonjolkan kelompok yang ingin difokuskan (prinsip 4).\nSumbu-y penuh (1–5, skala Likert aslinya) — perbedaannya terlihat sekecil apa adanya.\nRentang kepercayaan 95% disertakan (prinsip Pertemuan 6) — nyaris tak terlihat di grafik ini karena n yang sangat besar membuatnya sangat sempit.\n\n\n\n\n\n\n\n\nSignifikan secara statistik ≠ besar secara praktis\n\n\nDengan n sebesar ini, CI kedua kelompok tidak tumpang tindih — jadi secara statistik perbedaannya signifikan. Tapi besarnya cuma ~0.10 poin pada skala 1–5.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2313,7 +2313,7 @@
     "href": "slides/pertemuan7.html#angka-di-balik-grafiknya",
     "title": "Menyajikan Data",
     "section": "Angka di balik grafiknya",
-    "text": "Angka di balik grafiknya\nGrafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya APA) tetap butuh tabel angka lengkap:\n\n\n\nGender\nn\nM\nSD\n95% CI\n\n\n\n\nLaki-laki\n7,583\n2.95\n0.92\n[2.93, 2.97]\n\n\nPerempuan\n11,928\n3.05\n0.92\n[3.04, 3.07]\n\n\n\n\n\n\n\n\n\nNote\n\n\nPerhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (data/data.csv, dataset Big Five) sudah disebutkan pada slide sebelumnya.",
+    "text": "Angka di balik grafiknya\nGrafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya APA) tetap butuh tabel angka lengkap:\n\n\n\nGender\nn\nM\nSD\n95% CI\n\n\n\n\nLaki-laki\n7,583\n2.95\n0.92\n[2.93, 2.97]\n\n\nPerempuan\n11,928\n3.05\n0.92\n[3.04, 3.07]\n\n\n\n\n\n\n\n\n\nPerhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (data/data.csv, dataset Big Five) sudah disebutkan pada slide sebelumnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2321,11 +2321,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#aktivitas-kelompok-kritik-sebuah-visualisasi",
-    "href": "slides/pertemuan7.html#aktivitas-kelompok-kritik-sebuah-visualisasi",
+    "objectID": "slides/pertemuan7.html#aktivitas-mandiri",
+    "href": "slides/pertemuan7.html#aktivitas-mandiri",
     "title": "Menyajikan Data",
-    "section": "🧩 Aktivitas kelompok: kritik sebuah visualisasi",
-    "text": "🧩 Aktivitas kelompok: kritik sebuah visualisasi\n\n\n\n\n\n\nKerjakan berkelompok (15 menit)\n\n\nPerhatikan grafik berikut ini. Terapkan enam prinsip storytelling with data untuk mengkritiknya:\n\nMenurut Anda, apa konteks/audiens yang dituju grafik ini? Apakah pilihan visualnya cocok?\nIdentifikasi elemen yang termasuk clutter — apa yang bisa dihapus tanpa mengurangi informasi?\nApakah perhatian audiens diarahkan dengan jelas ke bagian terpenting? Bagaimana caranya (atau kenapa tidak)?\nApakah ada “kalimat kunci” atau takeaway yang bisa langsung dipahami tanpa membaca teks lain?\n\n\n\n\n\nDua grafik di atas (before/after) sudah bisa langsung dipakai sebagai bahan diskusi kelompok — tidak perlu menyiapkan contoh eksternal lagi. Kalau ada waktu lebih, bawa juga satu contoh dari jurnal/media untuk variasi.",
+    "section": "🧩 Aktivitas mandiri",
+    "text": "🧩 Aktivitas mandiri\n\n\n\n\n\n\nPerhatikan grafik berikut ini. Terapkan enam prinsip storytelling with data untuk mengkritiknya:\n\nMenurut Anda, apa konteks/audiens yang dituju grafik ini? Apakah pilihan visualnya cocok?\nIdentifikasi elemen yang termasuk clutter — apa yang bisa dihapus tanpa mengurangi informasi?\nApakah perhatian audiens diarahkan dengan jelas ke bagian terpenting? Bagaimana caranya (atau kenapa tidak)?\nApakah ada “kalimat kunci” atau takeaway yang bisa langsung dipahami tanpa membaca teks lain?\n\n\n\n\n\nDua grafik di atas (before/after) sudah bisa langsung dipakai sebagai bahan diskusi kelompok — tidak perlu menyiapkan contoh eksternal lagi. Kalau ada waktu lebih, bawa juga satu contoh dari jurnal/media untuk variasi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2337,7 +2337,7 @@
     "href": "slides/pertemuan7.html#memilih-alat-sesuai-audiens-dan-tujuan",
     "title": "Menyajikan Data",
     "section": "Memilih alat sesuai audiens dan tujuan",
-    "text": "Memilih alat sesuai audiens dan tujuan\n\nGrafik spreadsheet (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.\nTableau, Datawrapper, Infogram — untuk visualisasi interaktif, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, dashboard).\nCanva — untuk infografis, saat pesan dan desain lebih diutamakan daripada presisi data teknis; ini akan jadi alat utama Anda untuk infografis UAS.\n\n\n\n\n\n\n\nNote\n\n\nKembali ke pembahasan “tiga jenis audiens” (Pertemuan 6): untuk komunitas akademik serumpun → grafik spreadsheet dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Alat mengikuti audiens, bukan sebaliknya.",
+    "text": "Memilih alat sesuai audiens dan tujuan\n\nGrafik spreadsheet (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.\nTableau, Datawrapper, Infogram — untuk visualisasi interaktif, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, dashboard).\nCanva — untuk infografis, saat pesan dan desain lebih diutamakan; ini bisa jadi alat utama Anda untuk infografis UAS.\n\n\n\n\n\n\n\nKembali ke pembahasan “tiga jenis audiens” (Pertemuan 6): untuk komunitas akademik serumpun → grafik spreadsheet dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Jadi, alat mengikuti audiens, bukan sebaliknya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

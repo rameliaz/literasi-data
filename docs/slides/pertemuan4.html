@@ -158,60 +158,54 @@ Rizqy Amelia Zein
 <h2><em>Outline</em></h2>
 <ul>
 <li class="fragment">Mengapa tahap <strong><em>Verify</em></strong> sering dilewatkan</li>
-<li class="fragment">Tiga kriteria data yang baik, dan empat cara memverifikasinya</li>
+<li class="fragment">Tiga kriteria dataset yang siap dianalisis, dan empat cara memverifikasinya</li>
 <li class="fragment">Masalah data yang umum ditemui, termasuk <em>outlier</em> dan pola <em>missing value</em></li>
 <li class="fragment"><strong><em>Clean</em></strong>: alur kerja dan tiga aktivitas pembersihan data</li>
 <li class="fragment">Mendokumentasikan proses pembersihan data</li>
 <li class="fragment">Praktik langsung: membersihkan dataset yang “kotor”</li>
 <li class="fragment">2️⃣ aktivitas mandiri</li>
 </ul>
-<aside class="notes">
-<p>Metode minggu ini “Diskusi Kelompok” dengan pengalaman belajar “Tugas Praktis” — porsi praktik cleaning di akhir sesi adalah inti pertemuan ini, alokasikan minimal 40-45 menit untuk itu. Slide jenis nilai bermasalah, outlier, pola missing value, alur <em>screening-diagnosing-editing</em>, dan dokumentasi bisa dipercepat kalau waktu mepet — jangan sampai memotong jatah praktik.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section>
-<section id="verify-seperti-apa-dataset-yang-baik" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1><strong>Verify</strong>: Seperti Apa Dataset yang Baik? ✅</h1>
+<section id="verify-seperti-apa-dataset-yang-siap-dianalisis" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Verify: Seperti Apa Dataset yang Siap Dianalisis? ✅</h1>
 
 </section>
 <section id="tahap-yang-paling-sering-dilewatkan" class="slide level2">
 <h2>Tahap yang paling sering dilewatkan</h2>
 <ul>
-<li class="fragment">Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah <strong>langsung lompat ke analisis</strong>.</li>
-<li class="fragment">Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, <strong>mempublikasikan kesimpulan yang salah</strong>.</li>
+<li class="fragment">Setelah susah payah menemukan dan memperoleh data (Pertemuan 3), godaan terbesar adalah <strong>langsung melakukan analisis data</strong>.</li>
+<li class="fragment">Melewatkan verifikasi berarti Anda berisiko membuang waktu menganalisis data yang jelek, atau lebih parah, <strong>menarik kesimpulan yang salah</strong>.</li>
 <li class="fragment">Ingat kerangka <em>Data Pipeline</em>: <strong>Verify</strong>, <strong>Clean</strong>, dan <strong>Analyze</strong> tidak selalu berjalan secara linear.</li>
 </ul>
-<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Ada pepatah di kalangan praktisi data</strong></p>
-</div>
 <div class="callout-content">
-<p><em>“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.”</em> Verifikasi membantu Anda untuk <strong>mengetahui batasan</strong> yang melekat pada data Anda sebelum menganalisis.</p>
+<p><em>“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.”</em></p>
+<p>Verifikasi membantu Anda untuk <strong>mengetahui batasan</strong> yang melekat pada data Anda sebelum menganalisis.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="tiga-kriteria-data-yang-baik" class="slide level2">
 <h2>Tiga kriteria data yang baik</h2>
-<ol type="1">
-<li class="fragment"><strong><em>Trustworthiness</em> (dapat dipercaya)</strong> — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.</li>
-<li class="fragment"><strong><em>Completeness</em> (kelengkapan)</strong> — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap? Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.</li>
-<li class="fragment"><strong><em>Quality</em> (kualitas struktur &amp; dokumentasi)</strong> — apakah data mengikuti prinsip <em>tidy data</em> (Pertemuan 2)? Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?</li>
-</ol>
+<ul>
+<li class="fragment"><strong><em>Trustworthiness</em> (dapat dipercaya)</strong> — seberapa baik data merepresentasikan realitas yang ingin digambarkannya?
+<ul>
+<li class="fragment">Ini butuh pemahaman atas metodologi di balik pengumpulan data tersebut.</li>
+</ul></li>
+<li class="fragment"><strong><em>Completeness</em> (kelengkapan)</strong> — seberapa baik data mencakup keseluruhan realitas yang ingin ditangkap?
+<ul>
+<li class="fragment">Data bisa tidak lengkap karena praktik pengumpulan yang tidak konsisten, atau elemen kunci yang tidak direkam sama sekali.</li>
+</ul></li>
+<li class="fragment"><strong><em>Quality</em> (kualitas struktur &amp; dokumentasi)</strong> — apakah data mengikuti prinsip <em>tidy data</em> (Pertemuan 2)?
+<ul>
+<li class="fragment">Apakah ada dokumentasi yang menjelaskan artinya? Apakah dokumentasinya akurat?</li>
+</ul></li>
+</ul>
 </section>
 <section id="metadata-codebook-dan-data-inventory" class="slide level2">
 <h2>Metadata, <em>codebook</em>, dan <em>data inventory</em></h2>
@@ -226,13 +220,10 @@ Rizqy Amelia Zein
 <p><strong><em>Data inventory</em></strong></p>
 <p>Daftar seluruh dataset yang dimiliki/dirilis suatu organisasi atau lembaga riset.</p>
 </div></div>
-<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout callout-important callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Important</strong></p>
 </div>
 <div class="callout-content">
 <p>Dataset psikometrik terbuka yang baik <strong>selalu</strong> menyertakan <em>codebook</em>. Kalau tidak ada <em>codebook</em> sama sekali, maka ini 🚩🚩🚩.</p>
@@ -254,9 +245,9 @@ Rizqy Amelia Zein
 <p>Sebelum menganalisis, hitung dulu ringkasan sederhana untuk <strong>setiap kolom numerik</strong>:</p>
 <table class="caption-top">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 55%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -303,23 +294,6 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
-</section>
-<section id="aktivitas-mandiri-susun-checklist-verifikasi" class="slide level2">
-<h2>🧩 Aktivitas mandiri: susun <em>checklist</em> verifikasi</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kerjakan secara mandiri (10 menit)</strong></p>
-</div>
-<div class="callout-content">
-<p>Bayangkan Anda baru saja mengunduh dataset <strong><em>Big Five</em></strong> dari <em>Open-Source Psychometrics Project</em>. Susun <strong><em>checklist</em> verifikasi</strong> singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.</p>
-<p>Contoh: <em>“Apakah ada codebook yang menjelaskan arti kolom <code>E1</code>–<code>E10</code>?”</em></p>
-</div>
-</div>
-</div>
 </section></section>
 <section>
 <section id="masalah-data-yang-umum-ditemui" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -341,18 +315,27 @@ Rizqy Amelia Zein
 </section>
 <section id="tiga-jenis-nilai-yang-bermasalah" class="slide level2">
 <h2>Tiga jenis nilai yang bermasalah</h2>
-<ol type="1">
-<li class="fragment"><strong><em>Wild codes</em> (nilai di luar rentang)</strong> — nilai yang berada di luar rentang yang valid. Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; “Laki-laki” dikode dengan berbagai macam, mis. <code>1</code>, <code>M</code>, <code>L</code>, <code>Pria</code> dalam kolom yang sama.</li>
-<li class="fragment"><strong><em>Inconsistent values</em> (nilai yang tidak koheren)</strong> — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. Contoh: usia <code>40</code> tahun tapi tahun lahir <code>2000</code> pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.</li>
-<li class="fragment"><strong><em>Implausible values</em> (nilai yang tidak masuk akal)</strong> — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. Contoh: skor IQ <code>250</code>; penghasilan rumah tangga Rp1 triliun/bulan.</li>
-</ol>
+<ul>
+<li class="fragment"><strong><em>Wild codes</em> (nilai di luar rentang)</strong> — nilai yang berada di luar rentang yang valid.
+<ul>
+<li class="fragment">Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; “Laki-laki” dikode dengan berbagai macam, mis. <code>1</code>, <code>M</code>, <code>L</code>, <code>Pria</code> dalam kolom yang sama.</li>
+</ul></li>
+<li class="fragment">****Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.
+<ul>
+<li class="fragment">Contoh: usia <code>40</code> tahun tapi tahun lahir <code>2000</code> pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.</li>
+</ul></li>
+<li class="fragment"><strong><em>Implausible values</em> (nilai yang tidak masuk akal)</strong> — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif.
+<ul>
+<li class="fragment">Contoh: skor IQ <code>250</code>; penghasilan rumah tangga Rp1 triliun/bulan.</li>
+</ul></li>
+</ul>
 <div class="callout callout-note callout-style-simple">
 <div class="callout-body">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Ketiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. <strong>Wild codes</strong> paling mudah dicegah sejak desain kuesioner — batasi <em>input</em> yang bisa dimasukkan. <strong>Inconsistent</strong> dan <strong>implausible values</strong> baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap <em>Verify</em>.</p>
+<p>Ketiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. <strong>Wild codes</strong> paling mudah dicegah sejak desain kuesioner dengan membatasi <em>input</em> yang bisa dimasukkan. <strong>Inconsistent</strong> dan <strong>implausible values</strong> baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap <em>Verify</em>.</p>
 </div>
 </div>
 </div>
@@ -390,11 +373,8 @@ Rizqy Amelia Zein
 </section>
 <section id="missing-value" class="slide level2">
 <h2><em>Missing value</em></h2>
+<p>Tidak semua <em>missing value</em> dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya:</p>
 <ul>
-<li class="fragment">Tidak semua <em>missing value</em> dapat mengganggu proses analisis data.
-<ul>
-<li class="fragment">Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja.</li>
-</ul></li>
 <li class="fragment"><strong><em>Missing completely at random</em> (MCAR)</strong> — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun.
 <ul>
 <li class="fragment">Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.</li>
@@ -459,15 +439,15 @@ Rizqy Amelia Zein
 </section></section>
 <section>
 <section id="clean-membersihkan-data" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1><strong>Clean</strong>: Membersihkan Data 🧹</h1>
+<h1>Clean: Membersihkan Data 🧹</h1>
 
 </section>
 <section id="alur-kerja-tiga-tahap-pembersihan-data" class="slide level2">
 <h2>Alur kerja: tiga tahap pembersihan data</h2>
 <ol type="1">
-<li class="fragment"><strong>Screening</strong> — mencari kasus/nilai yang bermasalah: <em>wild codes</em>, <em>inconsistent values</em>, pola <em>missing value</em> yang mencurigakan. Gunakan <em>range checks</em>, <em>frequency counts</em> (tabel frekuensi), dan inspeksi visual.</li>
-<li class="fragment"><strong>Diagnosing</strong> — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?</li>
-<li class="fragment"><strong>Editing</strong> — barulah di tahap ini data benar-benar dirapikan: <em>tidying</em>, <em>editing</em> konten, dan <em>consolidation</em> (tiga aktivitas di slide berikutnya).</li>
+<li class="fragment"><strong><em>Screening</em></strong> — mencari kasus/nilai yang bermasalah: <em>wild codes</em>, <em>inconsistent values</em>, pola <em>missing value</em> yang mencurigakan. Gunakan <em>range checks</em>, <em>frequency counts</em> (tabel frekuensi), dan inspeksi visual.</li>
+<li class="fragment"><strong><em>Diagnosing</em></strong> — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?</li>
+<li class="fragment"><strong><em>Editing</em></strong> — barulah di tahap ini data benar-benar dirapikan: <em>tidying</em>, <em>editing</em> konten, dan <em>consolidation</em>.</li>
 </ol>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -482,13 +462,10 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
 <p>Istilah <strong>Editing</strong> di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (<em>tidying</em>, <em>editing</em> konten, <em>consolidation</em>) — jangan tertukar dengan “data <em>editing</em>” sebagai salah satu dari ketiganya.</p>
@@ -613,6 +590,9 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
+</section>
+<section id="mendokumentasikan-proses-pembersihan-data-1" class="slide level2">
+<h2>Mendokumentasikan proses pembersihan data</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -629,6 +609,23 @@ Rizqy Amelia Zein
 ## Versi 1.0 (2025-02-15)
 - Data cleaning awal
 - Mengedit wild codes pada variabel pendidikan</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="aktivitas-mandiri-susun-checklist-verifikasi" class="slide level2">
+<h2>🧩 Aktivitas mandiri: susun <em>checklist</em> verifikasi</h2>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Kerjakan secara mandiri (10 menit)</strong></p>
+</div>
+<div class="callout-content">
+<p>Bayangkan Anda baru saja mengunduh dataset <strong><em>Big Five</em></strong> dari <em>Open-Source Psychometrics Project</em>. Susun <strong><em>checklist</em> verifikasi</strong> singkat (5–7 poin) yang akan Anda jalankan sebelum mulai menganalisisnya. Gunakan tiga kriteria data yang baik dan empat metode verifikasi sebagai panduan.</p>
+<p>Contoh: <em>“Apakah ada codebook yang menjelaskan arti kolom <code>E1</code>–<code>E10</code>?”</em></p>
 </div>
 </div>
 </div>

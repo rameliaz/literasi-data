@@ -25,11 +25,7 @@ execute:
 * Studi kasus: generalisasi tergesa-gesa dari subkelompok
 * Melaporkan rentang kepercayaan (*confidence interval*) dengan benar
 * Etika analisis data: mengenali *questionable research practices*
-* 2️⃣ aktivitas (kelompok & mandiri)
-:::
-
-::: notes
-Metode minggu ini "Tugas" dengan kriteria "Etika dan Profesionalisme" — pastikan porsi QRP di akhir sesi tidak terpotong waktu; ini salah satu bagian paling penting mata kuliah ini.
+* 2️⃣ aktivitas mandiri
 :::
 
 # Data Telah Dianalisis, Lalu? 📢 {background-color="#14497F"}
@@ -49,20 +45,18 @@ Setelah data dianalisis (Pertemuan 5), temuan pentingnya harus dikomunikasikan. 
 ::: {.incremental}
 * Anda perlu memperhatikan **norma/kelaziman** yang berlaku di komunitas Anda — tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis.
 * Tiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, **Psikologi → APA**.
-* Dengan sejawat serumpun, Anda **diperbolehkan** (bahkan didorong) memakai istilah teknis — jargon justru menambah akurasi komunikasi, bukan menghalanginya.
+* Dengan sejawat serumpun, Anda **diperbolehkan** (bahkan didorong) memakai istilah teknis, sehingga jargon justru menambah akurasi dalam proses komunikasi.
 :::
 
 ## Untuk publik awam
 
 ::: {.incremental}
-* Berkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan **presisi** dan **keterbacaan**.
-* Ilmuwan yang baik berhati-hati menjelaskan hasil analisisnya — menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.
-* Bagian tersulit: **menarasikan ketidakpastian**. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting.
+* Berkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan **ketepatan** dan **keterbacaan**.
+* Ilmuwan yang baik berhati-hati menjelaskan hasil analisisnya dengan menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.
+* Bagian tersulit: **menarasikan ketidakpastian**. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai audiens; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting (dan mungkin berisiko membuat Anda terlihat kurang kompeten).
 :::
 
-::: {.callout-important}
-### Penting diingat
-
+::: {.callout-important appearance="simple"}
 Ingat: statistik pada dasarnya bicara soal **probabilitas**, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.
 :::
 
@@ -72,7 +66,7 @@ Ingat: statistik pada dasarnya bicara soal **probabilitas**, jadi hindari diksi 
 
 ::: {.callout-note}
 ### Definisi
-***Hedging language*** adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data. Interpretasi digambarkan dengan *tone* yang berhati-hati, bukan sesuatu yang mutlak.
+***Hedging language*** adalah gaya bahasa yang dipakai ilmuwan untuk mengekspresikan kehati-hatian ketika mendiskusikan ketidakpastian dalam menginterpretasi data. Interpretasi **harus** diartikulasikan dengan *tone* yang hati-hati.
 :::
 
 Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," "pada sampel ini," "perlu diuji lebih lanjut."*
@@ -85,17 +79,16 @@ Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," 
 **Interpretasi yang di-*hedge* dengan baik**: *"Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar."*
 :::
 
-::: {.callout-tip}
-### Penting diingat
+::: {.callout-tip appearance="simple"}
 Kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstrem (*outlier*)** dalam sampel, bukan sekadar berkata "hasilnya tidak pasti" tanpa alasan yang jelas.
 :::
 
 ## Contoh 2: Panjang lengan vs. tungkai
 
-> Grafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja — semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.
+> Grafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja. Semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.
 
 ::: {.fragment}
-Di sini hubungannya memang **kuat dan jelas** — *hedging* yang berlebihan justru tidak tepat. Kuncinya bukan "selalu ragu-ragu," tapi **menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya**.
+Di sini hubungannya memang **kuat dan jelas**. *Hedging* yang berlebihan justru tidak tepat. Kuncinya bukan "selalu ragu-ragu," tapi **menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya**.
 :::
 
 ## Contoh 3: Gaji Dosen UGM
@@ -121,7 +114,7 @@ Di sini hubungannya memang **kuat dan jelas** — *hedging* yang berlebihan just
 Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui telepon tentang kesediaan vaksinasi. Dari 1.200 partisipan, sekitar **120 orang (10%)** berusia 22–25 tahun.
 
 ::: {.fragment}
-**Klaim yang dipublikasikan media**: hanya **45.1%** partisipan usia 22–25 tahun bersedia divaksinasi — proporsi **terendah** di antara semua kelompok usia. Kesimpulan yang beredar: generasi muda (Gen Z) banyak menolak vaksinasi.
+**Klaim yang dipublikasikan media**: hanya **45.1%** partisipan usia 22–25 tahun bersedia divaksinasi, yang merupakan proporsi **terendah** di antara semua kelompok usia. Kesimpulan yang menjadi *headline* media: generasi muda (Gen Z) banyak menolak vaksinasi.
 :::
 
 ## Survei Indikator
@@ -133,7 +126,7 @@ Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui tele
 ::: {.incremental}
 * Membandingkan proporsi bersedia/tidak bersedia divaksin bersifat **relatif terhadap kelompoknya sendiri** — tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.
 * Kesimpulan "Gen Z banyak menolak vaksin" hanya didasarkan pada kelompok usia 22–25 tahun, **tanpa melibatkan** partisipan usia 21 tahun ke bawah.
-* Ketika dilakukan **analisis korelasi** antara usia dan kesediaan vaksinasi — dengan **seluruh** kelompok usia dilibatkan — hubungannya ternyata **sangat lemah**.
+* Ketika dilakukan **analisis korelasi** antara usia dan kesediaan vaksinasi, dengan **seluruh** kelompok usia dilibatkan, hubungannya ternyata **sangat lemah** (lihat *slide* berikutnya).
 :::
 
 ## Korelasinya lemah
@@ -158,7 +151,7 @@ Menyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, 
 ::: {.incremental}
 * Saat melaporkan hasil statistik, selalu sertakan **rentang kepercayaan (*confidence interval*, CI)**, bukan hanya *point estimate*-nya saja.
 * CI memberi gambaran yang jauh lebih realistis tentang data dan ketidakpastian yang menyertainya.
-* Melaporkan CI adalah **keharusan** di banyak komunitas akademik — termasuk APA — meski menerjemahkannya ke bahasa awam bukan pekerjaan mudah.
+* Melaporkan CI adalah **keharusan** di banyak komunitas akademik, termasuk APA, meski menerjemahkannya ke bahasa awam bukan pekerjaan mudah.
 :::
 
 ## Bagaimana melaporkan CI dengan benar
@@ -190,13 +183,13 @@ Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (4
 **Seharusnya**
 > "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45.1% yang bersedia divaksinasi (rentang kepercayaan 95%: **36.1–54.1%**). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat, sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
 
-# Etika Analisis Data: *Questionable Research Practices* ⚖️ {background-color="#14497F"}
+# Etika Analisis Data: Questionable Research Practices ⚖️ {background-color="#14497F"}
 
-## Ketika analisis data disalahgunakan
+## QRP
 
 ::: {.incremental}
-* Menganalisis data bukan cuma soal keterampilan teknis — ada **etika** yang menyertainya.
-* ***Questionable research practices*** (QRP) adalah praktik analisis yang secara teknis "tidak curang" tapi menyesatkan kesimpulan — dan menjadi salah satu penyebab utama krisis replikasi dalam psikologi.
+* Menganalisis data bukan cuma soal keterampilan teknis, tetapi ada **etika** yang menyertainya.
+* ***Questionable research practices*** (QRP) adalah praktik analisis yang secara teknis "tidak curang" tapi menyesatkan kesimpulan, dan menjadi salah satu penyebab utama krisis replikasi dalam psikologi.
 * Dua bentuk QRP yang paling umum: ***p-hacking*** dan **HARKing**.
 :::
 
@@ -204,7 +197,7 @@ Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (4
 
 ::: {.callout-caution}
 ### Definisi
-Mengulik analisis — mencoba berbagai kombinasi variabel, metode, atau ambang batas — **sampai** ditemukan hasil yang signifikan secara statistik (*p* < ,05), lalu hanya melaporkan hasil itu saja.
+Mengulik analisis dengan mencoba berbagai kombinasi variabel, metode, atau ambang batas, **sampai** ditemukan hasil yang signifikan secara statistik (*p* < ,05), lalu hanya melaporkan hasil yang signifikan saja.
 :::
 
 Contoh bentuknya:
@@ -223,43 +216,43 @@ Menyajikan temuan yang sebenarnya ditemukan **secara eksploratif** (setelah meli
 :::
 
 ::: {.fragment}
-Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya justru untuk **mencegah** HARKing — dengan mencatat hipotesis dan rencana analisis **sebelum** melihat hasilnya, Anda punya jejak yang jelas antara mana yang *confirmatory* (diuji sesuai rencana) dan mana yang *exploratory* (ditemukan di tengah jalan).
+Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya justru untuk **mencegah** HARKing, yaitu dengan mencatat hipotesis dan rencana analisis **sebelum** melihat hasilnya, Anda punya jejak yang jelas antara mana yang *confirmatory* (diuji sesuai rencana) dan mana yang *exploratory* (ditemukan di tengah jalan).
 :::
 
 ## Kenapa ini berisiko
 
 ::: {.incremental}
-* *P-hacking* menyebabkan **inflasi temuan *false positive*** — hasil yang terlihat signifikan padahal sebenarnya kebetulan statistik.
+* *P-hacking* menyebabkan **tidak terkendalinya *false positive rate*** — hasil yang terlihat signifikan padahal sebenarnya hanya kebetulan statistik.
 * HARKing membuat pembaca percaya sebuah hipotesis "berhasil diuji secara ketat", padahal sebenarnya ditemukan lewat coba-coba.
 * Keduanya berkontribusi pada **krisis replikasi**: banyak temuan populer dalam psikologi ternyata gagal direplikasi peneliti lain.
 :::
 
 ::: {.callout-note}
 ### Penting diingat
-Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing* memang **dibolehkan** — bahkan dianjurkan — dalam *narrative review* yang mensintesis puluhan studi ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)). Yang **tidak boleh** adalah menyamarkan eksplorasi sebagai konfirmasi dalam **satu** studi empiris tunggal — itulah inti masalah HARKing.
+Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing* memang **dibolehkan** — bahkan dianjurkan — dalam *narrative review* yang mensintesis puluhan studi ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)). Yang **tidak boleh** adalah menyamarkan eksplorasi sebagai konfirmasi dalam **satu** studi empiris tunggal.
 :::
 
 ## Cara menjaga diri dari QRP
 
 ::: {.incremental}
 * **Susun *analysis plan* sebelum melihat hasil** (Pertemuan 5) — idealnya bahkan sebelum data dikumpulkan (*preregistration*).
-* **Laporkan semua analisis yang Anda coba**, bukan hanya yang signifikan — termasuk yang "gagal".
+* **Laporkan semua analisis yang Anda coba**, bukan hanya yang signifikan dan selalu termasuk yang "gagal".
 * **Bedakan secara eksplisit** dalam naskah Anda: mana temuan yang *confirmatory* (menguji hipotesis awal) dan mana yang *exploratory* (ditemukan setelah melihat data).
-* Analisis eksploratif **boleh** dilaporkan — asal jujur disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.
+* Analisis eksploratif **boleh** dilaporkan, asal transparan disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.
 :::
 
 ## 🧩 Aktivitas mandiri: kenali QRP-nya
 
 ::: {.callout-warning}
-### Kerjakan sendiri, lalu diskusikan berpasangan (10 menit)
+### Perhatikan
 Baca skenario berikut: *"Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: 'Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.'"*
 
 1. Identifikasi QRP apa yang terjadi di sini — *p-hacking*, HARKing, atau keduanya?
-2. Bagaimana seharusnya peneliti ini melaporkan temuannya secara jujur?
+2. Bagaimana seharusnya peneliti ini melaporkan temuannya secara transparan?
 :::
 
 ::: notes
-Jawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan jujur disebut eksploratif.
+Jawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan transparan disebut eksploratif.
 :::
 
 # Penutup {background-color="#14497F"}
@@ -268,7 +261,7 @@ Jawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (m
 
 ::: {.incremental}
 * Cara melaporkan temuan bergantung pada audiens: **komunitas akademik**, *informed lay public*, atau *general lay public*.
-* ***Hedging language*** menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu tegas, jangan juga terlalu ragu tanpa alasan.
+* ***Hedging language*** menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu *firm*, jangan juga terlalu terbaca ragu-ragu.
 * **Generalisasi tergesa-gesa** mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.
 * Selalu laporkan **rentang kepercayaan**, bukan hanya *point estimate*.
 * Waspadai *p-hacking* dan **HARKing** — *analysis plan* dari Pertemuan 5 adalah pertahanan utama Anda.
