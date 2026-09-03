@@ -20,7 +20,7 @@ execute:
 ## _Outline_
 
 ::: {.incremental}
-* Dari sintesis literatur ke **argumen** — kenapa *take-home message* itu wajib
+* **Argumen**: kenapa *take-home message* itu wajib
 * **Tesis** dan argumentasi berbasis bukti ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311))
 * Tiga cara menyusun **struktur naskah** ([Torraco, 2016](https://doi.org/10.1177/1534484316671606))
 * Kesalahan umum yang membuat *narrative review* ditolak
@@ -32,7 +32,7 @@ execute:
 Metode minggu ini "Presentasi" dengan pengalaman belajar "Diskusi dan Interaksi" — mahasiswa sudah melewati Pertemuan 9-11 (topik, ragam tinjauan pustaka, pencarian/sintesis literatur), jadi mereka sudah punya bahan mentah. Pertemuan ini mengubah bahan itu jadi argumen dan struktur naskah yang solid.
 :::
 
-# Dari Sintesis ke Argumen 🎯 {background-color="#14497F"}
+# Membangun Argumen dari Sintesis 🎯 {background-color="#14497F"}
 
 ## Sampai di mana kita sekarang
 

@@ -87,7 +87,7 @@ Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," 
 
 ::: {.callout-tip}
 ### Penting diingat
-Perhatikan: kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstrem (*outlier*)** dalam sampel, bukan sekadar berkata "hasilnya tidak pasti" tanpa alasan yang jelas.
+Kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstrem (*outlier*)** dalam sampel, bukan sekadar berkata "hasilnya tidak pasti" tanpa alasan yang jelas.
 :::
 
 ## Contoh 2: Panjang lengan vs. tungkai

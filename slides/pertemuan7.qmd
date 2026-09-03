@@ -43,7 +43,7 @@ Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisua
 ::: {.incremental}
 * Parameter kunci penyajian data adalah **audiens** dan **pesan**, bukan jenis grafik.
 * Bagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.
-* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data" — visualisasi hanyalah salah satu alat untuk memvisualisasikan data, tetapi bukan tujuan akhir dalam mengkomunikasikan data.
+* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data": visualisasi hanyalah salah satu alat komunikasi data, bukan tujuan akhirnya.
 :::
 
 ## *Data visualization* vs. infografis
@@ -266,7 +266,7 @@ Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akadem
 ## Kesimpulan Pertemuan 7
 
 ::: {.incremental}
-* Mulai dari **audiens dan pesan**, baru pilih visualisasi, dan bukan sebaliknya.
+* Mulai dari **audiens dan pesan**, baru pilih visualisasinya.
 * Rumuskan tugas visualisasi dengan kalimat **"saya ingin menunjukkan..."**, lalu cocokkan dengan jenis data (kategorikal/*continuum*).
 * Enam prinsip *storytelling with data*: pahami konteks, pilih visual tepat, singkirkan *clutter*, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.
 * Pilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian.

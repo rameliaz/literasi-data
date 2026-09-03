@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-08-31">
+  <meta name="dcterms.date" content="2026-09-03">
   <title>Literasi Data dan Penulisan Ilmiah – Praktik Verifikasi dan Pembersihan Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -152,7 +152,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-08-31</p>
+  <p class="date">2026-09-03</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
@@ -654,8 +654,7 @@ Rizqy Amelia Zein
 </div>
 </div>
 </div>
-<section id="kunci-skoring-untuk-langkah-4" class="notes">
-<h3>Kunci skoring (untuk langkah 4)</h3>
+<aside class="notes">
 <p>Dua dari sepuluh item <em>Neuroticism</em> ini ditulis dengan arah terbalik: <strong>N2</strong> (“<em>I am relaxed most of the time</em>”) dan <strong>N4</strong> (“<em>I seldom feel blue</em>”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (<code>6 - nilai</code>) sebelum dihitung skor rata-ratanya dengan <code>AVERAGE()</code> — informasi ini <strong>tidak</strong> ada di dalam data itu sendiri, hanya di <em>codebook</em> instrumennya.</p>
 <p>File <code>data/pertemuan4_dataset_kotor.csv</code> sudah disiapkan (18 baris, 15 responden sungguhan dari dataset <em>Big Five</em> kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:</p>
 <ul>
@@ -668,7 +667,17 @@ Rizqy Amelia Zein
 <li><strong>Nilai mencurigakan/di luar rentang</strong> — <code>P07</code> kolom N7 bernilai <code>6</code>, padahal skala Likert-nya 1–5.</li>
 <li><strong>Item <em>reverse-scored</em> belum dibalik</strong> — N2 dan N4 butuh <code>6 - nilai</code> sebelum di-<em>AVERAGE()</em>-kan; ini <strong>tidak</strong> terlihat dari data mentahnya saja, harus dicek ke <em>codebook</em> (lihat <em>callout</em> di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.</li>
 </ul>
-</section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="penutup" class="title-slide slide level1 center" data-background-color="#14497F">

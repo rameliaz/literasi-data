@@ -83,7 +83,7 @@ Gunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber dat
 :::
 
 ::: notes
-Ini latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya, bukan sekadar latihan sekali pakai.
+Ini latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya.
 :::
 
 # Menyusun *Analysis Plan* 📝 {background-color="#14497F"}

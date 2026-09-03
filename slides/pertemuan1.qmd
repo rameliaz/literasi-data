@@ -199,7 +199,7 @@ Sumber: [Open Knowledge Foundation & International Republican Institute (2021)](
 
 ## 1. *Define* — merumuskan masalah
 
-- Bergerak dari tema umum (mis. "kesejahteraan psikologis mahasiswa") ke pertanyaan spesifik (mis. "apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?").
+- Tema umum (mis. "kesejahteraan psikologis mahasiswa") diturunkan jadi pertanyaan spesifik (mis. "apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?").
 - Pertanyaan yang spesifik membantu menentukan **data seperti apa** yang dibutuhkan.
 
 ## 2. *Find* — menemukan data
@@ -278,7 +278,7 @@ Dalam praktiknya, alur ini jarang benar-benar linear. Anda akan sering bolak-bal
 
 ## Mengapa perlu satu dataset yang konsisten?
 
-- Pertemuan 2–7 akan memakai **satu dataset yang sama** supaya Anda bisa melihat bagaimana satu dataset yang sama melalui seluruh *Data Pipeline*: dari tabel mentah → bersih → dianalisis → divisualisasikan.
+- Pertemuan 2–7 memakai **satu dataset yang sama** dari awal sampai akhir *Data Pipeline*: tabel mentah → bersih → dianalisis → divisualisasikan.
 - Sumber dataset ini (Open Psychometrics) juga menjadi alternatif yang bisa Anda pertimbangkan untuk mengerjakan tugas UTS.
 
 ## Open-Source Psychometrics Project

@@ -247,7 +247,7 @@ Dataset ini tidy secara struktur, tapi untuk **dianalisis sebagai skor kepribadi
 `skor_extraversion = AVERAGE(E1:E10)` — inilah kenapa formula `AVERAGE()` yang kita bahas di awal tadi sangat penting. *(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4)*.
 :::
 
-## Dari tabel "dibaca manusia" ke tabel "siap dianalisis"
+## Tabel "dibaca manusia" vs. tabel "siap dianalisis"
 
 Bandingkan dua cara menyajikan ringkasan skor kepribadian yang sama:
 
@@ -385,7 +385,7 @@ Ketiganya sering tertukar dalam laporan penelitian — kesalahan ini bisa membua
 
 ## Korelasi lewat tabel kontingensi (*overview* singkat)
 
-Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorikal (nominal), misalnya *odds ratio*, *Cramer's V*, atau *tetrachoric correlation* — tapi ketiganya **tidak** dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi bukan sekadar alat penyajian, tapi juga alat analisis.
+Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorikal (nominal), misalnya *odds ratio*, *Cramer's V*, atau *tetrachoric correlation* — tapi ketiganya **tidak** dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi juga berfungsi sebagai alat analisis.
 
 # Menyajikan Tabel dengan Baik 🎨 {background-color="#14497F"}
 

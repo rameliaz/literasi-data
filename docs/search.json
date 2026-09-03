@@ -4,7 +4,7 @@
     "href": "slides/pertemuan12.html#outline",
     "title": "Menyusun Argumen dan Struktur Naskah",
     "section": "Outline",
-    "text": "Outline\n\nDari sintesis literatur ke argumen — kenapa take-home message itu wajib\nTesis dan argumentasi berbasis bukti (Baumeister & Leary, 1997)\nTiga cara menyusun struktur naskah (Torraco, 2016)\nKesalahan umum yang membuat narrative review ditolak\nEtika penulisan ilmiah: plagiarisme, authorship, dan AI generatif\n3️⃣ aktivitas (mandiri, kelompok, diskusi)\n\n\nMetode minggu ini “Presentasi” dengan pengalaman belajar “Diskusi dan Interaksi” — mahasiswa sudah melewati Pertemuan 9-11 (topik, ragam tinjauan pustaka, pencarian/sintesis literatur), jadi mereka sudah punya bahan mentah. Pertemuan ini mengubah bahan itu jadi argumen dan struktur naskah yang solid."
+    "text": "Outline\n\nArgumen: kenapa take-home message itu wajib\nTesis dan argumentasi berbasis bukti (Baumeister & Leary, 1997)\nTiga cara menyusun struktur naskah (Torraco, 2016)\nKesalahan umum yang membuat narrative review ditolak\nEtika penulisan ilmiah: plagiarisme, authorship, dan AI generatif\n3️⃣ aktivitas (mandiri, kelompok, diskusi)\n\n\nMetode minggu ini “Presentasi” dengan pengalaman belajar “Diskusi dan Interaksi” — mahasiswa sudah melewati Pertemuan 9-11 (topik, ragam tinjauan pustaka, pencarian/sintesis literatur), jadi mereka sudah punya bahan mentah. Pertemuan ini mengubah bahan itu jadi argumen dan struktur naskah yang solid."
   },
   {
     "objectID": "slides/pertemuan12.html#sampai-di-mana-kita-sekarang",
@@ -211,7 +211,7 @@
     "href": "slides/pertemuan6.html#contoh-1-durasi-tidur-kucing-vs.-anjing",
     "title": "Interpretasi Data",
     "section": "Contoh 1: Durasi tidur kucing vs. anjing",
-    "text": "Contoh 1: Durasi tidur kucing vs. anjing\n\nPada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.\n\n\nInterpretasi yang di-hedge dengan baik: “Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.”\n\n\n\n\n\n\n\nPenting diingat\n\n\nPerhatikan: kalimat ini secara eksplisit mengaitkan ketidakpastian dengan satu nilai ekstrem (outlier) dalam sampel, bukan sekadar berkata “hasilnya tidak pasti” tanpa alasan yang jelas.",
+    "text": "Contoh 1: Durasi tidur kucing vs. anjing\n\nPada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.\n\n\nInterpretasi yang di-hedge dengan baik: “Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.”\n\n\n\n\n\n\n\nPenting diingat\n\n\nKalimat ini secara eksplisit mengaitkan ketidakpastian dengan satu nilai ekstrem (outlier) dalam sampel, bukan sekadar berkata “hasilnya tidak pasti” tanpa alasan yang jelas.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -727,7 +727,7 @@
     "href": "slides/pertemuan4.html#praktik-membersihkan-potongan-dataset-big-five",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "🧩 Praktik: membersihkan potongan dataset Big Five",
-    "text": "🧩 Praktik: membersihkan potongan dataset Big Five\n\n\n\n\n\n\nKerjakan secara mandiri (25–30 menit)\n\n\nUnduh potongan kecil dataset Big Five berikut — 18 baris respons N1–N10 (item Neuroticism) yang sengaja dibuat “kotor” untuk latihan: pertemuan4_dataset_kotor_latihan.csv. Ikuti langkah berikut:\n\nIdentifikasi minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).\nGolongkan tiap masalah: apakah itu masalah tidying (format) atau editing (konten)?\nTuliskan formula yang akan Anda pakai untuk memperbaiki tiap masalah (TRIM(), PROPER(), Remove Duplicates, dst.).\nRefleksikan: masalah mana yang tidak bisa diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item reverse-scored)?\n\n\n\n\n\nKunci skoring (untuk langkah 4)\nDua dari sepuluh item Neuroticism ini ditulis dengan arah terbalik: N2 (“I am relaxed most of the time”) dan N4 (“I seldom feel blue”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (6 - nilai) sebelum dihitung skor rata-ratanya dengan AVERAGE() — informasi ini tidak ada di dalam data itu sendiri, hanya di codebook instrumennya.\nFile data/pertemuan4_dataset_kotor.csv sudah disiapkan (18 baris, 15 responden sungguhan dari dataset Big Five kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:\n\nDuplikasi — baris P03 muncul dua kali persis sama.\nWhitespace — P03 (\"Laki-laki \", \"SG \", ada spasi di akhir) dan P05 (\"  US\", ada spasi di awal).\nKapitalisasi tidak konsisten pada gender — P04 (“perempuan”), P10 (“PEREMPUAN”), P13 (“Laki-Laki”), dibandingkan penulisan baku “Perempuan”/“Laki-laki” di baris lain.\nKode negara campur (negara) — kombinasi kode ISO (PH, CA, US, DK, GB, IN), nama lengkap (Trinidad and Tobago, Pakistan, Greece, Bangladesh, United Kingdom, Jamaica, South Africa), dan satu nilai kosong (P09).\nMissing value tidak konsisten — tiga representasi berbeda: sel kosong (P14, kolom N8–N10), teks \"NA\" (P12, kolom N4), dan angka 0 (P15, kolom N3).\nEntri tidak lengkap — P14 berhenti menjawab di item N7 (N8–N10 kosong), kemungkinan responden keluar di tengah jalan.\nNilai mencurigakan/di luar rentang — P07 kolom N7 bernilai 6, padahal skala Likert-nya 1–5.\nItem reverse-scored belum dibalik — N2 dan N4 butuh 6 - nilai sebelum di-AVERAGE()-kan; ini tidak terlihat dari data mentahnya saja, harus dicek ke codebook (lihat callout di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.",
+    "text": "🧩 Praktik: membersihkan potongan dataset Big Five\n\n\n\n\n\n\nKerjakan secara mandiri (25–30 menit)\n\n\nUnduh potongan kecil dataset Big Five berikut — 18 baris respons N1–N10 (item Neuroticism) yang sengaja dibuat “kotor” untuk latihan: pertemuan4_dataset_kotor_latihan.csv. Ikuti langkah berikut:\n\nIdentifikasi minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).\nGolongkan tiap masalah: apakah itu masalah tidying (format) atau editing (konten)?\nTuliskan formula yang akan Anda pakai untuk memperbaiki tiap masalah (TRIM(), PROPER(), Remove Duplicates, dst.).\nRefleksikan: masalah mana yang tidak bisa diperbaiki dengan formula saja, dan butuh keputusan/pengetahuan tambahan (mis. item reverse-scored)?\n\n\n\n\n\nDua dari sepuluh item Neuroticism ini ditulis dengan arah terbalik: N2 (“I am relaxed most of the time”) dan N4 (“I seldom feel blue”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (6 - nilai) sebelum dihitung skor rata-ratanya dengan AVERAGE() — informasi ini tidak ada di dalam data itu sendiri, hanya di codebook instrumennya.\nFile data/pertemuan4_dataset_kotor.csv sudah disiapkan (18 baris, 15 responden sungguhan dari dataset Big Five kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:\n\nDuplikasi — baris P03 muncul dua kali persis sama.\nWhitespace — P03 (\"Laki-laki \", \"SG \", ada spasi di akhir) dan P05 (\"  US\", ada spasi di awal).\nKapitalisasi tidak konsisten pada gender — P04 (“perempuan”), P10 (“PEREMPUAN”), P13 (“Laki-Laki”), dibandingkan penulisan baku “Perempuan”/“Laki-laki” di baris lain.\nKode negara campur (negara) — kombinasi kode ISO (PH, CA, US, DK, GB, IN), nama lengkap (Trinidad and Tobago, Pakistan, Greece, Bangladesh, United Kingdom, Jamaica, South Africa), dan satu nilai kosong (P09).\nMissing value tidak konsisten — tiga representasi berbeda: sel kosong (P14, kolom N8–N10), teks \"NA\" (P12, kolom N4), dan angka 0 (P15, kolom N3).\nEntri tidak lengkap — P14 berhenti menjawab di item N7 (N8–N10 kosong), kemungkinan responden keluar di tengah jalan.\nNilai mencurigakan/di luar rentang — P07 kolom N7 bernilai 6, padahal skala Likert-nya 1–5.\nItem reverse-scored belum dibalik — N2 dan N4 butuh 6 - nilai sebelum di-AVERAGE()-kan; ini tidak terlihat dari data mentahnya saja, harus dicek ke codebook (lihat callout di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -951,11 +951,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan2.html#dari-tabel-dibaca-manusia-ke-tabel-siap-dianalisis",
-    "href": "slides/pertemuan2.html#dari-tabel-dibaca-manusia-ke-tabel-siap-dianalisis",
+    "objectID": "slides/pertemuan2.html#tabel-dibaca-manusia-vs.-tabel-siap-dianalisis",
+    "href": "slides/pertemuan2.html#tabel-dibaca-manusia-vs.-tabel-siap-dianalisis",
     "title": "Bekerja dengan Data Tabular",
-    "section": "Dari tabel “dibaca manusia” ke tabel “siap dianalisis”",
-    "text": "Dari tabel “dibaca manusia” ke tabel “siap dianalisis”\nBandingkan dua cara menyajikan ringkasan skor kepribadian yang sama:\n\n\nUntuk dibaca manusia (laporan)\n\n\n\nTrait\nSkor Rata-rata\n\n\n\n\nExtraversion\n3.4\n\n\nNeuroticism\n2.9\n\n\nOpenness\n3.8\n\n\n\n\nSiap dianalisis (dataset)\n\n\n\nID\nTrait\nSkor\n\n\n\n\n001\nExtraversion\n3.1\n\n\n001\nNeuroticism\n2.7\n\n\n001\nOpenness\n4.0\n\n\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nTabel kiri cocok untuk satu slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor per partisipan, per trait — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.\n\n\n\n\nIni contoh hipotetis untuk ilustrasi, bukan angka riil dari dataset. Tekankan bahwa mengubah dari level item ke level skala juga merupakan bentuk reshaping — bukan cuma soal long/wide.",
+    "section": "Tabel “dibaca manusia” vs. tabel “siap dianalisis”",
+    "text": "Tabel “dibaca manusia” vs. tabel “siap dianalisis”\nBandingkan dua cara menyajikan ringkasan skor kepribadian yang sama:\n\n\nUntuk dibaca manusia (laporan)\n\n\n\nTrait\nSkor Rata-rata\n\n\n\n\nExtraversion\n3.4\n\n\nNeuroticism\n2.9\n\n\nOpenness\n3.8\n\n\n\n\nSiap dianalisis (dataset)\n\n\n\nID\nTrait\nSkor\n\n\n\n\n001\nExtraversion\n3.1\n\n\n001\nNeuroticism\n2.7\n\n\n001\nOpenness\n4.0\n\n\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nTabel kiri cocok untuk satu slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor per partisipan, per trait — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.\n\n\n\n\nIni contoh hipotetis untuk ilustrasi, bukan angka riil dari dataset. Tekankan bahwa mengubah dari level item ke level skala juga merupakan bentuk reshaping — bukan cuma soal long/wide.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1051,7 +1051,7 @@
     "href": "slides/pertemuan2.html#korelasi-lewat-tabel-kontingensi-overview-singkat",
     "title": "Bekerja dengan Data Tabular",
     "section": "Korelasi lewat tabel kontingensi (overview singkat)",
-    "text": "Korelasi lewat tabel kontingensi (overview singkat)\nTabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorikal (nominal), misalnya odds ratio, Cramer’s V, atau tetrachoric correlation — tapi ketiganya tidak dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi bukan sekadar alat penyajian, tapi juga alat analisis.",
+    "text": "Korelasi lewat tabel kontingensi (overview singkat)\nTabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorikal (nominal), misalnya odds ratio, Cramer’s V, atau tetrachoric correlation — tapi ketiganya tidak dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi juga berfungsi sebagai alat analisis.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1437,7 +1437,7 @@
     "href": "slides/pertemuan1.html#define-merumuskan-masalah",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
     "section": "1. Define — merumuskan masalah",
-    "text": "1. Define — merumuskan masalah\n\nBergerak dari tema umum (mis. “kesejahteraan psikologis mahasiswa”) ke pertanyaan spesifik (mis. “apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?”).\nPertanyaan yang spesifik membantu menentukan data seperti apa yang dibutuhkan.",
+    "text": "1. Define — merumuskan masalah\n\nTema umum (mis. “kesejahteraan psikologis mahasiswa”) diturunkan jadi pertanyaan spesifik (mis. “apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?”).\nPertanyaan yang spesifik membantu menentukan data seperti apa yang dibutuhkan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1569,7 +1569,7 @@
     "href": "slides/pertemuan1.html#mengapa-perlu-satu-dataset-yang-konsisten",
     "title": "Pendahuluan: Literasi Data dalam Psikologi",
     "section": "Mengapa perlu satu dataset yang konsisten?",
-    "text": "Mengapa perlu satu dataset yang konsisten?\n\nPertemuan 2–7 akan memakai satu dataset yang sama supaya Anda bisa melihat bagaimana satu dataset yang sama melalui seluruh Data Pipeline: dari tabel mentah → bersih → dianalisis → divisualisasikan.\nSumber dataset ini (Open Psychometrics) juga menjadi alternatif yang bisa Anda pertimbangkan untuk mengerjakan tugas UTS.",
+    "text": "Mengapa perlu satu dataset yang konsisten?\n\nPertemuan 2–7 memakai satu dataset yang sama dari awal sampai akhir Data Pipeline: tabel mentah → bersih → dianalisis → divisualisasikan.\nSumber dataset ini (Open Psychometrics) juga menjadi alternatif yang bisa Anda pertimbangkan untuk mengerjakan tugas UTS.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1869,7 +1869,7 @@
     "href": "slides/pertemuan3.html#kesimpulan-pertemuan-3",
     "title": "Menemukan dan Memanfaatkan Data Terbuka",
     "section": "Kesimpulan Pertemuan 3",
-    "text": "Kesimpulan Pertemuan 3\n\nSebelum data bisa ditata atau dibersihkan, ia harus ditemukan dan diperoleh dulu dan ini yang menjadi fokus Data Pipeline minggu ini.\nSumber data psikologi terbuka: Open-Source Psychometrics Project dan daftar dataset komunitas.\nFormat data yang umum: .csv, .xlsx, .sav (format native SPSS), dan .json (struktur tree, bukan tabel).\nEkstraksi data dari PDF/HTML selalu perlu diverifikasi ulang.\nUU PDP memberi kerangka hukum bagi hak subjek data dan dasar persetujuan dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti.",
+    "text": "Kesimpulan Pertemuan 3\n\nFind dan Get: data harus ditemukan dan diperoleh dulu, sebelum bisa ditata atau dibersihkan.\nSumber data psikologi terbuka: Open-Source Psychometrics Project dan daftar dataset komunitas.\nFormat data yang umum: .csv, .xlsx, .sav (format native SPSS), dan .json (struktur tree, bukan tabel).\nEkstraksi data dari PDF/HTML selalu perlu diverifikasi ulang.\nUU PDP memberi kerangka hukum bagi hak subjek data dan dasar persetujuan dengan pengecualian untuk kepentingan penelitian ilmiah, yang tetap menuntut tanggung jawab etis dari peneliti.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1953,7 +1953,7 @@
     "href": "slides/pertemuan5.html#aktivitas-mandiri-dari-tema-ke-hipotesis",
     "title": "Merencanakan Analisis Data",
     "section": "🧩 Aktivitas mandiri: dari tema ke hipotesis",
-    "text": "🧩 Aktivitas mandiri: dari tema ke hipotesis\n\n\n\n\n\n\nKerjakan sendiri (10 menit)\n\n\nGunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber data terbuka), atau topik lain yang Anda minati.\n\nTuliskan tema riset Anda dalam satu kalimat.\nPersempit menjadi satu pertanyaan penelitian yang presisi dan actionable.\nRumuskan satu hipotesis yang sederhana, ringkas, dan dapat diuji.\n\n\n\n\n\nIni latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya, bukan sekadar latihan sekali pakai.",
+    "text": "🧩 Aktivitas mandiri: dari tema ke hipotesis\n\n\n\n\n\n\nKerjakan sendiri (10 menit)\n\n\nGunakan topik yang Anda identifikasi di Pertemuan 3 (saat menjelajahi sumber data terbuka), atau topik lain yang Anda minati.\n\nTuliskan tema riset Anda dalam satu kalimat.\nPersempit menjadi satu pertanyaan penelitian yang presisi dan actionable.\nRumuskan satu hipotesis yang sederhana, ringkas, dan dapat diuji.\n\n\n\n\n\nIni latihan personal untuk mempersiapkan proyek UTS Pertemuan 8 — dorong mahasiswa menyimpan hasilnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2121,7 +2121,7 @@
     "href": "slides/pertemuan7.html#pertanyaan-yang-salah-untuk-dimulai",
     "title": "Menyajikan Data",
     "section": "Pertanyaan yang salah untuk dimulai",
-    "text": "Pertanyaan yang salah untuk dimulai\n\n\n\n\n\n\nImportant\n\n\nPertanyaan pertama yang akan kita selesaikan bukan “bagaimana cara memvisualisasikan data ini?” — melainkan “apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?”\n\n\n\n\nParameter kunci penyajian data adalah audiens dan pesan, bukan jenis grafik.\nBagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.\nItulah kenapa judul pertemuan ini “Menyajikan Data”, bukan “Memvisualisasikan Data” — visualisasi hanyalah salah satu alat untuk memvisualisasikan data, tetapi bukan tujuan akhir dalam mengkomunikasikan data.",
+    "text": "Pertanyaan yang salah untuk dimulai\n\n\n\n\n\n\nImportant\n\n\nPertanyaan pertama yang akan kita selesaikan bukan “bagaimana cara memvisualisasikan data ini?” — melainkan “apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?”\n\n\n\n\nParameter kunci penyajian data adalah audiens dan pesan, bukan jenis grafik.\nBagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.\nItulah kenapa judul pertemuan ini “Menyajikan Data”, bukan “Memvisualisasikan Data”: visualisasi hanyalah salah satu alat komunikasi data, bukan tujuan akhirnya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2349,7 +2349,7 @@
     "href": "slides/pertemuan7.html#kesimpulan-pertemuan-7",
     "title": "Menyajikan Data",
     "section": "Kesimpulan Pertemuan 7",
-    "text": "Kesimpulan Pertemuan 7\n\nMulai dari audiens dan pesan, baru pilih visualisasi, dan bukan sebaliknya.\nRumuskan tugas visualisasi dengan kalimat “saya ingin menunjukkan…”, lalu cocokkan dengan jenis data (kategorikal/continuum).\nEnam prinsip storytelling with data: pahami konteks, pilih visual tepat, singkirkan clutter, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.\nPilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian.",
+    "text": "Kesimpulan Pertemuan 7\n\nMulai dari audiens dan pesan, baru pilih visualisasinya.\nRumuskan tugas visualisasi dengan kalimat “saya ingin menunjukkan…”, lalu cocokkan dengan jenis data (kategorikal/continuum).\nEnam prinsip storytelling with data: pahami konteks, pilih visual tepat, singkirkan clutter, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.\nPilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

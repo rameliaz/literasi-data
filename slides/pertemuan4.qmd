@@ -316,7 +316,6 @@ Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10*
 
 ::: notes
 
-### Kunci skoring (untuk langkah 4)
 Dua dari sepuluh item *Neuroticism* ini ditulis dengan arah terbalik: **N2** ("*I am relaxed most of the time*") dan **N4** ("*I seldom feel blue*", lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (`6 - nilai`) sebelum dihitung skor rata-ratanya dengan `AVERAGE()` — informasi ini **tidak** ada di dalam data itu sendiri, hanya di *codebook* instrumennya.
 
 File `data/pertemuan4_dataset_kotor.csv` sudah disiapkan (18 baris, 15 responden sungguhan dari dataset *Big Five* kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:

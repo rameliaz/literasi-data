@@ -259,7 +259,7 @@ Ini kasus tentang *k-anonymity*/*re-identification risk* tanpa perlu istilah tek
 ## Kesimpulan Pertemuan 3
 
 ::: {.incremental}
-* Sebelum data bisa ditata atau dibersihkan, ia harus **ditemukan** dan **diperoleh** dulu dan ini yang menjadi fokus *Data Pipeline* minggu ini.
+* **Find** dan **Get**: data harus ditemukan dan diperoleh dulu, sebelum bisa ditata atau dibersihkan.
 * Sumber data psikologi terbuka: **Open-Source Psychometrics Project** dan [daftar dataset komunitas](https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit?gid=0#gid=0).
 * Format data yang umum: `.csv`, `.xlsx`, `.sav` (format native SPSS), dan `.json` (struktur *tree*, bukan tabel).
 * Ekstraksi data dari PDF/HTML selalu perlu **diverifikasi ulang**.
