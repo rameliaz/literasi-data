@@ -130,7 +130,7 @@ Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal 
 * ***Wild codes* (nilai di luar rentang)** — nilai yang berada di luar rentang yang valid. 
   + Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; "Laki-laki" dikode dengan berbagai macam, mis. `1`, `M`, `L`, `Pria` dalam kolom yang sama.
 
-* ****Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. 
+* ***Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. 
   + Contoh: usia `40` tahun tapi tahun lahir `2000` pada survei yang diisi 2025; pekerjaan "dokter spesialis" tapi pendidikan tertinggi "SMA".
 
 * ***Implausible values* (nilai yang tidak masuk akal)** — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. 
@@ -219,12 +219,12 @@ Jangan langsung "mengedit" sebelum *screening* dan *diagnosing* selesai. Memperb
 :::
 
 ::: {.callout-note appearance="simple"}
-Istilah **Editing** di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (*tidying*, *editing* konten, *consolidation*) — jangan tertukar dengan "data *editing*" sebagai salah satu dari ketiganya.
+Istilah **Editing** di tahap 3 ini adalah payung besar untuk tiga aktivitas di *slide* berikutnya (*tidying*, *editing* konten, *consolidation*). Jangan tertukar dengan "data *editing*" sebagai salah satu dari ketiganya.
 :::
 
 ## 3️⃣ aktivitas pembersihan data
 
-3️⃣ aktivitas konkret di dalam tahap **Editing**:
+3️⃣ aktivitas di dalam tahap **Editing**:
 
 ::: {.incremental}
 1. **Data *tidying*** — membersihkan **struktur** data, tanpa mengubah isinya. Ini adalah lanjutan langsung dari prinsip *tidy data* Pertemuan 2 ([Wickham, 2014](https://doi.org/10.18637/jss.v059.i10)).
@@ -232,8 +232,7 @@ Istilah **Editing** di tahap 3 ini adalah payung untuk tiga aktivitas konkret di
 3. **Data *consolidation*** — menambahkan data pelengkap ke dataset utama Anda (*merging*).
 :::
 
-::: {.callout-note}
-### Penting diketahui
+::: {.callout-note appearance="simple"}
 Norma umum di sains data adalah ilmuwan/praktisi data [menghabiskan 80% waktunya](https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/) bekerja untuk membersihkannya. 
 :::
 
@@ -256,7 +255,7 @@ Norma umum di sains data adalah ilmuwan/praktisi data [menghabiskan 80% waktunya
 | Nilai kosong/salah yang mencurigakan | Kembali ke metode verifikasi: cek ke sumber, cek metodologi |
 
 ::: {.callout-tip appearance="simple"}
-Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.
+Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*) ke atas kolom asli sebelum menghapus kolom bantuan. Supaya dataset Anda tidak bergantung selamanya pada formula yang sifatnya perantara.
 :::
 
 ## Data *consolidation*: menggabungkan data pelengkap
@@ -292,8 +291,8 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 
 ## Mendokumentasikan proses pembersihan data
 
-::: {.callout-note}
-### Contoh *log* singkat (bisa jadi *tab* tersendiri di spreadsheet, atau file `.txt`/`.md` terpisah)
+Contoh *log* singkat (bisa jadi *tab* tersendiri di *spreadsheet*, atau file `.txt`/`.md` terpisah)
+
 ```
 ## Versi 1.1 (2025-02-20)
 - Menghapus 3 kasus dengan *missing value* >50%
@@ -303,7 +302,6 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 - Data cleaning awal
 - Mengedit wild codes pada variabel pendidikan
 ```
-:::
 
 ## 🧩 Aktivitas mandiri: susun *checklist* verifikasi
 

@@ -559,7 +559,7 @@
     "href": "slides/pertemuan4.html#tiga-jenis-nilai-yang-bermasalah",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Tiga jenis nilai yang bermasalah",
-    "text": "Tiga jenis nilai yang bermasalah\n\nWild codes (nilai di luar rentang) — nilai yang berada di luar rentang yang valid.\n\nContoh: skor 9 pada skala Likert 1–6; usia partisipan 350 tahun; “Laki-laki” dikode dengan berbagai macam, mis. 1, M, L, Pria dalam kolom yang sama.\n\n****Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.\n\nContoh: usia 40 tahun tapi tahun lahir 2000 pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.\n\nImplausible values (nilai yang tidak masuk akal) — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif.\n\nContoh: skor IQ 250; penghasilan rumah tangga Rp1 triliun/bulan.\n\n\n\n\n\n\n\n\nKetiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. Wild codes paling mudah dicegah sejak desain kuesioner dengan membatasi input yang bisa dimasukkan. Inconsistent dan implausible values baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap Verify.",
+    "text": "Tiga jenis nilai yang bermasalah\n\nWild codes (nilai di luar rentang) — nilai yang berada di luar rentang yang valid.\n\nContoh: skor 9 pada skala Likert 1–6; usia partisipan 350 tahun; “Laki-laki” dikode dengan berbagai macam, mis. 1, M, L, Pria dalam kolom yang sama.\n\nInconsistent values (nilai yang tidak koheren) — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.\n\nContoh: usia 40 tahun tapi tahun lahir 2000 pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.\n\nImplausible values (nilai yang tidak masuk akal) — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif.\n\nContoh: skor IQ 250; penghasilan rumah tangga Rp1 triliun/bulan.\n\n\n\n\n\n\n\n\nKetiganya beririsan dengan “nilai yang mencurigakan” di slide sebelumnya. Wild codes paling mudah dicegah sejak desain kuesioner dengan membatasi input yang bisa dimasukkan. Inconsistent dan implausible values baru terlihat lewat pemeriksaan silang antarkolom atau pengetahuan tentang topiknya, seperti di tahap Verify.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -631,7 +631,7 @@
     "href": "slides/pertemuan4.html#alur-kerja-tiga-tahap-pembersihan-data",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Alur kerja: tiga tahap pembersihan data",
-    "text": "Alur kerja: tiga tahap pembersihan data\n\nScreening — mencari kasus/nilai yang bermasalah: wild codes, inconsistent values, pola missing value yang mencurigakan. Gunakan range checks, frequency counts (tabel frekuensi), dan inspeksi visual.\nDiagnosing — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?\nEditing — barulah di tahap ini data benar-benar dirapikan: tidying, editing konten, dan consolidation.\n\n\n\n\n\n\n\nUrutannya penting\n\n\nJangan langsung “mengedit” sebelum screening dan diagnosing selesai. Memperbaiki nilai satu per satu tanpa memetakan skala masalahnya dulu berisiko membuat Anda melewatkan pola yang lebih besar — misalnya satu kolom yang seluruhnya salah kode.\n\n\n\n\n\n\n\n\n\nIstilah Editing di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (tidying, editing konten, consolidation) — jangan tertukar dengan “data editing” sebagai salah satu dari ketiganya.",
+    "text": "Alur kerja: tiga tahap pembersihan data\n\nScreening — mencari kasus/nilai yang bermasalah: wild codes, inconsistent values, pola missing value yang mencurigakan. Gunakan range checks, frequency counts (tabel frekuensi), dan inspeksi visual.\nDiagnosing — menentukan skala masalahnya. Seberapa banyak nilai yang bermasalah? Terkonsentrasi di kolom/responden tertentu, atau tersebar merata?\nEditing — barulah di tahap ini data benar-benar dirapikan: tidying, editing konten, dan consolidation.\n\n\n\n\n\n\n\nUrutannya penting\n\n\nJangan langsung “mengedit” sebelum screening dan diagnosing selesai. Memperbaiki nilai satu per satu tanpa memetakan skala masalahnya dulu berisiko membuat Anda melewatkan pola yang lebih besar — misalnya satu kolom yang seluruhnya salah kode.\n\n\n\n\n\n\n\n\n\nIstilah Editing di tahap 3 ini adalah payung besar untuk tiga aktivitas di slide berikutnya (tidying, editing konten, consolidation). Jangan tertukar dengan “data editing” sebagai salah satu dari ketiganya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -643,7 +643,7 @@
     "href": "slides/pertemuan4.html#aktivitas-pembersihan-data",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "3️⃣ aktivitas pembersihan data",
-    "text": "3️⃣ aktivitas pembersihan data\n3️⃣ aktivitas konkret di dalam tahap Editing:\n\nData tidying — membersihkan struktur data, tanpa mengubah isinya. Ini adalah lanjutan langsung dari prinsip tidy data Pertemuan 2 (Wickham, 2014).\nData editing — mengubah isi/konten data agar siap dianalisis (typo, spasi berlebih, nilai salah).\nData consolidation — menambahkan data pelengkap ke dataset utama Anda (merging).\n\n\n\n\n\n\n\nPenting diketahui\n\n\nNorma umum di sains data adalah ilmuwan/praktisi data menghabiskan 80% waktunya bekerja untuk membersihkannya.",
+    "text": "3️⃣ aktivitas pembersihan data\n3️⃣ aktivitas di dalam tahap Editing:\n\nData tidying — membersihkan struktur data, tanpa mengubah isinya. Ini adalah lanjutan langsung dari prinsip tidy data Pertemuan 2 (Wickham, 2014).\nData editing — mengubah isi/konten data agar siap dianalisis (typo, spasi berlebih, nilai salah).\nData consolidation — menambahkan data pelengkap ke dataset utama Anda (merging).\n\n\n\n\n\n\n\nNorma umum di sains data adalah ilmuwan/praktisi data menghabiskan 80% waktunya bekerja untuk membersihkannya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -667,7 +667,7 @@
     "href": "slides/pertemuan4.html#data-editing-masalah-konten",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Data editing: masalah konten",
-    "text": "Data editing: masalah konten\n\n\n\n\n\n\n\nMasalah\nFormula/cara mengatasi\n\n\n\n\nSpasi berlebih (di awal/akhir/tengah teks)\nTRIM()\n\n\nKapitalisasi tidak konsisten\nUPPER(), LOWER(), PROPER()\n\n\nKesalahan ketik/ejaan\nFind and replace, atau verifikasi manual untuk dataset kecil\n\n\nBaris terduplikasi\nFitur Remove Duplicates pada spreadsheet\n\n\nNilai kosong/salah yang mencurigakan\nKembali ke metode verifikasi: cek ke sumber, cek metodologi\n\n\n\n\n\n\n\n\n\nSetelah menerapkan formula pembersihan, salin nilainya (paste values only) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.",
+    "text": "Data editing: masalah konten\n\n\n\n\n\n\n\nMasalah\nFormula/cara mengatasi\n\n\n\n\nSpasi berlebih (di awal/akhir/tengah teks)\nTRIM()\n\n\nKapitalisasi tidak konsisten\nUPPER(), LOWER(), PROPER()\n\n\nKesalahan ketik/ejaan\nFind and replace, atau verifikasi manual untuk dataset kecil\n\n\nBaris terduplikasi\nFitur Remove Duplicates pada spreadsheet\n\n\nNilai kosong/salah yang mencurigakan\nKembali ke metode verifikasi: cek ke sumber, cek metodologi\n\n\n\n\n\n\n\n\n\nSetelah menerapkan formula pembersihan, salin nilainya (paste values only) ke atas kolom asli sebelum menghapus kolom bantuan. Supaya dataset Anda tidak bergantung selamanya pada formula yang sifatnya perantara.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -715,7 +715,7 @@
     "href": "slides/pertemuan4.html#mendokumentasikan-proses-pembersihan-data-1",
     "title": "Praktik Verifikasi dan Pembersihan Data",
     "section": "Mendokumentasikan proses pembersihan data",
-    "text": "Mendokumentasikan proses pembersihan data\n\n\n\n\n\n\nContoh log singkat (bisa jadi tab tersendiri di spreadsheet, atau file .txt/.md terpisah)\n\n\n## Versi 1.1 (2025-02-20)\n- Menghapus 3 kasus dengan *missing value* &gt;50%\n- Memperbaiki koding jenis_kelamin (1=L, 2=P)\n\n## Versi 1.0 (2025-02-15)\n- Data cleaning awal\n- Mengedit wild codes pada variabel pendidikan",
+    "text": "Mendokumentasikan proses pembersihan data\nContoh log singkat (bisa jadi tab tersendiri di spreadsheet, atau file .txt/.md terpisah)\n## Versi 1.1 (2025-02-20)\n- Menghapus 3 kasus dengan *missing value* &gt;50%\n- Memperbaiki koding jenis_kelamin (1=L, 2=P)\n\n## Versi 1.0 (2025-02-15)\n- Data cleaning awal\n- Mengedit wild codes pada variabel pendidikan",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

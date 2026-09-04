@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-03">
+  <meta name="dcterms.date" content="2026-09-04">
   <title>Literasi Data dan Penulisan Ilmiah – Praktik Verifikasi dan Pembersihan Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -152,7 +152,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-03</p>
+  <p class="date">2026-09-04</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
@@ -320,7 +320,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; “Laki-laki” dikode dengan berbagai macam, mis. <code>1</code>, <code>M</code>, <code>L</code>, <code>Pria</code> dalam kolom yang sama.</li>
 </ul></li>
-<li class="fragment">****Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.
+<li class="fragment"><strong><em>Inconsistent values</em> (nilai yang tidak koheren)</strong> — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.
 <ul>
 <li class="fragment">Contoh: usia <code>40</code> tahun tapi tahun lahir <code>2000</code> pada survei yang diisi 2025; pekerjaan “dokter spesialis” tapi pendidikan tertinggi “SMA”.</li>
 </ul></li>
@@ -468,26 +468,23 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Istilah <strong>Editing</strong> di tahap 3 ini adalah payung untuk tiga aktivitas konkret di slide berikutnya (<em>tidying</em>, <em>editing</em> konten, <em>consolidation</em>) — jangan tertukar dengan “data <em>editing</em>” sebagai salah satu dari ketiganya.</p>
+<p>Istilah <strong>Editing</strong> di tahap 3 ini adalah payung besar untuk tiga aktivitas di <em>slide</em> berikutnya (<em>tidying</em>, <em>editing</em> konten, <em>consolidation</em>). Jangan tertukar dengan “data <em>editing</em>” sebagai salah satu dari ketiganya.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="aktivitas-pembersihan-data" class="slide level2">
 <h2>3️⃣ aktivitas pembersihan data</h2>
-<p>3️⃣ aktivitas konkret di dalam tahap <strong>Editing</strong>:</p>
+<p>3️⃣ aktivitas di dalam tahap <strong>Editing</strong>:</p>
 <ol type="1">
 <li class="fragment"><strong>Data <em>tidying</em></strong> — membersihkan <strong>struktur</strong> data, tanpa mengubah isinya. Ini adalah lanjutan langsung dari prinsip <em>tidy data</em> Pertemuan 2 (<a href="https://doi.org/10.18637/jss.v059.i10">Wickham, 2014</a>).</li>
 <li class="fragment"><strong>Data <em>editing</em></strong> — mengubah <strong>isi/konten</strong> data agar siap dianalisis (typo, spasi berlebih, nilai salah).</li>
 <li class="fragment"><strong>Data <em>consolidation</em></strong> — menambahkan data pelengkap ke dataset utama Anda (<em>merging</em>).</li>
 </ol>
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Penting diketahui</strong></p>
 </div>
 <div class="callout-content">
 <p>Norma umum di sains data adalah ilmuwan/praktisi data <a href="https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/">menghabiskan 80% waktunya</a> bekerja untuk membersihkannya.</p>
@@ -545,7 +542,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Setelah menerapkan formula pembersihan, <strong>salin nilainya</strong> (<em>paste values only</em>) ke atas kolom asli sebelum menghapus kolom bantuan — supaya dataset Anda tidak bergantung selamanya pada formula perantara.</p>
+<p>Setelah menerapkan formula pembersihan, <strong>salin nilainya</strong> (<em>paste values only</em>) ke atas kolom asli sebelum menghapus kolom bantuan. Supaya dataset Anda tidak bergantung selamanya pada formula yang sifatnya perantara.</p>
 </div>
 </div>
 </div>
@@ -593,15 +590,7 @@ Rizqy Amelia Zein
 </section>
 <section id="mendokumentasikan-proses-pembersihan-data-1" class="slide level2">
 <h2>Mendokumentasikan proses pembersihan data</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Contoh <em>log</em> singkat (bisa jadi <em>tab</em> tersendiri di spreadsheet, atau file <code>.txt</code>/<code>.md</code> terpisah)</strong></p>
-</div>
-<div class="callout-content">
+<p>Contoh <em>log</em> singkat (bisa jadi <em>tab</em> tersendiri di <em>spreadsheet</em>, atau file <code>.txt</code>/<code>.md</code> terpisah)</p>
 <pre><code>## Versi 1.1 (2025-02-20)
 - Menghapus 3 kasus dengan *missing value* &gt;50%
 - Memperbaiki koding jenis_kelamin (1=L, 2=P)
@@ -609,9 +598,6 @@ Rizqy Amelia Zein
 ## Versi 1.0 (2025-02-15)
 - Data cleaning awal
 - Mengedit wild codes pada variabel pendidikan</code></pre>
-</div>
-</div>
-</div>
 </section>
 <section id="aktivitas-mandiri-susun-checklist-verifikasi" class="slide level2">
 <h2>🧩 Aktivitas mandiri: susun <em>checklist</em> verifikasi</h2>
