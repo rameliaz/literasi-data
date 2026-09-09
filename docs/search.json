@@ -2009,11 +2009,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#pivot-table-alat-serbaguna-untuk-ketiga-teknik",
-    "href": "slides/pertemuan5.html#pivot-table-alat-serbaguna-untuk-ketiga-teknik",
+    "objectID": "slides/pertemuan5.html#pivot-table",
+    "href": "slides/pertemuan5.html#pivot-table",
     "title": "Merencanakan Analisis Data",
-    "section": "Pivot table: alat serbaguna untuk ketiga teknik",
-    "text": "Pivot table: alat serbaguna untuk ketiga teknik\nPivot table (Pertemuan 2 sudah menyinggung tabel kontigensi. Pivot table adalah versi interaktifnya) punya empat komponen:\n\n\n\nKomponen\nFungsi\n\n\n\n\nRows\nVariabel utama yang ingin Anda lihat per kategori\n\n\nColumns\nVariabel kedua untuk analisis silang\n\n\nValues\nAngka yang dihitung (SUM, AVERAGE, COUNT, dst.)\n\n\nFilter\nMenyaring subset data tertentu\n\n\n\n\nKunci memakainya: mulai dengan kalimat “Saya ingin melihat…” — mis. “Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender.” → Rows: gender, Values: AVERAGE(Extraversion).",
+    "section": "Pivot table",
+    "text": "Pivot table\nPivot table (Pertemuan 2 sudah menyinggung tabel kontigensi. Pivot table adalah versi interaktifnya) punya empat komponen:\n\n\n\nKomponen\nFungsi\n\n\n\n\nRows\nVariabel utama yang ingin Anda lihat per kategori\n\n\nColumns\nVariabel kedua untuk analisis silang\n\n\nValues\nAngka yang dihitung (SUM, AVERAGE, COUNT, dst.)\n\n\nFilter\nMenyaring subset data tertentu\n\n\n\n\nKunci memakainya: mulai dengan kalimat “Saya ingin melihat…” — mis. “Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender.” → Rows: gender, Values: AVERAGE(Extraversion).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2021,11 +2021,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#kapan-spreadsheet-tidak-lagi-cukup",
-    "href": "slides/pertemuan5.html#kapan-spreadsheet-tidak-lagi-cukup",
+    "objectID": "slides/pertemuan5.html#kapan-harus-menggunakan-software-statistik",
+    "href": "slides/pertemuan5.html#kapan-harus-menggunakan-software-statistik",
     "title": "Merencanakan Analisis Data",
-    "section": "Kapan spreadsheet tidak lagi cukup",
-    "text": "Kapan spreadsheet tidak lagi cukup\n\nSpreadsheet sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana dan ini sudah cukup untuk keperluan mata kuliah ini.\nTapi begitu Anda butuh uji statistik formal (mis. independent samples t-test, ANOVA, korelasi dengan nilai p), Anda memerlukan perangkat lunak analisis statistik.",
+    "section": "Kapan harus menggunakan software statistik",
+    "text": "Kapan harus menggunakan software statistik\n\nSpreadsheet sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana dan ini sudah cukup untuk keperluan mata kuliah ini.\nTapi begitu Anda butuh uji statistik formal (mis. independent samples t-test, ANOVA, korelasi dengan nilai p), Anda memerlukan perangkat lunak analisis statistik.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2061,7 +2061,7 @@
     "href": "slides/pertemuan5.html#aktivitas-mandiri-susun-analysis-plan-anda-sendiri",
     "title": "Merencanakan Analisis Data",
     "section": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri",
-    "text": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum\n\n\nMenggunakan dataset Big Five, Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.",
+    "text": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan mandiri\n\n\nMenggunakan dataset Big Five, Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

@@ -147,9 +147,9 @@ Melihat **hubungan** antara dua variabel atau lebih (mis. apakah *Conscientiousn
 Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: [analisis **prediktif**](https://en.wikipedia.org/wiki/Predictive_modelling), yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.
 :::
 
-## *Pivot table*: alat serbaguna untuk ketiga teknik
+## *Pivot table*
 
-*Pivot table* (Pertemuan 2 sudah menyinggung tabel kontigensi. *Pivot table* adalah versi interaktifnya) punya empat komponen:
+[*Pivot table*](https://www.excel-easy.com/data-analysis/pivot-tables.html) (Pertemuan 2 sudah menyinggung tabel kontigensi. *Pivot table* adalah versi interaktifnya) punya empat komponen:
 
 | Komponen | Fungsi |
 |---|---|
@@ -162,9 +162,9 @@ Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: [analis
 Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender."* → Rows: gender, Values: AVERAGE(Extraversion).
 :::
 
-# Sekilas `jamovi` sebagai Pelengkap Spreadsheet 💻 {background-color="#14497F"}
+# Sekilas tentang `jamovi` sebagai Pelengkap Spreadsheet 💻 {background-color="#14497F"}
 
-## Kapan *spreadsheet* tidak lagi cukup
+## Kapan harus menggunakan *software* statistik
 
 ::: {.incremental}
 * *Spreadsheet* sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana dan ini sudah cukup untuk keperluan mata kuliah ini.
@@ -212,7 +212,7 @@ Kumpulkan file Excel yang digunakan untuk analisis di Psyche. Akan dinilai sebag
 ## 🧩 Aktivitas mandiri: susun *analysis plan* Anda sendiri
 
 ::: {.callout-warning}
-### Kerjakan berkelompok (20 menit) — bagian dari penilaian Praktikum
+### Kerjakan mandiri
 Menggunakan dataset ***Big Five***, Anda akan menyusun *analysis plan* lengkap:
 
 1. Rumuskan **satu pertanyaan penelitian** yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu *trait* kepribadian atau variabel demografis).
