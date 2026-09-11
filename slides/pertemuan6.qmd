@@ -53,7 +53,8 @@ Setelah data dianalisis (Pertemuan 5), temuan pentingnya harus dikomunikasikan. 
 ::: {.incremental}
 * Berkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan **ketepatan** dan **keterbacaan**.
 * Ilmuwan yang baik berhati-hati menjelaskan hasil analisisnya dengan menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.
-* Bagian tersulit: **menarasikan ketidakpastian**. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai audiens; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting (dan mungkin berisiko membuat Anda terlihat kurang kompeten).
+* Bagian yang paling sulit: **menarasikan ketidakpastian**. 
+  + Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai audiens; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting (dan mungkin berisiko membuat Anda terlihat kurang kompeten).
 :::
 
 ::: {.callout-important appearance="simple"}
@@ -124,7 +125,7 @@ Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui tele
 ## Persoalannya...
 
 ::: {.incremental}
-* Membandingkan proporsi bersedia/tidak bersedia divaksin bersifat **relatif terhadap kelompoknya sendiri** — tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.
+* Membandingkan proporsi bersedia/tidak bersedia divaksin bersifat **relatif terhadap kelompoknya sendiri** sehingga tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.
 * Kesimpulan "Gen Z banyak menolak vaksin" hanya didasarkan pada kelompok usia 22–25 tahun, **tanpa melibatkan** partisipan usia 21 tahun ke bawah.
 * Ketika dilakukan **analisis korelasi** antara usia dan kesediaan vaksinasi, dengan **seluruh** kelompok usia dilibatkan, hubungannya ternyata **sangat lemah** (lihat *slide* berikutnya).
 :::
@@ -136,7 +137,7 @@ Sebuah lembaga survei mewawancarai **1.200 partisipan** secara acak melalui tele
 ## Kesimpulannya: Generalisasi Tergesa-Gesa
 
 ::: {.callout-important}
-### Generalisasi tergesa-gesa dari subkelompok
+### Generalisasi tergesa-gesa dari subkelompok ([*hasty generalization*](https://simple.wikipedia.org/wiki/Hasty_generalization))
 Menyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, tanpa mengecek apakah pola itu bertahan saat seluruh kelompok dilibatkan, adalah bentuk **penyalahgunaan statistik** yang, sayangnya, cukup sering terjadi.
 :::
 
@@ -216,7 +217,7 @@ Menyajikan temuan yang sebenarnya ditemukan **secara eksploratif** (setelah meli
 :::
 
 ::: {.fragment}
-Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya justru untuk **mencegah** HARKing, yaitu dengan mencatat hipotesis dan rencana analisis **sebelum** melihat hasilnya, Anda punya jejak yang jelas antara mana yang *confirmatory* (diuji sesuai rencana) dan mana yang *exploratory* (ditemukan di tengah jalan).
+Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya adalah untuk **mencegah** HARKing, yaitu dengan mencatat hipotesis dan rencana analisis **sebelum** melihat hasilnya, Anda punya jejak yang jelas antara mana yang *confirmatory* (diuji sesuai rencana) dan mana yang *exploratory* (ditemukan di tengah jalan).
 :::
 
 ## Kenapa ini berisiko
@@ -241,7 +242,7 @@ Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing*
 * Analisis eksploratif **boleh** dilaporkan, asal transparan disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.
 :::
 
-## 🧩 Aktivitas mandiri: kenali QRP-nya
+## 🧩 Aktivitas mandiri: Mengenali QRP
 
 ::: {.callout-warning}
 ### Perhatikan
@@ -261,8 +262,9 @@ Jawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (m
 
 ::: {.incremental}
 * Cara melaporkan temuan bergantung pada audiens: **komunitas akademik**, *informed lay public*, atau *general lay public*.
-* ***Hedging language*** menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu *firm*, jangan juga terlalu terbaca ragu-ragu.
-* **Generalisasi tergesa-gesa** mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.
+* ***Hedging language*** menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya. 
+  + Jangan terlalu *firm*, jangan juga terlalu terbaca ragu-ragu.
+* **Generalisasi tergesa-gesa** (i.e., [*hasty generalization*](https://simple.wikipedia.org/wiki/Hasty_generalization)) dapat memberikan impresi yang keliru ketika membaca data.
 * Selalu laporkan **rentang kepercayaan**, bukan hanya *point estimate*.
 * Waspadai *p-hacking* dan **HARKing** — *analysis plan* dari Pertemuan 5 adalah pertahanan utama Anda.
 :::

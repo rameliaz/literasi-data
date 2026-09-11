@@ -187,7 +187,7 @@
     "href": "slides/pertemuan6.html#untuk-publik-awam",
     "title": "Interpretasi Data",
     "section": "Untuk publik awam",
-    "text": "Untuk publik awam\n\nBerkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan ketepatan dan keterbacaan.\nIlmuwan yang baik berhati-hati menjelaskan hasil analisisnya dengan menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.\nBagian tersulit: menarasikan ketidakpastian. Melebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai audiens; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting (dan mungkin berisiko membuat Anda terlihat kurang kompeten).\n\n\n\n\n\n\n\nIngat: statistik pada dasarnya bicara soal probabilitas, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.",
+    "text": "Untuk publik awam\n\nBerkomunikasi dengan publik awam butuh usaha lebih besar: Anda harus menyeimbangkan ketepatan dan keterbacaan.\nIlmuwan yang baik berhati-hati menjelaskan hasil analisisnya dengan menghindari kesimpulan (ekstrapolasi) yang berlebihan dari data yang dianalisis.\nBagian yang paling sulit: menarasikan ketidakpastian.\n\nMelebih-lebihkan hubungan antar variabel membuat klaim Anda dicurigai audiens; menyederhanakannya terlalu jauh membuat Anda melewatkan temuan penting (dan mungkin berisiko membuat Anda terlihat kurang kompeten).\n\n\n\n\n\n\n\n\nIngat: statistik pada dasarnya bicara soal probabilitas, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -295,7 +295,7 @@
     "href": "slides/pertemuan6.html#persoalannya",
     "title": "Interpretasi Data",
     "section": "Persoalannya…",
-    "text": "Persoalannya…\n\nMembandingkan proporsi bersedia/tidak bersedia divaksin bersifat relatif terhadap kelompoknya sendiri — tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.\nKesimpulan “Gen Z banyak menolak vaksin” hanya didasarkan pada kelompok usia 22–25 tahun, tanpa melibatkan partisipan usia 21 tahun ke bawah.\nKetika dilakukan analisis korelasi antara usia dan kesediaan vaksinasi, dengan seluruh kelompok usia dilibatkan, hubungannya ternyata sangat lemah (lihat slide berikutnya).",
+    "text": "Persoalannya…\n\nMembandingkan proporsi bersedia/tidak bersedia divaksin bersifat relatif terhadap kelompoknya sendiri sehingga tidak tepat dibandingkan langsung antar kelompok usia yang jumlah partisipannya berbeda-beda.\nKesimpulan “Gen Z banyak menolak vaksin” hanya didasarkan pada kelompok usia 22–25 tahun, tanpa melibatkan partisipan usia 21 tahun ke bawah.\nKetika dilakukan analisis korelasi antara usia dan kesediaan vaksinasi, dengan seluruh kelompok usia dilibatkan, hubungannya ternyata sangat lemah (lihat slide berikutnya).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -319,7 +319,7 @@
     "href": "slides/pertemuan6.html#kesimpulannya-generalisasi-tergesa-gesa",
     "title": "Interpretasi Data",
     "section": "Kesimpulannya: Generalisasi Tergesa-Gesa",
-    "text": "Kesimpulannya: Generalisasi Tergesa-Gesa\n\n\n\n\n\n\nGeneralisasi tergesa-gesa dari subkelompok\n\n\nMenyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, tanpa mengecek apakah pola itu bertahan saat seluruh kelompok dilibatkan, adalah bentuk penyalahgunaan statistik yang, sayangnya, cukup sering terjadi.\n\n\n\n\nMoral of the story: selalu cek kesesuaian antara klaim dan data. Kalau sebuah klaim terasa too good to be true (atau too alarming to be true), itu tanda Anda perlu memeriksa datanya lebih teliti.",
+    "text": "Kesimpulannya: Generalisasi Tergesa-Gesa\n\n\n\n\n\n\nGeneralisasi tergesa-gesa dari subkelompok (hasty generalization)\n\n\nMenyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, tanpa mengecek apakah pola itu bertahan saat seluruh kelompok dilibatkan, adalah bentuk penyalahgunaan statistik yang, sayangnya, cukup sering terjadi.\n\n\n\n\nMoral of the story: selalu cek kesesuaian antara klaim dan data. Kalau sebuah klaim terasa too good to be true (atau too alarming to be true), itu tanda Anda perlu memeriksa datanya lebih teliti.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -391,7 +391,7 @@
     "href": "slides/pertemuan6.html#harking",
     "title": "Interpretasi Data",
     "section": "HARKing",
-    "text": "HARKing\n\n\n\n\n\n\nHypothesizing After the Results are Known\n\n\nMenyajikan temuan yang sebenarnya ditemukan secara eksploratif (setelah melihat data) seolah-olah itu adalah hipotesis yang sudah dirumuskan sejak awal, sebelum data dikumpulkan.\n\n\n\n\nIngat analysis plan dari Pertemuan 5? Salah satu fungsinya justru untuk mencegah HARKing, yaitu dengan mencatat hipotesis dan rencana analisis sebelum melihat hasilnya, Anda punya jejak yang jelas antara mana yang confirmatory (diuji sesuai rencana) dan mana yang exploratory (ditemukan di tengah jalan).",
+    "text": "HARKing\n\n\n\n\n\n\nHypothesizing After the Results are Known\n\n\nMenyajikan temuan yang sebenarnya ditemukan secara eksploratif (setelah melihat data) seolah-olah itu adalah hipotesis yang sudah dirumuskan sejak awal, sebelum data dikumpulkan.\n\n\n\n\nIngat analysis plan dari Pertemuan 5? Salah satu fungsinya adalah untuk mencegah HARKing, yaitu dengan mencatat hipotesis dan rencana analisis sebelum melihat hasilnya, Anda punya jejak yang jelas antara mana yang confirmatory (diuji sesuai rencana) dan mana yang exploratory (ditemukan di tengah jalan).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -423,11 +423,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan6.html#aktivitas-mandiri-kenali-qrp-nya",
-    "href": "slides/pertemuan6.html#aktivitas-mandiri-kenali-qrp-nya",
+    "objectID": "slides/pertemuan6.html#aktivitas-mandiri-mengenali-qrp",
+    "href": "slides/pertemuan6.html#aktivitas-mandiri-mengenali-qrp",
     "title": "Interpretasi Data",
-    "section": "🧩 Aktivitas mandiri: kenali QRP-nya",
-    "text": "🧩 Aktivitas mandiri: kenali QRP-nya\n\n\n\n\n\n\nPerhatikan\n\n\nBaca skenario berikut: “Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: ‘Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.’”\n\nIdentifikasi QRP apa yang terjadi di sini — p-hacking, HARKing, atau keduanya?\nBagaimana seharusnya peneliti ini melaporkan temuannya secara transparan?\n\n\n\n\n\nJawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan transparan disebut eksploratif.",
+    "section": "🧩 Aktivitas mandiri: Mengenali QRP",
+    "text": "🧩 Aktivitas mandiri: Mengenali QRP\n\n\n\n\n\n\nPerhatikan\n\n\nBaca skenario berikut: “Seorang peneliti awalnya menguji apakah skor Neuroticism berkorelasi dengan usia. Hasilnya tidak signifikan. Peneliti lalu mencoba mengorelasikan usia dengan keempat trait lainnya satu per satu, dan menemukan korelasi signifikan dengan Openness. Dalam naskahnya, peneliti menulis: ‘Kami menghipotesiskan bahwa usia berkaitan dengan Openness, dan hipotesis ini terbukti.’”\n\nIdentifikasi QRP apa yang terjadi di sini — p-hacking, HARKing, atau keduanya?\nBagaimana seharusnya peneliti ini melaporkan temuannya secara transparan?\n\n\n\n\n\nJawaban: ini kombinasi keduanya — mencoba banyak korelasi sampai signifikan (mendekati p-hacking) DAN menuliskan seolah hipotesis awal (HARKing murni). Tekankan bahwa temuan Openness-usia tetap boleh dilaporkan — asalkan transparan disebut eksploratif.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -439,7 +439,7 @@
     "href": "slides/pertemuan6.html#kesimpulan-pertemuan-6",
     "title": "Interpretasi Data",
     "section": "Kesimpulan Pertemuan 6",
-    "text": "Kesimpulan Pertemuan 6\n\nCara melaporkan temuan bergantung pada audiens: komunitas akademik, informed lay public, atau general lay public.\nHedging language menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya — jangan terlalu firm, jangan juga terlalu terbaca ragu-ragu.\nGeneralisasi tergesa-gesa mengingatkan kita: pola pada satu subkelompok kecil bisa menghilang (atau berbalik) ketika seluruh data digabungkan.\nSelalu laporkan rentang kepercayaan, bukan hanya point estimate.\nWaspadai p-hacking dan HARKing — analysis plan dari Pertemuan 5 adalah pertahanan utama Anda.",
+    "text": "Kesimpulan Pertemuan 6\n\nCara melaporkan temuan bergantung pada audiens: komunitas akademik, informed lay public, atau general lay public.\nHedging language menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya.\n\nJangan terlalu firm, jangan juga terlalu terbaca ragu-ragu.\n\nGeneralisasi tergesa-gesa (i.e., hasty generalization) dapat memberikan impresi yang keliru ketika membaca data.\nSelalu laporkan rentang kepercayaan, bukan hanya point estimate.\nWaspadai p-hacking dan HARKing — analysis plan dari Pertemuan 5 adalah pertahanan utama Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1941,7 +1941,7 @@
     "href": "slides/pertemuan5.html#masalah-psikologissosial-vs.-pertanyaan-penelitian",
     "title": "Merencanakan Analisis Data",
     "section": "Masalah psikologis/sosial vs. pertanyaan penelitian",
-    "text": "Masalah psikologis/sosial vs. pertanyaan penelitian\n\n\n\n\n\n\n\nTema\nPertanyaan penelitian\n\n\n\n\nBurnout akademik\nApakah beban tugas mingguan berkaitan dengan tingkat burnout pada mahasiswa magister?\n\n\nKesejahteraan psikologis\nApakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?\n\n\n\n\nPertanyaan yang presisi dan spesifik akan memberi tahu Anda data apa yang dibutuhkan.\nBandingkan: “Apakah mahasiswa terpengaruh media sosial?” (terlalu kabur) vs. “Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?” (jelas variabel apa yang diteliti).",
+    "text": "Masalah psikologis/sosial vs. pertanyaan penelitian\n\n\n\n\n\n\n\nTema\nPertanyaan penelitian\n\n\n\n\nBurnout akademik\nApakah beban tugas mingguan berkaitan dengan tingkat burnout pada mahasiswa magister?\n\n\nKesejahteraan psikologis\nApakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?\n\n\n\nPertanyaan yang presisi dan spesifik akan menentukan data apa yang dibutuhkan.\nBandingkan: “Apakah mahasiswa terpengaruh media sosial?” (terlalu kabur) vs. “Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?” (jelas variabel apa yang diteliti).\n\n\n\n\n\n\nSaya menulis esai pendek bagaimana cara merumuskan masalah dan pertanyaan penelitian. Silakan baca di luar waktu perkuliahan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1953,7 +1953,7 @@
     "href": "slides/pertemuan5.html#merumuskan-hipotesis",
     "title": "Merencanakan Analisis Data",
     "section": "Merumuskan hipotesis",
-    "text": "Merumuskan hipotesis\n\n\n\n\n\n\nCiri hipotesis yang baik\n\n\nSederhana, ringkas, dan yang terpenting: dapat diuji. Artinya, Anda harus bisa membuktikannya salah (ingat prinsip falsifikasi).\n\n\n\nHipotesis berfungsi ganda:\n\nMempertajam proyek Anda — menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.\nMenyusun narasi yang ingin Anda buktikan dengan data.\n\n\n\n\n\n\n\nContoh\n\n\nDari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: “Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”",
+    "text": "Merumuskan hipotesis\n\n\n\n\n\n\nCiri hipotesis yang baik\n\n\nSederhana, ringkas, dan yang terpenting: dapat diuji. Artinya, Anda harus bisa membuktikannya salah (i.e., falsifiability).\n\n\n\nHipotesis punya dua fungsi:\n\nMempertajam proyek Anda dengan menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.\nMenyusun narasi yang ingin Anda jabarkan dengan data.\n\n\n\n\n\n\n\nContoh\n\n\nDari masalah sosial tentang keterkaitan antara media sosial dan kesejahteraan psikologis, hipotesisnya bisa: “Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1965,7 +1965,7 @@
     "href": "slides/pertemuan5.html#apa-itu-analysis-plan",
     "title": "Merencanakan Analisis Data",
     "section": "Apa itu analysis plan?",
-    "text": "Apa itu analysis plan?\n\nAnalysis plan adalah rangkaian transformasi yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.\nDisusun setelah data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya.\nTujuannya: siapa pun yang diberi data bersih dan analysis plan Anda harus bisa mereproduksi analisis Anda langkah demi langkah.",
+    "text": "Apa itu analysis plan?\n\nAnalysis plan adalah rangkaian transformasi yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.\nDisusun setelah data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom/variabel yang sebenarnya.\nTujuannya: siapa pun yang diberi data bersih dan analysis plan Anda harus bisa mereka ulang (i.e., reproducibility) analisis Anda langkah demi langkah.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1977,7 +1977,7 @@
     "href": "slides/pertemuan5.html#contoh-analysis-plan",
     "title": "Merencanakan Analisis Data",
     "section": "Contoh analysis plan",
-    "text": "Contoh analysis plan\nUntuk hipotesis “beban tugas mingguan berkaitan dengan tingkat burnout”:\n\nHitung skor total SKOR_BURNOUT dari item-item skala burnout (AVERAGE()).\nKelompokkan responden berdasarkan BEBAN_TUGAS menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).\nUntuk kelompok “beban tinggi”, hitung rata-rata SKOR_BURNOUT.\nUntuk kelompok “beban rendah”, hitung rata-rata SKOR_BURNOUT.\nBandingkan kedua rata-rata tersebut.\n\n\n\n\n\n\n\nKalau Anda belum bisa menyusun analysis plan selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu.\nYang penting: catat langkah yang berhasil begitu Anda menyusunnya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.",
+    "text": "Contoh analysis plan\nUntuk hipotesis “persepsi tentang beban tugas mingguan berkaitan dengan tingkat burnout”:\n\nHitung skor total SKOR_BURNOUT dari item-item skala burnout (AVERAGE()).\nKelompokkan responden berdasarkan BEBAN_TUGAS menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).\nUntuk kelompok “beban tinggi”, hitung rata-rata SKOR_BURNOUT.\nUntuk kelompok “beban rendah”, hitung rata-rata SKOR_BURNOUT.\nBandingkan kedua rata-rata tersebut, lakukan uji statistik yang mendeteksi apakah perbedaan median SKOR_BURNOUT antara kelompok dengan BEBAN_TUGAS tinggi vs. rendah signifikan.\n\n\n\n\n\n\n\nKalau Anda belum bisa menyusun analysis plan selengkap ini di awal, tidak masalah. Wajar bagi pemula untuk mengeksplorasi data dulu.\nYang penting: catat langkah yang berhasil begitu Anda menyusunnya, supaya jadi rujukan kalau Anda kembali ke dataset ini nanti.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1985,11 +1985,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan5.html#analysis-plan-dan-preregistration",
-    "href": "slides/pertemuan5.html#analysis-plan-dan-preregistration",
+    "objectID": "slides/pertemuan5.html#analysis-plan-dan-pre-registration",
+    "href": "slides/pertemuan5.html#analysis-plan-dan-pre-registration",
     "title": "Merencanakan Analisis Data",
-    "section": "Analysis plan dan preregistration",
-    "text": "Analysis plan dan preregistration\n\nAnalysis plan yang Anda tulis sebelum melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar preregistration.\n\nArtinya, mendaftarkan hipotesis dan rencana analisis secara terbuka, idealnya bahkan sebelum data dikumpulkan sama sekali.\n\nPendaftarannya biasa dilakukan di platform terbuka seperti Open Science Framework (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya. Jadi, ada bukti tertulis tentang apa yang Anda rencanakan sebelum tahu hasilnya.\n\n\n\n\n\n\n\nKenapa ini penting\n\n\nPreregistration adalah cara yang paling umum digunakan untuk membedakan penelitian konfirmatori/hypothesis testing (menguji hipotesis yang sudah dirumuskan sejak awal) dari penelitian eksploratif/hypothesis generating (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.\n\n\n\n\nTanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadari, untuk mengubah hipotesis atau cara analisis Anda setelah melihat hasilnya, supaya “cocok” dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah ini bernama p-hacking dan HARKing.",
+    "section": "Analysis plan dan pre-registration",
+    "text": "Analysis plan dan pre-registration\n\nAnalysis plan yang Anda tulis sebelum melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar pre-registration.\n\nArtinya, mendaftarkan hipotesis dan rencana analisis secara terbuka, idealnya bahkan sebelum data dikumpulkan sama sekali.\n\nPendaftarannya biasa dilakukan di platform seperti Open Science Framework (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya.\n\nJadi, ada bukti tertulis tentang apa yang Anda rencanakan sebelum tahu hasilnya.\n\nContoh pre-registration penelitian psikologi sosial di OSF dan contoh dari penelitian saya.\n\n\n\n\n\n\n\nPreregistration adalah cara yang paling umum digunakan untuk membedakan penelitian konfirmatori/hypothesis testing (menguji hipotesis yang sudah dirumuskan sejak awal) dari penelitian eksploratif/hypothesis generating (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.\n\n\n\n\nTanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadari, untuk mengubah hipotesis atau cara analisis Anda setelah melihat hasilnya, supaya “cocok” dengan apa yang ditemukan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2001,7 +2001,7 @@
     "href": "slides/pertemuan5.html#tiga-kategori-teknik-analisis",
     "title": "Merencanakan Analisis Data",
     "section": "Tiga kategori teknik analisis",
-    "text": "Tiga kategori teknik analisis\n\n\nDeskriptif\nMenjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.\n\nKomparatif\nMembandingkan nilai suatu variabel antar kelompok (mis. skor Extraversion antara laki-laki dan perempuan).\n\nKorelasional\nMelihat hubungan antara dua variabel atau lebih (mis. apakah Conscientiousness berkaitan dengan usia).\n\n\n\n\n\n\n\nAda kategori keempat yang tidak dibahas mendalam di mata kuliah ini: analisis prediktif, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.",
+    "text": "Tiga kategori teknik analisis\n\n\nDeskriptif\nMenjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.\n\nKomparatif\nMembandingkan nilai suatu variabel antar kelompok (mis. skor Extraversion antara laki-laki dan perempuan).\n\nKorelasional\nMelihat hubungan antara dua variabel atau lebih (mis. apakah Conscientiousness berkaitan dengan usia).\n\n\n\n\n\n\n\nAda kategori keempat yang tidak dibahas mendalam di mata kuliah ini: analisis model prediktif, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut (i.e., machine learning).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2037,19 +2037,7 @@
     "href": "slides/pertemuan5.html#dua-pilihan-yang-paling-populer",
     "title": "Merencanakan Analisis Data",
     "section": "Dua pilihan yang paling populer",
-    "text": "Dua pilihan yang paling populer\n\n\njamovi/JASP\n\nGratis, antarmuka point-and-click — tidak perlu menulis kode.\nBisa membaca langsung berkas .sav, .csv, .xlsx.\nTitik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.\n\n\n\n\nBerbasis kode/script — learning curvenya lebih curam di awal.\nAnalisisnya sepenuhnya reproducible: script yang sama (umumnya) menghasilkan hasil yang sama.\nMateri presentasi mata kuliah ini sendiri dibuat dengan  + Quarto.\n\n\n\n\n\n\n\n\nMata kuliah ini tidak mengajarkan jamovi/ secara mendalam. Spreadsheet tetap alat utama yang digunakan untuk MK ini. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.",
-    "crumbs": [
-      "oleh Rizqy Amelia Zein",
-      "Materi",
-      "5. Merencanakan Analisis Data"
-    ]
-  },
-  {
-    "objectID": "slides/pertemuan5.html#aktivitas-mandiri-menyusun-analysis-plan-untuk-dataset-contoh-dikumpulkan-untuk-nilai-kuis",
-    "href": "slides/pertemuan5.html#aktivitas-mandiri-menyusun-analysis-plan-untuk-dataset-contoh-dikumpulkan-untuk-nilai-kuis",
-    "title": "Merencanakan Analisis Data",
-    "section": "🧩 Aktivitas mandiri: Menyusun analysis plan untuk dataset contoh (dikumpulkan untuk nilai kuis)",
-    "text": "🧩 Aktivitas mandiri: Menyusun analysis plan untuk dataset contoh (dikumpulkan untuk nilai kuis)\nMisalkan pertanyaan penelitian Anda: “Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”\n\nHitung skor_extraversion per partisipan (AVERAGE(E1:E10), setelah item dibalik sesuai kebutuhan).\nBuat pivot table: Rows = gender, Values = AVERAGE(skor_extraversion).\nBandingkan rata-rata antar kategori gender.\nUji perbedaan rata-rata tersebut di MS Excel dengan fungsi T.TEST()\n\n\n\n\n\n\n\nKumpulkan file Excel yang digunakan untuk analisis di Psyche. Akan dinilai sebagai nilai kuis.",
+    "text": "Dua pilihan yang paling populer\n\n\njamovi/JASP\n\nGratis, antarmuka point-and-click — tidak perlu menulis kode.\nBisa membaca langsung berkas .sav, .csv, .xlsx.\nTitik masuk yang ramah untuk mahasiswa yang belum terbiasa coding.\n\n\n\n\nBerbasis kode/script — learning curvenya lebih curam di awal.\nAnalisisnya sepenuhnya reproducible: script yang sama (umumnya) menghasilkan hasil yang sama.\nMateri presentasi mata kuliah ini sendiri dibuat dengan  + Quarto.\n\n\n\n\n\n\n\n\nMata kuliah ini tidak mengajarkan cara menggunakan jamovi/ secara mendalam. Anda dapat belajar secara mandiri dari berbagai sumber yang tersedia. Salah satunya, Anda bisa menggunakan “Learning Statistics with jamovi” dan “ for Data Science” sebagai pengantar belajar untuk pemula.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2060,8 +2048,20 @@
     "objectID": "slides/pertemuan5.html#aktivitas-mandiri-susun-analysis-plan-anda-sendiri",
     "href": "slides/pertemuan5.html#aktivitas-mandiri-susun-analysis-plan-anda-sendiri",
     "title": "Merencanakan Analisis Data",
-    "section": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri",
-    "text": "🧩 Aktivitas mandiri: susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan mandiri\n\n\nMenggunakan dataset Big Five, Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.",
+    "section": "🧩 Aktivitas mandiri: Susun analysis plan Anda sendiri",
+    "text": "🧩 Aktivitas mandiri: Susun analysis plan Anda sendiri\n\n\n\n\n\n\nKerjakan bagian ini secara mandiri\n\n\n\nMenggunakan dataset Big Five, Anda akan menyusun analysis plan lengkap:\n\nRumuskan satu pertanyaan penelitian yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu trait kepribadian atau variabel demografis).\nRumuskan hipotesisnya.\nTentukan apakah analisisnya bersifat deskriptif, komparatif, atau korelasional.\nTuliskan langkah-langkah analysis plan secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "5. Merencanakan Analisis Data"
+    ]
+  },
+  {
+    "objectID": "slides/pertemuan5.html#aktivitas-mandiri-mengeksekusi-analysis-plan-untuk-dataset-contoh",
+    "href": "slides/pertemuan5.html#aktivitas-mandiri-mengeksekusi-analysis-plan-untuk-dataset-contoh",
+    "title": "Merencanakan Analisis Data",
+    "section": "🧩 Aktivitas mandiri: Mengeksekusi analysis plan untuk dataset contoh",
+    "text": "🧩 Aktivitas mandiri: Mengeksekusi analysis plan untuk dataset contoh\n\n\n\n\n\n\nAktivitas ini dinilai sebagai nilai kuis.\n\n\n\n\n\n\n\n\n\nPertanyaan penelitian: “Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”\n\n\n\n\nHitung skor_extraversion per partisipan (AVERAGE(E1:E10), setelah item dibalik sesuai kebutuhan).\nBuat pivot table: Rows = gender, Values = AVERAGE(skor_extraversion).\nBandingkan rata-rata antar kategori gender.\nUji perbedaan rata-rata tersebut di MS Excel dengan fungsi T.TEST()\n\n\n\n\n\n\n\nKumpulkan file MS Excel/LibreOffice yang digunakan untuk analisis di Psyche. Akan dinilai sebagai nilai kuis.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2073,7 +2073,7 @@
     "href": "slides/pertemuan5.html#kesimpulan-pertemuan-5",
     "title": "Merencanakan Analisis Data",
     "section": "Kesimpulan Pertemuan 5",
-    "text": "Kesimpulan Pertemuan 5\n\nSebelum menganalisis, kembali ke Define: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.\nAnalysis plan adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda reproducible — menuliskannya sebelum melihat hasil adalah inti dari preregistration, dan membantu membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional — pivot table adalah alat serbaguna untuk ketiganya.\nUrutan yang benar: bersihkan dulu (termasuk membalik item reverse-scored), baru hitung skor skala.",
+    "text": "Kesimpulan Pertemuan 5\n\nSebelum menganalisis, kembali ke Define: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.\nAnalysis plan adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda reproducible.\nMenuliskan analysis plan sebelum melihat hasil adalah inti dari pre-registration, dan ini akan membantu untuk membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.\nTiga kategori teknik analisis: deskriptif, komparatif, korelasional — pivot table adalah alat serbaguna untuk ketiganya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

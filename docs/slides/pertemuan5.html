@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-10">
+  <meta name="dcterms.date" content="2026-09-11">
   <title>Literasi Data dan Penulisan Ilmiah – Merencanakan Analisis Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -152,7 +152,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-10</p>
+  <p class="date">2026-09-11</p>
 </section>
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
@@ -214,9 +214,17 @@ Rizqy Amelia Zein
 </tr>
 </tbody>
 </table>
-<div class="fragment">
-<p>Pertanyaan yang <strong>presisi</strong> dan <strong>spesifik</strong> akan memberi tahu Anda data apa yang dibutuhkan.</p>
+<p>Pertanyaan yang <strong>presisi</strong> dan <strong>spesifik</strong> akan menentukan data apa yang dibutuhkan.</p>
 <p><strong>Bandingkan</strong>: <em>“Apakah mahasiswa terpengaruh media sosial?”</em> (terlalu kabur) vs.&nbsp;<em>“Apakah durasi penggunaan media sosial berkaitan dengan kesejahteraan psikologis mahasiswa tingkat akhir?”</em> (jelas variabel apa yang diteliti).</p>
+<div class="callout callout-note callout-style-simple">
+<div class="callout-body">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-content">
+<p>Saya menulis esai pendek bagaimana <a href="https://app.notion.com/p/ameliazein/Bagaimana-menentukan-pertanyaan-penelitian-85d050c444f1447b9b3a57d1adc6832f?v=911560954d5d4784b0832c9269a42f30&amp;source=copy_link">cara merumuskan masalah dan pertanyaan penelitian</a>. Silakan baca di luar waktu perkuliahan.</p>
+</div>
+</div>
 </div>
 </section>
 <section id="merumuskan-hipotesis" class="slide level2">
@@ -230,14 +238,14 @@ Rizqy Amelia Zein
 <p><strong>Ciri hipotesis yang baik</strong></p>
 </div>
 <div class="callout-content">
-<p><strong>Sederhana, ringkas, dan yang terpenting: dapat diuji</strong>. Artinya, Anda harus bisa membuktikannya salah (ingat prinsip falsifikasi).</p>
+<p><strong>Sederhana, ringkas, dan yang terpenting: dapat diuji</strong>. Artinya, Anda harus bisa membuktikannya salah (i.e., <a href="https://en.wikipedia.org/wiki/Falsifiability"><em>falsifiability</em></a>).</p>
 </div>
 </div>
 </div>
-<p>Hipotesis berfungsi ganda:</p>
+<p>Hipotesis punya dua fungsi:</p>
 <ul>
-<li class="fragment"><strong>Mempertajam</strong> proyek Anda — menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.</li>
-<li class="fragment"><strong>Menyusun narasi</strong> yang ingin Anda buktikan dengan data.</li>
+<li class="fragment"><strong>Mempertajam</strong> proyek Anda dengan menentukan observasi spesifik apa yang Anda harapkan muncul dalam data.</li>
+<li class="fragment"><strong>Menyusun narasi</strong> yang ingin Anda jabarkan dengan data.</li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -248,7 +256,7 @@ Rizqy Amelia Zein
 <p><strong>Contoh</strong></p>
 </div>
 <div class="callout-content">
-<p>Dari pertanyaan tentang media sosial dan kesejahteraan psikologis, hipotesisnya bisa: <em>“Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”</em></p>
+<p>Dari masalah sosial tentang keterkaitan antara media sosial dan kesejahteraan psikologis, hipotesisnya bisa: <em>“Mahasiswa dengan durasi penggunaan media sosial harian lebih tinggi melaporkan skor kesejahteraan psikologis yang lebih rendah.”</em></p>
 </div>
 </div>
 </div>
@@ -262,19 +270,19 @@ Rizqy Amelia Zein
 <h2>Apa itu <em>analysis plan</em>?</h2>
 <ul>
 <li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian <strong>transformasi</strong> yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.</li>
-<li class="fragment">Disusun <strong>setelah</strong> data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom yang sebenarnya.</li>
-<li class="fragment">Tujuannya: siapa pun yang diberi data bersih dan <em>analysis plan</em> Anda harus bisa <strong>mereproduksi</strong> analisis Anda langkah demi langkah.</li>
+<li class="fragment">Disusun <strong>setelah</strong> data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom/variabel yang sebenarnya.</li>
+<li class="fragment">Tujuannya: siapa pun yang diberi data bersih dan <em>analysis plan</em> Anda harus bisa <strong>mereka ulang</strong> (i.e., <em>reproducibility</em>) analisis Anda langkah demi langkah.</li>
 </ul>
 </section>
 <section id="contoh-analysis-plan" class="slide level2">
 <h2>Contoh <em>analysis plan</em></h2>
-<p>Untuk hipotesis <em>“beban tugas mingguan berkaitan dengan tingkat burnout”</em>:</p>
+<p>Untuk hipotesis <em>“persepsi tentang beban tugas mingguan berkaitan dengan tingkat burnout”</em>:</p>
 <ol type="1">
 <li class="fragment">Hitung skor total <code>SKOR_BURNOUT</code> dari item-item skala burnout (<code>AVERAGE()</code>).</li>
 <li class="fragment">Kelompokkan responden berdasarkan <code>BEBAN_TUGAS</code> menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).</li>
 <li class="fragment">Untuk kelompok “beban tinggi”, hitung rata-rata <code>SKOR_BURNOUT</code>.</li>
 <li class="fragment">Untuk kelompok “beban rendah”, hitung rata-rata <code>SKOR_BURNOUT</code>.</li>
-<li class="fragment">Bandingkan kedua rata-rata tersebut.</li>
+<li class="fragment">Bandingkan kedua rata-rata tersebut, lakukan uji statistik yang mendeteksi apakah perbedaan median <code>SKOR_BURNOUT</code> antara kelompok dengan <code>BEBAN_TUGAS</code> tinggi vs.&nbsp;rendah signifikan.</li>
 </ol>
 <div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
@@ -288,22 +296,23 @@ Rizqy Amelia Zein
 </div>
 </div>
 </section>
-<section id="analysis-plan-dan-preregistration" class="slide level2">
-<h2><em>Analysis plan</em> dan <em>preregistration</em></h2>
+<section id="analysis-plan-dan-pre-registration" class="slide level2">
+<h2><em>Analysis plan</em> dan <em>pre-registration</em></h2>
 <ul>
-<li class="fragment"><em>Analysis plan</em> yang Anda tulis <strong>sebelum</strong> melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar <strong><em>preregistration</em></strong>.
+<li class="fragment"><em>Analysis plan</em> yang Anda tulis <strong>sebelum</strong> melihat hasil analisisnya sebenarnya sudah menjalankan prinsip dasar <a href="https://guides.lib.uchicago.edu/osf/registration"><strong><em>pre-registration</em></strong></a>.
 <ul>
 <li class="fragment">Artinya, mendaftarkan hipotesis dan rencana analisis <strong>secara terbuka</strong>, idealnya bahkan <strong>sebelum data dikumpulkan sama sekali</strong>.</li>
 </ul></li>
-<li class="fragment">Pendaftarannya biasa dilakukan di <em>platform</em> terbuka seperti <em>Open Science Framework</em> (OSF), dengan cap waktu yang tidak bisa diubah-ubah setelahnya. Jadi, ada bukti tertulis tentang apa yang Anda rencanakan <strong>sebelum</strong> tahu hasilnya.</li>
+<li class="fragment">Pendaftarannya biasa dilakukan di <em>platform</em> seperti <a href="https://osf.io/"><em>Open Science Framework</em> (OSF)</a>, dengan cap waktu yang tidak bisa diubah-ubah setelahnya.
+<ul>
+<li class="fragment">Jadi, ada bukti tertulis tentang apa yang Anda rencanakan <strong>sebelum</strong> tahu hasilnya.</li>
+</ul></li>
+<li class="fragment">Contoh <a href="https://osf.io/search?tab=3&amp;filter_conformsTo=%5B%7B%22label%22:%22OSF%20Preregistration%22,%22value%22:%22https:%2F%2Fapi.osf.io%2Fv2%2Fschemas%2Fregistrations%2F5c08457ed283380029cf73bf%22,%22cardSearchResultCount%22:128492%7D%5D&amp;filter_subject=%5B%7B%22label%22:%22Social%20Psychology%22,%22value%22:%22https:%2F%2Fapi.osf.io%2Fv2%2Fsubjects%2F584240da54be81056cecaab6%22,%22cardSearchResultCount%22:10546%7D%5D"><em>pre-registration</em> penelitian psikologi sosial di OSF</a> dan <a href="https://osf.io/xmnzb/overview">contoh dari penelitian saya</a>.</li>
 </ul>
-<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout callout-important callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
-</div>
-<p><strong>Kenapa ini penting</strong></p>
 </div>
 <div class="callout-content">
 <p><em>Preregistration</em> adalah cara yang paling umum digunakan untuk membedakan <strong>penelitian konfirmatori</strong>/<em>hypothesis testing</em> (menguji hipotesis yang sudah dirumuskan sejak awal) dari <strong>penelitian eksploratif</strong>/<em>hypothesis generating</em> (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.</p>
@@ -311,7 +320,7 @@ Rizqy Amelia Zein
 </div>
 </div>
 <div class="fragment">
-<p>Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadari, untuk mengubah hipotesis atau cara analisis Anda <strong>setelah</strong> melihat hasilnya, supaya “cocok” dengan apa yang ditemukan. Kita akan bahas tuntas kenapa ini berbahaya di Pertemuan 6, lewat dua praktik bermasalah ini bernama <em>p-hacking</em> dan <strong>HARKing</strong>.</p>
+<p>Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadari, untuk mengubah hipotesis atau cara analisis Anda <strong>setelah</strong> melihat hasilnya, supaya “cocok” dengan apa yang ditemukan.</p>
 </div>
 </section></section>
 <section>
@@ -338,7 +347,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Ada kategori keempat yang <strong>tidak</strong> dibahas mendalam di mata kuliah ini: <a href="https://en.wikipedia.org/wiki/Predictive_modelling">analisis <strong>prediktif</strong></a>, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut.</p>
+<p>Ada kategori keempat yang <strong>tidak</strong> dibahas mendalam di mata kuliah ini: <a href="https://en.wikipedia.org/wiki/Predictive_modelling">analisis model <strong>prediktif</strong></a>, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut (i.e., <em>machine learning</em>).</p>
 </div>
 </div>
 </div>
@@ -373,12 +382,12 @@ Rizqy Amelia Zein
 </tbody>
 </table>
 <div class="fragment">
-<p>Kunci memakainya: mulai dengan kalimat <strong>“Saya ingin melihat…”</strong> — mis. <em>“Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender.”</em> → Rows: gender, Values: AVERAGE(Extraversion).</p>
+<p>Kunci memakainya: mulai dengan kalimat <strong>“Saya ingin melihat…”</strong> — mis. <em>“Saya ingin melihat rata-rata skor Extraversion, untuk tiap kategori gender.”</em> → Rows: gender, Values: <code>AVERAGE(Extraversion)</code>.</p>
 </div>
 </section></section>
 <section>
-<section id="sekilas-tentang-jamovi-sebagai-pelengkap-spreadsheet" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Sekilas tentang <code>jamovi</code> sebagai Pelengkap Spreadsheet 💻</h1>
+<section id="software-untuk-analisis-data" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Software untuk Analisis Data 💻</h1>
 
 </section>
 <section id="kapan-harus-menggunakan-software-statistik" class="slide level2">
@@ -412,42 +421,23 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Mata kuliah ini <strong>tidak</strong> mengajarkan <code>jamovi</code>/<i class="fa-brands fa-r-project" aria-label="r-project"></i> secara mendalam. <em>Spreadsheet</em> tetap alat utama yang digunakan untuk MK ini. Tapi penting Anda tahu sebagai langkah lanjutan setelah Anda nyaman dengan dasar-dasar literasi data.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="aktivitas-mandiri-menyusun-analysis-plan-untuk-dataset-contoh-dikumpulkan-untuk-nilai-kuis" class="slide level2">
-<h2>🧩 Aktivitas mandiri: Menyusun <em>analysis plan</em> untuk dataset contoh (dikumpulkan untuk nilai kuis)</h2>
-<p>Misalkan pertanyaan penelitian Anda: <em>“Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”</em></p>
-<ol type="1">
-<li class="fragment">Hitung <code>skor_extraversion</code> per partisipan (<code>AVERAGE(E1:E10)</code>, setelah item dibalik sesuai kebutuhan).</li>
-<li class="fragment">Buat <em>pivot table</em>: Rows = <code>gender</code>, Values = <code>AVERAGE(skor_extraversion)</code>.</li>
-<li class="fragment">Bandingkan rata-rata antar kategori gender.</li>
-<li class="fragment">Uji perbedaan rata-rata tersebut di MS Excel dengan fungsi <a href="https://support.microsoft.com/en-us/excel/functions/t-test-function"><code>T.TEST()</code></a></li>
-</ol>
-<div class="callout callout-important callout-style-simple">
-<div class="callout-body">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-content">
-<p>Kumpulkan file Excel yang digunakan untuk analisis di Psyche. Akan dinilai sebagai nilai kuis.</p>
+<p>Mata kuliah ini <strong>tidak</strong> mengajarkan cara menggunakan <code>jamovi</code>/<i class="fa-brands fa-r-project" aria-label="r-project"></i> secara mendalam. Anda dapat belajar secara mandiri dari berbagai sumber yang tersedia. Salah satunya, Anda bisa menggunakan <a href="https://www.learnstatswithjamovi.com/">“Learning Statistics with jamovi”</a> dan <a href="https://r4ds.hadley.nz/">“<i class="fa-brands fa-r-project" aria-label="r-project"></i> for Data Science”</a> sebagai pengantar belajar untuk pemula.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="aktivitas-mandiri-susun-analysis-plan-anda-sendiri" class="slide level2">
-<h2>🧩 Aktivitas mandiri: susun <em>analysis plan</em> Anda sendiri</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
+<h2>🧩 Aktivitas mandiri: Susun <em>analysis plan</em> Anda sendiri</h2>
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kerjakan mandiri</strong></p>
-</div>
 <div class="callout-content">
+<p>Kerjakan bagian ini secara mandiri</p>
+</div>
+</div>
+</div>
 <p>Menggunakan dataset <strong><em>Big Five</em></strong>, Anda akan menyusun <em>analysis plan</em> lengkap:</p>
 <ol type="1">
 <li>Rumuskan <strong>satu pertanyaan penelitian</strong> yang bisa dijawab dengan dataset ini (boleh melibatkan lebih dari satu <em>trait</em> kepribadian atau variabel demografis).</li>
@@ -455,6 +445,42 @@ Rizqy Amelia Zein
 <li>Tentukan apakah analisisnya bersifat <strong>deskriptif, komparatif, atau korelasional</strong>.</li>
 <li>Tuliskan <strong>langkah-langkah <em>analysis plan</em></strong> secara berurutan, selengkap contoh yang sudah dibahas, termasuk nama kolom yang akan Anda buat/pakai.</li>
 </ol>
+</section>
+<section id="aktivitas-mandiri-mengeksekusi-analysis-plan-untuk-dataset-contoh" class="slide level2">
+<h2>🧩 Aktivitas mandiri: Mengeksekusi <em>analysis plan</em> untuk dataset contoh</h2>
+<div class="callout callout-caution callout-style-simple">
+<div class="callout-body">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-content">
+<p>Aktivitas ini dinilai sebagai nilai kuis.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-note callout-style-simple">
+<div class="callout-body">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-content">
+<p>Pertanyaan penelitian: <em>“Apakah skor Extraversion berbeda antara partisipan laki-laki dan perempuan?”</em></p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li class="fragment">Hitung <code>skor_extraversion</code> per partisipan (<code>AVERAGE(E1:E10)</code>, setelah item dibalik sesuai kebutuhan).</li>
+<li class="fragment">Buat <em>pivot table</em>: Rows = <code>gender</code>, Values = <code>AVERAGE(skor_extraversion)</code>.</li>
+<li class="fragment">Bandingkan rata-rata antar kategori gender.</li>
+<li class="fragment">Uji perbedaan rata-rata tersebut di MS Excel dengan fungsi <a href="https://support.microsoft.com/en-us/excel/functions/t-test-function"><code>T.TEST()</code></a></li>
+</ol>
+<div class="callout callout-caution callout-style-simple">
+<div class="callout-body">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-content">
+<p>Kumpulkan file MS Excel/LibreOffice yang digunakan untuk analisis di Psyche. Akan dinilai sebagai nilai kuis.</p>
 </div>
 </div>
 </div>
@@ -468,9 +494,9 @@ Rizqy Amelia Zein
 <h2>Kesimpulan Pertemuan 5</h2>
 <ul>
 <li class="fragment">Sebelum menganalisis, kembali ke <em>Define</em>: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.</li>
-<li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda <strong><em>reproducible</em></strong> — menuliskannya <em>sebelum</em> melihat hasil adalah inti dari <strong><em>preregistration</em></strong>, dan membantu membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.</li>
+<li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda <strong><em>reproducible</em></strong>.</li>
+<li class="fragment">Menuliskan <em>analysis plan</em> <strong>sebelum</strong> melihat hasil adalah inti dari <strong><em>pre-registration</em></strong>, dan ini akan membantu untuk membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.</li>
 <li class="fragment">Tiga kategori teknik analisis: <strong>deskriptif</strong>, <strong>komparatif</strong>, <strong>korelasional</strong> — <em>pivot table</em> adalah alat serbaguna untuk ketiganya.</li>
-<li class="fragment">Urutan yang benar: <strong>bersihkan dulu</strong> (termasuk membalik item <em>reverse-scored</em>), baru hitung skor skala.</li>
 </ul>
 </section>
 <section id="referensi" class="slide level2 scrollable smaller">
