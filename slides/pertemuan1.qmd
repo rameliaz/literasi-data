@@ -17,16 +17,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-- Mengapa peneliti psikologi perlu memiliki literasi data?
-- Apa itu data?
-- Jenis-jenis data
-- Kerangka kerja *Data Pipeline*
-- Apa itu literasi data?
-- Dataset yang akan kita pakai sepanjang semester
-:::
+1. Mengapa peneliti psikologi perlu memiliki literasi data?
+2. Apa itu data?
+3. Jenis-jenis data
+4. Kerangka kerja *Data Pipeline*
+5. Apa itu literasi data?
+6. Dataset yang akan kita pakai sepanjang semester
 
 # Mengapa Literasi Data? {background-color="#14497F"}
 
@@ -312,13 +310,21 @@ Unduh dataset IPIP di *website* Mata Kuliah. Untuk Pertemuan 2, contoh data akan
 - Kita akan memakai dataset **Big Five Personality Test** dari Open-Source Psychometrics Project sepanjang paruh pertama semester sebagai *playing ground*.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::

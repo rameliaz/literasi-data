@@ -17,16 +17,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* ***Find*** & ***Get***: dua tahap *Data Pipeline* yang dibahas minggu ini
-* Sumber-sumber **data terbuka** untuk riset psikologi
-* Ragam **format data** (`.csv`, `.sav`, `json`) dan cara membacanya
-* Mengekstraksi data dari **dokumen dan tabel** dari *file* statis
-* **Etika** pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi
-* 2️⃣ aktivitas (mandiri & kelompok)
-:::
+1. ***Find*** & ***Get***: dua tahap *Data Pipeline* yang dibahas minggu ini
+2. Sumber-sumber **data terbuka** untuk riset psikologi
+3. Ragam **format data** (`.csv`, `.sav`, `json`) dan cara membacanya
+4. Mengekstraksi data dari **dokumen dan tabel** dari *file* statis
+5. **Etika** pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi
+6. 2️⃣ aktivitas (mandiri & kelompok)
 
 ::: notes
 Metode minggu ini "Diskusi Kelompok" — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif.
@@ -273,13 +271,21 @@ Ini kasus tentang *k-anonymity*/*re-identification risk* tanpa perlu istilah tek
 * Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
 * Republik Indonesia. (2022). *Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi*.
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::

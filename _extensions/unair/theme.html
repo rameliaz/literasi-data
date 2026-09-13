@@ -1,0 +1,220 @@
+<script>
+// Detect extension base path by probing for the logo file.
+// Stylesheet detection is unreliable: Quarto compiles extension SCSS into the
+// bundled theme CSS, so no _extensions/ path ever appears in document.styleSheets.
+// In a Quarto *website* project, `_extensions/` is only copied to the site
+// root (e.g. docs/_extensions/), not duplicated next to every page — a deck
+// rendered from a subdirectory (e.g. docs/slides/talk.html) needs `../` to
+// reach it. So probe increasing `../` depths, not just the page's own folder.
+var _unairExtPath = null;
+
+function _resolveUnairExtPath(callback) {
+  var candidates = [];
+  for (var depth = 0; depth <= 4; depth++) {
+    var prefix = new Array(depth + 1).join('../');
+    candidates.push(prefix + '_extensions/rameliaz/unair/');
+    candidates.push(prefix + '_extensions/unair/');
+  }
+
+  function probe(idx) {
+    if (idx >= candidates.length) {
+      _unairExtPath = candidates[0];
+      callback();
+      return;
+    }
+    var img = new Image();
+    img.onload = function() { _unairExtPath = candidates[idx]; callback(); };
+    img.onerror = function() { probe(idx + 1); };
+    img.src = candidates[idx] + 'logo.png';
+  }
+
+  probe(0);
+}
+
+// Single unified function to manage all logos
+function manageLogos() {
+  const slides = document.querySelectorAll('.reveal .slides section');
+
+  slides.forEach(function(slide) {
+    // Vertical-stack wrappers aren't slides themselves; a logo here would
+    // show on top of each child slide's own logo.
+    if (slide.querySelector('section')) {
+      slide.querySelectorAll(':scope > .slide-logo').forEach(logo => logo.remove());
+      return;
+    }
+
+    // Handle the real title/cover slide. Quarto gives it id="title-slide"
+    // but class "quarto-title-block" — NOT class "title-slide". That class
+    // is actually assigned by Quarto to any heading-only section-divider
+    // slide (`# Heading {background-color="..."}`), so matching on id here
+    // is required to avoid also treating those dividers as the cover slide.
+    if (slide.id === 'title-slide') {
+      // Remove any regular logos from title slide
+      const regularLogos = slide.querySelectorAll('.slide-logo');
+      regularLogos.forEach(logo => logo.remove());
+
+      // Add centered logo if it doesn't exist
+      if (!slide.querySelector('.title-slide-logo')) {
+        const titleLogo = document.createElement('img');
+        titleLogo.src = _unairExtPath + 'logo.png';
+        titleLogo.className = 'title-slide-logo';
+        titleLogo.alt = 'Universitas Airlangga Logo';
+        slide.insertBefore(titleLogo, slide.firstChild);
+      }
+      return;
+    }
+
+    // For all other slides, ensure only ONE logo exists
+    const existingLogos = slide.querySelectorAll('.slide-logo');
+
+    // If multiple logos exist, remove all and start fresh
+    if (existingLogos.length > 1) {
+      existingLogos.forEach(logo => logo.remove());
+    }
+
+    // White logo on UNAIR-blue slides: blue dividers and the closing slide
+    const bgColor = slide.getAttribute('data-background-color');
+    const logoSrc = (bgColor === '#14497F' || bgColor === '#14497f' || slide.classList.contains('closing-slide'))
+      ? _unairExtPath + 'logo_white.png'
+      : _unairExtPath + 'logo.png';
+    
+    // If exactly one logo exists, just update its source
+    if (existingLogos.length === 1) {
+      existingLogos[0].src = logoSrc;
+    } 
+    // If no logo exists, create one
+    else if (existingLogos.length === 0) {
+      const logo = document.createElement('img');
+      logo.src = logoSrc;
+      logo.className = 'slide-logo';
+      logo.alt = 'Universitas Airlangga Logo';
+      slide.appendChild(logo);
+    }
+  });
+}
+
+// Sidebar label: the talk's short title. Prefers the `short-title` YAML
+// field (surfaced as a <meta> tag by unair.lua); falls back to the full title
+// from the title slide (the CSS cuts it off with an ellipsis if too long).
+function _unairShortTitle() {
+  var meta = document.querySelector('meta[name="unair-short-title"]');
+  if (meta && meta.content.trim()) return meta.content.trim();
+
+  var title = document.querySelector('#title-slide .title');
+  return title ? title.textContent.replace(/\s+/g, ' ').trim() : '';
+}
+
+// Slides that keep their own full-bleed treatment and get no sidebar.
+// Section dividers are matched by data-background-color, the cover by id
+// (see manageLogos above for why not by class).
+var UNAIR_SIDEBAR_EXCLUDED_CLASSES = ['quote-slide', 'quote-slide-dark', 'agenda-slide', 'closing-slide', 'no-sidebar'];
+
+// Brand sidebar on the right edge of each content slide, after the page
+// frame in the UNAIR guideline PDF: key graphic + the talk's short title on a
+// blue bar, slide number on a yellow block at the bottom.
+// Built per slide (not one shared overlay) so it also appears on every page
+// of a PDF export, each with its own number.
+function manageSidebar() {
+  var showNumber = !!Reveal.getConfig().slideNumber;
+  var label = _unairShortTitle();
+
+  Reveal.getSlides().forEach(function(slide, index) {
+    var bar = slide.querySelector(':scope > .unair-sidebar');
+    var excluded = slide.id === 'title-slide' ||
+      slide.hasAttribute('data-background-color') ||
+      UNAIR_SIDEBAR_EXCLUDED_CLASSES.some(function(c) { return slide.classList.contains(c); });
+
+    if (excluded) {
+      if (bar) bar.remove();
+      slide.classList.remove('has-unair-sidebar');
+      return;
+    }
+
+    if (!bar) {
+      bar = document.createElement('div');
+      bar.className = 'unair-sidebar';
+      bar.setAttribute('aria-hidden', 'true');
+      bar.innerHTML = '<span class="unair-sidebar-mark"></span>' +
+        '<span class="unair-sidebar-label"></span>' +
+        '<span class="unair-sidebar-number"></span>';
+      slide.appendChild(bar);
+    }
+    bar.querySelector('.unair-sidebar-label').textContent = label;
+    // Matches Reveal's own "c" count: the cover slide is 1.
+    bar.querySelector('.unair-sidebar-number').textContent = showNumber ? String(index + 1) : '';
+    slide.classList.add('has-unair-sidebar');
+  });
+}
+
+// Pushes the sidebar out to the far right edge of the screen. Reveal scales
+// the slide to fit and letterboxes it, so the empty margin beside the slide
+// depends on the screen's aspect ratio; measure it (in unscaled slide px) and
+// hand it to the SCSS as custom properties. When the margin is narrower than
+// the bar, the overlap/clearance values tell slides how much room to make.
+var UNAIR_SIDEBAR_WIDTH = 72;  // $unair-sidebar-width in airlangga.scss
+var UNAIR_SIDEBAR_GAP = 32;    // $unair-sidebar-gap
+
+function layoutSidebar() {
+  var reveal = Reveal.getRevealElement();
+  var printing = (Reveal.isPrintView && Reveal.isPrintView()) ||
+    (Reveal.isPrintingPDF && Reveal.isPrintingPDF());
+  var offset = 0;
+
+  if (!printing) {
+    var scale = Reveal.getScale() || 1;
+    offset = Math.max(0, (reveal.getBoundingClientRect().width / scale - Reveal.getConfig().width) / 2);
+  }
+
+  var overlap = Math.max(0, UNAIR_SIDEBAR_WIDTH - offset);
+  var clearance = Math.max(0, UNAIR_SIDEBAR_WIDTH + UNAIR_SIDEBAR_GAP - offset);
+  reveal.style.setProperty('--unair-sidebar-offset', offset + 'px');
+  reveal.style.setProperty('--unair-sidebar-overlap', overlap + 'px');
+  reveal.style.setProperty('--unair-sidebar-clearance', clearance + 'px');
+}
+
+// Initialize on page load — resolve path first, then wire up Reveal events
+document.addEventListener('DOMContentLoaded', function() {
+  _resolveUnairExtPath(function() {
+    if (typeof Reveal !== 'undefined') {
+      if (Reveal.isReady()) {
+        manageSidebar();
+        layoutSidebar();
+        manageLogos();
+      } else {
+        Reveal.on('ready', manageSidebar);
+        Reveal.on('ready', layoutSidebar);
+        Reveal.on('ready', manageLogos);
+      }
+      Reveal.on('resize', layoutSidebar);
+      // Re-run on every slide change, like the logos: both are idempotent, and
+      // this self-heals the rare load where the sidebar went missing.
+      Reveal.on('slidechanged', manageSidebar);
+      Reveal.on('slidechanged', layoutSidebar);
+      Reveal.on('slidechanged', manageLogos);
+    } else {
+      setTimeout(manageLogos, 500);
+    }
+  });
+});
+</script>
+
+<style>
+/* Additional inline styles for logo */
+/* This block loads after airlangga.scss (include-after-body), so it must
+   agree with .reveal .slide-logo there or it silently wins the cascade. */
+.reveal .slide-logo {
+  position: absolute !important;
+  top: -1em !important;  /* Aligns with title */
+  right: 0 !important;  /* Flush with the h2 yellow rule's right tip */
+  max-height: 80px !important;
+  max-width: 200px !important;
+  z-index: 100 !important;
+  object-fit: contain;
+}
+
+/* Section title slide styling */
+.reveal section[data-background-color] h1,
+.reveal section[data-background-color] h2 {
+  color: white !important;
+}
+</style>

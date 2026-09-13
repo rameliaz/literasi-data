@@ -17,16 +17,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* ***Presenting*** vs. ***visualizing***
-* Memilih jenis data dan **tugas visualisasi** yang tepat
-* Enam prinsip *storytelling with data* ([Knaflic, 2021](https://www.storytellingwithdata.com))
-* Studi kasus: memvisualisasikan dataset *Big Five*
-* Alat bantu: *spreadsheet*, Tableau/Datawrapper, Canva
-* 2️⃣ aktivitas mandiri
-:::
+1. ***Presenting*** vs. ***visualizing***
+2. Memilih jenis data dan **tugas visualisasi** yang tepat
+3. Enam prinsip *storytelling with data* ([Knaflic, 2021](https://www.storytellingwithdata.com))
+4. Studi kasus: memvisualisasikan dataset *Big Five*
+5. Alat bantu: *spreadsheet*, Tableau/Datawrapper, Canva
+6. 2️⃣ aktivitas mandiri
 
 # Presenting vs. Visualizing Data 🎨 {background-color="#14497F"}
 
@@ -285,13 +283,21 @@ Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akadem
 * Knaflic, C. N. (2021). *Storytelling with data: A data visualization guide for business professionals*. Wiley.
 * [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::

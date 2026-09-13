@@ -17,16 +17,13 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* Menurunkan **pertanyaan penelitian** menjadi **hipotesis**
-* Menyusun ***analysis plan*** dan mengapa ***preregistration*** penting
-* Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
-* Sekilas `jamovi` sebagai pelengkap *spreadsheet*
-* Studi kasus: menghitung skor skala dan membandingkan kelompok pada dataset *Big Five*
-* 2️⃣ aktivitas
-:::
+1. Menurunkan **pertanyaan penelitian** menjadi **hipotesis**
+2. Menyusun ***analysis plan*** dan mengapa ***preregistration*** penting
+3. Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
+4. Perkenalan *software* statistik
+5. 2️⃣ aktivitas mandiri
 
 ::: notes
 Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.
@@ -246,13 +243,21 @@ Kumpulkan file MS Excel/LibreOffice yang digunakan untuk analisis di Psyche. Aka
 
 * [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::

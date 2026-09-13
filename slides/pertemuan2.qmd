@@ -17,17 +17,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Anatomi tabel** dan dasar-dasar spreadsheet
-* **Unit analisis** dan prinsip *tidy data* ([Wickham, 2014](https://doi.org/10.18637/jss.v059.i10))
-* Bentuk **panjang (*long*) vs. lebar (*wide*)**
-* Studi kasus: menata dataset ***Big Five Personality Test***
-* Menyusun tabel ringkasan: **distribusi frekuensi** dan **tabel kontingensi**
-* Menyajikan tabel dengan baik
-* 2️⃣ aktivitas (mandiri)
-:::
+1. **Anatomi tabel** dan dasar-dasar spreadsheet
+2. **Unit analisis** dan prinsip *tidy data* ([Wickham, 2014](https://doi.org/10.18637/jss.v059.i10))
+3. Bentuk **panjang (*long*) vs. lebar (*wide*)**
+4. Studi kasus: menata dataset ***Big Five Personality Test***
+5. Menyusun tabel ringkasan: **distribusi frekuensi** dan **tabel kontingensi**
+6. Menyajikan tabel dengan baik
+7. 2️⃣ aktivitas (mandiri)
 
 ::: notes
 Sesi ini padat (150 menit) dan banyak *hands-on*. Alokasikan waktu: ±30 menit dasar spreadsheet & tidy data, ±30 menit studi kasus Big Five (termasuk aktivitas kelompok), ±40 menit tabel ringkasan, ±20 menit penyajian tabel, sisanya untuk latihan mandiri dan rekap.
@@ -449,13 +447,21 @@ Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorik
 * Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
 * Wickham, H. (2014). Tidy data. *Journal of Statistical Software, 59*(10), 1–23. <https://doi.org/10.18637/jss.v059.i10>
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::

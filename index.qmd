@@ -227,7 +227,8 @@ Untuk mengelola referensi (terutama menjelang Pertemuan 10–11), kami merekomen
 
 ::: {.callout-tip appearance="simple"}
 Halaman ini merupakan ringkasan **Kontrak Perkuliahan** dan **Rancangan Tugas** mata kuliah ini.
-:::
+::: 
 
-### *Disclosure* penggunaan akal imitasi (AI)
-Saya menggunakan Claude Code (model Sonnet 5) untuk *brainstorming* dan menyusun *ouline* materi, menyusun draf RPS/kontrak perkuliahan, membuat *template outline* untuk *narrative review*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya (Amel) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.
+::: {.callout-note appearance="simple"}
+Saya menggunakan Claude Code (Model Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya (Amel) bertanggung jawab penuh atas substansi dan penyajian materi di mata kuliah ini.
+:::

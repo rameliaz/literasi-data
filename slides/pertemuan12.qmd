@@ -17,16 +17,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Argumen**: kenapa *take-home message* itu wajib
-* **Tesis** dan argumentasi berbasis bukti ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311))
-* Tiga cara menyusun **struktur naskah** ([Torraco, 2016](https://doi.org/10.1177/1534484316671606))
-* Kesalahan umum yang membuat *narrative review* ditolak
-* Etika penulisan ilmiah: plagiarisme, *authorship*, dan AI generatif
-* 3️⃣ aktivitas (mandiri, kelompok, diskusi)
-:::
+1. **Argumen**: kenapa *take-home message* itu wajib
+2. **Tesis** dan argumentasi berbasis bukti ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311))
+3. Tiga cara menyusun **struktur naskah** ([Torraco, 2016](https://doi.org/10.1177/1534484316671606))
+4. Kesalahan umum yang membuat *narrative review* ditolak
+5. Etika penulisan ilmiah: plagiarisme, *authorship*, dan AI generatif
+6. 3️⃣ aktivitas (mandiri, kelompok, diskusi)
 
 ::: notes
 Metode minggu ini "Presentasi" dengan pengalaman belajar "Diskusi dan Interaksi" — mahasiswa sudah melewati Pertemuan 9-11 (topik, ragam tinjauan pustaka, pencarian/sintesis literatur), jadi mereka sudah punya bahan mentah. Pertemuan ini mengubah bahan itu jadi argumen dan struktur naskah yang solid.
@@ -266,13 +264,21 @@ Ini kasus tentang risiko AI "mengarang" referensi (halusinasi) yang tidak diveri
 * Baumeister, R. F., & Leary, M. R. (1997). Writing narrative literature reviews. *Review of General Psychology, 1*(3), 311–320. <https://doi.org/10.1037/1089-2680.1.3.311>
 * Torraco, R. J. (2016). Writing integrative literature reviews: Using the past and present to explore the future. *Human Resource Development Review, 15*(4), 404–428. <https://doi.org/10.1177/1534484316671606>
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
