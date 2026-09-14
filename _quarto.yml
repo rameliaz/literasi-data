@@ -8,6 +8,7 @@ project:
     - articles/
     - slides/libs/
     - _extensions/
+    - .nojekyll
   render:
     - index.qmd
     - slides/

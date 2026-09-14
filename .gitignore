@@ -12,3 +12,4 @@ AGENTS.md
 **/*.quarto_ipynb
 /references
 **/*.gsheet
+/.luarc.json
