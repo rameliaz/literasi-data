@@ -762,9 +762,16 @@ Rizqy Amelia Zein
     var _unairExtPath = null;
 
     function _resolveUnairExtPath(callback) {
+      // The extension folder is copied to the site root (see `resources:` in
+      // _quarto.yml), but a revealjs page can render into a subdirectory (e.g.
+      // slides/pertemuan1.html), where a plain relative path resolves against
+      // the page's own folder instead. Walk back up one "../" per path segment
+      // below the root so this works at any nesting depth.
+      var depth = Math.max(window.location.pathname.replace(/^\/|\/$/g, '').split('/').length - 1, 0);
+      var prefix = new Array(depth + 1).join('../');
+
       var candidates = [
-        '_extensions/rameliaz/unair/',
-        '_extensions/unair/'
+        prefix + '_extensions/unair/'
       ];
 
       function probe(idx) {

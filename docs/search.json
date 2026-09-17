@@ -155,7 +155,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -167,7 +167,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -175,11 +175,11 @@
     "href": "slides/pertemuan6.html#komunitas-akademik-serumpun",
     "title": "Interpretasi Data",
     "section": "Komunitas akademik serumpun",
-    "text": "Komunitas akademik serumpun\n\nAnda perlu memperhatikan norma/kelaziman yang berlaku di komunitas Anda, misalnya, seperti apa tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis yang diterima komunitas akademik Anda.\nTiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, Psikologi → APA.\nDengan sejawat serumpun, Anda diperbolehkan (bahkan didorong) memakai istilah teknis, sehingga jargon justru menambah akurasi dalam proses komunikasi.",
+    "text": "Komunitas akademik serumpun\n\nAnda perlu memperhatikan norma/kelaziman yang berlaku di komunitas Anda.\n\nMisalnya, seperti apa tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis yang diterima komunitas akademik Anda.\n\nTiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, Psikologi → APA.\nDengan sejawat serumpun, Anda diperbolehkan (bahkan didorong) memakai istilah teknis, sehingga jargon justru menambah akurasi dalam proses komunikasi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -191,7 +191,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -203,7 +203,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -211,11 +211,11 @@
     "href": "slides/pertemuan6.html#contoh-1-durasi-tidur-kucing-vs.-anjing",
     "title": "Interpretasi Data",
     "section": "Contoh 1: Durasi tidur kucing vs. anjing",
-    "text": "Contoh 1: Durasi tidur kucing vs. anjing\n\n\n\n\n\n\n\n\n\nPada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.\n\n\nInterpretasi yang di-hedge dengan baik: “Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.”\n\n\n\n\n\n\n\nKalimat ini secara eksplisit mengaitkan ketidakpastian dengan satu nilai ekstrem (outlier) dalam sampel, bukan sekadar berkata “hasilnya tidak pasti” tanpa alasan yang jelas.",
+    "text": "Contoh 1: Durasi tidur kucing vs. anjing\n\n\n\n\n\n\n\n\n\nPada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya. Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.\n\n\n\n\n\n\n\n\nKalimat ini secara eksplisit mengaitkan ketidakpastian dengan satu nilai ekstrem (outlier) dalam sampel, bukan sekadar berkata “hasilnya tidak pasti” tanpa alasan yang jelas.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -223,11 +223,11 @@
     "href": "slides/pertemuan6.html#contoh-2-panjang-lengan-vs.-tungkai",
     "title": "Interpretasi Data",
     "section": "Contoh 2: Panjang lengan vs. tungkai",
-    "text": "Contoh 2: Panjang lengan vs. tungkai\n\n\n\n\n\n\n\n\n\nGrafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja. Semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.\n\n\nDi sini hubungannya memang kuat dan jelas. Hedging yang berlebihan justru tidak tepat. Kuncinya bukan selalu membingkai temuan dengan keragu-raguan, tapi selalu sesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang Anda temukan.",
+    "text": "Contoh 2: Panjang lengan vs. tungkai\n\n\n\n\n\n\n\n\n\nGrafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja. Semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.\n\n\n\nDi sini hubungannya memang kuat dan jelas. Hedging yang berlebihan justru tidak tepat. Kuncinya bukan selalu membingkai temuan dengan keragu-raguan, tapi selalu sesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang Anda temukan.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -239,7 +239,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -251,7 +251,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -263,7 +263,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -275,7 +275,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -287,7 +287,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -299,7 +299,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -311,7 +311,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -323,7 +323,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -335,7 +335,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -347,7 +347,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -359,7 +359,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -371,7 +371,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -383,7 +383,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -395,7 +395,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -407,7 +407,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -419,7 +419,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -431,7 +431,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -443,7 +443,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -455,7 +455,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {
@@ -467,7 +467,7 @@
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
-      "6. Praktik Analisis Data Sederhana"
+      "6. Interpretasi Data"
     ]
   },
   {

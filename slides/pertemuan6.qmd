@@ -106,11 +106,11 @@ Di sini hubungannya memang **kuat dan jelas**. *Hedging* yang berlebihan justru 
 
 ## Contoh 3: Gaji Dosen UGM
 
-![[Sumber](https://www.tribunnews.com/nasional/7857223/sidang-mk-beber-gaji-dosen-ptn-indonesia-take-home-pay-di-ugm-rp21-juta)](libs/ugm.png){fig-align="center" width="80%"}
+![[Sumber](https://www.tribunnews.com/nasional/7857223/sidang-mk-beber-gaji-dosen-ptn-indonesia-take-home-pay-di-ugm-rp21-juta)](libs/ugm.png){fig-align="center" width="60%"}
 
 . . .
 
-![](libs/ugm2.png){fig-align="center" width="80%"}
+![](libs/ugm2.png){fig-align="center" width="60%"}
 
 # Studi Kasus: Generalisasi Tergesa-Gesa dari Subkelompok ⚠️ {background-color="#14497F"}
 
