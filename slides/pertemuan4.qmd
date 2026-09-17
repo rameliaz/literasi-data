@@ -25,7 +25,6 @@ execute:
 4. ***Clean***: alur kerja dan tiga aktivitas pembersihan data
 5. Mendokumentasikan proses pembersihan data
 6. Praktik langsung: membersihkan dataset yang "kotor"
-7. 2️⃣ aktivitas mandiri
 
 # Verify: Seperti Apa Dataset yang Siap Dianalisis? ✅ {background-color="#14497F"}
 

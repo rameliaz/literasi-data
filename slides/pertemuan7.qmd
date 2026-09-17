@@ -24,7 +24,6 @@ execute:
 3. Enam prinsip *storytelling with data* ([Knaflic, 2021](https://www.storytellingwithdata.com))
 4. Studi kasus: memvisualisasikan dataset *Big Five*
 5. Alat bantu: *spreadsheet*, Tableau/Datawrapper, Canva
-6. 2️⃣ aktivitas mandiri
 
 # Presenting vs. Visualizing Data 🎨 {background-color="#14497F"}
 

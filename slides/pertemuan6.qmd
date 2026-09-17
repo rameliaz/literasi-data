@@ -20,13 +20,12 @@ execute:
 ## Agenda {.agenda-slide}
 
 1. Setelah data dianalisis, **bagaimana melaporkannya**?
-2. Menarasikan ketidakpastian dengan ***hedging language***
+2. Menarasikan ketidakpastian dengan ***hedging***
 3. Studi kasus: generalisasi tergesa-gesa dari subkelompok
 4. Melaporkan rentang kepercayaan (*confidence interval*) dengan benar
-5. Etika analisis data: mengenali *questionable research practices*
-6. 2️⃣ aktivitas mandiri
+5. Mengenal *questionable research practices* (QRP)
 
-# Data Telah Dianalisis, Lalu? 📢 {background-color="#14497F"}
+# Data Telah Dianalisis, Lalu? {background-color="#14497F"}
 
 ## Tiga jenis audiens
 
@@ -41,8 +40,11 @@ Setelah data dianalisis (Pertemuan 5), temuan pentingnya harus dikomunikasikan. 
 ## Komunitas akademik serumpun
 
 ::: {.incremental}
-* Anda perlu memperhatikan **norma/kelaziman** yang berlaku di komunitas Anda — tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis.
-* Tiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, **Psikologi → APA**.
+* Anda perlu memperhatikan **norma/kelaziman** yang berlaku di komunitas Anda. 
+  + Misalnya, seperti apa tata letak tulisan, aturan pengutipan, cara mempresentasikan dan mendiskusikan analisis yang diterima komunitas akademik Anda.
+
+* Tiap bidang punya gayanya sendiri: Kedokteran → AMA, Sosiologi → ASA, Teknik → IEEE, [**Psikologi → APA**](https://apastyle.apa.org/).
+
 * Dengan sejawat serumpun, Anda **diperbolehkan** (bahkan didorong) memakai istilah teknis, sehingga jargon justru menambah akurasi dalam proses komunikasi.
 :::
 
@@ -59,7 +61,7 @@ Setelah data dianalisis (Pertemuan 5), temuan pentingnya harus dikomunikasikan. 
 Ingat: statistik pada dasarnya bicara soal **probabilitas**, jadi hindari diksi yang menyiratkan realitas yang serba pasti/rigid.
 :::
 
-# Menarasikan Ketidakpastian: *Hedging Language* 🎈 {background-color="#14497F"}
+# Menarasikan Ketidakpastian: Hedging Language {background-color="#14497F"}
 
 ## Apa itu *hedging language*?
 
@@ -72,10 +74,14 @@ Kata kunci yang sering dipakai: *"cenderung," "mengindikasikan," "kemungkinan," 
 
 ## Contoh 1: Durasi tidur kucing vs. anjing
 
-> Pada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya.
+::: columns
+::: {.column width="40%"}
+![](libs/kucing.png){fig-align="center" width="100%"}
+:::
+::: {.column width="60%"}
+> Pada grafik terlihat kucing rata-rata tidur lebih lama daripada anjing. Namun, ada satu kucing dalam sampel yang tidur jauh lebih lama daripada yang lain dan memengaruhi rerata kelompoknya. Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar.
 
-::: {.fragment}
-**Interpretasi yang di-*hedge* dengan baik**: *"Sangat mungkin sebenarnya hanya ada sedikit perbedaan rerata durasi tidur antara kucing dan anjing, namun perbedaan ini akan terlihat lebih jelas apabila pengambilan data diulang dengan sampel yang lebih besar."*
+:::
 :::
 
 ::: {.callout-tip appearance="simple"}
@@ -84,19 +90,27 @@ Kalimat ini secara eksplisit mengaitkan ketidakpastian dengan **satu nilai ekstr
 
 ## Contoh 2: Panjang lengan vs. tungkai
 
+::: columns
+::: {.column width="40%"}
+![](libs/panjang.png){fig-align="center" width="100%"}
+:::
+::: {.column width="60%"}
 > Grafik menunjukkan hubungan yang sangat kuat antara panjang lengan dan tungkai pada remaja. Semua partisipan mendekati garis diagonal, tanpa nilai ekstrem.
 
+:::
+:::
+
 ::: {.fragment}
-Di sini hubungannya memang **kuat dan jelas**. *Hedging* yang berlebihan justru tidak tepat. Kuncinya bukan "selalu ragu-ragu," tapi **menyesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang sebenarnya**.
+Di sini hubungannya memang **kuat dan jelas**. *Hedging* yang berlebihan justru tidak tepat. Kuncinya bukan selalu membingkai temuan dengan keragu-raguan, tapi selalu **sesuaikan tingkat kepastian narasi Anda dengan kekuatan bukti yang Anda temukan**.
 :::
 
 ## Contoh 3: Gaji Dosen UGM
 
-![[Sumber](https://www.tribunnews.com/nasional/7857223/sidang-mk-beber-gaji-dosen-ptn-indonesia-take-home-pay-di-ugm-rp21-juta)](libs/ugm.png){fig-align="center"}
+![[Sumber](https://www.tribunnews.com/nasional/7857223/sidang-mk-beber-gaji-dosen-ptn-indonesia-take-home-pay-di-ugm-rp21-juta)](libs/ugm.png){fig-align="center" width="80%"}
 
 . . .
 
-![](libs/ugm2.png){fig-align="center"}
+![](libs/ugm2.png){fig-align="center" width="80%"}
 
 # Studi Kasus: Generalisasi Tergesa-Gesa dari Subkelompok ⚠️ {background-color="#14497F"}
 
@@ -140,7 +154,7 @@ Menyimpulkan pola populasi dari satu subkelompok kecil dan tidak representatif, 
 :::
 
 ::: {.fragment}
-***Moral of the story***: selalu cek kesesuaian antara klaim dan data. Kalau sebuah klaim terasa *too good to be true* (atau *too alarming to be true*), itu tanda Anda perlu memeriksa datanya lebih teliti.
+***Moral of the story***: selalu cek kesesuaian antara klaim dan data. Kalau sebuah klaim terasa *too good to be true* (atau *too alarming to be true*), ini adalah indikasi bahwa Anda perlu memeriksa datanya lebih teliti.
 :::
 
 # Melaporkan Rentang Kepercayaan 📏 {background-color="#14497F"}
@@ -182,7 +196,7 @@ Kembali ke kasus survei vaksinasi: peneliti hanya melaporkan *point estimate* (4
 **Seharusnya**
 > "Dari sekitar 120 partisipan usia 22–25 tahun, hanya 45.1% yang bersedia divaksinasi (rentang kepercayaan 95%: **36.1–54.1%**). Jika survei ini diulang berkali-kali, sekitar 95% dari interval yang dihasilkan akan mencakup persentase populasi yang sebenarnya. Meski begitu, analisis korelasi usia dengan kesediaan vaksinasi *tidak* menemukan hubungan yang kuat, sehingga temuan pada kelompok usia ini kemungkinan tidak bermakna apa-apa."
 
-# Etika Analisis Data: Questionable Research Practices ⚖️ {background-color="#14497F"}
+# Questionable Research Practices (QRP) ⚖️ {background-color="#14497F"}
 
 ## QRP
 
@@ -221,20 +235,20 @@ Ingat *analysis plan* dari Pertemuan 5? Salah satu fungsinya adalah untuk **menc
 ## Kenapa ini berisiko
 
 ::: {.incremental}
-* *P-hacking* menyebabkan **tidak terkendalinya *false positive rate*** — hasil yang terlihat signifikan padahal sebenarnya hanya kebetulan statistik.
-* HARKing membuat pembaca percaya sebuah hipotesis "berhasil diuji secara ketat", padahal sebenarnya ditemukan lewat coba-coba.
-* Keduanya berkontribusi pada **krisis replikasi**: banyak temuan populer dalam psikologi ternyata gagal direplikasi peneliti lain.
+* *P-hacking* menyebabkan **tidak terkendalinya *false positive rate*** — hasil yang terlihat signifikan padahal sebenarnya hanya "kebetulan" secara statistik.
+* HARKing membuat pembaca mendapatkan kesan bahwa sebuah hipotesis "berhasil diuji secara ketat", padahal sebenarnya ditemukan lewat coba-coba.
+* Keduanya berkontribusi pada [**krisis replikasi**](https://www.vox.com/science-and-health/2018/8/27/17761466/psychology-replication-crisis-nature-social-science): banyak temuan populer dalam psikologi ternyata gagal direplikasi peneliti lain.
 :::
 
 ::: {.callout-note}
 ### Penting diingat
-Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing* memang **dibolehkan** — bahkan dianjurkan — dalam *narrative review* yang mensintesis puluhan studi ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)). Yang **tidak boleh** adalah menyamarkan eksplorasi sebagai konfirmasi dalam **satu** studi empiris tunggal.
+Bandingkan dengan yang akan kita pelajari di Pertemuan 12: *post hoc theorizing* memang **dibolehkan**, bahkan dianjurkan, dalam *narrative review* yang mensintesis puluhan studi ([Baumeister & Leary, 1997](https://doi.org/10.1037/1089-2680.1.3.311)). Yang **tidak boleh** adalah menyamarkan eksplorasi sebagai konfirmasi dalam **satu** studi empiris tunggal.
 :::
 
 ## Cara menjaga diri dari QRP
 
 ::: {.incremental}
-* **Susun *analysis plan* sebelum melihat hasil** (Pertemuan 5) — idealnya bahkan sebelum data dikumpulkan (*preregistration*).
+* **Susun *analysis plan* sebelum melihat hasil** ([Pertemuan 5](pertemuan5.qmd)) — idealnya bahkan sebelum data dikumpulkan (*preregistration*).
 * **Laporkan semua analisis yang Anda coba**, bukan hanya yang signifikan dan selalu termasuk yang "gagal".
 * **Bedakan secara eksplisit** dalam naskah Anda: mana temuan yang *confirmatory* (menguji hipotesis awal) dan mana yang *exploratory* (ditemukan setelah melihat data).
 * Analisis eksploratif **boleh** dilaporkan, asal transparan disebut sebagai eksploratif, bukan disamarkan sebagai konfirmasi.

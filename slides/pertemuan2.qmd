@@ -25,7 +25,6 @@ execute:
 4. Studi kasus: menata dataset ***Big Five Personality Test***
 5. Menyusun tabel ringkasan: **distribusi frekuensi** dan **tabel kontingensi**
 6. Menyajikan tabel dengan baik
-7. 2️⃣ aktivitas (mandiri)
 
 ::: notes
 Sesi ini padat (150 menit) dan banyak *hands-on*. Alokasikan waktu: ±30 menit dasar spreadsheet & tidy data, ±30 menit studi kasus Big Five (termasuk aktivitas kelompok), ±40 menit tabel ringkasan, ±20 menit penyajian tabel, sisanya untuk latihan mandiri dan rekap.

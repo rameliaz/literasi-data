@@ -23,7 +23,6 @@ execute:
 2. Menyusun ***analysis plan*** dan mengapa ***preregistration*** penting
 3. Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
 4. Perkenalan *software* statistik
-5. 2️⃣ aktivitas mandiri
 
 ::: notes
 Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.

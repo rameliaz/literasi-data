@@ -24,7 +24,6 @@ execute:
 3. Ragam **format data** (`.csv`, `.sav`, `json`) dan cara membacanya
 4. Mengekstraksi data dari **dokumen dan tabel** dari *file* statis
 5. **Etika** pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi
-6. 2️⃣ aktivitas (mandiri & kelompok)
 
 ::: notes
 Metode minggu ini "Diskusi Kelompok" — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif.
