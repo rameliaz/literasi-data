@@ -23,7 +23,7 @@ execute:
 2. Sumber-sumber **data terbuka** untuk riset psikologi
 3. Ragam **format data** (`.csv`, `.sav`, `json`) dan cara membacanya
 4. Mengekstraksi data dari **dokumen dan tabel** dari *file* statis
-5. **Etika** pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi
+5. **Etika** pengumpulan dan penggunaan data, termasuk UU Pelindungan Data Pribadi
 
 ::: notes
 Metode minggu ini "Diskusi Kelompok" — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif.
@@ -33,7 +33,7 @@ Metode minggu ini "Diskusi Kelompok" — porsi diskusi/kasus etika di bagian akh
 
 ## Mengingat kembali *Data Pipeline*
 
-Minggu lalu Anda belajar mempresentasikan data dengan tabel. Mulai minggu ini, kita fokus pada tahapan *Data Pipeline*: **Find** (menemukan) dan **Get** (memperoleh) data. 
+Minggu lalu Anda belajar mempresentasikan data dengan tabel. Mulai minggu ini, kita fokus pada tahapan *Data Pipeline*: **Find** (menemukan) dan **Get** (memperoleh) data (Open Knowledge Foundation, 2021).
 
 . . .
 
@@ -76,7 +76,7 @@ Kalau Anda benar-benar mencoba mencari dataset psikologi yang relevan dengan top
 ::: {.column width="45%"}
 **Daftar dataset psikologi/ilmu sosial**
 
-[Psychological Stimulus Sets and Datasets (Brick, 2020)](https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit)
+[Directory of free, open psychological datasets (Brick et al., 2019)](https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit)
 
 Dokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial yang bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.
 :::
@@ -84,7 +84,7 @@ Dokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka 
 
 ::: {.callout-tip}
 ### Sumber lain yang layak dijelajahi
-[Open Science Framework (OSF)](https://osf.io/), repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. [World Values Survey](https://www.worldvaluessurvey.org/), [Wellcome Global Monitor](https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor) untuk data lintas-negara).
+[Open Science Framework (OSF)](https://osf.io/), repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan *data availability statement*, dan sebagian juga mewajibkan data mentahnya dibagikan), dan arsip data milik konsorsium riset (mis. [World Values Survey](https://www.worldvaluessurvey.org/), [Wellcome Global Monitor](https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor) untuk data lintas-negara).
 :::
 
 ## 🧩 Aktivitas mandiri: menjelajahi sumber data
@@ -112,7 +112,7 @@ Dataset yang ditemukan di sini bisa menjadi kandidat proyek UTS Pertemuan 8 — 
 
 ::: {.incremental}
 * **`.csv`/`.tsv`** *(comma/tab-separated values)* — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.
-* **`.xls`/`.xlsx`** — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.
+* **`.xls`/`.xlsx`** — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga kurang ideal untuk dibagikan sebagai data mentah dibandingkan CSV.
 * **`.sav`** — format *native* **SPSS**, paling umum Anda temui di penelitian psikologi; menyimpan data plus label variabel dan value labels (mis. `1 = Laki-laki`, `2 = Perempuan`).
 * **`.json`** — format ringan berbasis struktur *tree* (bukan tabel), umum dipakai untuk data dari API atau media sosial.
 :::
@@ -136,7 +136,7 @@ Dataset yang ditemukan di sini bisa menjadi kandidat proyek UTS Pertemuan 8 — 
 :::
 
 ::: {.callout-note}
-Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur **tabular** sudah cukup. `.json` lebih relevan kalau Anda bekerja dengan data media sosial atau hasil ekstraksi dari API.
+Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur **tabular** sudah cukup. `.json` lebih relevan kalau Anda bekerja dengan data media sosial atau hasil ekstraksi dari API (Open Knowledge Foundation, 2021).
 :::
 
 ## Format `json`
@@ -173,7 +173,7 @@ Tidak semua data terbuka tersedia dalam format siap pakai. Kadang Anda hanya men
 
 ::: {.callout-caution}
 ### Ekstraksi otomatis tidak pernah 100% sempurna
-Selalu **verifikasi** hasil ekstraksi terhadap sumber aslinya, karena ada kemungkinan baris yang terlewat atau kolom yang tergeser adalah kesalahan umum. Inilah kenapa tahap *Verify* (Pertemuan 4) dilakukan setelah *Get*.
+Selalu **verifikasi** hasil ekstraksi terhadap sumber aslinya, karena baris yang terlewat atau kolom yang bergeser adalah kesalahan umum. Inilah kenapa tahap *Verify* (Pertemuan 4) dilakukan setelah *Get*.
 :::
 
 # Etika Pengumpulan dan Penggunaan Data 🔐 {background-color="#14497F"}
@@ -205,42 +205,42 @@ Selalu **verifikasi** hasil ekstraksi terhadap sumber aslinya, karena ada kemung
 :::
 
 ::: {.callout-note}
-Kalau Anda pernah bertanya-tanya kenapa formulir *informed consent* riset psikologi selalu menyebutkan hak partisipan untuk mengundurkan diri kapan saja — inilah dasar hukumnya.
+Hak partisipan untuk mengundurkan diri kapan saja, yang selalu disebut dalam formulir *informed consent* riset psikologi, berakar pada etika riset (Deklarasi Helsinki, kode etik APA dan HIMPSI). UU PDP memberi landasan hukum tambahan untuk aspek datanya.
 :::
 
 ## Dasar pemrosesan data: persetujuan (Pasal 20–22)
 
 ::: {.incremental}
 * Pengendali Data Pribadi **wajib** punya dasar hukum sebelum memproses data — salah satunya adalah **persetujuan eksplisit** dari subjek data.
-* Persetujuan harus disampaikan **tertulis atau terekam**, dan pemroses wajib menjelaskan: legalitas pemrosesan, tujuannya, jenis data yang diproses, jangka waktu penyimpanan, dan hak subjek data.
-* Inilah dasar hukum di balik formulir *informed consent* yang Anda tanda tangani (atau minta ditandatangani partisipan) sebelum penelitian dimulai.
+* Persetujuan harus disampaikan **tertulis atau terekam**, dan Pengendali Data Pribadi wajib menjelaskan: legalitas pemrosesan, tujuannya, jenis data yang diproses, jangka waktu penyimpanan, dan hak subjek data.
+* Formulir *informed consent* yang Anda tanda tangani (atau minta ditandatangani partisipan) sebelum penelitian dimulai berakar pada etika riset; ketentuan ini menambahkan lapisan hukum untuk aspek pemrosesan datanya.
 :::
 
 ## Pengecualian untuk kepentingan penelitian ilmiah
 
 ::: {.callout-important}
-### Pasal 15 ayat (1)
-Sejumlah hak subjek data, termasuk hak menghapus data dan menarik persetujuan, **dikecualikan** untuk beberapa kepentingan, salah satunya: **"kepentingan statistik dan penelitian ilmiah."**
+### Pasal 15
+Sejumlah hak subjek data (Pasal 8, 9, 10 ayat (1), 11, dan 13), termasuk hak menghapus data dan menarik persetujuan, **dikecualikan** untuk beberapa kepentingan, salah satunya: **"kepentingan statistik dan penelitian ilmiah"** (ayat (1) huruf e). Pengecualian ini "dilaksanakan hanya dalam rangka pelaksanaan ketentuan Undang-Undang" (ayat (2)).
 :::
 
 ::: {.fragment}
-Pengecualian ini **bukan berarti peneliti leluasa menggunakan data milik partisipan**. Ia memberi ruang kerja bagi peneliti (mis. memakai data lama untuk analisis sekunder tanpa perlu melacak ulang persetujuan tiap partisipan), tapi tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti.
+Pengecualian ini **bukan berarti peneliti leluasa menggunakan data milik partisipan**. Ia memberi ruang kerja bagi peneliti, tapi yang dikecualikan hanya sebagian hak subjek data. Pemrosesan data tetap harus punya dasar hukum (Pasal 20), dan tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti.
 :::
 
 ## Menerapkan ini ke dataset contoh
 
-Dataset ***Big Five*** yang kita pakai bersifat **terbuka dan sudah dianonimkan**, tidak ada nama, tidak ada informasi yang bisa melacak balik ke individu tertentu. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:
+Dataset ***Big Five*** yang kita pakai bersifat **terbuka dan tanpa identitas langsung** (tidak ada nama atau kontak), tapi masih memuat variabel demografis (usia, jenis kelamin, ras, negara, bahasa ibu), dan sebagian respondennya berusia 13–17 tahun. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:
 
 ::: {.incremental}
 * Kalau Anda **mengumpulkan data sendiri** (mis. untuk tesis), formulir *informed consent* dan penyimpanan data yang aman adalah **kewajiban Anda sebagai peneliti**.
-* Kalau Anda **memakai data sekunder terbuka**, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data ([lisensi](https://www.howtofair.dk/how-to-fair/data-licences/), atribusi)?
+* Kalau Anda **memakai data sekunder terbuka**, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data ([lisensi](https://www.howtofair.dk/how-to-fair/data-licences/), atribusi)? *Open-Source Psychometrics Project*, misalnya, tidak mencantumkan lisensi apa pun untuk datanya.
 :::
 
 ## 🧩 Diskusi kelompok: skenario etika data
 
 ::: {.callout-warning}
 ### Diskusikan bersama kelompok Anda (10 menit)
-Coba cek kembali dataset yang Anda kumpulkan dari riset skripsi Anda. Informasi apa saja yang Anda kumpulkan dalam dataset tersebut.
+Coba cek kembali dataset yang Anda kumpulkan dari riset skripsi Anda. Informasi apa saja yang Anda kumpulkan dalam dataset tersebut?
 
 1. Apakah dataset ini "cukup" anonim untuk dipakai bebas? Mengapa/mengapa tidak?
 2. Langkah apa yang bisa Anda ambil sebelum menggunakannya dalam naskah publikasi?
@@ -265,9 +265,9 @@ Ini kasus tentang *k-anonymity*/*re-identification risk* tanpa perlu istilah tek
 
 ## Referensi {.scrollable .smaller}
 
-* Psychological Stimulus Sets and Datasets (Brick, 2020). <https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit>
-* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
-* Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+* Brick, C., Botzet, L., Costello, C., Batruch, A., Arslan, R. C., Kline Struhl, M., Sommet, N., Green, J., Nuijten, M. B., Conley, M. A., Richardson, T., Sorhagen, N., Olsson-Collentine, A., Feldman, G., Feingold, F., Manley, H., Mullarkey, M. C., & Dienlin, T. (2019). *Directory of free, open psychological datasets* [Data set]. OSF. <https://doi.org/10.17605/OSF.IO/TH8EW>
+* Open Knowledge Foundation. (2021). [*Data literacy curriculum*](libs/okf.pdf). International Republican Institute.
+* Open-Source Psychometrics Project. (n.d.). *Open psychology data: Raw data from online personality tests*. <https://openpsychometrics.org/_rawdata/>
 * Republik Indonesia. (2022). *Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi*.
 
 ## Terima kasih!😊 {.closing-slide}

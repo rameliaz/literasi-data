@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-17">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Literasi Data dan Penulisan Ilmiah – Pendahuluan: Literasi Data dalam Psikologi</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,7 +156,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-17</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
@@ -177,7 +177,7 @@ Rizqy Amelia Zein
 <section id="psikologi-adalah-ilmu-yang-bekerja-dengan-data" class="slide level2">
 <h2>Psikologi adalah ilmu yang bekerja dengan data</h2>
 <ul>
-<li class="fragment">Skor skala, hasil eksperimen, <em>reaction time</em>, transkrip wawancara, catatan observasi, adalah <strong>data</strong> yang biasa ditangani oleh ilmuwan psikologi.</li>
+<li class="fragment">Skor skala, hasil eksperimen, <em>reaction time</em>, transkrip wawancara, catatan observasi adalah <strong>data</strong> yang biasa ditangani oleh ilmuwan psikologi.</li>
 <li class="fragment">Kemampuan memahami, mengorganisir, dan mengomunikasikan data secara jujur dan akurat adalah keterampilan riset yang sangat penting.</li>
 <li class="fragment">Banyak masalah dalam laporan penelitian psikologi bukan berasal dari analisis yang salah, melainkan dari <strong>data yang tidak dipahami dengan baik</strong> sejak awal.</li>
 </ul>
@@ -228,7 +228,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong>Terstruktur</strong>, karena data mengikuti <strong>aturan/logika</strong> tertentu dalam penyajiannya. Inilah yang membedakan data dari sekadar informasi.</li>
 </ul>
 <div class="{aside}">
-<p>Sumber: <a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute (2021)</a></p>
+<p>Sumber: <a href="libs/okf.pdf">Open Knowledge Foundation (2021)</a></p>
 </div>
 </section>
 <section id="tidak-terstruktur-vs.-terstruktur" class="slide level2">
@@ -269,7 +269,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong><em>Data point</em></strong>: satu keping informasi tunggal. Misalnya “22” pada kolom usia partisipan 014.</li>
 <li class="fragment"><strong>Dataset</strong>: kumpulan data point yang terorganisir. Misalnya seluruh tabel respons survei kepribadian.</li>
-<li class="fragment">Satu dataset biasanya berisi banyak <strong>variabel</strong> (kolom) yang diukur pada banyak <strong>unit analisis/observasi</strong> (baris) — kita akan bahas ini lebih detail Pertemuan 2.</li>
+<li class="fragment">Satu dataset biasanya berisi banyak <strong>variabel</strong> (kolom) yang diukur pada banyak <strong>unit analisis/observasi</strong> (baris) — kita akan bahas ini lebih detail di Pertemuan 2.</li>
 </ul>
 </section></section>
 <section>
@@ -320,7 +320,8 @@ Rizqy Amelia Zein
 <h2>Data <em>continuous</em></h2>
 <ul>
 <li>Data numerik pada <strong>rentang tanpa celah</strong> — semua nilai di antara dua titik dimungkinkan.</li>
-<li>Contoh: <em>reaction time</em> (ms), durasi pengisian kuesioner, skor total skala yang dihitung dari rata-rata (mis. 3,47).</li>
+<li>Contoh: <em>reaction time</em> (ms), durasi pengisian kuesioner, skor total skala yang dihitung dari rata-rata (mis. 3,4).</li>
+<li>Skor rata-rata 10 item Likert 1–5 sebenarnya diskrit (hanya kelipatan 0,1), tetapi dalam praktik biasanya <strong>diperlakukan</strong> sebagai <em>continuous</em>.</li>
 <li>Dalam praktiknya, alat ukur membatasi presisi (mis. hanya dua desimal), tapi secara konsep nilainya <em>continuous</em>.</li>
 </ul>
 </section>
@@ -341,7 +342,7 @@ Rizqy Amelia Zein
 <li>Contoh: skor skala, usia, jumlah partisipan, <em>reaction time</em>.</li>
 </ul>
 </div></div>
-<p>Catatan: kualitatif ≠ tidak terstruktur, dan kuantitatif ≠ selalu berupa data interval/rasio — dua pembedaan ini independen satu sama lain.</p>
+<p>Catatan: kualitatif ≠ tidak terstruktur, dan kuantitatif ≠ selalu berupa data interval/rasio. Meski begitu, kedua pembedaan ini saling berkaitan: data kategorikal termasuk data kualitatif, sedangkan data numerik termasuk data kuantitatif.</p>
 </section>
 <section id="ringkasan-mengenali-jenis-data" class="slide level2">
 <h2>Ringkasan: mengenali jenis data</h2>
@@ -376,7 +377,7 @@ Rizqy Amelia Zein
 </tr>
 <tr class="even">
 <td>Skor total skala kepribadian</td>
-<td>Numerik (continuous)</td>
+<td>Numerik (diskrit, biasanya diperlakukan <em>continuous</em>)</td>
 <td>Kuantitatif</td>
 </tr>
 <tr class="odd">
@@ -419,9 +420,9 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><em>Data Pipeline</em> adalah kerangka kerja dari <a href="libs/okf.pdf">School of Data</a> (program Open Knowledge Foundation) untuk memetakan tahapan bekerja dengan data, dari awal sampai akhir.</li>
 <li class="fragment">Tujuh tahap: <strong>Define → Find → Get → Verify → Clean → Analyze → Present</strong>.</li>
-<li class="fragment">Kerangka ini akan menjadi <strong><em>workflow</em></strong> kita selama tujuh pertemuan ke depan.</li>
+<li class="fragment">Kerangka ini akan menjadi <strong><em>workflow</em></strong> kita sampai Pertemuan 7.</li>
 </ul>
-<p>Sumber: <a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute (2021)</a></p>
+<p>Sumber: <a href="libs/okf.pdf">Open Knowledge Foundation (2021)</a></p>
 </section>
 <section id="define-merumuskan-masalah" class="slide level2">
 <h2>1. <em>Define</em> — merumuskan masalah</h2>
@@ -542,7 +543,7 @@ Rizqy Amelia Zein
 <section id="literasi-data-kemampuan-statistik" class="slide level2">
 <h2>Literasi data ≠ kemampuan statistik</h2>
 <ul>
-<li class="fragment">Kemampuan statistik hanya dibutuhkan di <strong>satu tahap</strong> (<em>Analyze</em>) dari tujuh tahap <em>Data Pipeline</em>.</li>
+<li class="fragment">Kemampuan statistik terutama dibutuhkan di <strong>satu tahap</strong> (<em>Analyze</em>) dari tujuh tahap <em>Data Pipeline</em>, meski tahap <em>Verify</em> dan <em>Clean</em> juga memakai statistik sederhana.</li>
 <li class="fragment">Peneliti yang mahir statistik tapi tidak bisa menilai kredibilitas sumber data, atau tidak bisa membersihkan data secara sistematis, tetap <strong>belum bisa dikatakan <em>data literate</em></strong>.</li>
 <li class="fragment">Literasi data juga mencakup kesadaran etis: privasi partisipan, keamanan data, dan penggunaan data secara bertanggung jawab.</li>
 </ul>
@@ -572,7 +573,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Repositori data terbuka (<code>openpsychometrics.org/_rawdata/</code>) berisi puluhan dataset hasil pengisian skala psikologi secara daring, terbuka untuk keperluan riset dan edukasi.</li>
 <li class="fragment">Kita akan menggunakan dataset <strong>Big Five Personality Test</strong> (berbasis item IPIP) sebagai contoh utama.</li>
-<li class="fragment">Berisi respons terhadap 50 item kepribadian (10 item untuk masing-masing dari lima dimensi <em>Big Five</em>: <strong>E</strong>xtraversion, <strong>N</strong>euroticism, <strong>A</strong>greeableness, <strong>C</strong>onscientiousness, <strong>O</strong>penness) plus data demografis (usia, gender, negara, dsb.).</li>
+<li class="fragment">Berisi respons terhadap 50 item kepribadian (10 item untuk masing-masing dari lima dimensi <em>Big Five</em>: <strong>E</strong>xtraversion, <strong>N</strong>euroticism, <strong>A</strong>greeableness, <strong>C</strong>onscientiousness, <strong>O</strong>penness) plus data demografis (usia, gender, dsb.) dan kode negara yang ditentukan otomatis dari lokasi teknis (IP) partisipan, bukan diisi sendiri.</li>
 </ul>
 </section>
 <section id="kenapa-dataset-ini-cocok-untuk-belajar" class="slide level2">
@@ -580,7 +581,7 @@ Rizqy Amelia Zein
 <ul>
 <li><strong>Cukup besar</strong> untuk terasa seperti data riset sungguhan, tapi tetap bisa diolah di <em>spreadsheet</em>.</li>
 <li><strong>Terstruktur jelas</strong> (item per kolom) — bagus untuk latihan prinsip <em>tidy data</em> di Pertemuan 2.</li>
-<li><strong>Tidak sempurna</strong> — dikumpulkan daring secara terbuka, sehingga ada data yang perlu diverifikasi dan dibersihkan (Pertemuan 3–4): entri yang tidak lengkap, kode negara yang tidak terstandar, waktu pengisian yang tidak semuanya “normal”.</li>
+<li><strong>Tidak sempurna</strong> — dikumpulkan daring secara terbuka, sehingga ada data yang perlu diverifikasi dan dibersihkan (Pertemuan 3–4): usia yang tidak masuk akal (mis. tahun lahir atau 999999999), kode negara yang tidak valid (<code>(nu</code>, <code>A1</code>, <code>A2</code>), dan nilai <code>0</code> yang berarti tidak dijawab (<em>missed</em>).</li>
 <li>Terdiri dari <strong>skor skala</strong> yang perlu dihitung, dibandingkan antar kelompok, dan diinterpretasi (Pertemuan 5–6) serta divisualisasikan (Pertemuan 7).</li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
@@ -603,11 +604,18 @@ Rizqy Amelia Zein
 <li class="fragment">Data adalah <strong>representasi dunia yang terstruktur</strong>, jadi bukan sekadar angka.</li>
 <li class="fragment">Bentuk data bisa <strong>kategorikal atau numerik</strong> (diskrit/<em>continuum</em>), dan <strong>kualitatif atau kuantitatif</strong>.</li>
 <li class="fragment"><em>Data Pipeline</em> (<strong>Define–Find–Get–Verify–Clean–Analyze–Present</strong>) adalah <em>workflow</em> yang akan kita ikuti sampai Pertemuan 7.</li>
-<li class="fragment">Literasi data mencakup keseluruhan alur ini, plus <em>awareness</em> soal aspek etisnya, jadi sangat berbeda denngan kemampuan statistik.
+<li class="fragment">Literasi data mencakup keseluruhan alur ini, plus <em>awareness</em> soal aspek etisnya, jadi sangat berbeda dengan kemampuan statistik.
 <ul>
 <li class="fragment">Meskipun begitu, kemampuan statistik juga sangat membantu seseorang untuk memiliki literasi data yang baik.</li>
 </ul></li>
 <li class="fragment">Kita akan memakai dataset <strong>Big Five Personality Test</strong> dari Open-Source Psychometrics Project sepanjang paruh pertama semester sebagai <em>playing ground</em>.</li>
+</ul>
+</section>
+<section id="referensi" class="slide level2 scrollable smaller">
+<h2>Referensi</h2>
+<ul>
+<li><a href="libs/okf.pdf">Open Knowledge Foundation. (2021). <em>Data literacy curriculum</em>. International Republican Institute.</a></li>
+<li>Open-Source Psychometrics Project. (n.d.). <em>Open psychology data: Raw data from online personality tests</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
 </ul>
 </section>
 <section id="terima-kasih" class="slide level2 closing-slide">

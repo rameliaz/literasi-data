@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-17">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Literasi Data dan Penulisan Ilmiah – Bekerja dengan Data Tabular</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,7 +156,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-17</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
@@ -225,7 +225,7 @@ Rizqy Amelia Zein
 <li><code>=AVERAGE(B3:B8)</code> — rata-rata satu rentang</li>
 <li><code>=COUNT(B3:B8)</code> — menghitung berapa sel berisi angka</li>
 </ul>
-<p><strong>Fungsi</strong> adalah kalkulasi siap pakai bawan dari <em>spreadsheet</em> — lebih ringkas daripada menulis <code>=B3+B4+B5+B6+B7+B8</code> secara manual.</p>
+<p><strong>Fungsi</strong> adalah kalkulasi siap pakai bawaan dari <em>spreadsheet</em> — lebih ringkas daripada menulis <code>=B3+B4+B5+B6+B7+B8</code> secara manual (<a href="libs/okf.pdf">Open Knowledge Foundation, 2021</a>).</p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -235,7 +235,7 @@ Rizqy Amelia Zein
 <p><strong>Kenapa ini relevan?</strong></p>
 </div>
 <div class="callout-content">
-<p>Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor <em>Extraversion</em>) pada dasarnya adalah <code>=AVERAGE()</code> dari 10 item. Ini adalah satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.</p>
+<p>Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor <em>Extraversion</em>) pada dasarnya adalah <code>=AVERAGE()</code> dari 10 item. Formula ini akan Anda pakai berkali-kali sepanjang semester.</p>
 </div>
 </div>
 </div>
@@ -270,7 +270,7 @@ Rizqy Amelia Zein
 <tr class="even">
 <td>Selasa</td>
 <td>15</td>
-<td>14</td>
+<td>18</td>
 <td>16</td>
 </tr>
 <tr class="odd">
@@ -410,7 +410,7 @@ Rizqy Amelia Zein
 <div class="callout-content">
 <ol type="1">
 <li><strong>Satu kolom memuat satu variabel.</strong></li>
-<li><strong>Satu baris mewakili satu unit analisis (<em>case</em>).</strong></li>
+<li><strong>Satu baris mewakili satu observasi.</strong></li>
 <li><strong>Satu tabel mewakili satu observational unit.</strong></li>
 </ol>
 </div>
@@ -456,7 +456,7 @@ Rizqy Amelia Zein
 <div class="column" style="width:50%;">
 <p><strong><em>Long form</em> (panjang)</strong></p>
 <ul>
-<li>Tiap variabel mendapat kolom sendiri — paling sesuai prinsip <em>tidy</em>.</li>
+<li>Satu baris = satu observasi (satu unit pada satu waktu). Untuk data <strong>pengukuran berulang</strong>, bentuk inilah yang biasanya <em>tidy</em>.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><strong><em>Wide form</em> (lebar)</strong></p>
@@ -536,7 +536,7 @@ Rizqy Amelia Zein
 <p><strong>Bukan berarti tabel <em>wide</em> selalu salah</strong></p>
 </div>
 <div class="callout-content">
-<p><em>Wide format</em> tetap berguna untuk <strong>presentasi</strong> (mis. tabel ringkasan di naskah publikasi). Yang penting: gunakan <em>long format</em> untuk <strong>analisis</strong>, dan konversi ke <em>wide</em> kalau perlu untuk <strong>penyajian</strong> (Pertemuan 7).</p>
+<p><em>Wide format</em> tetap berguna untuk <strong>presentasi</strong> (mis. tabel ringkasan di naskah publikasi). Yang penting: simpan data dalam bentuk <em>tidy</em> untuk <strong>analisis</strong> (untuk pengukuran berulang, biasanya <em>long</em>), dan konversi ke <em>wide</em> kalau perlu untuk <strong>penyajian</strong> (Pertemuan 7).</p>
 </div>
 </div>
 </div>
@@ -551,11 +551,11 @@ Rizqy Amelia Zein
 <p>Ingat dari Pertemuan 1 — dataset dari <strong>Open-Source Psychometrics Project</strong> yang akan kita pakai sampai Pertemuan 7. Strukturnya:</p>
 <ul>
 <li class="fragment">Tiap <strong>baris</strong> = satu partisipan (unit analisis) yang mengisi survei daring.</li>
-<li class="fragment">Tiap <strong>kolom</strong> = satu variabel: 50 kolom item kepribadian (<code>E1</code>–<code>E10</code>, <code>N1</code>–<code>N10</code>, <code>A1</code>–<code>A10</code>, <code>C1</code>–<code>C10</code>, <code>O1</code>–<code>O10</code>), plus kolom demografis (<code>age</code>, <code>gender</code>, <code>country</code>, dst.).</li>
+<li class="fragment">Tiap <strong>kolom</strong> = satu variabel: 50 kolom item kepribadian (<code>E1</code>–<code>E10</code>, <code>N1</code>–<code>N10</code>, <code>A1</code>–<code>A10</code>, <code>C1</code>–<code>C10</code>, <code>O1</code>–<code>O10</code>), plus kolom demografis (<code>age</code>, <code>gender</code>, dst.) dan <code>country</code> (ditentukan dari lokasi teknis/IP partisipan, bukan diisi sendiri).</li>
 <li class="fragment">Setiap sel berisi <strong>satu nilai</strong>: respons 1–5 pada skala Likert, atau satu nilai demografis.</li>
 </ul>
 <div class="fragment">
-<p>Apakah struktur ini <em>tidy</em>? <strong>Ya</strong> — satu variabel per kolom, satu partisipan per baris, satu tabel untuk satu jenis observasi (respons survei).</p>
+<p>Apakah struktur ini <em>tidy</em>? <strong>Ya</strong> — satu variabel per kolom, satu partisipan per baris, satu tabel untuk satu jenis observasi (respons survei). Bentuknya memang lebar (50 kolom item), tapi tetap <em>tidy</em> karena tiap item adalah variabel yang berbeda: <em>tidy</em> ≠ <em>long</em>.</p>
 </div>
 </section>
 <section id="tapi-tidy-siap-pakai" class="slide level2">
@@ -580,7 +580,7 @@ Rizqy Amelia Zein
 </tbody>
 </table>
 <div class="fragment">
-<p><code>skor_extraversion = AVERAGE(E1:E10)</code> — inilah kenapa formula <code>AVERAGE()</code> yang kita bahas di awal tadi sangat penting. <em>(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4)</em>.</p>
+<p>Di <code>data.csv</code>, item <code>E1</code>–<code>E10</code> ada di kolom H–Q, jadi untuk partisipan di baris 2: <code>=AVERAGE(H2:Q2)</code> — inilah kenapa formula <code>AVERAGE()</code> yang kita bahas di awal tadi sangat penting. Rumus ini baru tepat setelah item <em>reverse-keyed</em> (<code>E2</code>, <code>E4</code>, <code>E6</code>, <code>E8</code>, <code>E10</code>) dibalik skornya (6 − skor) dan nilai <code>0</code> (= tidak dijawab) dikosongkan. Kita bahas saat membersihkan data di Pertemuan 4.</p>
 </div>
 </section>
 <section id="tabel-dibaca-manusia-vs.-tabel-siap-dianalisis" class="slide level2">
@@ -649,7 +649,7 @@ Rizqy Amelia Zein
 <p><strong>Penting diingat</strong></p>
 </div>
 <div class="callout-content">
-<p>Tabel kiri cocok untuk <strong>satu</strong> slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor <strong>per partisipan</strong>, per <em>trait</em> — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.</p>
+<p>Tabel kiri cocok untuk <strong>satu</strong> slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor <strong>per partisipan</strong>, per <em>trait</em> (bentuk <em>long</em>; satu kolom per <em>trait</em> juga sama <em>tidy</em>-nya) — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.</p>
 </div>
 </div>
 </div>
@@ -800,7 +800,7 @@ Rizqy Amelia Zein
 </tr>
 </tbody>
 </table>
-<p><small>Angka hipotetis. Persentase di sini dihitung <strong>per baris</strong> (persentase gender dalam tiap kategori Extraversion).</small></p>
+<p><small>Angka hipotetis. Persentase di sini dihitung <strong>per baris</strong> (persentase kategori Extraversion dalam tiap gender).</small></p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -829,7 +829,7 @@ Rizqy Amelia Zein
 </div><div class="column" style="width:34%;">
 <p><strong>Rate</strong></p>
 <p>Frekuensi suatu kejadian pada populasi dalam periode waktu tertentu — umum dipakai untuk menggambarkan tingkat risiko.</p>
-<p><em>“15 kasus burnout per 100 mahasiswa per semester.”</em></p>
+<p><em>“15 kasus burnout per 100 mahasiswa per semester”</em> (hipotetis).</p>
 </div></div>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -845,9 +845,9 @@ Rizqy Amelia Zein
 </div>
 </div>
 </section>
-<section id="korelasi-lewat-tabel-kontingensi-overview-singkat" class="slide level2">
-<h2>Korelasi lewat tabel kontingensi (<em>overview</em> singkat)</h2>
-<p>Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorikal (nominal), misalnya <em>odds ratio</em>, <em>Cramer’s V</em>, atau <em>tetrachoric correlation</em> — tapi ketiganya <strong>tidak</strong> dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi juga berfungsi sebagai alat analisis.</p>
+<section id="asosiasi-lewat-tabel-kontingensi-overview-singkat" class="slide level2">
+<h2>Asosiasi lewat tabel kontingensi (<em>overview</em> singkat)</h2>
+<p>Tabel kontingensi juga bisa dipakai menghitung ukuran asosiasi antar variabel kategorikal, misalnya <em>odds ratio</em> (bukan korelasi, melainkan rasio peluang), <em>Cramer’s V</em>, atau <em>tetrachoric correlation</em> (khusus dua variabel dikotomis) — tapi ketiganya <strong>tidak</strong> dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi juga berfungsi sebagai alat analisis.</p>
 </section></section>
 <section>
 <section id="menyajikan-tabel-dengan-baik" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -913,10 +913,10 @@ Rizqy Amelia Zein
 <section id="tata-letak-dan-visual-tabel" class="slide level2">
 <h2>Tata letak dan visual tabel</h2>
 <ul>
-<li class="fragment">Gaya APA umumnya <strong>menghindari garis vertikal</strong> — cukup garis horizontal tegas, biasanya hanya di bawah baris judul kolom.</li>
+<li class="fragment">Gaya APA umumnya <strong>menghindari garis vertikal</strong> — cukup garis horizontal di bagian atas tabel, di bawah baris judul kolom, dan di bagian bawah tabel.</li>
 <li class="fragment">Gunakan model “spreadsheet penuh” (garis vertikal + horizontal) hanya jika informasi sangat padat dan sulit dibaca tanpa pembatas.</li>
 <li class="fragment"><strong>Petunjuk visual</strong> seperti <em>shading</em> baris berselang bisa membantu pembaca menyusuri tabel panjang.</li>
-<li class="fragment">Gunakan <strong>tabular numeral</strong> (font angka berjarak sama, mis. Courier, Lucida Console) agar deretan angka lebih mudah dibandingkan secara visual.</li>
+<li class="fragment">Gunakan font yang punya <strong>tabular figures</strong> (tiap digit selebar sama sehingga angka sejajar dalam kolom) agar deretan angka lebih mudah dibandingkan secara visual. Ini tidak sama dengan font <em>monospace</em> seperti Courier, yang kurang cocok untuk naskah.</li>
 </ul>
 </section></section>
 <section>
@@ -928,9 +928,9 @@ Rizqy Amelia Zein
 <h2>Kesimpulan Pertemuan 2</h2>
 <ul>
 <li class="fragment">Tabel tersusun dari <strong>baris (unit analisis)</strong> dan <strong>kolom (variabel)</strong>, dihubungkan lewat sistem referensi sel.</li>
-<li class="fragment">Prinsip <strong><em>tidy data</em></strong> (<a href="https://doi.org/10.18637/jss.v059.i10">Wickham, 2014</a>): satu variabel per kolom, satu unit analisis per baris, satu tabel per observational unit.</li>
-<li class="fragment"><strong>Long format</strong> untuk analisis, <strong>wide format</strong> untuk presentasi/pengukuran berulang.</li>
-<li class="fragment">Dataset <strong><em>Big Five</em></strong> kita sudah <em>tidy</em> di level item, tapi perlu di<em>reshape</em> ke level skala (<code>AVERAGE()</code>) untuk dianalisis sebagai skor kepribadian.</li>
+<li class="fragment">Prinsip <strong><em>tidy data</em></strong> (<a href="https://doi.org/10.18637/jss.v059.i10">Wickham, 2014</a>): satu variabel per kolom, satu observasi per baris, satu tabel per observational unit.</li>
+<li class="fragment">Bentuk <em>tidy</em> untuk analisis (untuk pengukuran berulang biasanya <strong>long format</strong>), <strong>wide format</strong> untuk presentasi.</li>
+<li class="fragment">Dataset <strong><em>Big Five</em></strong> kita sudah <em>tidy</em> di level item, tapi perlu di<em>reshape</em> ke level skala (<code>AVERAGE()</code>, setelah item <em>reverse-keyed</em> dibalik) untuk dianalisis sebagai skor kepribadian.</li>
 <li class="fragment"><strong>Tabel distribusi frekuensi</strong> (univariat) dan <strong>tabel kontingensi</strong> (bivariat) adalah dua alat ringkasan utama, lengkap dengan rasio/proporsi/<em>rate</em>.</li>
 <li class="fragment">Tabel yang baik punya judul jelas, satuan tercantum, sumber tercantum, dan mengikuti gaya penulisan ilmiah bidang Anda.</li>
 </ul>
@@ -939,8 +939,8 @@ Rizqy Amelia Zein
 <h2>Referensi</h2>
 <ul>
 <li>American Psychological Association. (2020). <em>Publication manual of the American Psychological Association</em> (7th ed.).</li>
-<li><a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute. (2021). <em>Data literacy curriculum</em>.</a></li>
-<li>Open-Source Psychometrics Project. (n.d.). <em>Raw data repository</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
+<li><a href="libs/okf.pdf">Open Knowledge Foundation. (2021). <em>Data literacy curriculum</em>. International Republican Institute.</a></li>
+<li>Open-Source Psychometrics Project. (n.d.). <em>Open psychology data: Raw data from online personality tests</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
 <li>Wickham, H. (2014). Tidy data. <em>Journal of Statistical Software, 59</em>(10), 1–23. <a href="https://doi.org/10.18637/jss.v059.i10" class="uri">https://doi.org/10.18637/jss.v059.i10</a></li>
 </ul>
 </section>

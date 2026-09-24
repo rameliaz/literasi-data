@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-17">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Literasi Data dan Penulisan Ilmiah – Merencanakan Analisis Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,18 +156,18 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-17</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
 <ol type="1">
 <li>Menurunkan <strong>pertanyaan penelitian</strong> menjadi <strong>hipotesis</strong></li>
 <li>Menyusun <strong><em>analysis plan</em></strong> dan mengapa <strong><em>preregistration</em></strong> penting</li>
-<li>Tiga kategori teknik analisis: <strong>deskriptif, komparatif, korelasional</strong></li>
+<li>Jenis teknik analisis: <strong>deskriptif</strong> dan <strong>inferensial</strong> (komparatif, korelasional)</li>
 <li>Perkenalan <em>software</em> statistik</li>
 </ol>
 <aside class="notes">
-<p>Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.</p>
+<p>Pertemuan ini memuat Kuis (10% dari nilai akhir). Pastikan mahasiswa tahu bahwa aktivitas mengeksekusi <em>analysis plan</em> di akhir sesi dikerjakan secara mandiri (individu) dan berkasnya dikumpulkan di Psyche sebagai nilai kuis.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -188,7 +188,7 @@ Rizqy Amelia Zein
 <section id="kembali-ke-define" class="slide level2">
 <h2>Kembali ke <em>Define</em></h2>
 <ul>
-<li class="fragment">Kita sudah melewati <strong>Find</strong>, <strong>Get</strong>, <strong>Verify</strong>, dan <strong>Clean</strong>. Sebelum masuk ke <strong>Analyze</strong>, kita perlu kembali sejenak ke tahap paling awal <em>Data Pipeline</em>: <strong>Define</strong>.</li>
+<li class="fragment">Kita sudah melewati <strong>Find</strong>, <strong>Get</strong>, <strong>Verify</strong>, dan <strong>Clean</strong>. Sebelum masuk ke <strong>Analyze</strong>, kita perlu kembali sejenak ke tahap paling awal <em>Data Pipeline</em> (Open Knowledge Foundation, 2021): <strong>Define</strong>.</li>
 <li class="fragment">Tanpa pertanyaan penelitian yang jelas, Anda hanya punya <strong>topik penelitian</strong> dan ini berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.</li>
 </ul>
 </section>
@@ -272,7 +272,7 @@ Rizqy Amelia Zein
 <h2>Apa itu <em>analysis plan</em>?</h2>
 <ul>
 <li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian <strong>transformasi</strong> yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.</li>
-<li class="fragment">Disusun <strong>setelah</strong> data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom/variabel yang sebenarnya.</li>
+<li class="fragment">Untuk data sekunder seperti dataset kita, disusun <strong>setelah</strong> data dibersihkan tapi <strong>sebelum</strong> dianalisis, supaya tiap langkahnya bisa memakai nama kolom/variabel yang sebenarnya. Untuk data primer, idealnya disusun sebelum data dikumpulkan.</li>
 <li class="fragment">Tujuannya: siapa pun yang diberi data bersih dan <em>analysis plan</em> Anda harus bisa <strong>mereka ulang</strong> (i.e., <em>reproducibility</em>) analisis Anda langkah demi langkah.</li>
 </ul>
 </section>
@@ -280,11 +280,14 @@ Rizqy Amelia Zein
 <h2>Contoh <em>analysis plan</em></h2>
 <p>Untuk hipotesis <em>“persepsi tentang beban tugas mingguan berkaitan dengan tingkat burnout”</em>:</p>
 <ol type="1">
-<li class="fragment">Hitung skor total <code>SKOR_BURNOUT</code> dari item-item skala burnout (<code>AVERAGE()</code>).</li>
-<li class="fragment">Kelompokkan responden berdasarkan <code>BEBAN_TUGAS</code> menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).</li>
+<li class="fragment">Hitung skor rata-rata <code>SKOR_BURNOUT</code> dari item-item skala burnout (<code>AVERAGE()</code>).</li>
+<li class="fragment">Kelompokkan responden berdasarkan <code>BEBAN_TUGAS</code> menjadi “tinggi” dan “rendah” (mis. dengan nilai tengah/median sebagai batas).
+<ul>
+<li class="fragment">Cara ini sederhana, tapi membuang banyak informasi. Kalau <code>BEBAN_TUGAS</code> diukur secara kontinu, korelasi atau regresi adalah uji yang lebih tepat (MacCallum et al., 2002).</li>
+</ul></li>
 <li class="fragment">Untuk kelompok “beban tinggi”, hitung rata-rata <code>SKOR_BURNOUT</code>.</li>
 <li class="fragment">Untuk kelompok “beban rendah”, hitung rata-rata <code>SKOR_BURNOUT</code>.</li>
-<li class="fragment">Bandingkan kedua rata-rata tersebut, lakukan uji statistik yang mendeteksi apakah perbedaan median <code>SKOR_BURNOUT</code> antara kelompok dengan <code>BEBAN_TUGAS</code> tinggi vs.&nbsp;rendah signifikan.</li>
+<li class="fragment">Bandingkan kedua rata-rata tersebut, lakukan uji statistik (mis. <em>independent samples t-test</em>) yang mendeteksi apakah perbedaan rata-rata <code>SKOR_BURNOUT</code> antara kelompok dengan <code>BEBAN_TUGAS</code> tinggi vs.&nbsp;rendah signifikan.</li>
 </ol>
 <div class="callout callout-tip callout-style-simple">
 <div class="callout-body">
@@ -317,7 +320,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p><em>Preregistration</em> adalah cara yang paling umum digunakan untuk membedakan <strong>penelitian konfirmatori</strong>/<em>hypothesis testing</em> (menguji hipotesis yang sudah dirumuskan sejak awal) dari <strong>penelitian eksploratif</strong>/<em>hypothesis generating</em> (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.</p>
+<p><em>Preregistration</em> adalah cara yang paling umum digunakan untuk membedakan <strong>penelitian konfirmatori</strong>/<em>hypothesis testing</em> (menguji hipotesis yang sudah dirumuskan sejak awal) dari <strong>penelitian eksploratif</strong>/<em>hypothesis generating</em> (menemukan pola baru setelah melihat data). Keduanya sah, asal diberi label yang jujur dan tepat.</p>
 </div>
 </div>
 </div>
@@ -330,17 +333,18 @@ Rizqy Amelia Zein
 <h1>Ragam Teknik Analisis 🔬</h1>
 
 </section>
-<section id="tiga-kategori-teknik-analisis" class="slide level2">
-<h2>Tiga kategori teknik analisis</h2>
+<section id="jenis-teknik-analisis" class="slide level2">
+<h2>Jenis teknik analisis</h2>
+<p>Open Knowledge Foundation (2021) membedakan analisis <strong>deskriptif</strong> dan <strong>inferensial</strong>. Ada dua macam pertanyaan inferensial yang akan Anda kerjakan: komparatif dan korelasional.</p>
 <div class="columns">
 <div class="column" style="width:33%;">
 <p><strong>Deskriptif</strong></p>
 <p>Menjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.</p>
 </div><div class="column" style="width:33%;">
-<p><strong>Komparatif</strong></p>
+<p><strong>Inferensial: komparatif</strong></p>
 <p>Membandingkan nilai suatu variabel <strong>antar kelompok</strong> (mis. skor <em>Extraversion</em> antara laki-laki dan perempuan).</p>
 </div><div class="column" style="width:34%;">
-<p><strong>Korelasional</strong></p>
+<p><strong>Inferensial: korelasional</strong></p>
 <p>Melihat <strong>hubungan</strong> antara dua variabel atau lebih (mis. apakah <em>Conscientiousness</em> berkaitan dengan usia).</p>
 </div></div>
 <div class="callout callout-note callout-style-simple">
@@ -349,14 +353,14 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Ada kategori keempat yang <strong>tidak</strong> dibahas mendalam di mata kuliah ini: <a href="https://en.wikipedia.org/wiki/Predictive_modelling">analisis model <strong>prediktif</strong></a>, yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut (i.e., <em>machine learning</em>).</p>
+<p>Ada jenis ketiga yang <strong>tidak</strong> dibahas mendalam di mata kuliah ini: <a href="https://en.wikipedia.org/wiki/Predictive_modelling">analisis <strong>prediktif</strong></a>, bentuk analisis inferensial yang lebih lanjut untuk memprediksi kejadian di masa depan berdasarkan data masa lalu (mis. regresi, <em>machine learning</em>).</p>
 </div>
 </div>
 </div>
 </section>
 <section id="pivot-table" class="slide level2">
 <h2><em>Pivot table</em></h2>
-<p><a href="https://www.excel-easy.com/data-analysis/pivot-tables.html"><em>Pivot table</em></a> (Pertemuan 2 sudah menyinggung tabel kontigensi. <em>Pivot table</em> adalah versi interaktifnya) punya empat komponen:</p>
+<p><a href="https://www.excel-easy.com/data-analysis/pivot-tables.html"><em>Pivot table</em></a> (Pertemuan 2 sudah menyinggung tabel kontingensi. <em>Pivot table</em> adalah versi interaktifnya) punya empat komponen:</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -395,8 +399,8 @@ Rizqy Amelia Zein
 <section id="kapan-harus-menggunakan-software-statistik" class="slide level2">
 <h2>Kapan harus menggunakan <em>software</em> statistik</h2>
 <ul>
-<li class="fragment"><em>Spreadsheet</em> sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana dan ini sudah cukup untuk keperluan mata kuliah ini.</li>
-<li class="fragment">Tapi begitu Anda butuh uji statistik formal (mis. <em>independent samples t-test</em>, ANOVA, korelasi dengan nilai <em>p</em>), Anda memerlukan perangkat lunak analisis statistik.</li>
+<li class="fragment"><em>Spreadsheet</em> sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana, bahkan menjalankan uji dasar seperti <em>t-test</em> (<code>T.TEST()</code>) dan korelasi (<code>CORREL()</code>). Ini sudah cukup untuk keperluan mata kuliah ini.</li>
+<li class="fragment">Tapi begitu Anda butuh uji statistik yang lebih lengkap (mis. ANOVA, regresi, atau keluaran lengkap dengan <em>effect size</em> dan <em>confidence interval</em>), Anda memerlukan perangkat lunak analisis statistik.</li>
 </ul>
 </section>
 <section id="dua-pilihan-yang-paling-populer" class="slide level2">
@@ -471,7 +475,7 @@ Rizqy Amelia Zein
 </div>
 </div>
 <ol type="1">
-<li class="fragment">Hitung <code>skor_extraversion</code> per partisipan (<code>AVERAGE(E1:E10)</code>, setelah item dibalik sesuai kebutuhan).</li>
+<li class="fragment">Hitung <code>skor_extraversion</code> per partisipan (<code>AVERAGE()</code> atas item E1–E10, yaitu kolom H–Q, setelah item <em>reverse-keyed</em> E2, E4, E6, E8, E10 dibalik dan nilai 0 (= tidak dijawab) dikosongkan).</li>
 <li class="fragment">Buat <em>pivot table</em>: Rows = <code>gender</code>, Values = <code>AVERAGE(skor_extraversion)</code>.</li>
 <li class="fragment">Bandingkan rata-rata antar kategori gender.</li>
 <li class="fragment">Uji perbedaan rata-rata tersebut di MS Excel dengan fungsi <a href="https://support.microsoft.com/en-us/excel/functions/t-test-function"><code>T.TEST()</code></a></li>
@@ -496,15 +500,16 @@ Rizqy Amelia Zein
 <h2>Kesimpulan Pertemuan 5</h2>
 <ul>
 <li class="fragment">Sebelum menganalisis, kembali ke <em>Define</em>: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.</li>
-<li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda <strong><em>reproducible</em></strong>.</li>
+<li class="fragment"><strong><em>Analysis plan</em></strong> adalah rangkaian langkah tertulis, disusun sebelum analisis (untuk data sekunder: setelah data bersih), agar analisis Anda <strong><em>reproducible</em></strong>.</li>
 <li class="fragment">Menuliskan <em>analysis plan</em> <strong>sebelum</strong> melihat hasil adalah inti dari <strong><em>pre-registration</em></strong>, dan ini akan membantu untuk membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.</li>
-<li class="fragment">Tiga kategori teknik analisis: <strong>deskriptif</strong>, <strong>komparatif</strong>, <strong>korelasional</strong> — <em>pivot table</em> adalah alat serbaguna untuk ketiganya.</li>
+<li class="fragment">Jenis teknik analisis: <strong>deskriptif</strong> dan <strong>inferensial</strong> (<strong>komparatif</strong>, <strong>korelasional</strong>). <em>Pivot table</em> serbaguna untuk analisis deskriptif dan komparatif; untuk korelasional, pakai <code>CORREL()</code> atau <em>scatter plot</em>.</li>
 </ul>
 </section>
 <section id="referensi" class="slide level2 scrollable smaller">
 <h2>Referensi</h2>
 <ul>
-<li><a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute. (2021). <em>Data literacy curriculum</em>.</a></li>
+<li>MacCallum, R. C., Zhang, S., Preacher, K. J., &amp; Rucker, D. D. (2002). On the practice of dichotomization of quantitative variables. <em>Psychological Methods, 7</em>(1), 19–40. <a href="https://doi.org/10.1037/1082-989X.7.1.19" class="uri">https://doi.org/10.1037/1082-989X.7.1.19</a></li>
+<li><a href="libs/okf.pdf">Open Knowledge Foundation. (2021). <em>Data literacy curriculum</em>. International Republican Institute.</a></li>
 </ul>
 </section>
 <section id="terima-kasih" class="slide level2 closing-slide">

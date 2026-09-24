@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-17">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Literasi Data dan Penulisan Ilmiah – Menemukan dan Memanfaatkan Data Terbuka</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,7 +156,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-17</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
@@ -165,7 +165,7 @@ Rizqy Amelia Zein
 <li>Sumber-sumber <strong>data terbuka</strong> untuk riset psikologi</li>
 <li>Ragam <strong>format data</strong> (<code>.csv</code>, <code>.sav</code>, <code>json</code>) dan cara membacanya</li>
 <li>Mengekstraksi data dari <strong>dokumen dan tabel</strong> dari <em>file</em> statis</li>
-<li><strong>Etika</strong> pengumpulan dan penggunaan data, termasuk UU Perlindungan Data Pribadi</li>
+<li><strong>Etika</strong> pengumpulan dan penggunaan data, termasuk UU Pelindungan Data Pribadi</li>
 </ol>
 <aside class="notes">
 <p>Metode minggu ini “Diskusi Kelompok” — porsi diskusi/kasus etika di bagian akhir sebaiknya diberi waktu lebih banyak daripada bagian format/ekstraksi data yang sifatnya lebih informatif.</p>
@@ -188,7 +188,7 @@ Rizqy Amelia Zein
 </section>
 <section id="mengingat-kembali-data-pipeline" class="slide level2">
 <h2>Mengingat kembali <em>Data Pipeline</em></h2>
-<p>Minggu lalu Anda belajar mempresentasikan data dengan tabel. Mulai minggu ini, kita fokus pada tahapan <em>Data Pipeline</em>: <strong>Find</strong> (menemukan) dan <strong>Get</strong> (memperoleh) data.</p>
+<p>Minggu lalu Anda belajar mempresentasikan data dengan tabel. Mulai minggu ini, kita fokus pada tahapan <em>Data Pipeline</em>: <strong>Find</strong> (menemukan) dan <strong>Get</strong> (memperoleh) data (Open Knowledge Foundation, 2021).</p>
 <div class="fragment">
 <p>Sebelum ada yang bisa ditata atau dibersihkan, harus ada data dulu di tangan Anda.</p>
 </div>
@@ -234,7 +234,7 @@ Rizqy Amelia Zein
 </ul>
 </div><div class="column" style="width:45%;">
 <p><strong>Daftar dataset psikologi/ilmu sosial</strong></p>
-<p><a href="https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit">Psychological Stimulus Sets and Datasets (Brick, 2020)</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit">Directory of free, open psychological datasets (Brick et al., 2019)</a></p>
 <p>Dokumen kolaboratif komunitas yang mengumpulkan berbagai sumber dataset terbuka di bidang psikologi dan ilmu sosial yang bisa menjadi pilihan untuk mengerjakan tugas UTS Anda.</p>
 </div></div>
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -246,7 +246,7 @@ Rizqy Amelia Zein
 <p><strong>Sumber lain yang layak dijelajahi</strong></p>
 </div>
 <div class="callout-content">
-<p><a href="https://osf.io/">Open Science Framework (OSF)</a>, repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan penulis membagikan data mentah), dan arsip data milik konsorsium riset (mis. <a href="https://www.worldvaluessurvey.org/">World Values Survey</a>, <a href="https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor">Wellcome Global Monitor</a> untuk data lintas-negara).</p>
+<p><a href="https://osf.io/">Open Science Framework (OSF)</a>, repositori data milik jurnal (banyak jurnal psikologi kini mewajibkan <em>data availability statement</em>, dan sebagian juga mewajibkan data mentahnya dibagikan), dan arsip data milik konsorsium riset (mis. <a href="https://www.worldvaluessurvey.org/">World Values Survey</a>, <a href="https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor">Wellcome Global Monitor</a> untuk data lintas-negara).</p>
 </div>
 </div>
 </div>
@@ -298,7 +298,7 @@ Rizqy Amelia Zein
 <h2>Ragam format data</h2>
 <ul>
 <li class="fragment"><strong><code>.csv</code>/<code>.tsv</code></strong> <em>(comma/tab-separated values)</em> — teks polos yang menyimpan tabel; ringan, terbuka, dan bisa dibaca hampir semua perangkat lunak.</li>
-<li class="fragment"><strong><code>.xls</code>/<code>.xlsx</code></strong> — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga ukurannya lebih besar dari CSV.</li>
+<li class="fragment"><strong><code>.xls</code>/<code>.xlsx</code></strong> — format spreadsheet Excel; menyimpan tabel plus format visual dan formula, sehingga kurang ideal untuk dibagikan sebagai data mentah dibandingkan CSV.</li>
 <li class="fragment"><strong><code>.sav</code></strong> — format <em>native</em> <strong>SPSS</strong>, paling umum Anda temui di penelitian psikologi; menyimpan data plus label variabel dan value labels (mis. <code>1 = Laki-laki</code>, <code>2 = Perempuan</code>).</li>
 <li class="fragment"><strong><code>.json</code></strong> — format ringan berbasis struktur <em>tree</em> (bukan tabel), umum dipakai untuk data dari API atau media sosial.</li>
 </ul>
@@ -329,7 +329,7 @@ Rizqy Amelia Zein
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur <strong>tabular</strong> sudah cukup. <code>.json</code> lebih relevan kalau Anda bekerja dengan data media sosial atau hasil ekstraksi dari API.</p>
+<p>Untuk sebagian besar data riset psikologi (respons survei, skor tes), struktur <strong>tabular</strong> sudah cukup. <code>.json</code> lebih relevan kalau Anda bekerja dengan data media sosial atau hasil ekstraksi dari API (Open Knowledge Foundation, 2021).</p>
 </div>
 </div>
 </div>
@@ -393,7 +393,7 @@ Rizqy Amelia Zein
 <p><strong>Ekstraksi otomatis tidak pernah 100% sempurna</strong></p>
 </div>
 <div class="callout-content">
-<p>Selalu <strong>verifikasi</strong> hasil ekstraksi terhadap sumber aslinya, karena ada kemungkinan baris yang terlewat atau kolom yang tergeser adalah kesalahan umum. Inilah kenapa tahap <em>Verify</em> (Pertemuan 4) dilakukan setelah <em>Get</em>.</p>
+<p>Selalu <strong>verifikasi</strong> hasil ekstraksi terhadap sumber aslinya, karena baris yang terlewat atau kolom yang bergeser adalah kesalahan umum. Inilah kenapa tahap <em>Verify</em> (Pertemuan 4) dilakukan setelah <em>Get</em>.</p>
 </div>
 </div>
 </div>
@@ -448,7 +448,7 @@ Rizqy Amelia Zein
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Kalau Anda pernah bertanya-tanya kenapa formulir <em>informed consent</em> riset psikologi selalu menyebutkan hak partisipan untuk mengundurkan diri kapan saja — inilah dasar hukumnya.</p>
+<p>Hak partisipan untuk mengundurkan diri kapan saja, yang selalu disebut dalam formulir <em>informed consent</em> riset psikologi, berakar pada etika riset (Deklarasi Helsinki, kode etik APA dan HIMPSI). UU PDP memberi landasan hukum tambahan untuk aspek datanya.</p>
 </div>
 </div>
 </div>
@@ -457,8 +457,8 @@ Rizqy Amelia Zein
 <h2>Dasar pemrosesan data: persetujuan (Pasal 20–22)</h2>
 <ul>
 <li class="fragment">Pengendali Data Pribadi <strong>wajib</strong> punya dasar hukum sebelum memproses data — salah satunya adalah <strong>persetujuan eksplisit</strong> dari subjek data.</li>
-<li class="fragment">Persetujuan harus disampaikan <strong>tertulis atau terekam</strong>, dan pemroses wajib menjelaskan: legalitas pemrosesan, tujuannya, jenis data yang diproses, jangka waktu penyimpanan, dan hak subjek data.</li>
-<li class="fragment">Inilah dasar hukum di balik formulir <em>informed consent</em> yang Anda tanda tangani (atau minta ditandatangani partisipan) sebelum penelitian dimulai.</li>
+<li class="fragment">Persetujuan harus disampaikan <strong>tertulis atau terekam</strong>, dan Pengendali Data Pribadi wajib menjelaskan: legalitas pemrosesan, tujuannya, jenis data yang diproses, jangka waktu penyimpanan, dan hak subjek data.</li>
+<li class="fragment">Formulir <em>informed consent</em> yang Anda tanda tangani (atau minta ditandatangani partisipan) sebelum penelitian dimulai berakar pada etika riset; ketentuan ini menambahkan lapisan hukum untuk aspek pemrosesan datanya.</li>
 </ul>
 </section>
 <section id="pengecualian-untuk-kepentingan-penelitian-ilmiah" class="slide level2">
@@ -469,23 +469,23 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Pasal 15 ayat (1)</strong></p>
+<p><strong>Pasal 15</strong></p>
 </div>
 <div class="callout-content">
-<p>Sejumlah hak subjek data, termasuk hak menghapus data dan menarik persetujuan, <strong>dikecualikan</strong> untuk beberapa kepentingan, salah satunya: <strong>“kepentingan statistik dan penelitian ilmiah.”</strong></p>
+<p>Sejumlah hak subjek data (Pasal 8, 9, 10 ayat (1), 11, dan 13), termasuk hak menghapus data dan menarik persetujuan, <strong>dikecualikan</strong> untuk beberapa kepentingan, salah satunya: <strong>“kepentingan statistik dan penelitian ilmiah”</strong> (ayat (1) huruf e). Pengecualian ini “dilaksanakan hanya dalam rangka pelaksanaan ketentuan Undang-Undang” (ayat (2)).</p>
 </div>
 </div>
 </div>
 <div class="fragment">
-<p>Pengecualian ini <strong>bukan berarti peneliti leluasa menggunakan data milik partisipan</strong>. Ia memberi ruang kerja bagi peneliti (mis. memakai data lama untuk analisis sekunder tanpa perlu melacak ulang persetujuan tiap partisipan), tapi tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti.</p>
+<p>Pengecualian ini <strong>bukan berarti peneliti leluasa menggunakan data milik partisipan</strong>. Ia memberi ruang kerja bagi peneliti, tapi yang dikecualikan hanya sebagian hak subjek data. Pemrosesan data tetap harus punya dasar hukum (Pasal 20), dan tanggung jawab menjaga kerahasiaan dan penggunaan yang wajar tetap ada di tangan peneliti.</p>
 </div>
 </section>
 <section id="menerapkan-ini-ke-dataset-contoh" class="slide level2">
 <h2>Menerapkan ini ke dataset contoh</h2>
-<p>Dataset <strong><em>Big Five</em></strong> yang kita pakai bersifat <strong>terbuka dan sudah dianonimkan</strong>, tidak ada nama, tidak ada informasi yang bisa melacak balik ke individu tertentu. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:</p>
+<p>Dataset <strong><em>Big Five</em></strong> yang kita pakai bersifat <strong>terbuka dan tanpa identitas langsung</strong> (tidak ada nama atau kontak), tapi masih memuat variabel demografis (usia, jenis kelamin, ras, negara, bahasa ibu), dan sebagian respondennya berusia 13–17 tahun. Tapi prinsip etikanya tetap relevan untuk proyek riset Anda sendiri:</p>
 <ul>
 <li class="fragment">Kalau Anda <strong>mengumpulkan data sendiri</strong> (mis. untuk tesis), formulir <em>informed consent</em> dan penyimpanan data yang aman adalah <strong>kewajiban Anda sebagai peneliti</strong>.</li>
-<li class="fragment">Kalau Anda <strong>memakai data sekunder terbuka</strong>, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (<a href="https://www.howtofair.dk/how-to-fair/data-licences/">lisensi</a>, atribusi)?</li>
+<li class="fragment">Kalau Anda <strong>memakai data sekunder terbuka</strong>, tetap periksa: apakah dataset tersebut benar-benar sudah dianonimkan? Apakah ada batasan penggunaan dari penyedia data (<a href="https://www.howtofair.dk/how-to-fair/data-licences/">lisensi</a>, atribusi)? <em>Open-Source Psychometrics Project</em>, misalnya, tidak mencantumkan lisensi apa pun untuk datanya.</li>
 </ul>
 </section>
 <section id="diskusi-kelompok-skenario-etika-data" class="slide level2">
@@ -499,7 +499,7 @@ Rizqy Amelia Zein
 <p><strong>Diskusikan bersama kelompok Anda (10 menit)</strong></p>
 </div>
 <div class="callout-content">
-<p>Coba cek kembali dataset yang Anda kumpulkan dari riset skripsi Anda. Informasi apa saja yang Anda kumpulkan dalam dataset tersebut.</p>
+<p>Coba cek kembali dataset yang Anda kumpulkan dari riset skripsi Anda. Informasi apa saja yang Anda kumpulkan dalam dataset tersebut?</p>
 <ol type="1">
 <li>Apakah dataset ini “cukup” anonim untuk dipakai bebas? Mengapa/mengapa tidak?</li>
 <li>Langkah apa yang bisa Anda ambil sebelum menggunakannya dalam naskah publikasi?</li>
@@ -540,9 +540,9 @@ Rizqy Amelia Zein
 <section id="referensi" class="slide level2 scrollable smaller">
 <h2>Referensi</h2>
 <ul>
-<li>Psychological Stimulus Sets and Datasets (Brick, 2020). <a href="https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit" class="uri">https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit</a></li>
-<li><a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute. (2021). <em>Data literacy curriculum</em>.</a></li>
-<li>Open-Source Psychometrics Project. (n.d.). <em>Raw data repository</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
+<li>Brick, C., Botzet, L., Costello, C., Batruch, A., Arslan, R. C., Kline Struhl, M., Sommet, N., Green, J., Nuijten, M. B., Conley, M. A., Richardson, T., Sorhagen, N., Olsson-Collentine, A., Feldman, G., Feingold, F., Manley, H., Mullarkey, M. C., &amp; Dienlin, T. (2019). <em>Directory of free, open psychological datasets</em> [Data set]. OSF. <a href="https://doi.org/10.17605/OSF.IO/TH8EW" class="uri">https://doi.org/10.17605/OSF.IO/TH8EW</a></li>
+<li>Open Knowledge Foundation. (2021). <a href="libs/okf.pdf"><em>Data literacy curriculum</em></a>. International Republican Institute.</li>
+<li>Open-Source Psychometrics Project. (n.d.). <em>Open psychology data: Raw data from online personality tests</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
 <li>Republik Indonesia. (2022). <em>Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi</em>.</li>
 </ul>
 </section>

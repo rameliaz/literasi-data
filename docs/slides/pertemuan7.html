@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-17">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Literasi Data dan Penulisan Ilmiah – Menyajikan Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,16 +156,16 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-17</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
 <ol type="1">
 <li><strong><em>Presenting</em></strong> vs.&nbsp;<strong><em>visualizing</em></strong></li>
-<li>Memilih jenis data dan <strong>tugas visualisasi</strong> yang tepat</li>
-<li>Enam prinsip <em>storytelling with data</em> (<a href="https://www.storytellingwithdata.com">Knaflic, 2021</a>)</li>
+<li>Memilih jenis data dan <strong>bentuk visualisasi</strong> yang tepat</li>
+<li>Enam prinsip <em>storytelling with data</em> (<a href="https://www.storytellingwithdata.com">Knaflic, 2015</a>)</li>
 <li>Studi kasus: memvisualisasikan dataset <em>Big Five</em></li>
-<li>Alat bantu: <em>spreadsheet</em>, Tableau/Datawrapper, Canva</li>
+<li>Beberapa pilihan alat bantu: <em>spreadsheet</em>, Tableau/Datawrapper, Canva</li>
 </ol>
 </section>
 <section>
@@ -181,23 +181,33 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Pertanyaan pertama yang akan kita selesaikan <strong>bukan</strong> <em>“bagaimana cara memvisualisasikan temuan dari data ini?”</em>, melainkan <strong>“apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?”</strong></p>
+<p><strong>“Apa yang saya harapkan audiens saya lakukan/pahami dari data yang saya miliki ini?”</strong></p>
 </div>
 </div>
 </div>
 <ul>
-<li class="fragment">Parameter kunci penyajian data adalah <strong>audiens</strong> dan <strong>pesan</strong>.</li>
-<li class="fragment">Bagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.</li>
-<li class="fragment">Itulah kenapa judul pertemuan ini “<strong>Menyajikan</strong> Data”, bukan “<strong>Memvisualisasikan</strong> Data” karena visualisasi hanyalah salah satu alat komunikasi data, tetapi bukan tujuan akhirnya.</li>
+<li class="fragment">Parameter kunci penyajian data adalah <strong>audiens</strong> dan <strong>pesan</strong> (<a href="libs/okf.pdf">Open Knowledge Foundation (2021)</a>).</li>
+<li class="fragment">Mungkinkah strategi visualisasi data (e.g., menggunakan plot, grafik) dapat dilakukan ketika:
+<ul>
+<li class="fragment">Anda menyajikan temuan riset Anda melalui siaran radio?</li>
+<li class="fragment">Temuan disajikan pada audiens dengan gangguan penglihatan?</li>
+<li class="fragment">Menyajikan hasil analisis data di komunitas yang tidak familiar dengan grafik sama sekali?</li>
+</ul></li>
+<li class="fragment">Dalam semua kasus di atas, grafik/visualisasi saja tidak cukup.</li>
+<li class="fragment">Itulah mengapa pertemuan ini menekankan pada “<strong>Menyajikan</strong> Data”, bukan “<strong>Memvisualisasikan</strong> Data”
+<ul>
+<li class="fragment">…karena visualisasi hanyalah salah satu alat komunikasi data, tetapi bukan tujuan akhirnya.</li>
+</ul></li>
 </ul>
 </section>
 <section id="data-visualization-vs.-infografis" class="slide level2">
 <h2><em>Data visualization</em> vs.&nbsp;infografis</h2>
+<p>Perbedaannya menurut <a href="libs/okf.pdf">Open Knowledge Foundation (2021)</a>:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong><em>Data visualization</em></strong></p>
 <ul>
-<li>Terikat erat dengan data yang mendasarinya.</li>
+<li>Terkait langsung dengan data yang mendasarinya.</li>
 <li>Bisa interaktif dan bereaksi terhadap perubahan data.</li>
 <li>Jumlah format yang valid terbatas, tetapi harus tetap merepresentasikan data secara transparan.</li>
 <li><a href="https://datavizcatalogue.com/">Lihat katalognya di sini (DataViz Catalogue).</a></li>
@@ -205,9 +215,9 @@ Rizqy Amelia Zein
 </div><div class="column" style="width:50%;">
 <p><strong>Infografis</strong></p>
 <ul>
-<li>“Grafik informasi” — menyajikan cerita berbasis fakta secara visual.</li>
-<li>Sering memuat visualisasi data, tapi tidak terikat ketat pada data mentahnya.</li>
-<li>Lebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi umum (bukan teknis).</li>
+<li>“Grafik + informasi” — menyajikan suatu “cerita” berbasis data secara visual.</li>
+<li>Sering memuat visualisasi data, tapi tidak selalu langsung terkait dengan data mentahnya.</li>
+<li>Lebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi pada audiens umum (bukan audiens yang spesifik/ahli).</li>
 <li>Dapat menjadi produk Jurnalistik Data.
 <ul>
 <li><a href="https://data.kompas.id/">Kompas</a></li>
@@ -219,11 +229,33 @@ Rizqy Amelia Zein
 </section>
 <section id="tiga-elemen-yang-bisa-ditonjolkan" class="slide level2">
 <h2>Tiga elemen yang bisa ditonjolkan</h2>
+<p><a href="libs/okf.pdf">Open Knowledge Foundation (2021)</a> membedakan tiga elemen yang bisa Anda tonjolkan saat menyajikan data:</p>
 <ol type="1">
-<li class="fragment"><strong>Data</strong> — visualisasi sederhana yang membantu audiens cepat menangkap angka kunci; interaktivitas memungkinkan eksplorasi lebih presisi.</li>
-<li class="fragment"><strong>Desain</strong> — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski datanya sendiri kurang familier.</li>
+<li class="fragment"><strong>Data</strong> — visualisasi sederhana yang membantu audiens cepat menangkap angka kunci; interaktivitas (apabila memungkinkan) membuat eksplorasi lebih menyenangkan di sisi audiens.</li>
+<li class="fragment"><strong>Desain</strong> — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski format visualnya kurang familier bagi audiens.</li>
 <li class="fragment"><strong>Pesan</strong> — menempatkan <em>storytelling</em> sebagai yang utama; data dan desain melayani narasi yang ingin disampaikan.</li>
 </ol>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Beberapa contoh yang menarik:</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><a href="https://ai.google/our-ai-journey/">Google AI journey</a></li>
+<li>Risiko automasi pada beberapa jenis pekerjaan
+<ul>
+<li><a href="https://job-futuromat.iab.de/en/">Job Futuromat IAB</a></li>
+<li><a href="https://willrobotstakemyjob.com/">Will Robots Take My Job?</a></li>
+</ul></li>
+<li><a href="https://elninoobservatory.com/en?city=surabaya">El Niño Observatory</a></li>
+</ul>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="memilih-jenis-data-dan-tugas-visualisasi" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -234,7 +266,7 @@ Rizqy Amelia Zein
 <h2>Kategorikal vs.&nbsp;<em>continuum</em></h2>
 <p>Ingat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan <strong>pilihan grafik</strong> Anda.</p>
 <ul>
-<li class="fragment"><strong>Data kategorikal</strong> (mis. gender, kelompok skor) — cocok untuk <em>bar chart</em>, <em>pie chart</em>. Tapi grafik butuh <strong>minimal satu variabel <em>continuum</em></strong> untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.</li>
+<li class="fragment"><strong>Data kategorikal</strong> (mis. gender, kelompok skor) — cocok untuk <em>bar chart</em>, <em>pie chart</em>. Tapi grafik butuh <strong>minimal satu nilai <em>continuum</em></strong> untuk dipasangkan, walaupun itu hanya hasil hitungan dari kategorinya (mis. frekuensi atau rata-rata skor per kategori) — dua variabel kategorikal tidak bisa langsung digambar tanpa menghitung sesuatu dari keduanya (Open Knowledge Foundation, 2021).</li>
 <li class="fragment"><strong>Data <em>continuum</em></strong> (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada <em>scatterplot</em> atau histogram.</li>
 <li class="fragment">Data <em>continuum</em> <strong>bisa</strong> ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang), tapi tidak berlaku sebaliknya.</li>
 <li class="fragment">Anda bisa memanfaatkan <a href="https://www.juiceanalytics.com/chartchooser">ChartChooser</a> untuk menentukan grafik apa yang sesuai dengan tujuan dan jenis data Anda.</li>
@@ -242,7 +274,7 @@ Rizqy Amelia Zein
 </section>
 <section id="saya-ingin-menunjukkan" class="slide level2">
 <h2>“Saya ingin menunjukkan…”</h2>
-<p>Cara termudah memilih visualisasi: lengkapi kalimat <strong>“Saya ingin menunjukkan…”</strong></p>
+<p>Cara termudah memilih visualisasi: lengkapi kalimat <strong>“Saya ingin menunjukkan…”</strong> (<a href="libs/okf.pdf">Open Knowledge Foundation, 2021</a>)</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 55%">
@@ -251,7 +283,7 @@ Rizqy Amelia Zein
 <thead>
 <tr class="header">
 <th>Saya ingin menunjukkan…</th>
-<th>Tugas visualisasi</th>
+<th>Jenis visualisasi</th>
 </tr>
 </thead>
 <tbody>
@@ -276,11 +308,12 @@ Rizqy Amelia Zein
 </section>
 <section id="ragam-tujuan-visualisasi-dan-grafiknya" class="slide level2">
 <h2>Ragam tujuan visualisasi dan grafiknya</h2>
+<p>Diadaptasi dari <a href="libs/okf.pdf">Open Knowledge Foundation, 2021</a>:</p>
 <ul>
 <li class="fragment"><strong>Perbandingan</strong> → <em>bar chart</em></li>
-<li class="fragment"><strong>Bagian-dari-keseluruhan</strong> → <em>pie chart</em>, <em>stacked bar chart</em></li>
+<li class="fragment"><strong>Bagian-dari-keseluruhan</strong> → <em>pie chart</em>, <em>stacked bar chart</em> (catatan: Knaflic, 2015, menyarankan menghindari <em>pie chart</em> karena mata kita sulit membandingkan luas irisan; <em>bar chart</em> biasanya lebih mudah dibaca)</li>
 <li class="fragment"><strong>Distribusi</strong> → histogram, <em>box plot</em></li>
-<li class="fragment"><strong>Hubungan</strong> (antara dua variabel kontinu) → <em>scatterplot</em></li>
+<li class="fragment"><strong>Hubungan</strong> (antara dua variabel <em>continuum</em>) → <em>scatterplot</em></li>
 <li class="fragment"><strong>Data dari waktu ke waktu</strong> → <em>line chart</em></li>
 <li class="fragment"><strong>Lokasi</strong> → peta</li>
 </ul>
@@ -290,7 +323,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Tidak ada daftar jenis visualisasi data yang lengkap. Satu grafik bisa saja memenuhi lebih dari satu tujuan sekaligus. Yang penting: <strong>rumuskan tujuannya dulu</strong>, baru pilih grafiknya, bukan sebaliknya.</p>
+<p>Tidak ada daftar jenis visualisasi data yang lengkap. Satu grafik bisa saja memenuhi lebih dari satu tujuan sekaligus. Yang penting: <strong>rumuskan tujuannya dulu</strong>, baru pilih grafiknya.</p>
 </div>
 </div>
 </div>
@@ -302,14 +335,14 @@ Rizqy Amelia Zein
 </section>
 <section id="kerangka-dari-cole-nussbaumer-knaflic" class="slide level2">
 <h2>Kerangka dari Cole Nussbaumer Knaflic</h2>
-<p>Buku <em>Storytelling with Data</em> (<a href="https://www.storytellingwithdata.com">Knaflic, 2021</a>) merangkum enam prinsip inti untuk penyajian data yang efektif:</p>
+<p>Buku <em>Storytelling with Data</em> (<a href="https://www.storytellingwithdata.com">Knaflic, 2015</a>) merangkum enam prinsip inti untuk penyajian data yang efektif:</p>
 <ol type="1">
 <li class="fragment"><strong>Pahami konteksnya</strong></li>
 <li class="fragment"><strong>Pilih visual yang tepat</strong></li>
-<li class="fragment"><strong>Singkirkan kekacauan (<em>clutter</em>)</strong></li>
+<li class="fragment"><strong>Minimalisasi informasi yang kurang relevan (<em>cluttering</em>)</strong></li>
 <li class="fragment"><strong>Arahkan perhatian audiens</strong></li>
 <li class="fragment"><strong>Berpikir seperti desainer</strong></li>
-<li class="fragment"><strong>Ceritakan sebuah kisah</strong></li>
+<li class="fragment"><strong>Ceritakan sebuah kisah yang menarik</strong></li>
 </ol>
 </section>
 <section id="pahami-konteksnya" class="slide level2">
@@ -323,8 +356,8 @@ Rizqy Amelia Zein
 <h2>2️⃣ Pilih visual yang tepat</h2>
 <p>Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak “menebak” kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.</p>
 </section>
-<section id="singkirkan-kekacauan-clutter" class="slide level2">
-<h2>3️⃣ Singkirkan kekacauan (<em>clutter</em>)</h2>
+<section id="minimalisasi-informasi-yang-kurang-relevan-cluttering" class="slide level2">
+<h2>3️⃣ Minimalisasi informasi yang kurang relevan (<em>cluttering</em>)</h2>
 <ul>
 <li class="fragment"><em>Clutter</em> = elemen visual yang tidak menambah informasi, tapi membebani mata audiens: <em>gridlines</em> tebal, efek 3D, terlalu banyak warna, border berlebihan.</li>
 <li class="fragment">Aturan praktis: kalau menghapus sebuah elemen tidak mengurangi informasi yang tersampaikan, <strong>hapus saja</strong>.</li>
@@ -335,32 +368,30 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Mata manusia tertarik secara otomatis pada elemen tertentu (warna kontras, ukuran lebih besar, posisi) — inilah yang disebut <em>preattentive attributes</em>.</li>
 <li class="fragment">Gunakan ini secara sengaja: beri warna berbeda pada satu batang yang ingin Anda tonjolkan, sementara batang lain tetap abu-abu netral.</li>
+<li class="fragment">Saat memakai warna, ingat audiens dengan buta warna: hindari memasangkan merah dan hijau sebagai satu-satunya pembeda.</li>
 </ul>
 </section>
 <section id="berpikir-seperti-desainer" class="slide level2">
 <h2>5️⃣ Berpikir seperti desainer</h2>
 <ul>
-<li class="fragment">Desain yang baik bukan cuma soal estetika, tetapi soal <strong>fungsi</strong>: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses (termasuk untuk audiens dengan keterbatasan penglihatan warna)?</li>
+<li class="fragment">Desain yang baik bukan cuma soal estetika, tetapi soal <strong>fungsi</strong>: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses, dalam arti tidak terlalu rumit bagi audiens dengan tingkat keahlian teknis yang berbeda-beda?</li>
 <li class="fragment">Prinsip ini menjembatani ke elemen “desain” yang kita bahas di awal pertemuan.</li>
 </ul>
 </section>
-<section id="ceritakan-sebuah-kisah" class="slide level2">
-<h2>6️⃣ Ceritakan sebuah kisah</h2>
-<div class="callout callout-important callout-titled callout-style-default">
+<section id="ceritakan-sebuah-kisah-yang-menarik" class="slide level2">
+<h2>6️⃣ Ceritakan sebuah kisah yang menarik</h2>
+<div class="callout callout-important callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
-</div>
 <div class="callout-content">
-<p>Data tanpa narasi hanyalah angka. Visualisasi yang baik punya <strong>alur</strong>: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi, persis seperti cerita yang baik pada umumnya.</p>
+<p>Data tanpa narasi hanyalah angka-angka yang tidak bisa langsung dipahami maknanya. Visualisasi yang baik punya <strong>alur</strong>: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi, persis seperti cerita yang baik pada umumnya.</p>
 </div>
 </div>
 </div>
 <div class="fragment">
-<p>Ini menyambung ke apa yang sudah kita bahas Pertemuan 6: <em>hedging language</em> menjaga transparansi narasi Anda; prinsip ini memastikan narasi itu juga <strong>menarik</strong> dan mudah diingat.</p>
+<p>Ini menyambung ke apa yang sudah kita bahas di <a href="../slides/pertemuan6.html">Pertemuan 6</a> tentang <em>hedging language</em>. <em>Hedging</em> membantu untuk menjaga transparansi narasi, meskipun narasi itu juga perlu <strong>menarik</strong> agar mudah diingat.</p>
 </div>
 </section></section>
 <section>
@@ -370,7 +401,7 @@ Rizqy Amelia Zein
 </section>
 <section id="merumuskan-tugas-visualisasi" class="slide level2">
 <h2>Merumuskan tugas visualisasi</h2>
-<p>Kita hitung skor <em>Extraversion</em> (setelah item <em>reverse-scored</em> dibalik, seperti prosedur Pertemuan 4–5) dari <strong>19.511 partisipan</strong> dalam dataset kita, dipilah berdasarkan gender.</p>
+<p>Kita hitung skor <em>Extraversion</em> (setelah item <em>reverse-scored</em> dibalik, seperti prosedur Pertemuan 4-5) dari <strong>19.511 partisipan</strong> dalam dataset kita (setelah pembersihan; data mentahnya 19.719 baris), dipilah berdasarkan gender.</p>
 <div class="fragment">
 <p><strong>“Saya ingin menunjukkan”</strong> perbandingan rata-rata skor <em>Extraversion</em> antara dua kategori gender → tugasnya adalah <strong>perbandingan</strong> → kandidat grafik: <em>bar chart</em> sederhana, dua batang.</p>
 </div>
@@ -380,7 +411,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Kedua grafik pada slide berikutnya dibuat dengan <strong>ggplot2</strong> (R) langsung dari <code>data/data.csv</code>. Skripnya ada di <a href="libs/make_pertemuan7_charts.R"><code>slides/libs/make_pertemuan7_charts.R</code></a> kalau Anda ingin melihat/menjalankannya sendiri.</p>
+<p>Kedua grafik pada slide berikutnya dibuat dengan <em>package</em> <code>ggplot2</code> <i class="fa-brands fa-r-project" aria-label="r-project"></i> langsung dari <code>data/data.csv</code>. Skripnya ada di <a href="libs/make_pertemuan7_charts.R"><code>slides/libs/make_pertemuan7_charts.R</code></a> kalau Anda ingin melihat/menjalankannya sendiri.</p>
 </div>
 </div>
 </div>
@@ -396,9 +427,9 @@ Rizqy Amelia Zein
 </div>
 </div><div class="column" style="width:40%;">
 <ul>
-<li class="fragment">Judul generik (“Chart 1”) — tidak ada <em>takeaway</em>.</li>
+<li class="fragment">Judul generik (“Chart 1”), tidak ada <em>takeaway</em>.</li>
 <li class="fragment"><em>Gridlines</em> penuh dan legenda yang sebenarnya tidak perlu (label sumbu-x sudah cukup).</li>
-<li class="fragment"><strong>Sumbu-y dipotong</strong> mulai dari 2,85, bukan dari 0 — secara visual ini melebih-lebihkan perbedaan kecil menjadi terlihat dramatis.</li>
+<li class="fragment"><strong>Sumbu-y dipotong</strong> mulai dari 2.85, bukan dari 0. Akibatnya, secara visual ini membuat perbedaan kecil menjadi terlihat dramatis.</li>
 </ul>
 </div></div>
 <div class="callout callout-caution callout-style-simple">
@@ -407,7 +438,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil terlihat besar — persis kebalikan dari <em>hedging language</em> yang kita pelajari Pertemuan 6.</p>
+<p>Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil seolah-olah terlihat besar.</p>
 </div>
 </div>
 </div>
@@ -425,8 +456,8 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong>Judul</strong> langsung menyampaikan <em>takeaway</em> (prinsip 6).</li>
 <li class="fragment"><em>Gridlines</em> dan legenda dihapus (prinsip 3); satu warna aksen menonjolkan kelompok yang ingin difokuskan (prinsip 4).</li>
-<li class="fragment"><strong>Sumbu-y penuh</strong> (1–5, skala Likert aslinya) — perbedaannya terlihat sekecil apa adanya.</li>
-<li class="fragment">Rentang kepercayaan 95% disertakan (prinsip Pertemuan 6) — nyaris tak terlihat di grafik ini karena <code>n</code> yang sangat besar membuatnya sangat sempit.</li>
+<li class="fragment"><strong>Sumbu-y dimulai dari 0</strong> (label 1–5 menunjukkan rentang skala Likert aslinya), sehingga perbedaannya terlihat apa adanya.</li>
+<li class="fragment">Interval kepercayaan 95% disertakan (prinsip Pertemuan 6), tetapi nyaris tak terlihat di grafik ini karena <code>n</code> yang sangat besar membuatnya sangat sempit.</li>
 </ul>
 </div></div>
 <div class="callout callout-important callout-titled callout-style-simple">
@@ -438,14 +469,14 @@ Rizqy Amelia Zein
 <p><strong>Signifikan secara statistik ≠ besar secara praktis</strong></p>
 </div>
 <div class="callout-content">
-<p>Dengan <code>n</code> sebesar ini, CI kedua kelompok <strong>tidak tumpang tindih</strong> — jadi secara statistik perbedaannya <em>signifikan</em>. Tapi besarnya cuma ~0.10 poin pada skala 1–5.</p>
+<p>Dengan <code>n</code> sebesar ini, CI kedua kelompok <strong>tidak tumpang tindih</strong>, sehingga secara statistik perbedaannya <em>signifikan</em>, meskipun perbedaannya hanya ~0.10 poin pada skala 1–5.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="angka-di-balik-grafiknya" class="slide level2">
 <h2>Angka di balik grafiknya</h2>
-<p>Grafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya APA) tetap butuh tabel angka lengkap:</p>
+<p>Grafik tadi bagus untuk audiens umum, tapi naskah akademik (<a href="../slides/pertemuan6.html">Pertemuan 6</a>, APA <em>style</em>) tetap butuh tabel angka lengkap:</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -479,7 +510,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (<code>data/data.csv</code>, dataset <em>Big Five</em>) sudah disebutkan pada slide sebelumnya.</p>
+<p>Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (<code>data/data.csv</code>, dataset <em>Big Five</em>) sudah disebutkan pada <em>slide</em> sebelumnya.</p>
 </div>
 </div>
 </div>
@@ -495,7 +526,7 @@ Rizqy Amelia Zein
 <p><a href="https://databoks.katadata.co.id/infografik/2025/08/19/10-provinsi-dengan-angka-kemiskinan-tertinggi-awal-2025">Perhatikan grafik berikut ini</a>. Terapkan enam prinsip <em>storytelling with data</em> untuk mengkritiknya:</p>
 <ol type="1">
 <li>Menurut Anda, apa <strong>konteks/audiens</strong> yang dituju grafik ini? Apakah pilihan visualnya cocok?</li>
-<li>Identifikasi elemen yang termasuk <strong><em>clutter</em></strong> — apa yang bisa dihapus tanpa mengurangi informasi?</li>
+<li>Identifikasi elemen yang termasuk <strong><em>clutter</em></strong>. Apa elemen yang bisa dihapus tanpa mengurangi informasi?</li>
 <li>Apakah perhatian audiens diarahkan dengan jelas ke bagian terpenting? Bagaimana caranya (atau kenapa tidak)?</li>
 <li>Apakah ada “kalimat kunci” atau <em>takeaway</em> yang bisa langsung dipahami tanpa membaca teks lain?</li>
 </ol>
@@ -524,8 +555,11 @@ Rizqy Amelia Zein
 <section id="memilih-alat-sesuai-audiens-dan-tujuan" class="slide level2">
 <h2>Memilih alat sesuai audiens dan tujuan</h2>
 <ul>
-<li class="fragment"><strong>Grafik <em>spreadsheet</em></strong> (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.</li>
-<li class="fragment"><strong>Tableau, Datawrapper, Infogram</strong> — untuk visualisasi <strong>interaktif</strong>, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, <em>dashboard</em>).</li>
+<li class="fragment"><strong>Fitur grafik di <em>software spreadsheet</em> standar</strong> (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan, tugas kuliah dan naskah akademik; mendukung sebagian besar jenis grafik dasar.</li>
+<li class="fragment"><strong><a href="https://www.tableau.com/">Tableau</a>, <a href="https://www.datawrapper.de/">Datawrapper</a>, <a href="https://infogram.com/">Infogram</a>, <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi">MS Power BI</a></strong> — untuk visualisasi <strong>interaktif</strong>, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. membuat <em>dashboard</em>).
+<ul>
+<li class="fragment">Untuk Power BI, tanyakan ke DSI/USI apakah lisensinya termasuk di akun Microsoft Unair.</li>
+</ul></li>
 <li class="fragment"><strong>Canva</strong> — untuk <strong>infografis</strong>, saat pesan dan desain lebih diutamakan; ini bisa jadi alat utama Anda untuk infografis UAS.</li>
 </ul>
 <div class="callout callout-note callout-style-simple">
@@ -534,7 +568,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Kembali ke pembahasan “tiga jenis audiens” (Pertemuan 6): untuk komunitas akademik serumpun → grafik <em>spreadsheet</em> dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Jadi, alat mengikuti audiens, bukan sebaliknya.</p>
+<p>Kembali ke pembahasan “tiga jenis audiens” (Pertemuan 6): untuk komunitas akademik serumpun → grafik <em>spreadsheet</em> dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Jadi, alat bantu mengikuti audiens, bukan sebaliknya.</p>
 </div>
 </div>
 </div>
@@ -549,15 +583,15 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Mulai dari <strong>audiens dan pesan</strong>, baru pilih visualisasinya.</li>
 <li class="fragment">Rumuskan tugas visualisasi dengan kalimat <strong>“saya ingin menunjukkan…”</strong>, lalu cocokkan dengan jenis data (kategorikal/<em>continuum</em>).</li>
-<li class="fragment">Enam prinsip <em>storytelling with data</em>: pahami konteks, pilih visual tepat, singkirkan <em>clutter</em>, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.</li>
+<li class="fragment">Enam prinsip <em>storytelling with data</em>: pahami konteks, pilih visual tepat, singkirkan informasi yang kurang relevan, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.</li>
 <li class="fragment">Pilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian.</li>
 </ul>
 </section>
 <section id="referensi" class="slide level2 scrollable smaller">
 <h2>Referensi</h2>
 <ul>
-<li>Knaflic, C. N. (2021). <em>Storytelling with data: A data visualization guide for business professionals</em>. Wiley.</li>
-<li><a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute. (2021). <em>Data literacy curriculum</em>.</a></li>
+<li>Knaflic, C. N. (2015). <em>Storytelling with data: A data visualization guide for business professionals</em>. Wiley.</li>
+<li><a href="libs/okf.pdf">Open Knowledge Foundation. (2021). <em>Data literacy curriculum</em>. International Republican Institute.</a></li>
 </ul>
 </section>
 <section id="terima-kasih" class="slide level2 closing-slide">

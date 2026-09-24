@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-17">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Literasi Data dan Penulisan Ilmiah – Praktik Verifikasi dan Pembersihan Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,7 +156,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-17</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
@@ -187,7 +187,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p><em>“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.”</em></p>
+<p><em>“Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek.”</em> (Open Knowledge Foundation, 2021)</p>
 <p>Verifikasi membantu Anda untuk <strong>mengetahui batasan</strong> yang melekat pada data Anda sebelum menganalisis.</p>
 </div>
 </div>
@@ -195,6 +195,7 @@ Rizqy Amelia Zein
 </section>
 <section id="tiga-kriteria-data-yang-baik" class="slide level2">
 <h2>Tiga kriteria data yang baik</h2>
+<p>Menurut Open Knowledge Foundation (2021), ada tiga kriteria:</p>
 <ul>
 <li class="fragment"><strong><em>Trustworthiness</em> (dapat dipercaya)</strong> — seberapa baik data merepresentasikan realitas yang ingin digambarkannya?
 <ul>
@@ -240,7 +241,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong>Bertanya ke sumbernya</strong> — pembuat/penyedia data biasanya adalah ahli terbaik soal datanya sendiri. Jangan berusaha memaknai data sendirian kalau sumbernya bisa dihubungi.</li>
 <li class="fragment"><strong>Bertanya ke ahli</strong> — pakar di topik yang relevan bisa membantu Anda memahami data yang ambigu atau memilih di antara beberapa sumber data yang berbeda.</li>
 <li class="fragment"><strong>Pemeriksaan statistik</strong> — hitung ringkasan statistik dasar untuk memahami bentuk data sebelum menganalisisnya lebih jauh (lihat <em>slide</em> berikutnya).</li>
-<li class="fragment"><strong><em>Common sense check</em></strong> — kemampuan mengenali pola yang aneh atau nilai yang “tidak masuk akal”, berdasarkan pengetahuan Anda tentang topiknya.</li>
+<li class="fragment"><strong><em>Common sense check</em></strong> — kemampuan mengenali pola yang aneh atau nilai yang “tidak masuk akal”, berdasarkan pengetahuan Anda tentang topiknya (Open Knowledge Foundation, 2021).</li>
 </ol>
 </section>
 <section id="pemeriksaan-statistik-sebagai-alat-verifikasi" class="slide level2">
@@ -321,7 +322,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong><em>Wild codes</em> (nilai di luar rentang)</strong> — nilai yang berada di luar rentang yang valid.
 <ul>
-<li class="fragment">Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; “Laki-laki” dikode dengan berbagai macam, mis. <code>1</code>, <code>M</code>, <code>L</code>, <code>Pria</code> dalam kolom yang sama.</li>
+<li class="fragment">Contoh: skor <code>9</code> pada skala Likert 1–6; usia partisipan <code>350</code> tahun; skor IQ <code>250</code>; kode jenis kelamin <code>M</code> atau <code>Pria</code> padahal <em>codebook</em> hanya mengizinkan <code>1</code>/<code>2</code>.</li>
 </ul></li>
 <li class="fragment"><strong><em>Inconsistent values</em> (nilai yang tidak koheren)</strong> — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom.
 <ul>
@@ -329,7 +330,7 @@ Rizqy Amelia Zein
 </ul></li>
 <li class="fragment"><strong><em>Implausible values</em> (nilai yang tidak masuk akal)</strong> — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif.
 <ul>
-<li class="fragment">Contoh: skor IQ <code>250</code>; penghasilan rumah tangga Rp1 triliun/bulan.</li>
+<li class="fragment">Contoh: durasi tidur <code>20</code> jam per malam; penghasilan rumah tangga Rp1 triliun/bulan.</li>
 </ul></li>
 </ul>
 <div class="callout callout-note callout-style-simple">
@@ -351,7 +352,7 @@ Rizqy Amelia Zein
 <li class="fragment">Beda dengan <em>wild codes</em> atau <em>implausible values</em>: <em>outlier</em> bisa jadi valid, hanya jarang terjadi.</li>
 <li class="fragment"><strong>Contoh</strong>: satu partisipan berusia 45 tahun dalam sampel mahasiswa S1 yang mayoritas 18–22 tahun. Ini belum tentu berarti ada kesalahan input, hanya saja, sangat jarang mahasiswa S1 usianya 45 tahun.</li>
 </ul></li>
-<li class="fragment">Deteksi cepat: urutkan kolom atau buat <em>boxplot</em> untuk melihat ujung distribusinya, atau pakai <em>Z-score</em>, yang mana, nilai <strong>di luar <em>mean</em> ± 2SD patut dicurigai</strong>, <strong>di luar ± 3SD nyaris pasti <em>outlier</em></strong>.</li>
+<li class="fragment">Deteksi cepat: urutkan kolom atau buat <em>boxplot</em> untuk melihat ujung distribusinya, atau pakai <em>Z-score</em>, yang mana, nilai <strong>di luar <em>mean</em> ± 2SD patut dicurigai</strong>, <strong>di luar ± 3SD patut diperiksa lebih lanjut</strong>. Karena <em>mean</em> dan SD sendiri terpengaruh <em>outlier</em>, batas <em>median</em> ± 2,5 × MAD (<em>median absolute deviation</em>) lebih kokoh (<a href="https://doi.org/10.1016/j.jesp.2013.03.013">Leys et al., 2013</a>).</li>
 </ul>
 </section>
 <section id="kapan-boleh-menghapus-outlier" class="slide level2">
@@ -376,7 +377,7 @@ Rizqy Amelia Zein
 </section>
 <section id="missing-value" class="slide level2">
 <h2><em>Missing value</em></h2>
-<p>Tidak semua <em>missing value</em> dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya:</p>
+<p>Tidak semua <em>missing value</em> dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya (<a href="https://stefvanbuuren.name/fimd/sec-MCAR.html">van Buuren, 2018</a>):</p>
 <ul>
 <li class="fragment"><strong><em>Missing completely at random</em> (MCAR)</strong> — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun.
 <ul>
@@ -384,11 +385,11 @@ Rizqy Amelia Zein
 </ul></li>
 <li class="fragment"><strong><em>Missing at random</em> (MAR)</strong> — probabilitas hilangnya data berkaitan dengan variabel <em>lain</em> yang terekam di dataset, bukan dengan data itu sendiri.
 <ul>
-<li class="fragment">Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang “kesulitan mengekspresikan emosi”, tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.</li>
+<li class="fragment">Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang “kesulitan mengekspresikan emosi”, tapi di dalam kelompok jenis kelamin yang sama, kemungkinan tidak menjawab tidak bergantung pada skornya. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.</li>
 </ul></li>
-<li class="fragment"><strong><em>Not missing at random</em> (NMAR)</strong> — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri.
+<li class="fragment"><strong><em>Not missing at random</em> (NMAR)</strong> — van Buuren (2018) menyebutnya <em>missing not at random</em> (MNAR); probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri.
 <ul>
-<li class="fragment">Contoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan “seberapa sering Anda mencontek?” sehingga paling berisiko menghasilkan bias.</li>
+<li class="fragment">Contoh: mahasiswa yang paling sering menyontek justru paling mungkin tidak menjawab pertanyaan “seberapa sering Anda menyontek?” sehingga paling berisiko menghasilkan bias.</li>
 </ul></li>
 </ul>
 </section>
@@ -420,11 +421,11 @@ Rizqy Amelia Zein
 </section>
 <section id="studi-kasus-dataset-big-five-yang-kotor" class="slide level2">
 <h2>Studi kasus: dataset <em>Big Five</em> yang “kotor”</h2>
-<p>Dataset psikometrik yang dikumpulkan <strong>secara daring dan terbuka</strong> (siapa saja bisa mengisi) — seperti dataset contoh cenderung memiliki masalah berikut:</p>
+<p>Dataset psikometrik yang dikumpulkan <strong>secara daring dan terbuka</strong> (siapa saja bisa mengisi), seperti dataset contoh kita, cenderung punya masalah berikut:</p>
 <ul>
 <li class="fragment"><strong>Entri tidak lengkap</strong> — responden berhenti di tengah jalan, meninggalkan sisa item kosong.</li>
 <li class="fragment"><strong>Item <em>reverse-scored</em> belum dibalik</strong> — sebagian item <em>Big Five</em> ditulis dengan arah terbalik (mis. item N4 “Saya jarang merasa sedih” (<em>“I seldom feel blue”</em>) untuk mengukur <em>Neuroticism</em>), dan kalau tidak dibalik dulu skornya, hasil <code>AVERAGE()</code> per skala akan salah total.</li>
-<li class="fragment"><strong>Kode negara yang tidak standar</strong> — campuran nama negara, kode ISO, atau nilai kosong.</li>
+<li class="fragment"><strong>Kode negara yang tidak standar</strong> — di dataset asli ada nilai <code>(nu</code> dan kode non-negara <code>A1</code>/<code>A2</code>; di <em>file</em> latihan nanti, campuran nama negara, kode ISO, dan nilai kosong.</li>
 </ul>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -471,7 +472,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Istilah <strong>Editing</strong> di tahap 3 ini adalah payung besar untuk tiga aktivitas di <em>slide</em> berikutnya (<em>tidying</em>, <em>editing</em> konten, <em>consolidation</em>). Jangan tertukar dengan “data <em>editing</em>” sebagai salah satu dari ketiganya.</p>
+<p>Istilah <strong>Editing</strong> di tahap 3 ini adalah payung besar untuk tiga aktivitas di <em>slide</em> berikutnya (<em>tidying</em>, <em>editing</em> konten, <em>consolidation</em>). Jangan tertukar dengan “data <em>editing</em>” sebagai salah satu dari ketiganya. Tiga tahap ini mengikuti <a href="https://doi.org/10.1371/journal.pmed.0020267">Van den Broeck et al.&nbsp;(2005)</a>; pembagian isi tahap <em>Editing</em> diadaptasi dari Open Knowledge Foundation (2021).</p>
 </div>
 </div>
 </div>
@@ -490,7 +491,7 @@ Rizqy Amelia Zein
 <i class="callout-icon"></i>
 </div>
 <div class="callout-content">
-<p>Norma umum di sains data adalah ilmuwan/praktisi data <a href="https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/">menghabiskan 80% waktunya</a> bekerja untuk membersihkannya.</p>
+<p>Norma umum di sains data adalah ilmuwan/praktisi data menghabiskan 80% waktunya bekerja untuk membersihkannya (Open Knowledge Foundation, 2021). Angka ini sebenarnya ungkapan populer; survei terhadap praktisi data melaporkan angka sekitar 45–60%.</p>
 </div>
 </div>
 </div>
@@ -572,7 +573,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong>Tentukan <em>exclusion criteria</em> sebelum mengambil data</strong>, bukan setelah melihat hasil analisis. Menentukannya belakangan termasuk <em>questionable research practice</em>.</li>
 <li class="fragment"><strong>Catat setiap langkah di <em>logbook</em></strong> (atau langsung di <em>script</em> R/Python): kasus yang dihapus dan alasannya, variabel yang dimodifikasi, nilai ekstrem yang ditemukan, keputusan atas <em>missing value</em>.</li>
-<li class="fragment">Dokumentasi ini akan melindungi Anda ingatan Anda yang terbatas.
+<li class="fragment">Dokumentasi ini menolong ingatan Anda yang terbatas.
 <ul>
 <li class="fragment">Anda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus enam bulan setelah mengambil keputusannya.</li>
 </ul></li>
@@ -630,7 +631,7 @@ Rizqy Amelia Zein
 <p><strong>Kerjakan secara mandiri (25–30 menit)</strong></p>
 </div>
 <div class="callout-content">
-<p>Unduh potongan kecil dataset <em>Big Five</em> berikut — 18 baris respons <strong>N1–N10</strong> (item <em>Neuroticism</em>) yang sengaja dibuat “kotor” untuk latihan: <a href="../data/pertemuan4_dataset_kotor_latihan.csv"><code>pertemuan4_dataset_kotor_latihan.csv</code></a>. Ikuti langkah berikut:</p>
+<p>Unduh potongan kecil dataset <em>Big Five</em> berikut — 18 baris respons <strong>N1–N10</strong> (item <em>Neuroticism</em>) yang sengaja dibuat “kotor” untuk latihan: <a href="../data/pertemuan4_dataset_kotor.csv"><code>pertemuan4_dataset_kotor.csv</code></a>. Ikuti langkah berikut:</p>
 <ol type="1">
 <li><strong>Identifikasi</strong> minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).</li>
 <li><strong>Golongkan</strong> tiap masalah: apakah itu masalah <em>tidying</em> (format) atau <em>editing</em> (konten)?</li>
@@ -641,17 +642,17 @@ Rizqy Amelia Zein
 </div>
 </div>
 <aside class="notes">
-<p>Dua dari sepuluh item <em>Neuroticism</em> ini ditulis dengan arah terbalik: <strong>N2</strong> (“<em>I am relaxed most of the time</em>”) dan <strong>N4</strong> (“<em>I seldom feel blue</em>”, lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (<code>6 - nilai</code>) sebelum dihitung skor rata-ratanya dengan <code>AVERAGE()</code> — informasi ini <strong>tidak</strong> ada di dalam data itu sendiri, hanya di <em>codebook</em> instrumennya.</p>
-<p>File <code>data/pertemuan4_dataset_kotor.csv</code> sudah disiapkan (18 baris, 15 responden sungguhan dari dataset <em>Big Five</em> kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:</p>
+<p>Dua dari sepuluh item <em>Neuroticism</em> ini ditulis dengan arah terbalik: <strong>N2</strong> (“<em>I am relaxed most of the time</em>”) dan <strong>N4</strong> (“<em>I seldom feel blue</em>”, lihat <em>slide</em> Studi kasus). Keduanya perlu dibalik (<code>6 - nilai</code>) sebelum dihitung skor rata-ratanya dengan <code>AVERAGE()</code> — informasi ini <strong>tidak</strong> ada di dalam data itu sendiri, hanya di kunci skoring IPIP (<code>codebook.txt</code> tidak menandainya).</p>
+<p>File <code>data/pertemuan4_dataset_kotor.csv</code> sudah disiapkan (18 baris: 17 responden sungguhan dari dataset <em>Big Five</em> kita, 4 di antaranya nilai N-nya dimodifikasi (<code>P07</code>, <code>P12</code>, <code>P14</code>, <code>P15</code>), + 1 baris duplikat (<code>P03</code>); kolom demografis sengaja dikotori). Kunci jawaban untuk dosen:</p>
 <ul>
 <li><strong>Duplikasi</strong> — baris <code>P03</code> muncul dua kali persis sama.</li>
 <li><strong>Whitespace</strong> — <code>P03</code> (<code>"Laki-laki "</code>, <code>"SG "</code>, ada spasi di akhir) dan <code>P05</code> (<code>"  US"</code>, ada spasi di awal).</li>
 <li><strong>Kapitalisasi tidak konsisten pada <code>gender</code></strong> — <code>P04</code> (“perempuan”), <code>P10</code> (“PEREMPUAN”), <code>P13</code> (“Laki-Laki”), dibandingkan penulisan baku “Perempuan”/“Laki-laki” di baris lain.</li>
-<li><strong>Kode negara campur (<code>negara</code>)</strong> — kombinasi kode ISO (<code>PH</code>, <code>CA</code>, <code>US</code>, <code>DK</code>, <code>GB</code>, <code>IN</code>), nama lengkap (<code>Trinidad and Tobago</code>, <code>Pakistan</code>, <code>Greece</code>, <code>Bangladesh</code>, <code>United Kingdom</code>, <code>Jamaica</code>, <code>South Africa</code>), dan satu nilai kosong (<code>P09</code>).</li>
+<li><strong>Kode negara campur (<code>negara</code>)</strong> — kombinasi kode ISO (<code>PH</code>, <code>SG</code>, <code>CA</code>, <code>US</code>, <code>DK</code>, <code>GB</code>, <code>IN</code>), nama lengkap (<code>Trinidad and Tobago</code>, <code>Pakistan</code>, <code>Greece</code>, <code>Bangladesh</code>, <code>United Kingdom</code>, <code>Jamaica</code>, <code>South Africa</code>), dan satu nilai kosong (<code>P09</code>).</li>
 <li><strong><em>Missing value</em> tidak konsisten</strong> — tiga representasi berbeda: sel kosong (<code>P14</code>, kolom N8–N10), teks <code>"NA"</code> (<code>P12</code>, kolom N4), dan angka <code>0</code> (<code>P15</code>, kolom N3).</li>
 <li><strong>Entri tidak lengkap</strong> — <code>P14</code> berhenti menjawab di item N7 (N8–N10 kosong), kemungkinan responden keluar di tengah jalan.</li>
 <li><strong>Nilai mencurigakan/di luar rentang</strong> — <code>P07</code> kolom N7 bernilai <code>6</code>, padahal skala Likert-nya 1–5.</li>
-<li><strong>Item <em>reverse-scored</em> belum dibalik</strong> — N2 dan N4 butuh <code>6 - nilai</code> sebelum di-<em>AVERAGE()</em>-kan; ini <strong>tidak</strong> terlihat dari data mentahnya saja, harus dicek ke <em>codebook</em> (lihat <em>callout</em> di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.</li>
+<li><strong>Item <em>reverse-scored</em> belum dibalik</strong> — N2 dan N4 butuh <code>6 - nilai</code> sebelum di-<em>AVERAGE()</em>-kan; ini <strong>tidak</strong> terlihat dari data mentahnya saja, harus dicek ke kunci skoring IPIP (lihat catatan di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -685,9 +686,11 @@ Rizqy Amelia Zein
 <h2>Referensi</h2>
 <ul>
 <li>Bakker, M., &amp; Wicherts, J. M. (2014). Outlier removal and the relation with reporting errors and quality of psychological research. <em>PLoS ONE, 9</em>(7), e103360. <a href="https://doi.org/10.1371/journal.pone.0103360" class="uri">https://doi.org/10.1371/journal.pone.0103360</a></li>
-<li><a href="libs/okf.pdf">Open Knowledge Foundation &amp; International Republican Institute. (2021). <em>Data literacy curriculum</em>.</a></li>
-<li>Open-Source Psychometrics Project. (n.d.). <em>Raw data repository</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
+<li>Leys, C., Ley, C., Klein, O., Bernard, P., &amp; Licata, L. (2013). Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median. <em>Journal of Experimental Social Psychology, 49</em>(4), 764–766. <a href="https://doi.org/10.1016/j.jesp.2013.03.013" class="uri">https://doi.org/10.1016/j.jesp.2013.03.013</a></li>
+<li>Open Knowledge Foundation. (2021). <a href="libs/okf.pdf"><em>Data literacy curriculum</em></a>. International Republican Institute.</li>
+<li>Open-Source Psychometrics Project. (n.d.). <em>Open psychology data: Raw data from online personality tests</em>. <a href="https://openpsychometrics.org/_rawdata/" class="uri">https://openpsychometrics.org/_rawdata/</a></li>
 <li>van Buuren, S. (2018). <em>Flexible imputation of missing data</em> (2nd ed.). Chapman &amp; Hall/CRC. <a href="https://stefvanbuuren.name/fimd/sec-MCAR.html" class="uri">https://stefvanbuuren.name/fimd/sec-MCAR.html</a></li>
+<li>Van den Broeck, J., Argeseanu Cunningham, S., Eeckels, R., &amp; Herbst, K. (2005). Data cleaning: Detecting, diagnosing, and editing data abnormalities. <em>PLoS Medicine, 2</em>(10), e267. <a href="https://doi.org/10.1371/journal.pmed.0020267" class="uri">https://doi.org/10.1371/journal.pmed.0020267</a></li>
 <li>Wickham, H. (2014). Tidy data. <em>Journal of Statistical Software, 59</em>(10), 1–23. <a href="https://doi.org/10.18637/jss.v059.i10" class="uri">https://doi.org/10.18637/jss.v059.i10</a></li>
 </ul>
 </section>

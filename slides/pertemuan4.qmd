@@ -37,12 +37,14 @@ execute:
 :::
 
 ::: {.callout-tip appearance="simple"}
-*"Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek."* 
+*"Semua data pada dasarnya jelek, kita hanya perlu tahu seberapa jelek."* (Open Knowledge Foundation, 2021)
 
 Verifikasi membantu Anda untuk **mengetahui batasan** yang melekat pada data Anda sebelum menganalisis.
 :::
 
 ## Tiga kriteria data yang baik
+
+Menurut Open Knowledge Foundation (2021), ada tiga kriteria:
 
 ::: {.incremental}
 * ***Trustworthiness* (dapat dipercaya)** — seberapa baik data merepresentasikan realitas yang ingin digambarkannya? 
@@ -85,7 +87,7 @@ Dataset psikometrik terbuka yang baik **selalu** menyertakan *codebook*. Kalau t
 1. **Bertanya ke sumbernya** — pembuat/penyedia data biasanya adalah ahli terbaik soal datanya sendiri. Jangan berusaha memaknai data sendirian kalau sumbernya bisa dihubungi.
 2. **Bertanya ke ahli** — pakar di topik yang relevan bisa membantu Anda memahami data yang ambigu atau memilih di antara beberapa sumber data yang berbeda.
 3. **Pemeriksaan statistik** — hitung ringkasan statistik dasar untuk memahami bentuk data sebelum menganalisisnya lebih jauh (lihat *slide* berikutnya).
-4. ***Common sense check*** — kemampuan mengenali pola yang aneh atau nilai yang "tidak masuk akal", berdasarkan pengetahuan Anda tentang topiknya.
+4. ***Common sense check*** — kemampuan mengenali pola yang aneh atau nilai yang "tidak masuk akal", berdasarkan pengetahuan Anda tentang topiknya (Open Knowledge Foundation, 2021).
 :::
 
 ## Pemeriksaan statistik sebagai alat verifikasi
@@ -125,13 +127,13 @@ Tabel di atas merupakan pemeriksaan cepat untuk memastikan data Anda masuk akal 
 
 ::: {.incremental}
 * ***Wild codes* (nilai di luar rentang)** — nilai yang berada di luar rentang yang valid. 
-  + Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; "Laki-laki" dikode dengan berbagai macam, mis. `1`, `M`, `L`, `Pria` dalam kolom yang sama.
+  + Contoh: skor `9` pada skala Likert 1–6; usia partisipan `350` tahun; skor IQ `250`; kode jenis kelamin `M` atau `Pria` padahal *codebook* hanya mengizinkan `1`/`2`.
 
 * ***Inconsistent values* (nilai yang tidak koheren)** — tiap nilai valid sendiri-sendiri, tapi saling bertentangan ketika dibandingkan antarkolom. 
   + Contoh: usia `40` tahun tapi tahun lahir `2000` pada survei yang diisi 2025; pekerjaan "dokter spesialis" tapi pendidikan tertinggi "SMA".
 
 * ***Implausible values* (nilai yang tidak masuk akal)** — valid secara teknis (dalam rentang, konsisten antarkolom), tapi tidak masuk akal secara substantif. 
-  + Contoh: skor IQ `250`; penghasilan rumah tangga Rp1 triliun/bulan.
+  + Contoh: durasi tidur `20` jam per malam; penghasilan rumah tangga Rp1 triliun/bulan.
 :::
 
 ::: {.callout-note appearance="simple"}
@@ -144,7 +146,7 @@ Ketiganya beririsan dengan "nilai yang mencurigakan" di slide sebelumnya. **Wild
 * ***Outlier***: nilai yang jauh berbeda dari sebagian besar data lainnya. 
   + Beda dengan *wild codes* atau *implausible values*: *outlier* bisa jadi valid, hanya jarang terjadi.
   + **Contoh**: satu partisipan berusia 45 tahun dalam sampel mahasiswa S1 yang mayoritas 18–22 tahun. Ini belum tentu berarti ada kesalahan input, hanya saja, sangat jarang mahasiswa S1 usianya 45 tahun.
-* Deteksi cepat: urutkan kolom atau buat *boxplot* untuk melihat ujung distribusinya, atau pakai *Z-score*, yang mana, nilai **di luar *mean* ± 2SD patut dicurigai**, **di luar ± 3SD nyaris pasti *outlier***.
+* Deteksi cepat: urutkan kolom atau buat *boxplot* untuk melihat ujung distribusinya, atau pakai *Z-score*, yang mana, nilai **di luar *mean* ± 2SD patut dicurigai**, **di luar ± 3SD patut diperiksa lebih lanjut**. Karena *mean* dan SD sendiri terpengaruh *outlier*, batas *median* ± 2,5 × MAD (*median absolute deviation*) lebih kokoh ([Leys et al., 2013](https://doi.org/10.1016/j.jesp.2013.03.013)).
 :::
 
 ## Kapan boleh menghapus *outlier*?
@@ -161,16 +163,16 @@ Menghapus *outlier* tanpa justifikasi yang jelas termasuk *questionable research
 
 ## *Missing value*
 
-Tidak semua *missing value* dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya:
+Tidak semua *missing value* dapat mengganggu proses analisis data. Polanya perlu diamati untuk menentukan seberapa aman ketika Anda mengabaikannya begitu saja. Berikut jenisnya ([van Buuren, 2018](https://stefvanbuuren.name/fimd/sec-MCAR.html)):
 
 ::: {.incremental}
 
 * ***Missing completely at random* (MCAR)** — hilangnya data benar-benar murni kebetulan, tidak berkaitan dengan variabel apa pun. 
   + Contoh: kuesioner dikirim ke 500 mahasiswa, 50 tidak merespons karena emailnya masuk folder spam secara acak. Paling aman untuk langsung dihapus.
 * ***Missing at random* (MAR)** — probabilitas hilangnya data berkaitan dengan variabel *lain* yang terekam di dataset, bukan dengan data itu sendiri. 
-  + Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang "kesulitan mengekspresikan emosi", tapi di antara yang menjawab, skornya tidak berbeda sistematis dari yang tidak menjawab. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.
-* ***Not missing at random* (NMAR)** — probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri. 
-  + Contoh: mahasiswa yang paling sering mencontek justru paling mungkin tidak menjawab pertanyaan "seberapa sering Anda mencontek?" sehingga paling berisiko menghasilkan bias.
+  + Contoh: mahasiswa laki-laki lebih jarang menjawab pertanyaan tentang "kesulitan mengekspresikan emosi", tapi di dalam kelompok jenis kelamin yang sama, kemungkinan tidak menjawab tidak bergantung pada skornya. Hilangnya berkaitan dengan jenis kelamin (terekam), bukan skornya sendiri.
+* ***Not missing at random* (NMAR)** — van Buuren (2018) menyebutnya *missing not at random* (MNAR); probabilitas hilangnya data berkaitan langsung dengan data yang tidak terekam itu sendiri. 
+  + Contoh: mahasiswa yang paling sering menyontek justru paling mungkin tidak menjawab pertanyaan "seberapa sering Anda menyontek?" sehingga paling berisiko menghasilkan bias.
 :::
 
 ## Bagaimana mendeteksi polanya?
@@ -186,12 +188,12 @@ Penanganan statistik untuk MAR/NMAR (mis. *multiple imputation*) di luar cakupan
 
 ## Studi kasus: dataset *Big Five* yang "kotor"
 
-Dataset psikometrik yang dikumpulkan **secara daring dan terbuka** (siapa saja bisa mengisi) — seperti dataset contoh cenderung memiliki masalah berikut:
+Dataset psikometrik yang dikumpulkan **secara daring dan terbuka** (siapa saja bisa mengisi), seperti dataset contoh kita, cenderung punya masalah berikut:
 
 ::: {.incremental}
 * **Entri tidak lengkap** — responden berhenti di tengah jalan, meninggalkan sisa item kosong.
 * **Item *reverse-scored* belum dibalik** — sebagian item *Big Five* ditulis dengan arah terbalik (mis. item N4 "Saya jarang merasa sedih" (*"I seldom feel blue"*) untuk mengukur *Neuroticism*), dan kalau tidak dibalik dulu skornya, hasil `AVERAGE()` per skala akan salah total.
-* **Kode negara yang tidak standar** — campuran nama negara, kode ISO, atau nilai kosong.
+* **Kode negara yang tidak standar** — di dataset asli ada nilai `(nu` dan kode non-negara `A1`/`A2`; di *file* latihan nanti, campuran nama negara, kode ISO, dan nilai kosong.
 :::
 
 ::: {.callout-caution}
@@ -216,7 +218,7 @@ Jangan langsung "mengedit" sebelum *screening* dan *diagnosing* selesai. Memperb
 :::
 
 ::: {.callout-note appearance="simple"}
-Istilah **Editing** di tahap 3 ini adalah payung besar untuk tiga aktivitas di *slide* berikutnya (*tidying*, *editing* konten, *consolidation*). Jangan tertukar dengan "data *editing*" sebagai salah satu dari ketiganya.
+Istilah **Editing** di tahap 3 ini adalah payung besar untuk tiga aktivitas di *slide* berikutnya (*tidying*, *editing* konten, *consolidation*). Jangan tertukar dengan "data *editing*" sebagai salah satu dari ketiganya. Tiga tahap ini mengikuti [Van den Broeck et al. (2005)](https://doi.org/10.1371/journal.pmed.0020267); pembagian isi tahap *Editing* diadaptasi dari Open Knowledge Foundation (2021).
 :::
 
 ## 3️⃣ aktivitas pembersihan data
@@ -230,7 +232,7 @@ Istilah **Editing** di tahap 3 ini adalah payung besar untuk tiga aktivitas di *
 :::
 
 ::: {.callout-note appearance="simple"}
-Norma umum di sains data adalah ilmuwan/praktisi data [menghabiskan 80% waktunya](https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/) bekerja untuk membersihkannya. 
+Norma umum di sains data adalah ilmuwan/praktisi data menghabiskan 80% waktunya bekerja untuk membersihkannya (Open Knowledge Foundation, 2021). Angka ini sebenarnya ungkapan populer; survei terhadap praktisi data melaporkan angka sekitar 45–60%.
 :::
 
 ## Data *tidying*: masalah format
@@ -277,7 +279,7 @@ Setelah menerapkan formula pembersihan, **salin nilainya** (*paste values only*)
 ::: {.incremental}
 * **Tentukan *exclusion criteria* sebelum mengambil data**, bukan setelah melihat hasil analisis. Menentukannya belakangan termasuk *questionable research practice*.
 * **Catat setiap langkah di *logbook*** (atau langsung di *script* R/Python): kasus yang dihapus dan alasannya, variabel yang dimodifikasi, nilai ekstrem yang ditemukan, keputusan atas *missing value*.
-* Dokumentasi ini akan melindungi Anda ingatan Anda yang terbatas. 
+* Dokumentasi ini menolong ingatan Anda yang terbatas.
   + Anda mungkin tidak ingat lagi kenapa satu baris tertentu dihapus enam bulan setelah mengambil keputusannya.
 :::
 
@@ -313,7 +315,7 @@ Contoh: *"Apakah ada codebook yang menjelaskan arti kolom `E1`–`E10`?"*
 
 ::: {.callout-warning}
 ### Kerjakan secara mandiri (25–30 menit)
-Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10** (item *Neuroticism*) yang sengaja dibuat "kotor" untuk latihan: [`pertemuan4_dataset_kotor_latihan.csv`](../data/pertemuan4_dataset_kotor_latihan.csv). Ikuti langkah berikut:
+Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10** (item *Neuroticism*) yang sengaja dibuat "kotor" untuk latihan: [`pertemuan4_dataset_kotor.csv`](../data/pertemuan4_dataset_kotor.csv). Ikuti langkah berikut:
 
 1. **Identifikasi** minimal 4 masalah data yang muncul (rujuk daftar masalah umum tadi).
 2. **Golongkan** tiap masalah: apakah itu masalah *tidying* (format) atau *editing* (konten)?
@@ -323,18 +325,18 @@ Unduh potongan kecil dataset *Big Five* berikut — 18 baris respons **N1–N10*
 
 ::: notes
 
-Dua dari sepuluh item *Neuroticism* ini ditulis dengan arah terbalik: **N2** ("*I am relaxed most of the time*") dan **N4** ("*I seldom feel blue*", lihat Pertemuan 4 sebelumnya). Keduanya perlu dibalik (`6 - nilai`) sebelum dihitung skor rata-ratanya dengan `AVERAGE()` — informasi ini **tidak** ada di dalam data itu sendiri, hanya di *codebook* instrumennya.
+Dua dari sepuluh item *Neuroticism* ini ditulis dengan arah terbalik: **N2** ("*I am relaxed most of the time*") dan **N4** ("*I seldom feel blue*", lihat *slide* Studi kasus). Keduanya perlu dibalik (`6 - nilai`) sebelum dihitung skor rata-ratanya dengan `AVERAGE()` — informasi ini **tidak** ada di dalam data itu sendiri, hanya di kunci skoring IPIP (`codebook.txt` tidak menandainya).
 
-File `data/pertemuan4_dataset_kotor.csv` sudah disiapkan (18 baris, 15 responden sungguhan dari dataset *Big Five* kita + beberapa baris dimodifikasi). Kunci jawaban untuk dosen:
+File `data/pertemuan4_dataset_kotor.csv` sudah disiapkan (18 baris: 17 responden sungguhan dari dataset *Big Five* kita, 4 di antaranya nilai N-nya dimodifikasi (`P07`, `P12`, `P14`, `P15`), + 1 baris duplikat (`P03`); kolom demografis sengaja dikotori). Kunci jawaban untuk dosen:
 
 * **Duplikasi** — baris `P03` muncul dua kali persis sama.
 * **Whitespace** — `P03` (`"Laki-laki "`, `"SG "`, ada spasi di akhir) dan `P05` (`"  US"`, ada spasi di awal).
 * **Kapitalisasi tidak konsisten pada `gender`** — `P04` ("perempuan"), `P10` ("PEREMPUAN"), `P13` ("Laki-Laki"), dibandingkan penulisan baku "Perempuan"/"Laki-laki" di baris lain.
-* **Kode negara campur (`negara`)** — kombinasi kode ISO (`PH`, `CA`, `US`, `DK`, `GB`, `IN`), nama lengkap (`Trinidad and Tobago`, `Pakistan`, `Greece`, `Bangladesh`, `United Kingdom`, `Jamaica`, `South Africa`), dan satu nilai kosong (`P09`).
+* **Kode negara campur (`negara`)** — kombinasi kode ISO (`PH`, `SG`, `CA`, `US`, `DK`, `GB`, `IN`), nama lengkap (`Trinidad and Tobago`, `Pakistan`, `Greece`, `Bangladesh`, `United Kingdom`, `Jamaica`, `South Africa`), dan satu nilai kosong (`P09`).
 * ***Missing value* tidak konsisten** — tiga representasi berbeda: sel kosong (`P14`, kolom N8–N10), teks `"NA"` (`P12`, kolom N4), dan angka `0` (`P15`, kolom N3).
 * **Entri tidak lengkap** — `P14` berhenti menjawab di item N7 (N8–N10 kosong), kemungkinan responden keluar di tengah jalan.
 * **Nilai mencurigakan/di luar rentang** — `P07` kolom N7 bernilai `6`, padahal skala Likert-nya 1–5.
-* **Item *reverse-scored* belum dibalik** — N2 dan N4 butuh `6 - nilai` sebelum di-*AVERAGE()*-kan; ini **tidak** terlihat dari data mentahnya saja, harus dicek ke *codebook* (lihat *callout* di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.
+* **Item *reverse-scored* belum dibalik** — N2 dan N4 butuh `6 - nilai` sebelum di-*AVERAGE()*-kan; ini **tidak** terlihat dari data mentahnya saja, harus dicek ke kunci skoring IPIP (lihat catatan di atas). Ini poin diskusi utama untuk langkah 4 aktivitas.
 
 :::
 
@@ -354,9 +356,11 @@ File `data/pertemuan4_dataset_kotor.csv` sudah disiapkan (18 baris, 15 responden
 ## Referensi {.scrollable .smaller}
 
 * Bakker, M., & Wicherts, J. M. (2014). Outlier removal and the relation with reporting errors and quality of psychological research. *PLoS ONE, 9*(7), e103360. <https://doi.org/10.1371/journal.pone.0103360>
-* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
-* Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+* Leys, C., Ley, C., Klein, O., Bernard, P., & Licata, L. (2013). Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median. *Journal of Experimental Social Psychology, 49*(4), 764–766. <https://doi.org/10.1016/j.jesp.2013.03.013>
+* Open Knowledge Foundation. (2021). [*Data literacy curriculum*](libs/okf.pdf). International Republican Institute.
+* Open-Source Psychometrics Project. (n.d.). *Open psychology data: Raw data from online personality tests*. <https://openpsychometrics.org/_rawdata/>
 * van Buuren, S. (2018). *Flexible imputation of missing data* (2nd ed.). Chapman & Hall/CRC. <https://stefvanbuuren.name/fimd/sec-MCAR.html>
+* Van den Broeck, J., Argeseanu Cunningham, S., Eeckels, R., & Herbst, K. (2005). Data cleaning: Detecting, diagnosing, and editing data abnormalities. *PLoS Medicine, 2*(10), e267. <https://doi.org/10.1371/journal.pmed.0020267>
 * Wickham, H. (2014). Tidy data. *Journal of Statistical Software, 59*(10), 1–23. <https://doi.org/10.18637/jss.v059.i10>
 
 ## Terima kasih!😊 {.closing-slide}

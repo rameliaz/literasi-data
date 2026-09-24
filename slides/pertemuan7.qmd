@@ -20,32 +20,39 @@ execute:
 ## Agenda {.agenda-slide}
 
 1. ***Presenting*** vs. ***visualizing***
-2. Memilih jenis data dan **tugas visualisasi** yang tepat
-3. Enam prinsip *storytelling with data* ([Knaflic, 2021](https://www.storytellingwithdata.com))
+2. Memilih jenis data dan **bentuk visualisasi** yang tepat
+3. Enam prinsip *storytelling with data* ([Knaflic, 2015](https://www.storytellingwithdata.com))
 4. Studi kasus: memvisualisasikan dataset *Big Five*
-5. Alat bantu: *spreadsheet*, Tableau/Datawrapper, Canva
+5. Beberapa pilihan alat bantu: *spreadsheet*, Tableau/Datawrapper, Canva
 
 # Presenting vs. Visualizing Data 🎨 {background-color="#14497F"}
 
 ## *Point of entry*
 
 ::: {.callout-important appearance="simple"}
-Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisualisasikan temuan dari data ini?"*, melainkan **"apa yang ingin saya buat audiens saya lakukan/pahami dari data yang saya miliki ini?"**
+**"Apa yang saya harapkan audiens saya lakukan/pahami dari data yang saya miliki ini?"**
 :::
 
 ::: {.incremental}
-* Parameter kunci penyajian data adalah **audiens** dan **pesan**.
-* Bagaimana Anda menyajikan temuan riset Anda melalui siaran radio? Atau ke audiens dengan gangguan penglihatan? Atau di komunitas yang tidak familiar dengan grafik? Dalam semua kasus ini, grafik saja tidak cukup.
-* Itulah kenapa judul pertemuan ini "**Menyajikan** Data", bukan "**Memvisualisasikan** Data" karena visualisasi hanyalah salah satu alat komunikasi data, tetapi bukan tujuan akhirnya.
+* Parameter kunci penyajian data adalah **audiens** dan **pesan** ([Open Knowledge Foundation (2021)](libs/okf.pdf)).
+* Mungkinkah strategi visualisasi data (e.g., menggunakan plot, grafik) dapat dilakukan ketika:
+  + Anda menyajikan temuan riset Anda melalui siaran radio? 
+  + Temuan disajikan pada audiens dengan gangguan penglihatan? 
+  + Menyajikan hasil analisis data di komunitas yang tidak familiar dengan grafik sama sekali? 
+* Dalam semua kasus di atas, grafik/visualisasi saja tidak cukup.
+* Itulah mengapa pertemuan ini menekankan pada "**Menyajikan** Data", bukan "**Memvisualisasikan** Data"
+  + ...karena visualisasi hanyalah salah satu alat komunikasi data, tetapi bukan tujuan akhirnya.
 :::
 
 ## *Data visualization* vs. infografis
+
+Perbedaannya menurut [Open Knowledge Foundation (2021)](libs/okf.pdf):
 
 ::: columns
 ::: {.column width="50%"}
 ***Data visualization***
 
-* Terikat erat dengan data yang mendasarinya.
+* Terkait langsung dengan data yang mendasarinya.
 * Bisa interaktif dan bereaksi terhadap perubahan data.
 * Jumlah format yang valid terbatas, tetapi harus tetap merepresentasikan data secara transparan.
 * [Lihat katalognya di sini (DataViz Catalogue).](https://datavizcatalogue.com/)
@@ -53,9 +60,9 @@ Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisua
 ::: {.column width="50%"}
 **Infografis**
 
-* "Grafik informasi" — menyajikan cerita berbasis fakta secara visual.
-* Sering memuat visualisasi data, tapi tidak terikat ketat pada data mentahnya.
-* Lebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi umum (bukan teknis).
+* "Grafik + informasi" — menyajikan suatu "cerita" berbasis data secara visual.
+* Sering memuat visualisasi data, tapi tidak selalu langsung terkait dengan data mentahnya.
+* Lebih leluasa secara desain, tapi penggunaannya lebih terbatas pada komunikasi pada audiens umum (bukan audiens yang spesifik/ahli).
 * Dapat menjadi produk Jurnalistik Data.
   + [Kompas](https://data.kompas.id/)
   + [Tempo](https://data.tempo.co/)
@@ -65,10 +72,22 @@ Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisua
 
 ## Tiga elemen yang bisa ditonjolkan
 
+[Open Knowledge Foundation (2021)](libs/okf.pdf) membedakan tiga elemen yang bisa Anda tonjolkan saat menyajikan data:
+
 ::: {.incremental}
-1. **Data** — visualisasi sederhana yang membantu audiens cepat menangkap angka kunci; interaktivitas memungkinkan eksplorasi lebih presisi.
-2. **Desain** — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski datanya sendiri kurang familier.
+1. **Data** — visualisasi sederhana yang membantu audiens cepat menangkap angka kunci; interaktivitas (apabila memungkinkan) membuat eksplorasi lebih menyenangkan di sisi audiens.
+2. **Desain** — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski format visualnya kurang familier bagi audiens.
 3. **Pesan** — menempatkan *storytelling* sebagai yang utama; data dan desain melayani narasi yang ingin disampaikan.
+:::
+
+::: {.callout-tip}
+### Beberapa contoh yang menarik:
+* [Google AI journey](https://ai.google/our-ai-journey/)
+* Risiko automasi pada beberapa jenis pekerjaan
+  + [Job Futuromat IAB](https://job-futuromat.iab.de/en/)
+  + [Will Robots Take My Job?](https://willrobotstakemyjob.com/)
+* [El Niño Observatory](https://elninoobservatory.com/en?city=surabaya)
+
 :::
 
 # Memilih Jenis Data dan Tugas Visualisasi 📊 {background-color="#14497F"}
@@ -78,7 +97,7 @@ Pertanyaan pertama yang akan kita selesaikan **bukan** *"bagaimana cara memvisua
 Ingat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan **pilihan grafik** Anda.
 
 ::: {.incremental}
-* **Data kategorikal** (mis. gender, kelompok skor) — cocok untuk *bar chart*, *pie chart*. Tapi grafik butuh **minimal satu variabel *continuum*** untuk dipasangkan (mis. rata-rata skor per kategori) — tidak mungkin membuat grafik hanya dari variabel kategorikal saja.
+* **Data kategorikal** (mis. gender, kelompok skor) — cocok untuk *bar chart*, *pie chart*. Tapi grafik butuh **minimal satu nilai *continuum*** untuk dipasangkan, walaupun itu hanya hasil hitungan dari kategorinya (mis. frekuensi atau rata-rata skor per kategori) — dua variabel kategorikal tidak bisa langsung digambar tanpa menghitung sesuatu dari keduanya (Open Knowledge Foundation, 2021).
 * **Data *continuum*** (mis. usia, skor skala) — bisa dipasangkan di kedua sumbu, seperti pada *scatterplot* atau histogram.
 * Data *continuum* **bisa** ditampilkan sebagai kategorikal (usia dikelompokkan jadi rentang), tapi tidak berlaku sebaliknya.
 * Anda bisa memanfaatkan [ChartChooser](https://www.juiceanalytics.com/chartchooser) untuk menentukan grafik apa yang sesuai dengan tujuan dan jenis data Anda.
@@ -86,9 +105,9 @@ Ingat Pertemuan 1: perbedaan data kategorikal dan numerik sekarang menentukan **
 
 ## "Saya ingin menunjukkan..."
 
-Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan..."**
+Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan..."** ([Open Knowledge Foundation, 2021](libs/okf.pdf))
 
-| Saya ingin menunjukkan... | Tugas visualisasi |
+| Saya ingin menunjukkan... | Jenis visualisasi |
 |---|---|
 | Jumlah partisipan pada tiap kategori usia | Perbandingan (*comparison*) |
 | Proporsi partisipan yang skor Extraversion-nya tinggi vs rendah | Perbandingan, bagian-dari-keseluruhan |
@@ -99,32 +118,34 @@ Cara termudah memilih visualisasi: lengkapi kalimat **"Saya ingin menunjukkan...
 
 ## Ragam tujuan visualisasi dan grafiknya
 
+Diadaptasi dari [Open Knowledge Foundation, 2021](libs/okf.pdf):
+
 ::: {.incremental}
 * **Perbandingan** → *bar chart*
-* **Bagian-dari-keseluruhan** → *pie chart*, *stacked bar chart*
+* **Bagian-dari-keseluruhan** → *pie chart*, *stacked bar chart* (catatan: Knaflic, 2015, menyarankan menghindari *pie chart* karena mata kita sulit membandingkan luas irisan; *bar chart* biasanya lebih mudah dibaca)
 * **Distribusi** → histogram, *box plot*
-* **Hubungan** (antara dua variabel kontinu) → *scatterplot*
+* **Hubungan** (antara dua variabel *continuum*) → *scatterplot*
 * **Data dari waktu ke waktu** → *line chart*
 * **Lokasi** → peta
 :::
 
 ::: {.callout-tip appearance="simple"}
-Tidak ada daftar jenis visualisasi data yang lengkap. Satu grafik bisa saja memenuhi lebih dari satu tujuan sekaligus. Yang penting: **rumuskan tujuannya dulu**, baru pilih grafiknya, bukan sebaliknya.
+Tidak ada daftar jenis visualisasi data yang lengkap. Satu grafik bisa saja memenuhi lebih dari satu tujuan sekaligus. Yang penting: **rumuskan tujuannya dulu**, baru pilih grafiknya.
 :::
 
 # 6️⃣ Prinsip Storytelling with Data 📖 {background-color="#14497F"}
 
 ## Kerangka dari Cole Nussbaumer Knaflic
 
-Buku *Storytelling with Data* ([Knaflic, 2021](https://www.storytellingwithdata.com)) merangkum enam prinsip inti untuk penyajian data yang efektif:
+Buku *Storytelling with Data* ([Knaflic, 2015](https://www.storytellingwithdata.com)) merangkum enam prinsip inti untuk penyajian data yang efektif:
 
 ::: {.incremental}
 1. **Pahami konteksnya**
 2. **Pilih visual yang tepat**
-3. **Singkirkan kekacauan (*clutter*)**
+3. **Minimalisasi informasi yang kurang relevan (*cluttering*)**
 4. **Arahkan perhatian audiens**
 5. **Berpikir seperti desainer**
-6. **Ceritakan sebuah kisah**
+6. **Ceritakan sebuah kisah yang menarik**
 :::
 
 ## 1️⃣ Pahami konteksnya
@@ -138,7 +159,7 @@ Buku *Storytelling with Data* ([Knaflic, 2021](https://www.storytellingwithdata.
 
 Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak "menebak" kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.
 
-## 3️⃣ Singkirkan kekacauan (*clutter*)
+## 3️⃣ Minimalisasi informasi yang kurang relevan (*cluttering*)
 
 ::: {.incremental}
 * *Clutter* = elemen visual yang tidak menambah informasi, tapi membebani mata audiens: *gridlines* tebal, efek 3D, terlalu banyak warna, border berlebihan.
@@ -150,37 +171,38 @@ Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi
 ::: {.incremental}
 * Mata manusia tertarik secara otomatis pada elemen tertentu (warna kontras, ukuran lebih besar, posisi) — inilah yang disebut *preattentive attributes*.
 * Gunakan ini secara sengaja: beri warna berbeda pada satu batang yang ingin Anda tonjolkan, sementara batang lain tetap abu-abu netral.
+* Saat memakai warna, ingat audiens dengan buta warna: hindari memasangkan merah dan hijau sebagai satu-satunya pembeda.
 :::
 
 ## 5️⃣ Berpikir seperti desainer
 
 ::: {.incremental}
-* Desain yang baik bukan cuma soal estetika, tetapi soal **fungsi**: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses (termasuk untuk audiens dengan keterbatasan penglihatan warna)?
+* Desain yang baik bukan cuma soal estetika, tetapi soal **fungsi**: apakah audiens tahu ke mana harus melihat lebih dulu? Apakah visualisasinya mudah diakses, dalam arti tidak terlalu rumit bagi audiens dengan tingkat keahlian teknis yang berbeda-beda?
 * Prinsip ini menjembatani ke elemen "desain" yang kita bahas di awal pertemuan.
 :::
 
-## 6️⃣ Ceritakan sebuah kisah
+## 6️⃣ Ceritakan sebuah kisah yang menarik 
 
-::: {.callout-important}
-Data tanpa narasi hanyalah angka. Visualisasi yang baik punya **alur**: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi, persis seperti cerita yang baik pada umumnya.
+::: {.callout-important appearance="simple"}
+Data tanpa narasi hanyalah angka-angka yang tidak bisa langsung dipahami maknanya. Visualisasi yang baik punya **alur**: situasi awal, ketegangan/temuan yang mengejutkan, dan resolusi/implikasi, persis seperti cerita yang baik pada umumnya.
 :::
 
 ::: {.fragment}
-Ini menyambung ke apa yang sudah kita bahas Pertemuan 6: *hedging language* menjaga transparansi narasi Anda; prinsip ini memastikan narasi itu juga **menarik** dan mudah diingat.
+Ini menyambung ke apa yang sudah kita bahas di [Pertemuan 6](pertemuan6.qmd) tentang *hedging language*. *Hedging* membantu untuk menjaga transparansi narasi, meskipun narasi itu juga perlu **menarik** agar mudah diingat.
 :::
 
 # Studi Kasus: Memvisualisasikan Dataset *Big Five* 🧬 {background-color="#14497F"}
 
 ## Merumuskan tugas visualisasi
 
-Kita hitung skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti prosedur Pertemuan 4–5) dari **19.511 partisipan** dalam dataset kita, dipilah berdasarkan gender.
+Kita hitung skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti prosedur Pertemuan 4-5) dari **19.511 partisipan** dalam dataset kita (setelah pembersihan; data mentahnya 19.719 baris), dipilah berdasarkan gender.
 
 ::: {.fragment}
 **"Saya ingin menunjukkan"** perbandingan rata-rata skor *Extraversion* antara dua kategori gender → tugasnya adalah **perbandingan** → kandidat grafik: *bar chart* sederhana, dua batang.
 :::
 
 ::: {.callout-note appearance="simple"}
-Kedua grafik pada slide berikutnya dibuat dengan **ggplot2** (R) langsung dari `data/data.csv`. Skripnya ada di [`slides/libs/make_pertemuan7_charts.R`](libs/make_pertemuan7_charts.R) kalau Anda ingin melihat/menjalankannya sendiri.
+Kedua grafik pada slide berikutnya dibuat dengan *package* `ggplot2` {{< fa brands r-project >}} langsung dari `data/data.csv`. Skripnya ada di [`slides/libs/make_pertemuan7_charts.R`](libs/make_pertemuan7_charts.R) kalau Anda ingin melihat/menjalankannya sendiri.
 :::
 
 ## Sebelum: melanggar hampir semua prinsip *Storytelling*
@@ -191,15 +213,15 @@ Kedua grafik pada slide berikutnya dibuat dengan **ggplot2** (R) langsung dari `
 :::
 ::: {.column width="40%"}
 ::: {.incremental}
-* Judul generik ("Chart 1") — tidak ada *takeaway*.
+* Judul generik ("Chart 1"), tidak ada *takeaway*.
 * *Gridlines* penuh dan legenda yang sebenarnya tidak perlu (label sumbu-x sudah cukup).
-* **Sumbu-y dipotong** mulai dari 2,85, bukan dari 0 — secara visual ini melebih-lebihkan perbedaan kecil menjadi terlihat dramatis.
+* **Sumbu-y dipotong** mulai dari 2.85, bukan dari 0. Akibatnya, secara visual ini membuat perbedaan kecil menjadi terlihat dramatis.
 :::
 :::
 :::
 
 ::: {.callout-caution appearance="simple"}
-Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil terlihat besar — persis kebalikan dari *hedging language* yang kita pelajari Pertemuan 6.
+Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil seolah-olah terlihat besar.
 :::
 
 ## Sesudah: 6️⃣ prinsip diterapkan
@@ -212,21 +234,20 @@ Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan
 ::: {.incremental}
 * **Judul** langsung menyampaikan *takeaway* (prinsip 6).
 * *Gridlines* dan legenda dihapus (prinsip 3); satu warna aksen menonjolkan kelompok yang ingin difokuskan (prinsip 4).
-* **Sumbu-y penuh** (1–5, skala Likert aslinya) — perbedaannya terlihat sekecil apa adanya.
-* Rentang kepercayaan 95% disertakan (prinsip Pertemuan 6) — nyaris tak terlihat di grafik ini karena `n` yang sangat besar membuatnya sangat sempit.
+* **Sumbu-y dimulai dari 0** (label 1–5 menunjukkan rentang skala Likert aslinya), sehingga perbedaannya terlihat apa adanya.
+* Interval kepercayaan 95% disertakan (prinsip Pertemuan 6), tetapi nyaris tak terlihat di grafik ini karena `n` yang sangat besar membuatnya sangat sempit.
 :::
 :::
 :::
 
 ::: {.callout-important appearance="simple"}
 ### Signifikan secara statistik ≠ besar secara praktis
-Dengan `n` sebesar ini, CI kedua kelompok **tidak tumpang tindih** — jadi secara statistik perbedaannya *signifikan*. Tapi besarnya cuma ~0.10 poin pada skala 1–5.
+Dengan `n` sebesar ini, CI kedua kelompok **tidak tumpang tindih**, sehingga secara statistik perbedaannya *signifikan*, meskipun perbedaannya hanya ~0.10 poin pada skala 1–5.
 :::
-
 
 ## Angka di balik grafiknya
 
-Grafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya APA) tetap butuh tabel angka lengkap:
+Grafik tadi bagus untuk audiens umum, tapi naskah akademik ([Pertemuan 6](pertemuan6.qmd), APA *style*) tetap butuh tabel angka lengkap:
 
 | Gender | n | M | SD | 95% CI |
 |---|---|---|---|---|
@@ -234,7 +255,7 @@ Grafik tadi bagus untuk audiens umum, tapi naskah akademik (Pertemuan 6, gaya AP
 | Perempuan | 11,928 | 3.05 | 0.92 | [3.04, 3.07] |
 
 ::: {.callout-note appearance="simple"}
-Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (`data/data.csv`, dataset *Big Five*) sudah disebutkan pada slide sebelumnya.
+Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom jelas, satuan tersirat dari konteks (skala 1–5), dan sumber datanya (`data/data.csv`, dataset *Big Five*) sudah disebutkan pada *slide* sebelumnya.
 :::
 
 ## 🧩 Aktivitas mandiri
@@ -243,7 +264,7 @@ Perhatikan tabel ini mengikuti prinsip yang sama dari Pertemuan 2: judul kolom j
 [Perhatikan grafik berikut ini](https://databoks.katadata.co.id/infografik/2025/08/19/10-provinsi-dengan-angka-kemiskinan-tertinggi-awal-2025). Terapkan enam prinsip *storytelling with data* untuk mengkritiknya:
 
 1. Menurut Anda, apa **konteks/audiens** yang dituju grafik ini? Apakah pilihan visualnya cocok?
-2. Identifikasi elemen yang termasuk ***clutter*** — apa yang bisa dihapus tanpa mengurangi informasi?
+2. Identifikasi elemen yang termasuk ***clutter***. Apa elemen yang bisa dihapus tanpa mengurangi informasi?
 3. Apakah perhatian audiens diarahkan dengan jelas ke bagian terpenting? Bagaimana caranya (atau kenapa tidak)?
 4. Apakah ada "kalimat kunci" atau *takeaway* yang bisa langsung dipahami tanpa membaca teks lain?
 :::
@@ -257,13 +278,14 @@ Dua grafik di atas (before/after) sudah bisa langsung dipakai sebagai bahan disk
 ## Memilih alat sesuai audiens dan tujuan
 
 ::: {.incremental}
-* **Grafik *spreadsheet*** (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan internal dan naskah akademik; mendukung sebagian besar jenis grafik dasar.
-* **Tableau, Datawrapper, Infogram** — untuk visualisasi **interaktif**, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. publikasi daring, *dashboard*).
+* **Fitur grafik di *software spreadsheet* standar** (Google Sheets/Excel) — cukup untuk sebagian besar kebutuhan laporan, tugas kuliah dan naskah akademik; mendukung sebagian besar jenis grafik dasar.
+* **[Tableau](https://www.tableau.com/), [Datawrapper](https://www.datawrapper.de/), [Infogram](https://infogram.com/), [MS Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)** — untuk visualisasi **interaktif**, cocok kalau audiens Anda perlu mengeksplorasi data sendiri (mis. membuat *dashboard*).
+  + Untuk Power BI, tanyakan ke DSI/USI apakah lisensinya termasuk di akun Microsoft Unair.
 * **Canva** — untuk **infografis**, saat pesan dan desain lebih diutamakan; ini bisa jadi alat utama Anda untuk infografis UAS.
 :::
 
 ::: {.callout-note appearance="simple"}
-Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akademik serumpun → grafik *spreadsheet* dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Jadi, alat mengikuti audiens, bukan sebaliknya.
+Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akademik serumpun → grafik *spreadsheet* dalam naskah sudah cukup. Untuk publik awam → pertimbangkan infografis Canva. Jadi, alat bantu mengikuti audiens, bukan sebaliknya.
 :::
 
 # Penutup {background-color="#14497F"}
@@ -273,14 +295,14 @@ Kembali ke pembahasan "tiga jenis audiens" (Pertemuan 6): untuk komunitas akadem
 ::: {.incremental}
 * Mulai dari **audiens dan pesan**, baru pilih visualisasinya.
 * Rumuskan tugas visualisasi dengan kalimat **"saya ingin menunjukkan..."**, lalu cocokkan dengan jenis data (kategorikal/*continuum*).
-* Enam prinsip *storytelling with data*: pahami konteks, pilih visual tepat, singkirkan *clutter*, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.
+* Enam prinsip *storytelling with data*: pahami konteks, pilih visual tepat, singkirkan informasi yang kurang relevan, arahkan perhatian, berpikir seperti desainer, ceritakan kisah.
 * Pilihan alat (spreadsheet, Tableau/Datawrapper, Canva) mengikuti audiens dan tujuan penyajian.
 :::
 
 ## Referensi {.scrollable .smaller}
 
-* Knaflic, C. N. (2021). *Storytelling with data: A data visualization guide for business professionals*. Wiley.
-* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
+* Knaflic, C. N. (2015). *Storytelling with data: A data visualization guide for business professionals*. Wiley.
+* [Open Knowledge Foundation. (2021). *Data literacy curriculum*. International Republican Institute.](libs/okf.pdf)
 
 ## Terima kasih!😊 {.closing-slide}
 

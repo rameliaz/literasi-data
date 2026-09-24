@@ -21,11 +21,11 @@ execute:
 
 1. Menurunkan **pertanyaan penelitian** menjadi **hipotesis**
 2. Menyusun ***analysis plan*** dan mengapa ***preregistration*** penting
-3. Tiga kategori teknik analisis: **deskriptif, komparatif, korelasional**
+3. Jenis teknik analisis: **deskriptif** dan **inferensial** (komparatif, korelasional)
 4. Perkenalan *software* statistik
 
 ::: notes
-Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasiswa tahu bahwa aktivitas kelompok penyusunan rencana analisis di akhir sesi adalah bagian dari penilaian.
+Pertemuan ini memuat Kuis (10% dari nilai akhir). Pastikan mahasiswa tahu bahwa aktivitas mengeksekusi *analysis plan* di akhir sesi dikerjakan secara mandiri (individu) dan berkasnya dikumpulkan di Psyche sebagai nilai kuis.
 :::
 
 # Menurunkan Pertanyaan Penelitian Menjadi Hipotesis 🎯 {background-color="#14497F"}
@@ -33,7 +33,7 @@ Ini salah satu dari 6 pertemuan Praktikum yang dinilai (10%) — pastikan mahasi
 ## Kembali ke *Define*
 
 ::: {.incremental}
-* Kita sudah melewati **Find**, **Get**, **Verify**, dan **Clean**. Sebelum masuk ke **Analyze**, kita perlu kembali sejenak ke tahap paling awal *Data Pipeline*: **Define**.
+* Kita sudah melewati **Find**, **Get**, **Verify**, dan **Clean**. Sebelum masuk ke **Analyze**, kita perlu kembali sejenak ke tahap paling awal *Data Pipeline* (Open Knowledge Foundation, 2021): **Define**.
 * Tanpa pertanyaan penelitian yang jelas, Anda hanya punya **topik penelitian** dan ini berisiko menghabiskan waktu menganalisis data dengan cara yang tidak menjawab tujuan awal Anda.
 :::
 
@@ -79,7 +79,7 @@ Dari masalah sosial tentang keterkaitan antara media sosial dan kesejahteraan ps
 
 ::: {.incremental}
 * ***Analysis plan*** adalah rangkaian **transformasi** yang akan Anda terapkan pada data untuk menghasilkan jawaban atas pertanyaan penelitian Anda.
-* Disusun **setelah** data dibersihkan, supaya tiap langkahnya bisa memakai nama kolom/variabel yang sebenarnya.
+* Untuk data sekunder seperti dataset kita, disusun **setelah** data dibersihkan tapi **sebelum** dianalisis, supaya tiap langkahnya bisa memakai nama kolom/variabel yang sebenarnya. Untuk data primer, idealnya disusun sebelum data dikumpulkan.
 * Tujuannya: siapa pun yang diberi data bersih dan *analysis plan* Anda harus bisa **mereka ulang** (i.e., *reproducibility*) analisis Anda langkah demi langkah.
 :::
 
@@ -88,11 +88,12 @@ Dari masalah sosial tentang keterkaitan antara media sosial dan kesejahteraan ps
 Untuk hipotesis *"persepsi tentang beban tugas mingguan berkaitan dengan tingkat burnout"*:
 
 ::: {.incremental}
-1. Hitung skor total `SKOR_BURNOUT` dari item-item skala burnout (`AVERAGE()`).
+1. Hitung skor rata-rata `SKOR_BURNOUT` dari item-item skala burnout (`AVERAGE()`).
 2. Kelompokkan responden berdasarkan `BEBAN_TUGAS` menjadi "tinggi" dan "rendah" (mis. dengan nilai tengah/median sebagai batas).
+   + Cara ini sederhana, tapi membuang banyak informasi. Kalau `BEBAN_TUGAS` diukur secara kontinu, korelasi atau regresi adalah uji yang lebih tepat (MacCallum et al., 2002).
 3. Untuk kelompok "beban tinggi", hitung rata-rata `SKOR_BURNOUT`.
 4. Untuk kelompok "beban rendah", hitung rata-rata `SKOR_BURNOUT`.
-5. Bandingkan kedua rata-rata tersebut, lakukan uji statistik yang mendeteksi apakah perbedaan median `SKOR_BURNOUT` antara kelompok dengan `BEBAN_TUGAS` tinggi vs. rendah signifikan.
+5. Bandingkan kedua rata-rata tersebut, lakukan uji statistik (mis. *independent samples t-test*) yang mendeteksi apakah perbedaan rata-rata `SKOR_BURNOUT` antara kelompok dengan `BEBAN_TUGAS` tinggi vs. rendah signifikan.
 :::
 
 ::: {.callout-tip appearance="simple"}
@@ -112,7 +113,7 @@ Yang penting: **catat** langkah yang berhasil begitu Anda menyusunnya, supaya ja
 :::
 
 ::: {.callout-important appearance="simple"}
-*Preregistration* adalah cara yang paling umum digunakan untuk membedakan **penelitian konfirmatori**/*hypothesis testing* (menguji hipotesis yang sudah dirumuskan sejak awal) dari **penelitian eksploratif**/*hypothesis generating* (menemukan pola baru setelah melihat data). Keduanya boleh-boleh saja dilakukan, asal harus jujur diberi label yang tepat.
+*Preregistration* adalah cara yang paling umum digunakan untuk membedakan **penelitian konfirmatori**/*hypothesis testing* (menguji hipotesis yang sudah dirumuskan sejak awal) dari **penelitian eksploratif**/*hypothesis generating* (menemukan pola baru setelah melihat data). Keduanya sah, asal diberi label yang jujur dan tepat.
 :::
 
 ::: {.fragment}
@@ -121,7 +122,9 @@ Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadar
 
 # Ragam Teknik Analisis 🔬 {background-color="#14497F"}
 
-## Tiga kategori teknik analisis
+## Jenis teknik analisis
+
+Open Knowledge Foundation (2021) membedakan analisis **deskriptif** dan **inferensial**. Ada dua macam pertanyaan inferensial yang akan Anda kerjakan: komparatif dan korelasional.
 
 ::: columns
 ::: {.column width="33%"}
@@ -130,12 +133,12 @@ Tanpa rencana yang terdokumentasi lebih dulu, sangat mudah, bahkan tanpa disadar
 Menjelaskan fitur dasar data: rata-rata, median, frekuensi, sebaran.
 :::
 ::: {.column width="33%"}
-**Komparatif**
+**Inferensial: komparatif**
 
 Membandingkan nilai suatu variabel **antar kelompok** (mis. skor *Extraversion* antara laki-laki dan perempuan).
 :::
 ::: {.column width="34%"}
-**Korelasional**
+**Inferensial: korelasional**
 
 Melihat **hubungan** antara dua variabel atau lebih (mis. apakah *Conscientiousness* berkaitan dengan usia).
 :::
@@ -143,12 +146,12 @@ Melihat **hubungan** antara dua variabel atau lebih (mis. apakah *Conscientiousn
 
 ::: {.callout-note appearance="simple"}
 
-Ada kategori keempat yang **tidak** dibahas mendalam di mata kuliah ini: [analisis model **prediktif**](https://en.wikipedia.org/wiki/Predictive_modelling), yang berusaha memprediksi kejadian di masa depan berdasarkan data masa lalu. Ini biasanya membutuhkan pengetahuan statistik lanjut (i.e., *machine learning*).
+Ada jenis ketiga yang **tidak** dibahas mendalam di mata kuliah ini: [analisis **prediktif**](https://en.wikipedia.org/wiki/Predictive_modelling), bentuk analisis inferensial yang lebih lanjut untuk memprediksi kejadian di masa depan berdasarkan data masa lalu (mis. regresi, *machine learning*).
 :::
 
 ## *Pivot table*
 
-[*Pivot table*](https://www.excel-easy.com/data-analysis/pivot-tables.html) (Pertemuan 2 sudah menyinggung tabel kontigensi. *Pivot table* adalah versi interaktifnya) punya empat komponen:
+[*Pivot table*](https://www.excel-easy.com/data-analysis/pivot-tables.html) (Pertemuan 2 sudah menyinggung tabel kontingensi. *Pivot table* adalah versi interaktifnya) punya empat komponen:
 
 | Komponen | Fungsi |
 |---|---|
@@ -166,8 +169,8 @@ Kunci memakainya: mulai dengan kalimat **"Saya ingin melihat..."** — mis. *"Sa
 ## Kapan harus menggunakan *software* statistik
 
 ::: {.incremental}
-* *Spreadsheet* sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana dan ini sudah cukup untuk keperluan mata kuliah ini.
-* Tapi begitu Anda butuh uji statistik formal (mis. *independent samples t-test*, ANOVA, korelasi dengan nilai *p*), Anda memerlukan perangkat lunak analisis statistik.
+* *Spreadsheet* sudah bisa menjawab banyak pertanyaan deskriptif dan komparatif sederhana, bahkan menjalankan uji dasar seperti *t-test* (`T.TEST()`) dan korelasi (`CORREL()`). Ini sudah cukup untuk keperluan mata kuliah ini.
+* Tapi begitu Anda butuh uji statistik yang lebih lengkap (mis. ANOVA, regresi, atau keluaran lengkap dengan *effect size* dan *confidence interval*), Anda memerlukan perangkat lunak analisis statistik.
 :::
 
 ## Dua pilihan yang paling populer
@@ -217,7 +220,7 @@ Pertanyaan penelitian: *"Apakah skor Extraversion berbeda antara partisipan laki
 :::
 
 ::: {.incremental}
-1. Hitung `skor_extraversion` per partisipan (`AVERAGE(E1:E10)`, setelah item dibalik sesuai kebutuhan).
+1. Hitung `skor_extraversion` per partisipan (`AVERAGE()` atas item E1–E10, yaitu kolom H–Q, setelah item *reverse-keyed* E2, E4, E6, E8, E10 dibalik dan nilai 0 (= tidak dijawab) dikosongkan).
 2. Buat *pivot table*: Rows = `gender`, Values = `AVERAGE(skor_extraversion)`.
 3. Bandingkan rata-rata antar kategori gender.
 4. Uji perbedaan rata-rata tersebut di MS Excel dengan fungsi [`T.TEST()`](https://support.microsoft.com/en-us/excel/functions/t-test-function)
@@ -233,14 +236,15 @@ Kumpulkan file MS Excel/LibreOffice yang digunakan untuk analisis di Psyche. Aka
 
 ::: {.incremental}
 * Sebelum menganalisis, kembali ke *Define*: tema → pertanyaan penelitian yang presisi → hipotesis yang dapat diuji.
-* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun setelah data bersih, agar analisis Anda ***reproducible***. 
+* ***Analysis plan*** adalah rangkaian langkah tertulis, disusun sebelum analisis (untuk data sekunder: setelah data bersih), agar analisis Anda ***reproducible***. 
 * Menuliskan *analysis plan* **sebelum** melihat hasil adalah inti dari ***pre-registration***, dan ini akan membantu untuk membedakan penelitian konfirmatori dari eksploratif secara lebih transparan.
-* Tiga kategori teknik analisis: **deskriptif**, **komparatif**, **korelasional** — *pivot table* adalah alat serbaguna untuk ketiganya.
+* Jenis teknik analisis: **deskriptif** dan **inferensial** (**komparatif**, **korelasional**). *Pivot table* serbaguna untuk analisis deskriptif dan komparatif; untuk korelasional, pakai `CORREL()` atau *scatter plot*.
 :::
 
 ## Referensi {.scrollable .smaller}
 
-* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
+* MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). On the practice of dichotomization of quantitative variables. *Psychological Methods, 7*(1), 19–40. <https://doi.org/10.1037/1082-989X.7.1.19>
+* [Open Knowledge Foundation. (2021). *Data literacy curriculum*. International Republican Institute.](libs/okf.pdf)
 
 ## Terima kasih!😊 {.closing-slide}
 

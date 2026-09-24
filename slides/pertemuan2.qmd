@@ -62,11 +62,11 @@ Formula selalu diawali tanda `=`:
 * `=AVERAGE(B3:B8)` — rata-rata satu rentang
 * `=COUNT(B3:B8)` — menghitung berapa sel berisi angka
 
-**Fungsi** adalah kalkulasi siap pakai bawan dari *spreadsheet* — lebih ringkas daripada menulis `=B3+B4+B5+B6+B7+B8` secara manual.
+**Fungsi** adalah kalkulasi siap pakai bawaan dari *spreadsheet* — lebih ringkas daripada menulis `=B3+B4+B5+B6+B7+B8` secara manual ([Open Knowledge Foundation, 2021](libs/okf.pdf)).
 
 ::: {.callout-note}
 ### Kenapa ini relevan?
-Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor *Extraversion*) pada dasarnya adalah `=AVERAGE()` dari 10 item. Ini adalah satu formula yang sama akan Anda pakai berkali-kali sepanjang semester ini.
+Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor *Extraversion*) pada dasarnya adalah `=AVERAGE()` dari 10 item. Formula ini akan Anda pakai berkali-kali sepanjang semester.
 :::
 
 # Unit Analisis dan Prinsip *Tidy Data* 🧹 {background-color="#14497F"}
@@ -82,7 +82,7 @@ Skor total skala kepribadian yang akan kita pakai hari ini (mis. skor *Extravers
 | Hari | Jeruk | Apel | Buah Naga |
 |---|---|---|---|
 | Senin | 10 | 12 | 15 |
-| Selasa | 15 | 14 | 16 |
+| Selasa | 15 | 18 | 16 |
 | Rabu | 15 | 11 | 19 |
 :::
 ::: {.column width="50%"}
@@ -145,7 +145,7 @@ Tidak ada jawaban universal, ini sangat **tergantung tujuan Anda**. Apakah Anda 
 ::: {.callout-important}
 ### [Wickham (2014)](https://doi.org/10.18637/jss.v059.i10) — tiga aturan *tidy data*
 1. **Satu kolom memuat satu variabel.**
-2. **Satu baris mewakili satu unit analisis (*case*).**
+2. **Satu baris mewakili satu observasi.**
 3. **Satu tabel mewakili satu observational unit.**
 :::
 
@@ -178,7 +178,7 @@ Ini prinsip paling penting di keseluruhan pertemuan ini — sering diulang di pe
 ::: {.column width="50%"}
 ***Long form* (panjang)**
 
-* Tiap variabel mendapat kolom sendiri — paling sesuai prinsip *tidy*.
+* Satu baris = satu observasi (satu unit pada satu waktu). Untuk data **pengukuran berulang**, bentuk inilah yang biasanya *tidy*.
 :::
 ::: {.column width="50%"}
 ***Wide form* (lebar)**
@@ -212,7 +212,7 @@ Sama-sama penyajian data yang valid, tapi bentuk *wide* di sini melanggar aturan
 
 ::: {.callout-caution}
 ### Bukan berarti tabel *wide* selalu salah
-*Wide format* tetap berguna untuk **presentasi** (mis. tabel ringkasan di naskah publikasi). Yang penting: gunakan *long format* untuk **analisis**, dan konversi ke *wide* kalau perlu untuk **penyajian** (Pertemuan 7).
+*Wide format* tetap berguna untuk **presentasi** (mis. tabel ringkasan di naskah publikasi). Yang penting: simpan data dalam bentuk *tidy* untuk **analisis** (untuk pengukuran berulang, biasanya *long*), dan konversi ke *wide* kalau perlu untuk **penyajian** (Pertemuan 7).
 :::
 
 # Studi Kasus: Dataset Big Five Personality Test 🧬 {background-color="#14497F"}
@@ -223,12 +223,12 @@ Ingat dari Pertemuan 1 — dataset dari **Open-Source Psychometrics Project** ya
 
 ::: {.incremental}
 * Tiap **baris** = satu partisipan (unit analisis) yang mengisi survei daring.
-* Tiap **kolom** = satu variabel: 50 kolom item kepribadian (`E1`–`E10`, `N1`–`N10`, `A1`–`A10`, `C1`–`C10`, `O1`–`O10`), plus kolom demografis (`age`, `gender`, `country`, dst.).
+* Tiap **kolom** = satu variabel: 50 kolom item kepribadian (`E1`–`E10`, `N1`–`N10`, `A1`–`A10`, `C1`–`C10`, `O1`–`O10`), plus kolom demografis (`age`, `gender`, dst.) dan `country` (ditentukan dari lokasi teknis/IP partisipan, bukan diisi sendiri).
 * Setiap sel berisi **satu nilai**: respons 1–5 pada skala Likert, atau satu nilai demografis.
 :::
 
 ::: {.fragment}
-Apakah struktur ini *tidy*? **Ya** — satu variabel per kolom, satu partisipan per baris, satu tabel untuk satu jenis observasi (respons survei).
+Apakah struktur ini *tidy*? **Ya** — satu variabel per kolom, satu partisipan per baris, satu tabel untuk satu jenis observasi (respons survei). Bentuknya memang lebar (50 kolom item), tapi tetap *tidy* karena tiap item adalah variabel yang berbeda: *tidy* ≠ *long*.
 :::
 
 ## Tapi "tidy" ≠ "siap pakai"
@@ -241,7 +241,7 @@ Dataset ini tidy secara struktur, tapi untuk **dianalisis sebagai skor kepribadi
 | `N1, N2, N3, ..., N10` (10 kolom) | `skor_neuroticism` (1 kolom) |
 
 ::: {.fragment}
-`skor_extraversion = AVERAGE(E1:E10)` — inilah kenapa formula `AVERAGE()` yang kita bahas di awal tadi sangat penting. *(Beberapa item butuh dibalik skornya dulu/reverse-scored — kita bahas saat membersihkan data di Pertemuan 4)*.
+Di `data.csv`, item `E1`–`E10` ada di kolom H–Q, jadi untuk partisipan di baris 2: `=AVERAGE(H2:Q2)` — inilah kenapa formula `AVERAGE()` yang kita bahas di awal tadi sangat penting. Rumus ini baru tepat setelah item *reverse-keyed* (`E2`, `E4`, `E6`, `E8`, `E10`) dibalik skornya (6 − skor) dan nilai `0` (= tidak dijawab) dikosongkan. Kita bahas saat membersihkan data di Pertemuan 4.
 :::
 
 ## Tabel "dibaca manusia" vs. tabel "siap dianalisis"
@@ -272,7 +272,7 @@ Bandingkan dua cara menyajikan ringkasan skor kepribadian yang sama:
 ::: {.callout-note}
 ### Penting diingat
 
-Tabel kiri cocok untuk **satu** slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor **per partisipan**, per *trait* — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.
+Tabel kiri cocok untuk **satu** slide laporan (ringkasan seluruh sampel). Tabel kanan menyimpan skor **per partisipan**, per *trait* (bentuk *long*; satu kolom per *trait* juga sama *tidy*-nya) — inilah bentuk yang bisa difilter, dibandingkan antar kelompok, dan divisualisasikan.
 :::
 
 ::: notes
@@ -344,7 +344,7 @@ Tabel contoh sudah disiapkan (libs/aktivitas2_tabel_berantakan.png): laporan kon
 | Laki-laki | 95 (53%) | 85 (47%) | 180 |
 | **Total** | **215** | **165** | **380** |
 
-<small>Angka hipotetis. Persentase di sini dihitung **per baris** (persentase gender dalam tiap kategori Extraversion).</small>
+<small>Angka hipotetis. Persentase di sini dihitung **per baris** (persentase kategori Extraversion dalam tiap gender).</small>
 
 ::: {.callout-note}
 Kita akan kembali ke tabel seperti ini di Pertemuan 5–6 saat membahas **rencana analisis** dan **membandingkan kelompok**.
@@ -372,7 +372,7 @@ Perbandingan sebagian dengan keseluruhan; pembilang *termasuk* dalam penyebut. B
 
 Frekuensi suatu kejadian pada populasi dalam periode waktu tertentu — umum dipakai untuk menggambarkan tingkat risiko.
 
-*"15 kasus burnout per 100 mahasiswa per semester."*
+*"15 kasus burnout per 100 mahasiswa per semester"* (hipotetis).
 :::
 :::
 
@@ -380,9 +380,9 @@ Frekuensi suatu kejadian pada populasi dalam periode waktu tertentu — umum dip
 Ketiganya sering tertukar dalam laporan penelitian — kesalahan ini bisa membuat klaim Anda menyesatkan, apalagi kalau ukuran kelompok yang dibandingkan tidak sama besar (kita bahas kasus nyata soal ini di Pertemuan 6).
 :::
 
-## Korelasi lewat tabel kontingensi (*overview* singkat)
+## Asosiasi lewat tabel kontingensi (*overview* singkat)
 
-Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorikal (nominal), misalnya *odds ratio*, *Cramer's V*, atau *tetrachoric correlation* — tapi ketiganya **tidak** dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi juga berfungsi sebagai alat analisis.
+Tabel kontingensi juga bisa dipakai menghitung ukuran asosiasi antar variabel kategorikal, misalnya *odds ratio* (bukan korelasi, melainkan rasio peluang), *Cramer's V*, atau *tetrachoric correlation* (khusus dua variabel dikotomis) — tapi ketiganya **tidak** dibahas mendalam di mata kuliah ini. Cukup ketahui bahwa tabel kontingensi juga berfungsi sebagai alat analisis.
 
 # Menyajikan Tabel dengan Baik 🎨 {background-color="#14497F"}
 
@@ -420,10 +420,10 @@ Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorik
 ## Tata letak dan visual tabel
 
 ::: {.incremental}
-* Gaya APA umumnya **menghindari garis vertikal** — cukup garis horizontal tegas, biasanya hanya di bawah baris judul kolom.
+* Gaya APA umumnya **menghindari garis vertikal** — cukup garis horizontal di bagian atas tabel, di bawah baris judul kolom, dan di bagian bawah tabel.
 * Gunakan model "spreadsheet penuh" (garis vertikal + horizontal) hanya jika informasi sangat padat dan sulit dibaca tanpa pembatas.
 * **Petunjuk visual** seperti *shading* baris berselang bisa membantu pembaca menyusuri tabel panjang.
-* Gunakan **tabular numeral** (font angka berjarak sama, mis. Courier, Lucida Console) agar deretan angka lebih mudah dibandingkan secara visual.
+* Gunakan font yang punya **tabular figures** (tiap digit selebar sama sehingga angka sejajar dalam kolom) agar deretan angka lebih mudah dibandingkan secara visual. Ini tidak sama dengan font *monospace* seperti Courier, yang kurang cocok untuk naskah.
 :::
 
 # Penutup {background-color="#14497F"}
@@ -432,9 +432,9 @@ Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorik
 
 ::: {.incremental}
 * Tabel tersusun dari **baris (unit analisis)** dan **kolom (variabel)**, dihubungkan lewat sistem referensi sel.
-* Prinsip ***tidy data*** ([Wickham, 2014](https://doi.org/10.18637/jss.v059.i10)): satu variabel per kolom, satu unit analisis per baris, satu tabel per observational unit.
-* **Long format** untuk analisis, **wide format** untuk presentasi/pengukuran berulang.
-* Dataset ***Big Five*** kita sudah *tidy* di level item, tapi perlu di*reshape* ke level skala (`AVERAGE()`) untuk dianalisis sebagai skor kepribadian.
+* Prinsip ***tidy data*** ([Wickham, 2014](https://doi.org/10.18637/jss.v059.i10)): satu variabel per kolom, satu observasi per baris, satu tabel per observational unit.
+* Bentuk *tidy* untuk analisis (untuk pengukuran berulang biasanya **long format**), **wide format** untuk presentasi.
+* Dataset ***Big Five*** kita sudah *tidy* di level item, tapi perlu di*reshape* ke level skala (`AVERAGE()`, setelah item *reverse-keyed* dibalik) untuk dianalisis sebagai skor kepribadian.
 * **Tabel distribusi frekuensi** (univariat) dan **tabel kontingensi** (bivariat) adalah dua alat ringkasan utama, lengkap dengan rasio/proporsi/*rate*.
 * Tabel yang baik punya judul jelas, satuan tercantum, sumber tercantum, dan mengikuti gaya penulisan ilmiah bidang Anda.
 :::
@@ -442,8 +442,8 @@ Tabel kontingensi juga bisa dipakai menghitung korelasi antar variabel kategorik
 ## Referensi {.scrollable .smaller}
 
 * American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
-* [Open Knowledge Foundation & International Republican Institute. (2021). *Data literacy curriculum*.](libs/okf.pdf)
-* Open-Source Psychometrics Project. (n.d.). *Raw data repository*. <https://openpsychometrics.org/_rawdata/>
+* [Open Knowledge Foundation. (2021). *Data literacy curriculum*. International Republican Institute.](libs/okf.pdf)
+* Open-Source Psychometrics Project. (n.d.). *Open psychology data: Raw data from online personality tests*. <https://openpsychometrics.org/_rawdata/>
 * Wickham, H. (2014). Tidy data. *Journal of Statistical Software, 59*(10), 1–23. <https://doi.org/10.18637/jss.v059.i10>
 
 ## Terima kasih!😊 {.closing-slide}
