@@ -75,7 +75,7 @@ Perbedaannya menurut [Open Knowledge Foundation (2021)](libs/okf.pdf):
 [Open Knowledge Foundation (2021)](libs/okf.pdf) membedakan tiga elemen yang bisa Anda tonjolkan saat menyajikan data:
 
 ::: {.incremental}
-1. **Data** — visualisasi sederhana yang membantu audiens cepat menangkap angka kunci; interaktivitas (apabila memungkinkan) membuat eksplorasi lebih menyenangkan di sisi audiens.
+1. **Data** — visualisasi sederhana yang membantu audiens cepat menangkap informasi kunci; interaktivitas (apabila memungkinkan) membuat eksplorasi lebih menyenangkan di sisi audiens.
 2. **Desain** — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski format visualnya kurang familier bagi audiens.
 3. **Pesan** — menempatkan *storytelling* sebagai yang utama; data dan desain melayani narasi yang ingin disampaikan.
 :::
@@ -90,7 +90,7 @@ Perbedaannya menurut [Open Knowledge Foundation (2021)](libs/okf.pdf):
 
 :::
 
-# Memilih Jenis Data dan Tugas Visualisasi 📊 {background-color="#14497F"}
+# Memilih Jenis Data dan Jenis Visualisasi 📊 {background-color="#14497F"}
 
 ## Kategorikal vs. *continuum* 
 
@@ -157,7 +157,7 @@ Buku *Storytelling with Data* ([Knaflic, 2015](https://www.storytellingwithdata.
 
 ## 2️⃣ Pilih visual yang tepat
 
-Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak "menebak" kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.
+Sudah kita bahas di bagian sebelumnya: cocokkan jenis data dan jenis visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak "menebak" kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.
 
 ## 3️⃣ Minimalisasi informasi yang kurang relevan (*cluttering*)
 
@@ -193,7 +193,7 @@ Ini menyambung ke apa yang sudah kita bahas di [Pertemuan 6](pertemuan6.qmd) ten
 
 # Studi Kasus: Memvisualisasikan Dataset *Big Five* 🧬 {background-color="#14497F"}
 
-## Merumuskan tugas visualisasi
+## Menentukan jenis visualisasi
 
 Kita hitung skor *Extraversion* (setelah item *reverse-scored* dibalik, seperti prosedur Pertemuan 4-5) dari **19.511 partisipan** dalam dataset kita (setelah pembersihan; data mentahnya 19.719 baris), dipilah berdasarkan gender.
 
@@ -224,7 +224,7 @@ Kedua grafik pada slide berikutnya dibuat dengan *package* `ggplot2` {{< fa bran
 Sumbu-y yang dipotong adalah salah satu cara paling umum (dan paling menyesatkan) untuk membuat perbedaan kecil seolah-olah terlihat besar.
 :::
 
-## Sesudah: 6️⃣ prinsip diterapkan
+## Sesudah: 6️⃣ prinsip diterapkan {.smaller}
 
 ::: columns
 ::: {.column width="60%"}

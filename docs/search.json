@@ -2157,7 +2157,7 @@
     "href": "slides/pertemuan7.html#tiga-elemen-yang-bisa-ditonjolkan",
     "title": "Menyajikan Data",
     "section": "Tiga elemen yang bisa ditonjolkan",
-    "text": "Tiga elemen yang bisa ditonjolkan\nOpen Knowledge Foundation (2021) membedakan tiga elemen yang bisa Anda tonjolkan saat menyajikan data:\n\nData — visualisasi sederhana yang membantu audiens cepat menangkap angka kunci; interaktivitas (apabila memungkinkan) membuat eksplorasi lebih menyenangkan di sisi audiens.\nDesain — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski format visualnya kurang familier bagi audiens.\nPesan — menempatkan storytelling sebagai yang utama; data dan desain melayani narasi yang ingin disampaikan.\n\n\n\n\n\n\n\nBeberapa contoh yang menarik:\n\n\n\nGoogle AI journey\nRisiko automasi pada beberapa jenis pekerjaan\n\nJob Futuromat IAB\nWill Robots Take My Job?\n\nEl Niño Observatory",
+    "text": "Tiga elemen yang bisa ditonjolkan\nOpen Knowledge Foundation (2021) membedakan tiga elemen yang bisa Anda tonjolkan saat menyajikan data:\n\nData — visualisasi sederhana yang membantu audiens cepat menangkap informasi kunci; interaktivitas (apabila memungkinkan) membuat eksplorasi lebih menyenangkan di sisi audiens.\nDesain — butuh kepekaan desain, tapi bisa menghasilkan visual yang sangat menarik dan mudah diingat meski format visualnya kurang familier bagi audiens.\nPesan — menempatkan storytelling sebagai yang utama; data dan desain melayani narasi yang ingin disampaikan.\n\n\n\n\n\n\n\nBeberapa contoh yang menarik:\n\n\n\nGoogle AI journey\nRisiko automasi pada beberapa jenis pekerjaan\n\nJob Futuromat IAB\nWill Robots Take My Job?\n\nEl Niño Observatory",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2229,7 +2229,7 @@
     "href": "slides/pertemuan7.html#pilih-visual-yang-tepat",
     "title": "Menyajikan Data",
     "section": "2️⃣ Pilih visual yang tepat",
-    "text": "2️⃣ Pilih visual yang tepat\nSudah kita bahas di bagian sebelumnya: cocokkan jenis data dan tugas visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak “menebak” kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.",
+    "text": "2️⃣ Pilih visual yang tepat\nSudah kita bahas di bagian sebelumnya: cocokkan jenis data dan jenis visualisasi dengan bentuk grafik yang tepat. Jangan biarkan perangkat lunak “menebak” kemauan Anda, karena ia tidak tahu audiens dan konteks proyek Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2285,11 +2285,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#merumuskan-tugas-visualisasi",
-    "href": "slides/pertemuan7.html#merumuskan-tugas-visualisasi",
+    "objectID": "slides/pertemuan7.html#menentukan-jenis-visualisasi",
+    "href": "slides/pertemuan7.html#menentukan-jenis-visualisasi",
     "title": "Menyajikan Data",
-    "section": "Merumuskan tugas visualisasi",
-    "text": "Merumuskan tugas visualisasi\nKita hitung skor Extraversion (setelah item reverse-scored dibalik, seperti prosedur Pertemuan 4-5) dari 19.511 partisipan dalam dataset kita (setelah pembersihan; data mentahnya 19.719 baris), dipilah berdasarkan gender.\n\n“Saya ingin menunjukkan” perbandingan rata-rata skor Extraversion antara dua kategori gender → tugasnya adalah perbandingan → kandidat grafik: bar chart sederhana, dua batang.\n\n\n\n\n\n\n\nKedua grafik pada slide berikutnya dibuat dengan package ggplot2  langsung dari data/data.csv. Skripnya ada di slides/libs/make_pertemuan7_charts.R kalau Anda ingin melihat/menjalankannya sendiri.",
+    "section": "Menentukan jenis visualisasi",
+    "text": "Menentukan jenis visualisasi\nKita hitung skor Extraversion (setelah item reverse-scored dibalik, seperti prosedur Pertemuan 4-5) dari 19.511 partisipan dalam dataset kita (setelah pembersihan; data mentahnya 19.719 baris), dipilah berdasarkan gender.\n\n“Saya ingin menunjukkan” perbandingan rata-rata skor Extraversion antara dua kategori gender → tugasnya adalah perbandingan → kandidat grafik: bar chart sederhana, dua batang.\n\n\n\n\n\n\n\nKedua grafik pada slide berikutnya dibuat dengan package ggplot2  langsung dari data/data.csv. Skripnya ada di slides/libs/make_pertemuan7_charts.R kalau Anda ingin melihat/menjalankannya sendiri.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
